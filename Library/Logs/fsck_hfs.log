@@ -1,0 +1,16 @@
+
+fsck_hfs started at Mon Aug 28 15:49:09 2017
+** /dev/rdisk1s1 (NO WRITE)
+   Executing fsck_hfs (version hfs-366.70.1).
+** Checking Journaled HFS Plus volume.
+   The volume name is Git 2.14.1 Mavericks Intel Universal
+** Checking extents overflow file.
+** Checking catalog file.
+** Checking multi-linked files.
+** Checking catalog hierarchy.
+** Checking extended attributes file.
+** Checking volume bitmap.
+** Checking volume information.
+** The volume Git 2.14.1 Mavericks Intel Universal appears to be OK.
+fsck_hfs completed at Mon Aug 28 15:49:09 2017
+

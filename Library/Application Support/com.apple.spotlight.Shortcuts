@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>chro</key>
+	<dict>
+		<key>DISPLAY_NAME</key>
+		<string>Google Chrome</string>
+		<key>LAST_USED</key>
+		<date>2017-08-22T19:12:02Z</date>
+		<key>URL</key>
+		<string>file:///Applications/Google%20Chrome.app/</string>
+	</dict>
+	<key>terminal</key>
+	<dict>
+		<key>DISPLAY_NAME</key>
+		<string>Terminal</string>
+		<key>LAST_USED</key>
+		<date>2017-08-28T21:42:06Z</date>
+		<key>URL</key>
+		<string>file:///Applications/Utilities/Terminal.app/</string>
+	</dict>
+	<key>visual studio</key>
+	<dict>
+		<key>DISPLAY_NAME</key>
+		<string>Visual Studio</string>
+		<key>LAST_USED</key>
+		<date>2017-08-17T15:11:33Z</date>
+		<key>URL</key>
+		<string>file:///Applications/Visual%20Studio.app/</string>
+	</dict>
+	<key>xcode</key>
+	<dict>
+		<key>DISPLAY_NAME</key>
+		<string>Xcode</string>
+		<key>LAST_USED</key>
+		<date>2017-08-23T19:24:45Z</date>
+		<key>URL</key>
+		<string>file:///Applications/Xcode.app/</string>
+	</dict>
+</dict>
+</plist>

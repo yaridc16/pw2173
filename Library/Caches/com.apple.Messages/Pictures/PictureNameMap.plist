@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>custom</key>
+	<dict/>
+	<key>keys</key>
+	<dict>
+		<key>7DBC68C0F8BFDEA9FE61669B7441A0D300535A56</key>
+		<date>2017-08-28T21:35:55Z</date>
+	</dict>
+	<key>services</key>
+	<dict>
+		<key>Jabber</key>
+		<dict>
+			<key>yaritzadc22@gmail.com</key>
+			<string>7DBC68C0F8BFDEA9FE61669B7441A0D300535A56</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

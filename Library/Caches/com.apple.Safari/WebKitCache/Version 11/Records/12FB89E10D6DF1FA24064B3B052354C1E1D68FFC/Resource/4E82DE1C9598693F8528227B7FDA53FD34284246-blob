@@ -1,0 +1,1947 @@
+﻿
+
+var plexopObj = function () {
+    var self = this;
+
+    //config section
+
+    this.protocol = window.location.protocol + "//";
+    this.version = "_002";
+    this.subversion = 31;
+    this.eventFile = 'event';
+    this.direct_referrer = "direct";
+    this.novisit = 0;
+    this.popunderNovisit = 2;
+    this.click = 0;
+    this.visit = 1;
+    this.lead = 2;
+    this.deposit = 3;
+    this.invite = 5;
+    this.registration = 4;
+    this.demo_registration = 6;
+    this.impression = 8;
+    this.cookie_expiery = 730 * 1000 * 60 * 60 * 24;
+    this.funnel_cookie_expiery = 3 * 1000 * 60 * 60;
+    this.cookie_size_limit = 800;
+    this.time_out = 5000;
+    this.clicks_timeout = 0.000058;
+    this.desktopPlatformId = 1;
+    this.mobilePlatformId = 2;
+    this.tabletPlatformId = 3;
+    this.device = null;
+    this.pMaxlenght = 50;
+    this.clientSideBridge = 1;
+    this.serverSideBridge = 2;
+    this.noBridge = 3;
+    self.external_transaction_cookie_expiery = 3 * 1000 * 60 * 60;
+    self.externalCookieName = 'externalParams';
+
+    this.event_collector_file = "/le.png";
+    this.event_collector_files = {
+        0: "/le.png",
+        1: "/le.png",
+        4: "/le.png",
+        5: "/le.png",
+        6: "/le.png",
+        2: '/ll.png',
+        3: '/ld.png',
+        8: '/li.png'
+    };
+
+    // prod config
+
+    //this.cdn_host = "d3oyytf0n6db9a.cloudfront.net/";
+    this.cdn_host = "serving.plexop.net/";
+    this.loggerURL = "logger.plexop.com";
+    this.loggerBURL = "logger.poxlep.com";
+    this.aservingUrl = "//serving.plexop.net/aserving/";
+
+    // end prod config*/
+   
+    // global varaibles
+
+    this.current_dsp = "";
+
+    this.privacy_spported_host = "";
+    this.event_collector_dns = "";
+    this.impression_collector = "";
+    this.click_collector = "";
+    this.error_collector = "";
+    this.landingpage = "";
+
+    // end  global varaibles
+
+    this.set_logger_url = function (loggerUrl) {
+        self.loggerURL = loggerUrl;
+        self.event_collector_dns = self.protocol + loggerUrl;
+        self.impression_collector = self.protocol + loggerUrl + "/li.png";
+        self.click_collector = self.event_collector_dns + "/lc.png";
+        self.error_collector = self.event_collector_dns + "/log.htm";
+    };
+
+    this.set_cdn_host = function (cdn_url) {
+        self.cdn_host = cdn_url;
+        self.privacy_spported_host = self.protocol + cdn_url;
+        self.event_collector_frm = self.privacy_spported_host + "aserving/" + self.eventFile + self.version + ".htm";
+        self.error_collector_frm = self.privacy_spported_host + "aserving/sendErr" + self.version + ".htm";
+        self.bridgeUrl = self.privacy_spported_host + "pserving/bridge" + self.version + ".htm";
+        self.serverBridgeUrl = self.event_collector_dns + "/lc.htm";
+        self.uuid_collector = self.privacy_spported_host + "aserving/uuid" + self.version + ".htm";
+        self.landingpage = self.privacy_spported_host + "aserving/";
+    };
+    //end config section
+
+    this.set_logger_url(this.loggerURL);
+    this.set_cdn_host(this.cdn_host);
+
+    (function () {
+        if (!Array.prototype.indexOf) {
+            Array.prototype.indexOf = function (searchElement /*, fromIndex */) {
+                "use strict";
+                if (this == null) {
+                    throw new TypeError();
+                }
+                var t = Object(this);
+                var len = t.length >>> 0;
+                if (len === 0) {
+                    return -1;
+                }
+                var n = 0;
+                if (arguments.length > 0) {
+                    n = Number(arguments[1]);
+                    if (n != n) { // shortcut for verifying if it's NaN
+                        n = 0;
+                    } else if (n != 0 && n != Infinity && n != -Infinity) {
+                        n = (n > 0 || -1) * Math.floor(Math.abs(n));
+                    }
+                }
+                if (n >= len) {
+                    return -1;
+                }
+                var k = n >= 0 ? n : Math.max(len - Math.abs(n), 0);
+                for (; k < len; k += 1) {
+                    if (k in t && t[k] === searchElement) {
+                        return k;
+                    }
+                }
+                return -1;
+            };
+        }
+
+        if (!Array.prototype.where) {
+            Array.prototype.where = function (delegate) {
+                var result = [];
+                for (var i = 0; i < this.length; i++) {
+                    if (delegate(this[i]))
+                        result.push(this[i]);
+                }
+                return result;
+            };
+        }
+
+        if (!Array.prototype.forEach) {
+            Array.prototype.forEach = function (delegate) {
+                for (var i = 0; i < this.length; i++) {
+                    delegate(this[i], i);
+                }
+                return false;
+            };
+        }
+
+        if (!Array.prototype.any) {
+            Array.prototype.any = function (delegate) {
+                if (!delegate) {
+                    delegate = function () { return true; }
+                }
+                for (var i = 0; i < this.length; i++) {
+                    if (delegate(this[i]))
+                        return true;
+                }
+                return false;
+            };
+        }
+
+        if (!Array.prototype.contains) {
+            Array.prototype.contains = function (needle) {
+                for (var i = 0; i < this.length; i++) {
+                    if (this[i] === needle) {
+                        return true;
+                    }
+                }
+                return false;
+            };
+        }
+    }());
+
+    this.get_event_collector_url = function (e) {
+        var fileName = self.event_collector_file;
+        if (self.event_collector_files[e] != undefined) {
+            fileName = self.event_collector_files[e];
+        }
+        return self.event_collector_dns + fileName;
+    };
+
+    this.html5Support = (function () {
+        var flag = false;
+        try {
+            var test_canvas = document.createElement("canvas");
+            flag = (test_canvas.getContext) ? true : false
+        } catch (e) { }
+        return flag;
+    }());
+
+    this.flashSupport = (function () {
+        var flag = false;
+        try {
+            var FO = navigator.mimeTypes['application/x-shockwave-flash'];
+            if (FO) {
+                flag = FO.enabledPlugin.description.indexOf('Shockwave Flash') > -1;
+            } else {
+                if (new ActiveXObject('ShockwaveFlash.ShockwaveFlash')) {
+                    flag = true;
+                }
+            }
+        } catch (e) { }
+        return flag;
+    }());
+
+    this.ChooseMediaType = (function () {
+        var flag = "image";
+        try {
+            var isChrome = navigator.userAgent.toLowerCase().indexOf('chrome') > -1;
+            if (isChrome || self.html5Support == true) { return "html5banner"; }
+            if (self.flashSupport == true) { return "flash"; }
+            return "image";
+        } catch (e) { console.log(e); }
+        return flag;
+    }());
+
+    this.BuildFlashObject = function (Obj) {
+        try {
+            var isMsIE = (navigator.appName == 'Microsoft Internet Explorer'),
+                target = encodeURIComponent(Obj.target),
+                attr = " id='myObjID' width='";
+
+            attr += Obj.width;
+            attr += "' height='";
+            attr += Obj.height;
+            attr += "' ";
+
+            var param_flashvars = "<param name='flashvars' value='url=";
+            param_flashvars += target;
+            param_flashvars += "&clickTAG=";
+            param_flashvars += target;
+            param_flashvars += "'>";
+
+            var Tag = '';
+            if (isMsIE) {
+                Tag = "<object classid='clsid:D27CDB6E-AE6D-11cf-96B8-444553540000'" + attr + ">";
+                Tag += "<param name='movie' value='";
+                Tag += Obj.src;
+                Tag += "'";
+                Tag += attr;
+                Tag += ">";
+                Tag += param_flashvars;
+                Tag += "<param name='wmode' value='transparent'>";
+                Tag += "</object>";
+            } else {
+                Tag = "<object type='application/x-shockwave-flash' data='";
+                Tag += Obj.src;
+                Tag += "'";
+                Tag += attr;
+                Tag += ">";
+                Tag += param_flashvars;
+                Tag += "<param name='wmode' value='transparent'>";
+                Tag += "</object>";
+            }
+            document.write(Tag);
+        } catch (e) { console.log(e); }
+    }
+
+    this.BuildHtml5Object = function (Obj) {
+        try {
+            var attr = " id='myObjID' width='";
+            attr += Obj.width;
+            attr += "' height='";
+            attr += Obj.height;
+            attr += "' ";
+            var Tag = "<iframe id='myObjID' frameBorder='0' scrolling=\"no\" src='" + Obj.src.replace(".swf", "/index.html") + "?url=" + encodeURIComponent(Obj.target) + "&clickTAG=" + encodeURIComponent(Obj.target) + "'" + attr + "></iframe>";
+            document.write(Tag);
+        } catch (e) { console.log(e); }
+    }
+
+    this.BuildImageObject = function (Obj, FallBackType) {
+        try {
+            var src = Obj.src;
+
+            if (FallBackType == "FlashFallback") { src = Obj.src.replace(".swf", "/noscript/" + Obj.src.replace(".swf", "").split("/").pop() + ".png"); }
+            if (FallBackType == "Html5Fallback") { src = Obj.src.replace("/index.html", "") + "/noscript/" + Obj.src.replace("/index.html", "").split("/").pop() + ".jpg" }
+
+            var Tag = "<a href='" + Obj.target + "' target=";
+            Tag += (Obj.hasOwnProperty("anchorTarget") ? Obj.anchorTarget : "'_top'") + ">";
+            Tag += "<img height='" + Obj.height + "'";
+            Tag += " width='" + Obj.width + "'";
+            Tag += " alt='" + Obj.alt + "'";
+            Tag += " src='" + src + "'";
+            Tag += " border='0'/></a>";
+            document.write(Tag);
+        } catch (e) { console.log(e); }
+    }
+
+    this.BuildPopupObject = function (Obj) {
+        try {
+            window.parent.location.href = Obj.target;
+            var Tag = "<a href='";
+            Tag += this.target;
+            Tag += "' target='_top'>Click here if you're not automatically redirected</a>";
+            document.write(Tag);
+        } catch (e) { console.log(e); }
+    }
+
+    this.BuildTextObject = function (Obj) {
+        try {
+            var Tag = "<a href='";
+            Tag += Obj.target;
+            Tag += "' target='_top'>";
+            Tag += Obj.alt;
+            Tag += "</a>";
+            document.write(Tag);
+        } catch (e) { console.log(e); }
+    }
+
+    this.BuildCssObject = function (Obj) {
+        try {
+            var fileref = document.createElement("link");
+            fileref.setAttribute("rel", "stylesheet");
+            fileref.setAttribute("type", "text/css");
+            fileref.setAttribute("href", Obj);
+            document.getElementsByTagName("head")[0].appendChild(fileref);
+        } catch (e) { console.log(e); }
+    }
+
+    this.purl = (function () {
+
+        var tag2attr = {
+            a: 'href',
+            img: 'src',
+            form: 'action',
+            base: 'href',
+            script: 'src',
+            iframe: 'src',
+            link: 'href'
+        },
+            key = ["source", "protocol", "authority", "userInfo", "user", "password", "host", "port", "relative", "path", "directory", "file", "query", "fragment"], // keys available to query
+            aliases = { "anchor": "fragment" }, // aliases for backwards compatability
+
+            parser = {
+                strict: /^(?:([^:\/?#]+):)?(?:\/\/((?:(([^:@]*):?([^:@]*))?@)?([^:\/?#]*)(?::(\d*))?))?((((?:[^?#\/]*\/)*)([^?#]*))(?:\?([^#]*))?(?:#(.*))?)/, //less intuitive, more accurate to the specs
+                loose: /^(?:(?![^:@]+:[^:@\/]*@)([^:\/?#.]+):)?(?:\/\/)?((?:(([^:@]*):?([^:@]*))?@)?([^:\/?#]*)(?::(\d*))?)(((\/(?:[^?#](?![^?#\/]*\.[^?#\/.]+(?:[?#]|$)))*\/?)?([^?#\/]*))(?:\?([^#]*))?(?:#(.*))?)/ // more intuitive, fails on relative paths and deviates from specs
+            },
+
+            querystring_parser = /(?:^|&|;)([^&=;]*)=?([^&;]*)/g, // supports both ampersand and semicolon-delimted query string key/value pairs
+            fragment_parser = /(?:^|&|;)([^&=;]*)=?([^&;]*)/g; // supports both ampersand and semicolon-delimted fragment key/value pairs
+
+        function parseUri(url, strictMode) {
+            // Vlad changed all array notation access to 'uri' object to '.[dot]' notation
+            var str = decodeURI(url),
+                res = parser[strictMode || false ? "strict" : "loose"].exec(str),
+                uri = { attr: {}, param: {}, seg: {} },
+                i = 14;
+
+            while (i) {
+                uri.attr[key[i]] = res[i] || "";
+                i = i - 1;
+            }
+
+            // build query and fragment parameters
+            uri.param.query = {};
+            uri.param.fragment = {};
+
+            uri.attr.query.replace(querystring_parser, function ($0, $1, $2) {
+                if ($1) {
+                    uri.param.query[$1] = $2;
+                }
+            });
+
+            uri.attr.fragment.replace(fragment_parser, function ($0, $1, $2) {
+                if ($1) {
+                    uri.param.fragment[$1] = $2;
+                }
+            });
+            // split path and fragement into segments
+            uri.seg.path = uri.attr.path.replace(/^\/+|\/+$/g, '').split('/');
+            uri.seg.fragment = uri.attr.fragment.replace(/^\/+|\/+$/g, '').split('/');
+            // compile a 'base' domain attribute
+            uri.attr.base = uri.attr.host ? uri.attr.protocol + "://" + uri.attr.host + (uri.attr.port ? ":" + uri.attr.port : '') : '';
+            return uri;
+        }
+
+        function getAttrName(elm) {
+            var tn = elm.tagName;
+            if (tn !== undefined) {
+                return tag2attr[tn.toLowerCase()];
+            }
+            return tn;
+        }
+
+        return function (url, strictMode) {
+            if (arguments.length === 1 && url === true) {
+                strictMode = true;
+                url = undefined;
+            }
+            strictMode = strictMode || false;
+            url = url || window.location.toString();
+
+            return {
+
+                data: parseUri(url, strictMode),
+
+                // get various attributes from the URI
+                attr: function (attr) {
+                    attr = aliases[attr] || attr;
+                    return attr !== undefined ? this.data.attr[attr] : this.data.attr;
+                },
+
+                // return query string parameters
+                param: function (param) {
+                    return param !== undefined ? this.data.param.query[param] : this.data.param.query;
+                },
+
+                // return fragment parameters
+                fparam: function (param) {
+                    return param !== undefined ? this.data.param.fragment[param] : this.data.param.fragment;
+                },
+
+                // return path segments
+                segment: function (seg) {
+                    if (seg === undefined) {
+                        return this.data.seg.path;
+                    } else {
+                        seg = seg < 0 ? this.data.seg.path.length + seg : seg - 1; // negative segments count from the end
+                        return this.data.seg.path[seg];
+                    }
+                },
+
+                // return fragment segments
+                fsegment: function (seg) {
+                    if (seg === undefined) {
+                        return this.data.seg.fragment;
+                    } else {
+                        seg = seg < 0 ? this.data.seg.fragment.length + seg : seg - 1; // negative segments count from the end
+                        return this.data.seg.fragment[seg];
+                    }
+                }
+            };
+        };
+
+    })(); //end url parser
+
+    this.set_Cookie = function (name, value, millSecToLive, path, domain, secure) {
+        var cookie = name + "=" + encodeURIComponent(value);
+        if (typeof millSecToLive === 'number') {
+            var today = new Date();
+            today.setTime(today.getTime());
+            var expires_date = new Date(today.getTime() + (millSecToLive));
+            cookie += ";expires=" + expires_date.toGMTString();
+        }
+        cookie += ((path) ? ";path=" + path : "");
+        cookie += ";domain=" + ((domain) ? domain : document.location.host);
+        cookie += ((secure) ? ";secure" : "");
+        document.cookie = cookie;
+    };
+
+    this.get_Cookie = function (cookieName) {
+        var all = document.cookie;
+        if (all === "") {
+            return false;
+        }
+        var i = 0;
+        var cookieList = all.split("; ");
+        var cookieCount = cookieList.length;
+        cookieName += '=';
+        for (; i < cookieCount; i += 1) {
+            if (cookieList[i].indexOf(cookieName) == 0) {
+                return decodeURIComponent(cookieList[i].substring(cookieName.length));
+            }
+        }
+        return false;
+    };
+
+    // this deletes the cookie when called
+    this.delete_Cookie = function (name, path, domain) {
+        var doc = document;
+        doc.cookie = name + "=";
+        doc.cookie += ((path) ? ";path=" + path : "");
+        doc.cookie += ((domain) ? ";domain=" + domain : "") + ";expires=Thu, 01-Jan-1970 00:00:01 GMT";
+    };
+
+    this.generate_uuid = function () {
+        var chars = ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P",
+            "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z", "a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r",
+            "s", "t", "u", "v", "w", "x", "y", "z"];
+        var uuid = [],
+            rnd = 0,
+            r;
+        for (var i = 0; i < 36; i++) {
+            if (i == 8 || i == 13 || i == 18 || i == 23) {
+                uuid[i] = '-';
+            } else if (i == 14) {
+                uuid[i] = '4';
+            } else {
+                if (rnd <= 0x02) {
+                    rnd = 0x2000000 + (Math.random() * 0x1000000) | 0;
+                }
+                r = rnd & 0xf;
+                rnd = rnd >> 4;
+                uuid[i] = chars[(i == 19) ? (r & 0x3) | 0x8 : r];
+            }
+        }
+        return uuid.join('');
+    };
+
+
+    this.read_qs_str = function (url) {
+        var query = (url || window.location.search).replace(/\s/gi, '').match(/\?.+/gi);
+        return query !== null && query[0] || '';
+    };
+
+    this.read_qs = function (url) {
+        var
+            querystring = self.read_qs_str(url),
+            params = querystring.replace(/\s/gi, '').match(/([^?;&]+=[^?;&]+)/gi),
+            paramsCount = params && params.length || false,
+            queryStringObject = {},
+            separator, name, value;
+        for (var i = 0; i < paramsCount; i++) {
+            separator = params[i].indexOf('=');
+            name = params[i].substr(0, separator);
+            value = params[i].substr(separator + 1);
+            queryStringObject[name] = value;
+        }
+        return queryStringObject;
+    };
+
+    this.get_qs_value = function (queryParams, paramKey) {
+        paramKey = paramKey.toLowerCase();
+        for (var key in queryParams) {
+            if (key.toLowerCase() == paramKey)
+                return queryParams[key];
+        }
+        return null;
+    };
+
+    this.get_timezone_offset = function () {
+        var
+            today = new Date(),
+            jan = new Date(today.getFullYear(), 0, 1),
+            jul = new Date(today.getFullYear(), 6, 1);
+        return -(Math.max(jan.getTimezoneOffset(), jul.getTimezoneOffset()) / 60);
+    };
+
+    this.firedEventsList = {};
+    this.event_num = 0;
+    this.t_err = 0;
+    this.global_func_on_finish;
+
+    this.event_on_error = function (target, callback) {
+        var d = new Date();
+        target = target.substring(target.indexOf("?") + 1);
+        var i = target.lastIndexOf("&stime");
+        if (i == -1) {
+            target = target + "&ltime=" + encodeURIComponent(d.toUTCString());
+        } else {
+            target = target.substring(0, i);
+        }
+        var err = self.get_Cookie("err");
+        if (err) {
+            err = err + "|" + target;
+        } else {
+            err = target;
+        }
+        if (err.length > self.cookie_size_limit) {//cookie size limit
+            err = err.slice(err.indexOf("|") + 1);
+        }
+        //remove first (oldest)
+        self.set_Cookie("err", err, undefined, "/", "", false);
+        if (typeof callback === 'function') {
+            callback();
+        }
+    };
+
+    this.event_timeout = function () {
+
+        var event_id,
+            i = 0;
+        for (; i < self.event_num; i += 1) {
+            event_id = "event_" + i;
+            if (self.firedEventsList[event_id]) {
+                self.event_on_error(self.firedEventsList[event_id]);
+                delete self.firedEventsList[event_id];
+            }
+        }
+        self.event_num = 0;
+        // firedEventsList = undefined;
+        if (typeof self.global_func_on_finish === 'function') {
+            self.global_func_on_finish();
+            self.global_func_on_finish = null;
+        }
+    };
+
+    this.createPixel = function (target) {
+        var img_id = "event_" + self.event_num,
+            IsOldIE = (function () {
+                var rv = 10;
+                if (navigator.appName == 'Microsoft Internet Explorer') {
+                    var ua = navigator.userAgent;
+                    var re = new RegExp("MSIE ([0-9]{1,}[\.0-9]{0,})");
+                    if (re.exec(ua) != null)
+                        rv = parseFloat(RegExp.$1);
+                }
+                return !!(8 >= rv);
+            }()),
+            img = IsOldIE ? new Image() : document.createElement("img");
+        self.firedEventsList[img_id] = target;
+        self.event_num += 1;
+        img.setAttribute('id', img_id);
+        img.setAttribute('style', 'visibility:hidden;display:none;');
+        img.src = target + "&rand=" + (Math.random() * 10000000000000000);
+        return img;
+    };
+
+    this.send = function (target, callback) {
+        if (self.t_err > 0) {
+            clearTimeout(self.t_err); //clear old timeout
+        }
+
+        var img = self.createPixel(target);
+        img.onload = function () {
+            if (self.firedEventsList[this.id]) {
+                delete self.firedEventsList[this.id];
+                if (this.height > 0) {
+                    if (typeof callback === 'function') {
+                        callback();
+                        self.global_func_on_finish = null;
+                    }
+                } else {
+                    target += "&er=ol";
+                    self.event_on_error(target, callback);
+                }
+            }
+        };
+        img.onreadystatechange = function () { //for  ie
+            if (this.readyState === 'complete') {
+                if (self.firedEventsList[this.id]) {
+                    delete self.firedEventsList[this.id];
+                    if (typeof callback === 'function') {
+                        callback();
+                        self.global_func_on_finish = null;
+                    }
+                }
+            }
+        };
+        document.body.appendChild(img);
+        if (typeof callback === 'function') {
+            self.global_func_on_finish = callback;
+        }
+        self.t_err = setTimeout(self.event_timeout, self.time_out);
+    };
+
+    this.send_w = function (target, fnc_onload) {
+        if (self.t_err > 0) {
+            clearTimeout(self.t_err); //clear old timeout
+        }
+
+        if (typeof fnc_onload === 'function') {
+            self.global_func_on_finish = fnc_onload;
+        }
+
+        var img_id = "event_" + self.event_num;
+        self.firedEventsList[img_id] = target;
+        self.event_num = self.event_num + 1;
+        target += "&rand=" + (Math.random() * 10000000000000000);
+        var imgStr = '<img id="';
+        imgStr += img_id;
+        imgStr += '" src="';
+        imgStr += target;
+        imgStr += '" style="visibility:hidden;display:none;" onload="javascript:plexop.send_onload(this, \'' + target + '\');" onreadystatechange="javascript:plexop.send_onreadystatechange(this);"/>';
+
+        document.write(imgStr);
+        self.t_err = setTimeout(self.event_timeout, self.time_out);
+    };
+
+    // private USED IN send_w (inline javascript)
+    this.send_onload = function (img, target) {
+        if (self.firedEventsList[img.id]) {
+            delete self.firedEventsList[img.id];
+            if (img.height > 0) {
+                if ((typeof self.global_func_on_finish === 'function')) {
+                    self.global_func_on_finish();
+                    self.global_func_on_finish = null;
+                }
+            } else {
+                target += "&er=ol";
+                self.event_on_error(target, self.global_func_on_finish);
+            }
+        }
+    };
+
+    // private USED IN send_w (inline javascript)
+    this.send_onreadystatechange = function (img) {
+        //for  ie browsers
+        if (img.readyState == 'complete') {
+            if (self.firedEventsList[img.id]) {
+                delete self.firedEventsList[img.id];
+                if ((typeof self.global_func_on_finish === 'function')) {
+                    self.global_func_on_finish();
+                    self.global_func_on_finish = null;
+                }
+            }
+        }
+    };
+
+    this.sendError = function (target) {
+
+        var img = self.createPixel(target);
+
+        img.onload = function () {
+            if (self.firedEventsList[this.id] != "") {
+                self.firedEventsList[this.id] = "";
+                if (this.height <= 0) {
+                    target += "&er=ole";
+                    self.event_on_error(target);
+                }
+            }
+
+        };
+        img.onreadystatechange = function () { //for  ie browsers
+            if (this.readyState == 'complete') {
+                if (self.firedEventsList[this.id]) {
+                    delete self.firedEventsList[this.id];
+                    //self.event_on_error(null, target);
+                }
+            }
+        };
+        document.body.appendChild(img);
+        self.t_err = setTimeout(self.event_timeout, self.time_out);
+    };
+
+
+    //private
+    this.sendError_w = function (target) {
+        var img_id = "event_" + self.event_num;
+        self.firedEventsList[img_id] = target;
+        self.event_num = self.event_num + 1;
+        target += "&rand=" + (Math.random() * 10000000000000000);
+        var imgStr = '<img id="';
+        imgStr += img_id;
+        imgStr += '" src="';
+        imgStr += target;
+        imgStr += '" style="visibility:hidden;display:none;" onload="javascript:plexop.sendError_onload(this, \'' + target + '\');" onreadystatechange="javascript:plexop.sendError_onreadystatechange(this);"/>';
+
+        document.write(imgStr);
+        self.t_err = setTimeout(self.event_timeout, self.time_out);
+    };
+
+    // private USED IN send_w (inline javascript) 1
+    this.sendError_onload = function (img, target) {
+        if (self.firedEventsList[img.id]) {
+            delete self.firedEventsList[img.id];
+            if (img.height <= 0) {
+                target += "&er=ole";
+                self.event_on_error(target);
+            }
+        }
+    };
+
+
+    // private USED IN send_w (inline javascript)
+    this.sendError_onreadystatechange = function (img) {
+        //for  ie browsers
+        if (img.readyState == 'complete') {
+            if (self.firedEventsList[img.id]) {
+                delete self.firedEventsList[img.id];
+                //self.event_on_error(null, target);
+            }
+        }
+    };
+
+
+    this.add_iframe = function (target, redirect_url) {
+        var ifrm = document.createElement("iframe");
+        ifrm.setAttribute('style', 'visibility:hidden;display:none;');
+        ifrm.setAttribute('width', '0px');
+        ifrm.setAttribute('height', '0px');
+        if (redirect_url != null && redirect_url != "") {  // Vlad brackets
+            target = target + "&redirect=" + redirect_url;
+        }
+        ifrm.setAttribute('src', target);
+        var firstElement = document.body.getElementsByTagName('*')[0];
+        document.body.insertBefore(ifrm, firstElement);
+    };
+
+    // PUBLIC
+    // recieve array of funnel details,
+    // and array with funnel relative 'weight'
+    // returns array with [0]-array of funnels
+    // [1] - new weighted array
+    this.funnels = (function (global) {
+
+        var displayAllMedia = (global.flashSupport) ? true : false;
+        var Funnels = (function () {
+            var good = [];
+            var bad = [];
+
+            good.getFunnelMediaType = function (filename) {
+                var media = {
+                    jpeg: 'image',
+                    jpg: 'image',
+                    png: 'image',
+                    swf: 'flash'
+                },
+                    ext,
+                    patt = /(\.)(swf|jpeg|jpg|png)(?!\S)/;
+                ext = patt.exec(filename);
+                return (ext !== null) ? media[ext[2]] : 'unknown extension';
+            };
+
+            good.preload = function () {
+                var size = this.length,
+                    i = 0,
+                    elem,
+                    media;
+                while (i < size) {
+                    if (this[i] !== undefined) {
+                        elem = this[i];
+                        media = this.getFunnelMediaType(elem.src);
+                        if (media === 'image') {
+                            var img = document.createElement('img');
+                            img.src = elem.src;
+                        } else if (media === 'flash') {
+                            document.write('<object style="position:absolute;left:-100000px;" width="1" height="1" type="application/x-shockwave-flash" data="' + elem.src + '"><param name="movie" value="' + elem.src + '"/><param name="wmode" value="transparent"></object>');
+                        }
+                    }
+                    i += 1;
+                }
+            };
+
+            return {
+                good: good,
+                bad: bad
+            };
+        }());
+
+        var createFunnel = function (origFunnel) {
+            Funnel = function (origFunnel) {
+                for (prop in origFunnel) {
+                    if (origFunnel.hasOwnProperty(prop)) {
+                        this[prop] = origFunnel[prop];
+                    }
+                }
+            };
+
+            Funnel.prototype = {
+                show: (function (origFunnel) {
+                    switch (origFunnel.type) {
+
+                        case "image":
+                            return function showImage_w() {
+                                self.BuildImageObject(this);
+                            };
+
+                        case "html5banner":
+                            return function showHtml_w() {
+                                if (self.html5Support == true) {
+                                    self.BuildHtml5Object(this);
+                                } else {
+                                    self.BuildImageObject(this, "Html5Fallback");
+                                }
+                            };
+
+
+                        case "flash":
+                            return function showFlash_w() {
+                                switch (self.ChooseMediaType) {
+                                    case "html5banner":
+                                        self.BuildHtml5Object(this);
+                                        break;
+                                    case "flash":
+                                        self.BuildFlashObject(this);
+                                        break;
+                                    case "image":
+                                        self.BuildImageObject(this, "FlashFallback");
+                                        break;
+                                }
+                            };
+
+                        case "popup":
+                            return function showPop_w() {
+                                self.BuildPopupObject(this);
+                            };
+
+                        case "text":
+                            return function showText_w() {
+                                self.BuildTextObject(this);
+                            };
+
+                        case "css":
+                            return function attachCSS(filename) {
+                                self.BuildCssObject(filename);
+                            };
+                        default: return false;
+                    }
+                }(origFunnel)),
+
+                set: function (bridge, referer) {
+                    if (this.bridgeType && this.bridgeType == self.noBridge) {
+                        this.target = bridge + "&f=" + this.funnel + "&r=" + encodeURIComponent(referer.substr(0, 200));
+                    } else {
+                        this.target = bridge + "&f=" + this.funnel + "&t=" + encodeURIComponent(this.target) + "&r=" + encodeURIComponent(referer.substr(0, 200));
+                    }
+                    return this;
+                }
+            };
+
+            return new Funnel(origFunnel);
+        };
+
+        var factory = function (funnelsData, weighedArr) {
+            var funnelsSize = funnelsData.length,
+                i = 0;
+            for (; i < funnelsSize; i += 1) {
+                if (displayAllMedia) {
+                    Funnels.good[i] = createFunnel(funnelsData[i]);
+                } else if (funnelsData[i].type !== 'flash') {
+                    Funnels.good[i] = createFunnel(funnelsData[i]);
+                } else {
+                    Funnels.bad.push(i);
+                }
+            }
+
+            if (Funnels.bad.length > 0) {
+                for (i = 0; i < Funnels.bad.length; i += 1) {
+                    while (weighedArr.indexOf(Funnels.bad[i]) != -1) {
+                        weighedArr.splice(weighedArr.indexOf(Funnels.bad[i]), 1);
+                    }
+                }
+            }
+
+            if (!Funnels.good.length) {
+                Funnels.good[0] = createFunnel({ f: 112233 });
+            }
+
+            return [Funnels.good, weighedArr];
+        };
+
+        return {
+            factory: factory,
+            createFunnel: createFunnel
+        };
+    }(this));
+
+    //public
+    this.create_impression_qs = function (a, funnel, uuid, adv, referer) {
+        return "?a=" + a + "&f=" + funnel + "&u=" + uuid + "&adv=" + adv + "&r=" + encodeURIComponent(referer.substr(0, 200)) + '&_v=' + self.subversion + "&eid=" + self.generate_uuid();
+    };
+    this.add_impression = function (a, funnel, uuid, adv, referer) {
+        var target = self.impression_collector + self.create_impression_qs(a, funnel, uuid, adv, referer);
+        self.send_w(target, null);
+    };
+    this.add_impression_frame = function (a, funnel, uuid, adv, referer) {
+        var target = self.event_collector_frm + self.create_impression_qs(a, funnel, uuid, adv, referer) + "&e=" + self.impression;
+        self.add_iframe(target, null);
+    };
+
+    this.add_click = function (a, f, uuid, adv, r, k, p, target, fnc_onload, b) {
+        var targetUrl = self.build_event_url({
+            "url": self.click_collector,
+            "f": f,
+            "r": r,
+            "a": a,
+            "adv": adv,
+            "e": self.click,
+            "uuid": uuid,
+            "auuid":"",
+            "p": p,
+            "k": k,
+            "target": target,
+            "b": b,
+            "ru": "",
+            "cid": "",
+            "sid": "",
+            "params":""
+        });
+        self.send(targetUrl, fnc_onload);
+    };
+  
+    //public - used in bridge
+    this.add_click_w = function (a, f, uuid, adv, r, k, p, target, fnc_onload, b) {
+        var targetUrl = self.build_event_url({
+            "url": self.click_collector,
+            "f": f,
+            "r": r,
+            "a": a,
+            "adv": adv,
+            "e": self.click,
+            "uuid": uuid,
+            "auuid": "",
+            "p": p,
+            "k": k,
+            "target": target,
+            "b": b,
+            "ru": "",
+            "cid": "",
+            "sid": "",
+            "params": ""
+        });
+        self.send_w(targetUrl, fnc_onload, true);
+
+    };
+
+    this.get_current_dsp = function (unknown_funnel) {
+        var dsp = self.get_Cookie("dsp");
+        if (dsp) {
+            return dsp;
+        } else { //cookies are disabled or deleted
+            if (self.current_dsp != "") {
+                return plexop.current_dsp;
+            }
+            dsp = unknown_funnel + "," + "," + ",";
+            self.set_Cookie("dsp", dsp, self.funnel_cookie_expiery, "/", "", false);
+            return dsp;
+        }
+    };
+
+    this.get_current_uuid = function (domain) {
+        var uuid = self.get_Cookie("uuid");
+        if (uuid && self.validate_uuid(uuid)) {
+            return uuid;
+        } else {
+            uuid = self.read_qs()['u'];
+            if (!uuid || !self.validate_uuid(uuid)) {
+                uuid = self.generate_uuid();
+            }
+            self.set_Cookie("uuid", uuid, self.cookie_expiery, "/", domain, false);
+            return uuid;
+        }
+    };
+
+    this.validate_uuid = function (uuid) {
+        if (uuid.length == 36) {
+            var delNum = uuid.split('-');
+            if (delNum.length == 5) {
+                return true;
+            }
+        }
+        return false;
+    };
+
+
+    this.build_event_url = function (parameters) {
+        //(url, f, r, a, adv, e, auuid, uuid, p, k, target, ru, cid, sid, params, b, repeat, internal, location, emc) 
+        var ud = encodeURIComponent(new Date().toUTCString()); //new Date();
+        var targetUrl = parameters.url;
+        targetUrl += "?a=";
+        targetUrl += parameters.a;
+        targetUrl += "&f=";
+        targetUrl += parameters.f;
+        targetUrl += "&k=";
+        targetUrl += parameters.k;
+        targetUrl += "&p=";
+        (parameters.p) && (targetUrl += parameters.p.substr(0, self.pMaxlenght));
+        (parameters.target) && (targetUrl += "&target=" + parameters.target);
+        targetUrl += "&ru=";
+        targetUrl += parameters.ru;
+        targetUrl += "&u=";
+        targetUrl += parameters.uuid;
+        targetUrl += "&ud=";
+        targetUrl += ud;
+        (parameters.sid) && (targetUrl += "&sid=" + parameters.sid);
+        (parameters.cid) && (targetUrl += "&cid=" + parameters.cid);
+        targetUrl += "&adv=";
+        targetUrl += parameters.adv;
+        targetUrl += "&au=";
+        targetUrl += parameters.auuid;
+        targetUrl += "&e=";
+        targetUrl += parameters.e;
+        targetUrl += "&r=";
+        (parameters.r) && (targetUrl += encodeURIComponent(parameters.r.substr(0, 200)));
+        targetUrl += "&b=";
+        targetUrl += parameters.b;
+        targetUrl += "&bl=";
+        targetUrl += (navigator.language) || (navigator.browserLanguage);
+        var params = self.updateParams(parameters.params);
+        if (params) {
+            targetUrl += "&";
+            targetUrl += self.encodeParams(params);
+        }
+        (parameters.emc) && (targetUrl += "&emc=" + parameters.emc);
+        targetUrl += "&_v=" + self.subversion;
+        targetUrl += "&eid=" + self.generate_uuid();
+        parameters.repeat ? targetUrl += "&repeat=1" : targetUrl += "&repeat=0";
+        parameters.internal ? targetUrl += "&internal=1" : targetUrl += "&internal=0";
+        targetUrl += "&l=";
+        (parameters.location) && (targetUrl += encodeURIComponent(parameters.location.substr(0, 200)));
+
+        return targetUrl;
+    };
+
+    this.updateParams = function (oldParams) {
+        var exParams = self.getExternalParams(false);
+
+        if (oldParams) {
+            if (exParams) {
+                oldParams = oldParams + ',' + exParams;
+            }
+        } else {
+            if (exParams) {
+                oldParams = exParams;
+            }
+        }
+        return oldParams;
+    }
+
+    this.encodeParams = function (params) {
+        if (!params)
+            return "";
+        var parameters = params.replace(/\s/g, '').match(/([^,=]+=[^,]+)+/g);
+        if (!parameters)
+            return "";
+        var length = parameters.length,
+            param = [],
+            i = 0;
+        for (; i < length; i++) {
+            param = parameters[i].split('=');
+            parameters[i] = param[0] + "=" + encodeURIComponent(param[1]);
+        }
+        return parameters.join('&');
+    };
+
+    // public - used in sendErr_002.htm
+    this.check_error_queue = function () {
+        var err = self.get_Cookie("err");
+        if (err) {
+            var error_urls = err.split("|");
+            var d = new Date();
+            for (var i = 0; i < error_urls.length; i++) {
+                var target = self.error_collector + "?";
+                target = target + error_urls[i] + "&stime=" + encodeURIComponent(d.toUTCString());
+                self.sendError_w(target);
+                error_urls[i] = null;
+                err = err.slice(err.indexOf("|") + 1); //remove first (oldest)
+                self.set_Cookie("err", err, undefined, "/", "", false);
+            }
+            self.delete_Cookie("err", "/", "");
+        }
+    };
+
+    // public - used in event_002.htm
+    this.send_event = function (fnc_onload, e) {
+        var queryString = self.read_qs_str(),
+            auuid = self.read_qs(queryString)['u'],
+            uuid = self.get_current_uuid();
+        (auuid !== uuid) && (queryString = queryString.replace(auuid, uuid));
+        self.send_w(self.get_event_collector_url(e) + queryString, fnc_onload);
+    };
+
+    this.redirect_to_url = '';
+    this.add_event = function(parameters){
+        //(f, referrer, a, adv, e, auuid, uuid, p, k, target, ru, cid, sid, params, f_bridge, redirect_url, repeat, internal, location) 
+
+        var url_params = {
+            "f": parameters.f,
+            "r": parameters.referrer,
+            "a": parameters.a,
+            "adv": parameters.adv,
+            "e": parameters.e,
+            "auuid": parameters.uuid,
+            "uuid": parameters.uuid,
+            "p": parameters.p,
+            "k": parameters.k,
+            "target": parameters.target,
+            "ru": parameters.ru,
+            "cid": parameters.cid,
+            "sid": parameters.sid,
+            "params": parameters.params,
+            "b": 0,
+            "repeat": parameters.repeat,
+            "internal": parameters.internal,
+            "location": parameters.location,
+            "emc": parameters.emc
+        };
+
+        if (parameters.f_bridge) {
+            var onload_func = null;
+            if (typeof parameters.redirect_url === "string" && parameters.redirect_url != '') {
+                self.redirect_to_url = parameters.redirect_url;
+                onload_func = function () { top.location = self.redirect_to_url; };
+            }
+            url_params["url"] = self.get_event_collector_url(parameters.e);
+            self.send(self.build_event_url(url_params), onload_func, true);
+        } else {
+            url_params["url"] = self.event_collector_frm;
+            self.add_iframe(self.build_event_url(url_params), parameters.redirect_url);
+        }
+    };
+    this.is_internal_page = function (referrer, currentHost, reffererHost, customerTopDomain) {
+        return (referrer != self.direct_referrer && currentHost.indexOf(reffererHost) > -1) || (customerTopDomain != undefined && reffererHost.indexOf(customerTopDomain) > -1);
+    };
+
+    this.get_emc = function() {
+        var emc = self.get_Cookie("emc");
+        if (emc) { return emc; }
+
+        emc = self.read_qs()["emc"] || self.read_qs(document.referrer)["emc"];
+        if (emc) {
+            self.set_Cookie("emc", emc, undefined, "/", "", false);
+            return emc;
+        }
+        return null;
+    };
+
+    this.get_hostname = function (url) {
+        return decodeURIComponent(url).replace('http://', '').replace('https://', '').replace('www.', '').split(/[/?#]/)[0];
+    }
+
+    this.log_visit = function (a, adv, unknown_funnel, ru, sid, cid, params, redirect_url, customerTopDomain, is_internal_page, current_location) {
+        if (!customerTopDomain) {
+            customerTopDomain = undefined;
+        }
+        var doc = document;
+        var referrer = doc.referrer;
+        var qs;
+        var uuid = self.get_current_uuid(customerTopDomain);
+        var host = "";
+        var hostref;
+        var k = "";
+        var f_bridge = false;
+        var f = unknown_funnel;
+        var p = "";
+        var c = 0;
+        var target = "";
+        if (referrer.indexOf("facebook.com") > -1) { //read query string from referrer, top  (facebook)
+            if (referrer.indexOf("&f=") < 0) {
+                if (location.href.indexOf("&f=") > -1) {//with registration action
+                    qs = self.read_qs(location.href);
+                } else {
+                    qs = self.read_qs(referrer);
+                }
+            } else {
+                qs = self.read_qs(referrer);
+            }
+            p = self.getPlacement(qs);
+        } else {
+            if (!referrer)  // user entered the url in the navigation bar
+                referrer = self.direct_referrer;
+            qs = self.read_qs();
+
+            k = self.getKeyword(qs);
+            p = self.getPlacement(qs);
+            target = qs["target"] == undefined ? "" : qs["target"]; //target category
+        }
+
+        if (qs["istest"] != undefined && qs["istest"] == 1) {
+            return;
+        }
+
+        hostref = self.purl(referrer);
+        //host = hostref.attr('host');
+
+        host = self.get_hostname(referrer);
+
+        referrer = encodeURIComponent(referrer);
+        f = qs["f"] == undefined ? unknown_funnel : qs["f"]; //f is the funnel that the users came with
+        c = qs["c"] == undefined ? 0 : qs["c"]; // click
+        if (ru == undefined || ru == "")
+            ru = qs["ru"] == undefined ? "" : qs["ru"];
+        f_bridge = qs["b"] != undefined;
+
+
+        if (f == unknown_funnel && host != self.direct_referrer) { //user didnt come from our ad
+            if (k == "") {
+                k = hostref.param('q') == undefined ? k : hostref.param('q');
+            }
+            if (p == "") {
+                p = host;
+            }
+        }
+        p = p.substr(0, self.pMaxlenght);
+
+        if (sid == undefined) {
+            sid = "";
+        }
+        if (ru == undefined) {
+            ru = "";
+        }
+        if (cid == undefined) {
+            cid = "";
+        }
+        if (c == 1) { //click
+            self.add_click(a, f, uuid, adv, referrer, k, p, target, null, 0);
+        }
+
+      
+        if (is_internal_page == undefined || is_internal_page == null) {
+            is_internal_page = self.is_internal_page(referrer, document.location.host, host, customerTopDomain); // user came from an internal page
+        }
+
+        if (!current_location) {
+            current_location = doc.location.href;
+        }
+      
+        var older_f = self.get_Cookie("f");
+        var saveCookie = true;
+
+        if (older_f && f == unknown_funnel && !self.get_Cookie("uf")) {
+            f = older_f;
+            saveCookie = false;
+        }
+        var dsp = f + "," + p + "," + k + "," + ru + "," + target; // f,p,k,ru,target
+
+        if (saveCookie) {
+            self.set_Cookie("dsp", dsp, self.funnel_cookie_expiery, "/", customerTopDomain, false); // keep the latest dsp the user came from
+            self.set_Cookie("f", f, self.funnel_cookie_expiery, "/", customerTopDomain, false); // keep the latest funnel the user came from
+            self.set_Cookie("uf", 1, f == unknown_funnel ? self.funnel_cookie_expiery : -1, "/", customerTopDomain, false);
+        }
+        var is_repeat_visit = is_internal_page || (f == older_f);
+      
+
+        self.getExternalParams(true); // keep tha latest external params the user come with
+        if (qs["novisit"] == undefined) {
+           var url_params = {
+                "f": f,
+                "referrer": referrer,
+                "a": a,
+                "adv": adv,
+                "e": self.visit,
+                "auuid": uuid,
+                "uuid": uuid,
+                "p": p,
+                "k": k,
+                "target": target,
+                "ru": ru,
+                "cid": cid,
+                "sid": sid,
+                "params": params,
+                "f_bridge": f_bridge,
+                "redirect_url": redirect_url,
+                "repeat": is_repeat_visit,
+                "internal": is_internal_page,
+                "location": current_location,
+                "emc": self.get_emc()
+            };
+            self.add_event(url_params);
+        }
+        if (qs["novisit"] == self.popunderNovisit) {
+            self.add_impression_frame(a, f, uuid, adv, referrer);
+        }
+        self.current_dsp = dsp;
+        self.sendPublishVisitPixel(a, adv, uuid, qs);
+    };
+
+
+
+    this.log_event = function (a, adv, e, sid, cid, params, unknown_funnel, redirect_url) {
+        var dsp = self.get_current_dsp(unknown_funnel).split(",");
+
+        var f = dsp[0];
+        var p = dsp[1];
+        var k = dsp[2];
+        var ru = dsp[3];
+        var target = dsp[4];
+        var uuid = self.get_current_uuid();
+        var doc = document;
+        var referrer = doc.location.href;
+        if (sid == undefined || sid === "") {
+            sid = "";
+        }
+        if (cid == undefined || cid === "") {
+            cid = "";
+        }
+        var url_params = {
+            "f": f,
+            "r": referrer,
+            "a": a,
+            "adv": adv,
+            "e": e,
+            "auuid": uuid,
+            "uuid": uuid,
+            "p": p,
+            "k":k,
+            "target": target,
+            "ru": ru,
+            "cid": cid,
+            "sid": sid,
+            "params": params,
+            "b": false,
+            "redirect_url": redirect_url,
+            "emc": self.get_emc()
+        };
+       
+        self.add_event(url_params);
+    };
+
+    this.check_log_error = function (redirect_url) {
+        self.add_iframe(self.error_collector_frm, redirect_url);
+    };
+
+    this.log_invite = function (a, adv, sid, cid, invites, unknown_funnel, redirect_url) {
+        var params = "";
+        if (invites != undefined) {
+            params = "invites=" + invites;
+        }
+        self.log_event(a, adv, self.invite, sid, cid, params, unknown_funnel, redirect_url);
+    };
+
+    this.log_registration = function (a, adv, sid, cid, params, unknown_funnel, redirect_url) {
+        self.log_event(a, adv, self.registration, sid, cid, params, unknown_funnel, redirect_url);
+    };
+
+    this.log_demo_registration = function (a, adv, sid, cid, params, unknown_funnel, redirect_url) {
+        self.log_event(a, adv, self.demo_registration, sid, cid, params, unknown_funnel, redirect_url);
+    };
+
+    this.log_lead = function (a, adv, sid, cid, lead_details, unknown_funnel, redirect_url) {
+        var params = "tz=" + self.get_timezone_offset();
+        if (lead_details) {
+            params = params + "," + lead_details;
+        }
+        self.log_event(a, adv, self.lead, sid, cid, params, unknown_funnel, redirect_url);
+        self.sendPublishLeadPixel(a, adv, self.get_current_uuid());
+    };
+
+    this.log_lead_registration = function (a, adv, sid, cid, lead_details, unknown_funnel, redirect_url) {
+        var params = "tz=" + self.get_timezone_offset();
+        if (lead_details) {
+            params = params + "," + lead_details;
+        }
+        self.log_event(a, adv, self.lead, sid, cid, params, unknown_funnel, null);
+        self.log_event(a, adv, self.registration, sid, cid, params, unknown_funnel, redirect_url);
+    };
+
+    this.log_lead_registration_with_visit = function (a, adv, sid, cid, lead_details, unknown_funnel, ru, redirect_url) {
+        self.log_visit(a, adv, unknown_funnel, ru, sid, cid, "", null);
+        var params = "tz=" + self.get_timezone_offset();
+        if (lead_details) {
+            params = params + "," + lead_details;
+        }
+        self.log_event(a, adv, self.lead, sid, cid, params, unknown_funnel, null);
+        self.log_event(a, adv, self.registration, sid, cid, params, unknown_funnel, redirect_url);
+    };
+
+    this.log_lead_demo_registration = function (a, adv, sid, cid, lead_details, unknown_funnel, redirect_url) {
+        var params = "tz=" + self.get_timezone_offset();
+        if (lead_details) {
+            params = params + "," + lead_details;
+        }
+        self.log_event(a, adv, self.lead, sid, cid, params, unknown_funnel, null);
+        self.log_event(a, adv, self.demo_registration, sid, cid, params, unknown_funnel, redirect_url);
+    };
+
+    this.log_deposit = function (a, adv, sid, cid, amount, product_id, unknown_funnel, redirect_url) {
+        var params = "";
+        if (amount) {
+            params = ",s=" + amount;
+            if (product_id) {
+                params = params + ",product_id=" + product_id;
+            }
+        }
+        self.log_event(a, adv, self.deposit, sid, cid, params, unknown_funnel, redirect_url);
+    };
+
+    //private
+    this.get_event_url = function (a, adv, unknown_funnel, e) {
+        var dsp = self.get_current_dsp(unknown_funnel).split(",");
+        var f = dsp[0];
+        var p = dsp[1];
+        var k = dsp[2];
+        var ru = dsp[3];
+        var target = dsp[4];
+        var uuid = self.get_current_uuid();
+        var doc = document;
+        var referrer = doc.location.href;
+        var retVal = self.build_event_url({
+            "url": self.event_collector_files[e],
+            "f": f,
+            "r": referrer,
+            "a": a,
+            "adv": adv,
+            "e": e,
+            "auuid": uuid,
+            "uuid": uuid,
+            "p": p,
+            "k": k,
+            "target": target,
+            "ru": ru,
+            "b": 0,
+            "emc": self.get_emc()
+        });
+        retVal += "&tz=";
+        retVal += self.get_timezone_offset();
+        return retVal;
+    };
+
+    //global
+    this.get_lead_log = function (a, adv, unknown_funnel) {
+        return self.get_event_url(a, adv, unknown_funnel, self.lead);
+    };
+
+    //global
+    this.get_registration_log = function (a, adv, unknown_funnel) {
+        return self.get_event_url(a, adv, unknown_funnel, self.registration);
+    };
+
+    //global
+    this.get_demo_registration_log = function (a, adv, unknown_funnel) {
+        return self.get_event_url(a, adv, unknown_funnel, self.demo_registration);
+    };
+
+    this.getNavigatorUserAgent = function () {
+        return window.navigator.userAgent;
+    };
+
+    this.getDevice = function (userAgent) {
+        var addClass, docElement, find, handleOrientation, hasClass, orientationEvent, removeClass, supportsOrientation, user_agent;
+
+        var currentDevice = {};
+
+        docElement = window.document.documentElement;
+
+        user_agent = userAgent.toLowerCase();
+
+        currentDevice.ios = function () {
+            return currentDevice.iphone() || currentDevice.ipod() || currentDevice.ipad();
+        };
+
+        currentDevice.iphone = function () {
+            return find('iphone');
+        };
+
+        currentDevice.ipod = function () {
+            return find('ipod');
+        };
+
+        currentDevice.ipad = function () {
+            return find('ipad');
+        };
+
+        currentDevice.android = function () {
+            return find('android');
+        };
+
+        currentDevice.androidPhone = function () {
+            return currentDevice.android() && find('mobile');
+        };
+
+        currentDevice.androidTablet = function () {
+            return currentDevice.android() && !find('mobile');
+        };
+
+        currentDevice.blackberry = function () {
+            return find('blackberry') || find('bb10') || find('rim');
+        };
+
+        currentDevice.blackberryPhone = function () {
+            return currentDevice.blackberry() && !find('tablet');
+        };
+
+        currentDevice.blackberryTablet = function () {
+            return currentDevice.blackberry() && find('tablet');
+        };
+
+        currentDevice.windows = function () {
+            return find('windows');
+        };
+
+        currentDevice.windowsPhone = function () {
+            return currentDevice.windows() && find('phone');
+        };
+
+        currentDevice.windowsTablet = function () {
+            return currentDevice.windows() && find('touch');
+        };
+
+        currentDevice.fxos = function () {
+            return (find('(mobile;') || find('(tablet;')) && find('; rv:');
+        };
+
+        currentDevice.fxosPhone = function () {
+            return currentDevice.fxos() && find('mobile');
+        };
+
+        currentDevice.fxosTablet = function () {
+            return currentDevice.fxos() && find('tablet');
+        };
+
+        currentDevice.meego = function () {
+            return find('meego');
+        };
+
+        currentDevice.mobile = function () {
+            return currentDevice.androidPhone() || currentDevice.iphone() || currentDevice.ipod() || currentDevice.windowsPhone() || currentDevice.blackberryPhone() || currentDevice.fxosPhone() || currentDevice.meego();
+        };
+
+        currentDevice.tablet = function () {
+            return currentDevice.ipad() || currentDevice.androidTablet() || currentDevice.blackberryTablet() || currentDevice.windowsTablet() || currentDevice.fxosTablet();
+        };
+
+        currentDevice.portrait = function () {
+            return Math.abs(window.orientation) !== 90;
+        };
+
+        currentDevice.landscape = function () {
+            return Math.abs(window.orientation) === 90;
+        };
+
+        find = function (needle) {
+            return user_agent.indexOf(needle) !== -1;
+        };
+
+        hasClass = function (class_name) {
+            var regex;
+            regex = new RegExp(class_name, 'i');
+            return docElement.className.match(regex);
+        };
+
+        addClass = function (class_name) {
+            if (!hasClass(class_name)) {
+                return docElement.className += " " + class_name;
+            }
+        };
+
+        removeClass = function (class_name) {
+            if (hasClass(class_name)) {
+                return docElement.className = docElement.className.replace(class_name, "");
+            }
+        };
+
+        if (currentDevice.ios()) {
+            if (currentDevice.ipad()) {
+                addClass("ios ipad tablet");
+            } else if (currentDevice.iphone()) {
+                addClass("ios iphone mobile");
+            } else if (currentDevice.ipod()) {
+                addClass("ios ipod mobile");
+            }
+        } else if (currentDevice.android()) {
+            if (currentDevice.androidTablet()) {
+                addClass("android tablet");
+            } else {
+                addClass("android mobile");
+            }
+        } else if (currentDevice.blackberry()) {
+            if (currentDevice.blackberryTablet()) {
+                addClass("blackberry tablet");
+            } else {
+                addClass("blackberry mobile");
+            }
+        } else if (currentDevice.windows()) {
+            if (currentDevice.windowsTablet()) {
+                addClass("windows tablet");
+            } else if (currentDevice.windowsPhone()) {
+                addClass("windows mobile");
+            } else {
+                addClass("desktop");
+            }
+        } else if (currentDevice.fxos()) {
+            if (currentDevice.fxosTablet()) {
+                addClass("fxos tablet");
+            } else {
+                addClass("fxos mobile");
+            }
+        } else if (currentDevice.meego()) {
+            addClass("meego mobile");
+        } else {
+            addClass("desktop");
+        }
+
+        handleOrientation = function () {
+            if (currentDevice.landscape()) {
+                removeClass("portrait");
+                return addClass("landscape");
+            } else {
+                removeClass("landscape");
+                return addClass("portrait");
+            }
+        };
+
+        supportsOrientation = "onorientationchange" in window;
+
+        orientationEvent = supportsOrientation ? "orientationchange" : "resize";
+
+        if (window.addEventListener) {
+            window.addEventListener(orientationEvent, handleOrientation, false);
+        } else if (window.attachEvent) {
+            window.attachEvent(orientationEvent, handleOrientation);
+        } else {
+            window[orientationEvent] = handleOrientation;
+        }
+
+        handleOrientation();
+
+        return currentDevice;
+
+    };
+
+    this.getPlatformId = function () {
+
+        self.device = self.device || self.getDevice(self.getNavigatorUserAgent());
+        var platform = self.desktopPlatformId;
+        if (self.device.mobile()) {
+            platform = self.mobilePlatformId;
+        }
+        else if (self.device.tablet()) {
+            platform = self.tabletPlatformId;
+        }
+        return platform;
+    };
+
+    this.filterRelevantFunnels = function (funnelDetails, audience_offers, currentPlatformId, currentAudienceId) {
+        if (currentAudienceId == null || currentAudienceId == undefined || currentAudienceId == 0) {
+            audience_offers = false;
+        } else {
+            currentAudienceId = parseInt(currentAudienceId);
+        }
+
+        var supportedFunnels = funnelDetails.where(function (x) { return x.type != 'not_relevent_anymore_return_allways_true' || self.flashSupport == true });
+
+        var platformFunnels = supportedFunnels.where(function (x) { return x.platformId == currentPlatformId; });
+
+        if (!platformFunnels.any()) {
+            platformFunnels = supportedFunnels.where(function (x) { return x.platformId == self.desktopPlatformId; });
+        }
+
+        if (!platformFunnels.any()) {
+            platformFunnels = supportedFunnels;
+        }
+
+        var audienceFunnels = platformFunnels.where(function (x) { return (audience_offers && x.audiences.contains(currentAudienceId)) || (!audience_offers && x.audiences.length == 0); });
+        if (!audienceFunnels.any()) {
+            audience_offers = false;
+            audienceFunnels = platformFunnels.where(function (x) { return (audience_offers && x.audiences.contains(currentAudienceId)) || (x.audiences.length == 0); });
+        }
+
+        return audienceFunnels;
+    };
+
+    this.buildWeights = function (funnels) {
+        function isNumber(n) {
+            return !isNaN(parseFloat(n)) && isFinite(n);
+        }
+
+        var result = new Array();
+        funnels.forEach(function (f) {
+            var weight = f.weight;
+            if (!isNumber(weight))
+                weight = 1;
+
+            for (i = 0; i < weight; i++) {
+                result.push(f);
+            }
+        });
+
+        return result;
+    };
+
+    this.pickFunnel = function (weightedFunnels) {
+        var f = weightedFunnels[Math.floor(Math.random() * weightedFunnels.length)];
+        return self.funnels.createFunnel(f);
+    };
+
+    this.initializeFunnelData = function (funnel, uuid, a, adv) {
+        var queryStringParams = self.read_qs();
+        var bridge = "";
+        switch (funnel.bridgeType) {
+            case self.clientSideBridge:
+                bridge = self.bridgeUrl;
+                break;
+            case self.serverSideBridge:
+                bridge = self.serverBridgeUrl;
+                break;
+            case self.noBridge:
+                bridge = funnel.target;
+                break;
+            default:
+                funnel.bridgeType = self.bridgeUrl;
+                bridge = self.bridgeUrl;
+                break;
+        }
+        if (bridge.indexOf('?') > -1) {
+            bridge = bridge + "&";
+        } else {
+            bridge = bridge + "?";
+        }
+
+        var etransid = '';
+        if (queryStringParams["etransid"]) {
+            etransid = "&etransid=" + queryStringParams["etransid"];
+        }
+
+        bridge = bridge + "u=" + uuid + "&a=" + a + "&adv=" + adv + "&p=" + (queryStringParams["p"] || '') + etransid;
+        var referrer = document.referrer;
+        funnel.set(bridge, referrer);
+        if (queryStringParams.rdclick) {
+            funnel.target = decodeURIComponent(queryStringParams.rdclick) + encodeURIComponent(funnel.target);
+        }
+    };
+
+    this.preloadFunnels = function (funnels) {
+        funnels.forEach(function (elem) {
+            var media = elem.type;
+            if (media === 'image') {
+                var img = document.createElement('img');
+                img.src = elem.src;
+            } else if (media === 'flash') {
+                document.write('<object style="position:absolute;left:-100000px;" width="1" height="1" type="application/x-shockwave-flash" data="' + elem.src + '"><param name="movie" value="' + elem.src + '"/><param name="wmode" value="transparent"></object>');
+            }
+        });
+    };
+
+    this.loadFunnels = function (a, adv, audience_offers, funnelDetails) {
+        var uuid = self.get_current_uuid();
+        var currentPlatformId = self.getPlatformId();
+        var currentAudienceId = self.get_Cookie(a);
+        var funnels = self.filterRelevantFunnels(funnelDetails, audience_offers, currentPlatformId, currentAudienceId);
+        var weightedFunnels = self.buildWeights(funnels);
+        var funnel = self.pickFunnel(weightedFunnels);
+        self.initializeFunnelData(funnel, uuid, a, adv);
+        try { funnel.show(); } catch (e) { }
+        self.add_impression(a, funnel.funnel, uuid, adv, document.referrer);
+        self.preloadFunnels(funnels);
+    };
+
+    this.bridgeLoad = function () {
+        var localParams = self.bridgeGetLocalParams(document.location.referrer);
+        if (localParams.f !== null) {
+            self.bridgeTarget = self.bridgeBindQSParams(localParams.bridgeTarget, localParams);
+
+            self.add_click_w(localParams.a, localParams.f, localParams.u, localParams.adv, localParams.r, localParams.k, localParams.p, localParams.target, self.bridgeRedirect, 1);
+
+            setTimeout(function () {
+                self.bridgeRedirect(true);
+            }, 5000);
+        }
+
+    };
+
+    this.getExternalParams = function (writeCookie) {
+        var externalParams = self.get_Cookie(self.externalCookieName);
+        var qsParms = self.read_qs();
+        if (!externalParams) {
+            var etransid = qsParms.hasOwnProperty('etransid') ? qsParms.etransid : self.get_current_uuid();
+            var ctid = qsParms.hasOwnProperty('ctid') ? qsParms.ctid : "";
+
+            externalParams = 'etransid' + '=' + etransid + "," + 'ctid' + '=' + ctid;
+
+            if (writeCookie)
+                self.set_Cookie(self.externalCookieName, externalParams, self.external_transaction_cookie_expiery, "/", "", false);
+
+        }
+        return externalParams;
+    }
+
+    this.bridgeGetLocalParams = function (documentRefferer) {
+        //var localParams = {};
+        var qsParms = self.read_qs();
+        var localParams = qsParms;
+        localParams.bridgeTarget = qsParms.hasOwnProperty('t') ? decodeURIComponent(qsParms.t) : '';
+        localParams.u = self.get_current_uuid();
+        localParams.f = qsParms.hasOwnProperty('f') ? qsParms.f : null;
+        localParams.a = qsParms.hasOwnProperty('a') ? qsParms.a : "";
+        localParams.adv = qsParms.hasOwnProperty('adv') ? qsParms.adv : "";
+        if (localParams.f !== null) {
+            localParams.p = self.getPlacement(qsParms);
+            localParams.k = self.getKeyword(qsParms);
+            localParams.target = qsParms.hasOwnProperty('target') ? qsParms.target : ''; //google
+            localParams.r = qsParms.hasOwnProperty('r') ? qsParms.r : (documentRefferer || '');
+            localParams.b = 1;
+            localParams.cpl = self.get_qs_value(qsParms, "cpl");
+            localParams.SerialId = self.get_qs_value(qsParms, "serialid");
+        }
+        return localParams;
+    };
+
+    this.bridgeBindQSParams = function (t, localParams) {
+        var sep;
+        if (~t.indexOf("?")) {
+            sep = "&";
+        } else {
+            sep = "?";
+        }
+
+        for (var property in localParams) {
+            if (localParams.hasOwnProperty(property)) {
+                if (localParams[property] != null && localParams[property] != "" && property != 'bridgeTarget' && property != 't') {
+                    var re = new RegExp("{plx_" + property + "}", "gi");
+                    var reEnc = new RegExp("%7bplx_" + property + "%7d", "gi");
+                    var newt = t.replace(re, localParams[property]);
+                    newt = newt.replace(reEnc, localParams[property]);
+                    if (newt == t) {
+                        t += sep + property + "=" + localParams[property];
+                        sep = "&";
+                    }
+                    else
+                        t = newt;
+                }
+            }
+        }
+        return t;
+    };
+
+    this.bridgeRedirect = function (click) {
+        if (self.bridgeTarget) {
+            click && (self.bridgeTarget += "&c=1");
+            window.location.replace(self.bridgeTarget);
+        }
+    };
+
+    this.getPlacement = function (qsParams) {
+        return qsParams.placement || qsParams.sites || qsParams.SectionId || qsParams.p || qsParams.fb_source || "";
+    };
+
+    this.getKeyword = function (qsParams) {
+        return qsParams.keyword || qsParams.k || "";
+    };
+
+    this.sendPublishVisitPixel = function (a, adv, uuid, qs) {
+        if ((qs.pxl == 2 || qs.pxl == 3) && qs.cpl && parseInt(qs.cpl, 10)) {
+            var url = self.bindPublishPixelUrl(a, adv, uuid, self.visit, qs);
+            self.add_iframe(url);
+        }
+    };
+
+    this.sendPublishLeadPixel = function (a, adv, uuid) {
+        var qs = self.read_qs();
+        if ((qs.pxl == 1 || qs.pxl == 3) && qs.cpl && parseInt(qs.cpl, 10)) {
+            var url = self.bindPublishPixelUrl(a, adv, uuid, self.lead, qs);
+            self.add_iframe(url);
+        }
+    };
+
+    this.bindPublishPixelUrl = function (a, adv, uuid, e, qs) {
+        var url = self.aservingUrl;
+        url += a;
+        url += '/';
+        url += adv;
+        url += '/';
+        if (e == self.visit) {
+            url += 'lep/e_';
+        }
+        if (e == self.lead) {
+            url += 'llp/l_';
+        }
+        url += qs.cpl;
+        url += '.htm?callcpl=';
+        url += uuid;
+        url += '&rand=';
+        url += self.getRandomNumber();
+        return url;
+    };
+
+    this.getRandomNumber = function () {
+        return Math.floor((Math.random() * 10000) + 1);
+    };
+
+};
+
+var plexop = new plexopObj();
+

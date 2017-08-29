@@ -1,0 +1,30 @@
+{
+   "checksum": "9f37d9c6c8dd161b677146b470327df9",
+   "roots": {
+      "bookmark_bar": {
+         "children": [  ],
+         "date_added": "13147902727555060",
+         "date_modified": "13147903106354934",
+         "id": "1",
+         "name": "Barra de favoritos",
+         "type": "folder"
+      },
+      "other": {
+         "children": [  ],
+         "date_added": "13147902727555073",
+         "date_modified": "0",
+         "id": "2",
+         "name": "Otros favoritos",
+         "type": "folder"
+      },
+      "synced": {
+         "children": [  ],
+         "date_added": "13147902727555075",
+         "date_modified": "0",
+         "id": "3",
+         "name": "Favoritos del celular",
+         "type": "folder"
+      }
+   },
+   "version": 1
+}

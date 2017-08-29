@@ -1,0 +1,369 @@
+INFO [2017-08-16 19:26:22Z]: Did not find previous version from which to migrate data
+INFO [2017-08-16 19:26:23Z]: Starting Visual Studio 2017 for Mac 7.1 (build 1297)
+INFO [2017-08-16 19:26:23Z]: Running on Mono 5.2.0.215 (d15-3/da80840) (64-bit)
+INFO [2017-08-16 19:26:23Z]: Operating System: Mac OS X 10.12.6
+Darwin 16.7.0 Darwin Kernel Version 16.7.0
+    Thu Jun 15 17:36:27 PDT 2017
+    root:xnu-3789.70.16~2/RELEASE_X86_64 x86_64
+INFO [2017-08-16 19:26:24Z]: GTK: Using gtkrc from /Applications/Visual Studio.app/Contents/Resources/lib/monodevelop/bin/gtkrc.mac
+Could not find `PresentationCore` referenced by assembly `Microsoft.VisualStudio.Text.UI, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a`.
+Could not find `Microsoft.Build.Framework` referenced by assembly `MonoDevelop.Core, Version=2.6.0.0, Culture=neutral, PublicKeyToken=3ead7498f347467b`.
+Could not find `Microsoft.Build` referenced by assembly `MonoDevelop.Core, Version=2.6.0.0, Culture=neutral, PublicKeyToken=3ead7498f347467b`.
+Could not find `Microsoft.Build.Utilities.Core` referenced by assembly `MonoDevelop.Core, Version=2.6.0.0, Culture=neutral, PublicKeyToken=3ead7498f347467b`.
+INFO [2017-08-16 19:26:29Z]: Accessibility disabled
+WARNING [2017-08-16 19:26:29Z]: Gtk-Warning: Locale not supported by C library.
+	Using the fallback 'C' locale.
+Stack trace: 
+  at Gtk.Application.gtk_init (System.Int32& , System.IntPtr& ) [0x00000] in <52cd9d0524e94ce190303e1e2192badd>:0 
+  at Gtk.Application.do_init (System.String progname, System.String[]& args, System.Boolean check) [0x0004d] in /private/tmp/source-mono-d15-3/bockbuild-d15-3/profiles/mono-mac-xamarin/build-root/gtk-sharp-None/gtk/Application.cs:102 
+  at Gtk.Application.Init (System.String progname, System.String[]& args) [0x0000e] in /private/tmp/source-mono-d15-3/bockbuild-d15-3/profiles/mono-mac-xamarin/build-root/gtk-sharp-None/gtk/Application.cs:131 
+  at MonoDevelop.Components.IdeTheme.InitializeGtk (System.String progname, System.String[]& args) [0x000bf] in /Users/builder/data/lanes/4989/9c529966/source/monodevelop/main/src/core/MonoDevelop.Ide/MonoDevelop.Components/IdeTheme.cs:87 
+  at MonoDevelop.Ide.IdeStartup.Run (MonoDevelop.Ide.MonoDevelopOptions options) [0x00125] in /Users/builder/data/lanes/4989/9c529966/source/monodevelop/main/src/core/MonoDevelop.Ide/MonoDevelop.Ide/IdeStartup.cs:113 
+  at MonoDevelop.Ide.IdeStartup.Main (System.String[] args, MonoDevelop.Ide.Extensions.IdeCustomizer customizer) [0x00085] in /Users/builder/data/lanes/4989/9c529966/source/monodevelop/main/src/core/MonoDevelop.Ide/MonoDevelop.Ide/IdeStartup.cs:601 
+  at Xamarin.Startup.MainClass.Main (System.String[] args) [0x00000] in /Users/builder/data/lanes/4989/9c529966/source/md-addins/Xamarin.Startup/Main.cs:11 
+INFO [2017-08-16 19:26:29Z]: Using GTK+ 2.24.23
+Could not scan dependency 'Xamarin.MacDev.Ide, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'. Ignoring for now.
+Could not scan dependency 'MonoTouch.Hosting, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null'. Ignoring for now.
+Could not scan dependency 'Xamarin.MacDev.Ide, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'. Ignoring for now.
+Could not scan dependency 'MonoTouch.Hosting, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null'. Ignoring for now.
+Could not scan dependency 'Xamarin.MacDev.Ide, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'. Ignoring for now.
+Could not scan dependency 'MonoTouch.Hosting, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null'. Ignoring for now.
+Could not scan dependency 'Xamarin.MacDev.Ide, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'. Ignoring for now.
+Could not scan dependency 'MonoTouch.Hosting, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null'. Ignoring for now.
+Could not scan dependency 'Xamarin.MacDev.Ide, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'. Ignoring for now.
+Could not scan dependency 'MonoTouch.Hosting, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null'. Ignoring for now.
+Could not scan dependency 'Xamarin.MacDev.Ide, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'. Ignoring for now.
+Could not scan dependency 'MonoTouch.Hosting, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null'. Ignoring for now.
+Could not scan dependency 'Xamarin.MacDev.Ide, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'. Ignoring for now.
+Could not scan dependency 'MonoTouch.Hosting, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null'. Ignoring for now.
+Could not scan dependency 'Xamarin.MacDev.Ide, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'. Ignoring for now.
+Could not scan dependency 'MonoTouch.Hosting, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null'. Ignoring for now.
+Could not scan dependency 'Xamarin.MacDev.Ide, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'. Ignoring for now.
+Could not scan dependency 'MonoTouch.Hosting, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null'. Ignoring for now.
+Could not scan dependency 'Xamarin.MacDev.Ide, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'. Ignoring for now.
+Could not scan dependency 'MonoTouch.Hosting, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null'. Ignoring for now.
+Could not scan dependency 'Xamarin.MacDev.Ide, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'. Ignoring for now.
+Could not scan dependency 'MonoTouch.Hosting, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null'. Ignoring for now.
+Could not scan dependency 'Xamarin.MacDev.Ide, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'. Ignoring for now.
+Could not scan dependency 'MonoTouch.Hosting, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null'. Ignoring for now.
+Could not scan dependency 'Xamarin.MacDev.Ide, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'. Ignoring for now.
+Could not scan dependency 'MonoTouch.Hosting, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null'. Ignoring for now.
+Could not scan dependency 'Xamarin.MacDev.Ide, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'. Ignoring for now.
+Could not scan dependency 'MonoTouch.Hosting, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null'. Ignoring for now.
+Could not scan dependency 'Xamarin.MacDev.Ide, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'. Ignoring for now.
+Could not scan dependency 'MonoTouch.Hosting, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null'. Ignoring for now.
+Could not scan dependency 'Xamarin.MacDev.Ide, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'. Ignoring for now.
+Could not scan dependency 'MonoTouch.Hosting, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null'. Ignoring for now.
+Could not scan dependency 'Xamarin.MacDev.Ide, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'. Ignoring for now.
+Could not scan dependency 'MonoTouch.Hosting, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null'. Ignoring for now.
+Could not scan dependency 'Xamarin.MacDev.Ide, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'. Ignoring for now.
+Could not scan dependency 'Xamarin.MacDev.Ide, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'. Ignoring for now.
+Could not scan dependency 'Xamarin.MacDev.Ide, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'. Ignoring for now.
+Could not scan dependency 'Xamarin.MacDev.Ide, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'. Ignoring for now.
+Could not scan dependency 'Xamarin.MacDev.Ide, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'. Ignoring for now.
+Could not scan dependency 'Xamarin.MacDev.Ide, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'. Ignoring for now.
+Could not scan dependency 'Xamarin.MacDev.Ide, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'. Ignoring for now.
+Could not scan dependency 'Xamarin.MacDev.Ide, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'. Ignoring for now.
+Could not scan dependency 'Xamarin.MacDev.Ide, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'. Ignoring for now.
+Could not scan dependency 'Xamarin.MacDev.Ide, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'. Ignoring for now.
+Could not scan dependency 'Xamarin.MacDev.Ide, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'. Ignoring for now.
+Could not scan dependency 'Xamarin.MacDev.Ide, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'. Ignoring for now.
+Could not scan dependency 'Xamarin.MacDev.Ide, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'. Ignoring for now.
+Could not scan dependency 'Xamarin.MacDev.Ide, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'. Ignoring for now.
+Could not scan dependency 'Xamarin.MacDev.Ide, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'. Ignoring for now.
+Could not scan dependency 'Xamarin.MacDev.Ide, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'. Ignoring for now.
+Could not scan dependency 'Xamarin.MacDev.Ide, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'. Ignoring for now.
+Could not scan dependency 'Xamarin.MacDev.Ide, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'. Ignoring for now.
+Could not scan dependency 'Xamarin.MacDev.Ide, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'. Ignoring for now.
+Could not scan dependency 'Xamarin.MacDev.Ide, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'. Ignoring for now.
+Could not scan dependency 'Xamarin.MacDev.Ide, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'. Ignoring for now.
+Could not scan dependency 'Xamarin.MacDev.Ide, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'. Ignoring for now.
+Could not scan dependency 'Xamarin.MacDev.Ide, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'. Ignoring for now.
+Could not scan dependency 'Xamarin.MacDev.Ide, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'. Ignoring for now.
+Could not scan dependency 'Xamarin.MacDev.Ide, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'. Ignoring for now.
+Could not scan dependency 'Xamarin.MacDev.Ide, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'. Ignoring for now.
+Could not scan dependency 'Xamarin.MacDev.Ide, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'. Ignoring for now.
+Could not scan dependency 'Xamarin.MacDev.Ide, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'. Ignoring for now.
+Could not scan dependency 'Xamarin.MacDev.Ide, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'. Ignoring for now.
+Could not scan dependency 'Xamarin.MacDev.Ide, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'. Ignoring for now.
+Could not scan dependency 'Xamarin.MacDev.Ide, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'. Ignoring for now.
+Could not scan dependency 'Xamarin.MacDev.Ide, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'. Ignoring for now.
+Could not scan dependency 'Xamarin.MacDev.Ide, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'. Ignoring for now.
+Could not scan dependency 'Xamarin.MacDev.Ide, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'. Ignoring for now.
+Could not scan dependency 'Xamarin.MacDev.Ide, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'. Ignoring for now.
+Could not scan dependency 'Xamarin.MacDev.Ide, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'. Ignoring for now.
+Could not scan dependency 'MonoTouch.Hosting, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null'. Ignoring for now.
+Could not scan dependency 'MonoTouch.Hosting, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null'. Ignoring for now.
+Could not scan dependency 'MonoTouch.Hosting, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null'. Ignoring for now.
+Could not scan dependency 'MonoTouch.Hosting, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null'. Ignoring for now.
+Could not scan dependency 'Xamarin.MacDev.Ide, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'. Ignoring for now.
+Could not scan dependency 'Xamarin.MacDev.Ide, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'. Ignoring for now.
+Could not scan dependency 'Xamarin.MacDev.Ide, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'. Ignoring for now.
+Could not scan dependency 'Xamarin.MacDev.Ide, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'. Ignoring for now.
+Could not scan dependency 'Xamarin.MacDev.Ide, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'. Ignoring for now.
+Could not scan dependency 'Xamarin.MacDev.Ide, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'. Ignoring for now.
+Could not scan dependency 'Xamarin.MacDev.Ide, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'. Ignoring for now.
+Could not scan dependency 'Xamarin.MacDev.Ide, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'. Ignoring for now.
+Could not scan dependency 'Xamarin.MacDev.Ide, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'. Ignoring for now.
+Could not scan dependency 'Xamarin.MacDev.Ide, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'. Ignoring for now.
+Could not scan dependency 'Xamarin.MacDev.Ide, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'. Ignoring for now.
+Could not scan dependency 'Xamarin.MacDev.Ide, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'. Ignoring for now.
+Could not scan dependency 'Xamarin.MacDev.Ide, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'. Ignoring for now.
+Could not scan dependency 'Xamarin.MacDev.Ide, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'. Ignoring for now.
+Could not scan dependency 'Xamarin.MacDev.Ide, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'. Ignoring for now.
+Could not scan dependency 'Xamarin.MacDev.Ide, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'. Ignoring for now.
+Could not scan dependency 'Xamarin.MacDev.Ide, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'. Ignoring for now.
+Could not scan dependency 'Xamarin.MacDev.Ide, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'. Ignoring for now.
+INFO [2017-08-16 19:26:46Z]: Add-in loaded: MonoDevelop.Core
+INFO [2017-08-16 19:26:46Z]: Add-in loaded: MonoDevelop.Ide
+INFO [2017-08-16 19:26:48Z]: Add-in loaded: MonoDevelop.MacPlatform
+INFO [2017-08-16 19:26:48Z]: Initializing Runtime Mono 5.2.0.215
+Iniciando Visual Studio
+INFO [2017-08-16 19:26:48Z]: Add-in loaded: MonoDevelop.DesignerSupport
+INFO [2017-08-16 19:26:48Z]: Add-in loaded: MonoDevelop.Debugger
+INFO [2017-08-16 19:26:48Z]: Add-in loaded: MonoDevelop.SourceEditor2
+INFO [2017-08-16 19:26:48Z]: Add-in loaded: MonoDevelop.TextTemplating
+INFO [2017-08-16 19:26:48Z]: Add-in loaded: MonoDevelop.Xml
+INFO [2017-08-16 19:26:48Z]: Add-in loaded: MonoDevelop.AspNet
+INFO [2017-08-16 19:26:48Z]: Add-in loaded: MonoDevelop.UnitTesting
+INFO [2017-08-16 19:26:48Z]: Add-in loaded: MonoDevelop.RegexToolkit
+INFO [2017-08-16 19:26:48Z]: Add-in loaded: MonoDevelop.Refactoring
+INFO [2017-08-16 19:26:48Z]: Add-in loaded: MonoDevelop.PackageManagement
+INFO [2017-08-16 19:26:48Z]: Add-in loaded: MonoDevelop.Debugger.VsCodeDebugProtocol
+INFO [2017-08-16 19:26:48Z]: Add-in loaded: MonoDevelop.DotNetCore
+INFO [2017-08-16 19:26:48Z]: Add-in loaded: Xamarin.Ide.Insights
+INFO [2017-08-16 19:26:48Z]: Add-in loaded: MonoDevelop.Xamarin.Ide
+INFO [2017-08-16 19:26:48Z]: Add-in loaded: MonoDevelop.WebToolingAddin
+INFO [2017-08-16 19:26:48Z]: Add-in loaded: MonoDevelop.CSharpBinding
+INFO [2017-08-16 19:26:48Z]: Add-in loaded: MonoDevelop.Xamarin.Ide.Mac
+INFO [2017-08-16 19:26:48Z]: Add-in loaded: MonoDevelop.VersionControl
+INFO [2017-08-16 19:26:49Z]: Add-in loaded: MonoDevelop.MacDev
+INFO [2017-08-16 19:26:49Z]: Add-in loaded: Xamarin.TestCloud
+INFO [2017-08-16 19:26:49Z]: Add-in loaded: MonoDevelop.Debugger.Soft
+INFO [2017-08-16 19:26:49Z]: Add-in loaded: MonoDevelop.IPhone
+INFO [2017-08-16 19:26:49Z]: Add-in loaded: MonoDevelop.GtkCore
+INFO [2017-08-16 19:26:49Z]: Add-in loaded: MonoDevelop.VBBinding
+INFO [2017-08-16 19:26:49Z]: Add-in loaded: MonoDevelop.MonoAndroid
+INFO [2017-08-16 19:26:49Z]: Add-in loaded: Xamarin.Forms.Addin
+INFO [2017-08-16 19:26:49Z]: Add-in loaded: MonoDevelop.FSharpBinding
+INFO [2017-08-16 19:26:49Z]: Add-in loaded: MonoDevelop.Unity
+INFO [2017-08-16 19:26:49Z]: .NET Core SDK not found.
+INFO [2017-08-16 19:26:49Z]: .NET Core runtime not found.
+INFO [2017-08-16 19:26:50Z]: Add-in loaded: MonoDevelop.Packaging
+INFO [2017-08-16 19:26:50Z]: Add-in loaded: MonoDevelop.MonoMac
+   Cargando el Área de trabajo
+INFO [2017-08-16 19:26:50Z]: Add-in loaded: MonoDevelop.VersionControl.Git
+INFO [2017-08-16 19:26:50Z]: Add-in loaded: MonoDevelop.AssemblyBrowser
+INFO [2017-08-16 19:26:50Z]: Add-in loaded: Xamarin.TestCloud.NUnit
+INFO [2017-08-16 19:26:50Z]: Add-in loaded: MonoDevelop.ConnectedServices
+INFO [2017-08-16 19:26:50Z]: Add-in loaded: MonoDevelop.WebReferences
+INFO [2017-08-16 19:26:50Z]: Add-in loaded: MonoDevelop.DocFood
+INFO [2017-08-16 19:26:50Z]: Add-in loaded: Xamarin.Interactive.XS.Xamarin.Interactive
+INFO [2017-08-16 19:26:50Z]: Add-in loaded: MonoDevelop.PerformanceDiagnostics
+INFO [2017-08-16 19:26:50Z]: Add-in loaded: Xamarin.Ide.Identity
+INFO [2017-08-16 19:26:50Z]: Add-in loaded: Xamarin.AzureMobileAppService.Azure Mobile App Service
+INFO [2017-08-16 19:26:50Z]: Found Xcode, version 8.3.3 (12175.1).
+INFO [2017-08-16 19:26:50Z]: Found Xamarin.iOS, version 10.12.0.18.
+INFO [2017-08-16 19:26:50Z]: No license found for iOS
+INFO [2017-08-16 19:26:58Z]: ANDROID: Did not find Android SDK
+INFO [2017-08-16 19:26:58Z]: ANDROID: Found Xamarin.Android 7.4.0.19
+INFO [2017-08-16 19:26:58Z]: No license found for Android
+ERROR [2017-08-16 19:26:58Z]: Android SDK not found, needed by Xamarin.Android addin
+      Inicializando la ventana principal
+INFO [2017-08-16 19:26:58Z]: Creating DefaultWorkbench
+INFO [2017-08-16 19:26:59Z]: Found MonoMac.
+INFO [2017-08-16 19:26:59Z]: Found Xamarin.Mac, version 3.6.0.17.
+INFO [2017-08-16 19:26:59Z]: No license found for Mac
+ERROR [2017-08-16 19:27:02Z]: Failed to determine target framework for assembly /Library/Frameworks/Mono.framework/Versions/5.2.0/lib/mono/gac/System.Web.Razor/2.0.0.0__31bf3856ad364e35/System.Web.Razor.dll
+WARNING [2017-08-16 19:27:02Z]: Unregistered TargetFramework 'Unknown,Version=v0.0' is being requested from SystemAssemblyService, returning empty TargetFramework
+ERROR [2017-08-16 19:27:02Z]: Failed to determine target framework for assembly /Library/Frameworks/Mono.framework/Versions/5.2.0/lib/mono/gac/System.Web.Http/4.0.0.0__31bf3856ad364e35/System.Web.Http.dll
+ERROR [2017-08-16 19:27:02Z]: Failed to determine target framework for assembly /Library/Frameworks/Mono.framework/Versions/5.2.0/lib/mono/gac/System.Web.WebPages/2.0.0.0__31bf3856ad364e35/System.Web.WebPages.dll
+ERROR [2017-08-16 19:27:02Z]: Failed to determine target framework for assembly /Library/Frameworks/Mono.framework/Versions/5.2.0/lib/mono/gac/System.Web.WebPages.Razor/2.0.0.0__31bf3856ad364e35/System.Web.WebPages.Razor.dll
+ERROR [2017-08-16 19:27:02Z]: Failed to determine target framework for assembly /Library/Frameworks/Mono.framework/Versions/5.2.0/lib/mono/gac/System.Web.WebPages.Deployment/2.0.0.0__31bf3856ad364e35/System.Web.WebPages.Deployment.dll
+ERROR [2017-08-16 19:27:02Z]: Failed to determine target framework for assembly /Library/Frameworks/Mono.framework/Versions/5.2.0/lib/mono/gac/Mono.Cecil/0.9.5.0__0738eb9f132ed756/Mono.Cecil.dll
+ERROR [2017-08-16 19:27:02Z]: Failed to determine target framework for assembly /Library/Frameworks/Mono.framework/Versions/5.2.0/lib/mono/gtk-sharp-2.0/glade-sharp.dll
+ERROR [2017-08-16 19:27:02Z]: Failed to determine target framework for assembly /Library/Frameworks/Mono.framework/Versions/5.2.0/lib/mono/gtk-sharp-2.0/glib-sharp.dll
+ERROR [2017-08-16 19:27:02Z]: Failed to determine target framework for assembly /Library/Frameworks/Mono.framework/Versions/5.2.0/lib/mono/gtk-sharp-2.0/gtk-dotnet.dll
+ERROR [2017-08-16 19:27:02Z]: Failed to determine target framework for assembly /Library/Frameworks/Mono.framework/Versions/5.2.0/lib/mono/gtk-sharp-2.0/pango-sharp.dll
+ERROR [2017-08-16 19:27:02Z]: Failed to determine target framework for assembly /Library/Frameworks/Mono.framework/Versions/5.2.0/lib/mono/gtk-sharp-2.0/atk-sharp.dll
+ERROR [2017-08-16 19:27:02Z]: Failed to determine target framework for assembly /Library/Frameworks/Mono.framework/Versions/5.2.0/lib/mono/gtk-sharp-2.0/gdk-sharp.dll
+ERROR [2017-08-16 19:27:02Z]: Failed to determine target framework for assembly /Library/Frameworks/Mono.framework/Versions/5.2.0/lib/mono/gtk-sharp-2.0/gtk-sharp.dll
+ERROR [2017-08-16 19:27:03Z]: Failed to determine target framework for assembly /Library/Frameworks/Mono.framework/Versions/5.2.0/lib/mono/4.5/nunit.core.dll
+ERROR [2017-08-16 19:27:03Z]: Failed to determine target framework for assembly /Library/Frameworks/Mono.framework/Versions/5.2.0/lib/mono/4.5/nunit.core.interfaces.dll
+ERROR [2017-08-16 19:27:03Z]: Failed to determine target framework for assembly /Library/Frameworks/Mono.framework/Versions/5.2.0/lib/mono/4.5/nunit.core.extensions.dll
+ERROR [2017-08-16 19:27:03Z]: Failed to determine target framework for assembly /Library/Frameworks/Mono.framework/Versions/5.2.0/lib/mono/4.5/nunit.framework.dll
+ERROR [2017-08-16 19:27:03Z]: Failed to determine target framework for assembly /Library/Frameworks/Mono.framework/Versions/5.2.0/lib/mono/4.5/nunit.framework.extensions.dll
+ERROR [2017-08-16 19:27:03Z]: Failed to determine target framework for assembly /Library/Frameworks/Mono.framework/Versions/5.2.0/lib/mono/4.5/nunit.mocks.dll
+ERROR [2017-08-16 19:27:03Z]: Failed to determine target framework for assembly /Library/Frameworks/Mono.framework/Versions/5.2.0/lib/mono/4.5/nunit.util.dll
+ERROR [2017-08-16 19:27:03Z]: Failed to determine target framework for assembly /Library/Frameworks/Mono.framework/Versions/5.2.0/lib/mono/4.5/nunit-console-runner.dll
+ERROR [2017-08-16 19:27:03Z]: Failed to determine target framework for assembly /Library/Frameworks/Mono.framework/Versions/5.2.0/lib/mono/monodoc/monodoc.dll
+ERROR [2017-08-16 19:27:03Z]: Failed to determine target framework for assembly /Library/Frameworks/Mono.framework/Versions/5.2.0/lib/mono/4.5/System.Reactive.Interfaces.dll
+ERROR [2017-08-16 19:27:03Z]: Failed to determine target framework for assembly /Library/Frameworks/Mono.framework/Versions/5.2.0/lib/mono/4.5/System.Reactive.Core.dll
+ERROR [2017-08-16 19:27:03Z]: Failed to determine target framework for assembly /Library/Frameworks/Mono.framework/Versions/5.2.0/lib/mono/4.5/System.Reactive.Linq.dll
+ERROR [2017-08-16 19:27:03Z]: Failed to determine target framework for assembly /Library/Frameworks/Mono.framework/Versions/5.2.0/lib/mono/4.5/System.Reactive.PlatformServices.dll
+ERROR [2017-08-16 19:27:03Z]: Failed to determine target framework for assembly /Library/Frameworks/Mono.framework/Versions/5.2.0/lib/mono/4.5/System.Reactive.Providers.dll
+ERROR [2017-08-16 19:27:03Z]: Failed to determine target framework for assembly /Library/Frameworks/Mono.framework/Versions/5.2.0/lib/mono/4.5/System.Reactive.Debugger.dll
+ERROR [2017-08-16 19:27:03Z]: Failed to determine target framework for assembly /Library/Frameworks/Mono.framework/Versions/5.2.0/lib/mono/4.5/System.Reactive.Experimental.dll
+ERROR [2017-08-16 19:27:03Z]: Failed to determine target framework for assembly /Library/Frameworks/Mono.framework/Versions/5.2.0/lib/mono/4.5/System.Reactive.Runtime.Remoting.dll
+ERROR [2017-08-16 19:27:03Z]: Failed to determine target framework for assembly /Library/Frameworks/Mono.framework/Versions/5.2.0/lib/mono/gac/System.Web.Mvc/3.0.0.0__31bf3856ad364e35/System.Web.Mvc.dll
+ERROR [2017-08-16 19:27:03Z]: Failed to determine target framework for assembly /Library/Frameworks/Mono.framework/Versions/5.2.0/lib/mono/xbuild/12.0/bin/Microsoft.Build.Engine.dll
+ERROR [2017-08-16 19:27:03Z]: Failed to determine target framework for assembly /Library/Frameworks/Mono.framework/Versions/5.2.0/lib/mono/xbuild/12.0/bin/Microsoft.Build.Framework.dll
+ERROR [2017-08-16 19:27:03Z]: Failed to determine target framework for assembly /Library/Frameworks/Mono.framework/Versions/5.2.0/lib/mono/xbuild/12.0/bin/Microsoft.Build.Tasks.v12.0.dll
+ERROR [2017-08-16 19:27:03Z]: Failed to determine target framework for assembly /Library/Frameworks/Mono.framework/Versions/5.2.0/lib/mono/xbuild/12.0/bin/Microsoft.Build.Utilities.v12.0.dll
+ERROR [2017-08-16 19:27:03Z]: An unhandled exception has occured. Terminating Visual Studio? False
+System.Net.Sockets.SocketException (0x80004005): Success
+  at Microsoft.ServiceHub.Utility.SocketClient+<ConnectAsync>d__0.MoveNext () [0x00231] in <77315aa4fd5d49b8add7ad003b8a13a2>:0 
+ERROR [2017-08-16 19:27:03Z]: Failed to determine target framework for assembly /Library/Frameworks/Mono.framework/Versions/5.2.0/lib/mono/xbuild/12.0/bin/Microsoft.Build.dll
+ERROR [2017-08-16 19:27:03Z]: Failed to determine target framework for assembly /Library/Frameworks/Mono.framework/Versions/5.2.0/lib/mono/4.5/Mono.WebServer2.dll
+INFO [2017-08-16 19:27:03Z]: CodeTemplateService: No user templates, reading default templates.
+WARNING [2017-08-16 19:27:04Z]: Unregistered TargetFramework '.NETFramework,Version=v1.1' is being requested from SystemAssemblyService, returning empty TargetFramework
+INFO [2017-08-16 19:27:06Z]: Add-in loaded: MonoDevelop.VersionControl.Subversion
+INFO [2017-08-16 19:27:06Z]: Add-in loaded: MonoDevelop.VersionControl.Subversion.Unix
+INFO [2017-08-16 19:27:06Z]: Add-in loaded: MonoDevelop.UnitTesting.NUnit
+System.Runtime.Remoting.RemotingException: Cannot create channel sink to connect to URL 1a68e0c2_08e4_4e35_84f5_38eae0ea7a16/1dfeba0b_3.rem. An appropriate channel has probably not been registered.
+  at System.Runtime.Remoting.RemotingServices.GetClientChannelSinkChain (System.String url, System.Object channelData, System.String& objectUri) [0x00030] in /private/tmp/source-mono-d15-3/bockbuild-d15-3/profiles/mono-mac-xamarin/build-root/mono-x64/mcs/class/corlib/System.Runtime.Remoting/RemotingServices.cs:704 
+  at System.Runtime.Remoting.RemotingServices.GetOrCreateClientIdentity (System.Runtime.Remoting.ObjRef objRef, System.Type proxyType, System.Object& clientProxy) [0x00017] in /private/tmp/source-mono-d15-3/bockbuild-d15-3/profiles/mono-mac-xamarin/build-root/mono-x64/mcs/class/corlib/System.Runtime.Remoting/RemotingServices.cs:646 
+  at System.Runtime.Remoting.RemotingServices.GetRemoteObject (System.Runtime.Remoting.ObjRef objRef, System.Type proxyType) [0x00000] in /private/tmp/source-mono-d15-3/bockbuild-d15-3/profiles/mono-mac-xamarin/build-root/mono-x64/mcs/class/corlib/System.Runtime.Remoting/RemotingServices.cs:757 
+  at System.Runtime.Remoting.RemotingServices.GetProxyForRemoteObject (System.Runtime.Remoting.ObjRef objref, System.Type classToProxy) [0x0001b] in /private/tmp/source-mono-d15-3/bockbuild-d15-3/profiles/mono-mac-xamarin/build-root/mono-x64/mcs/class/corlib/System.Runtime.Remoting/RemotingServices.cs:751 
+  at System.Runtime.Remoting.RemotingServices.Unmarshal (System.Runtime.Remoting.ObjRef objectRef, System.Boolean fRefine) [0x0007a] in /private/tmp/source-mono-d15-3/bockbuild-d15-3/profiles/mono-mac-xamarin/build-root/mono-x64/mcs/class/corlib/System.Runtime.Remoting/RemotingServices.cs:286 
+  at System.Runtime.Remoting.RemotingServices.Unmarshal (System.Runtime.Remoting.ObjRef objectRef) [0x00000] in /private/tmp/source-mono-d15-3/bockbuild-d15-3/profiles/mono-mac-xamarin/build-root/mono-x64/mcs/class/corlib/System.Runtime.Remoting/RemotingServices.cs:260 
+  at System.Runtime.Remoting.ObjRef.GetRealObject (System.Runtime.Serialization.StreamingContext context) [0x0000f] in /private/tmp/source-mono-d15-3/bockbuild-d15-3/profiles/mono-mac-xamarin/build-root/mono-x64/mcs/class/corlib/System.Runtime.Remoting/ObjRef.cs:243 
+  at System.Runtime.Serialization.ObjectManager.ResolveObjectReference (System.Runtime.Serialization.ObjectHolder holder) [0x00009] in /private/tmp/source-mono-d15-3/bockbuild-d15-3/profiles/mono-mac-xamarin/build-root/mono-x64/mcs/class/referencesource/mscorlib/system/runtime/serialization/objectmanager.cs:303 
+  at System.Runtime.Serialization.ObjectManager.DoFixups () [0x00077] in /private/tmp/source-mono-d15-3/bockbuild-d15-3/profiles/mono-mac-xamarin/build-root/mono-x64/mcs/class/referencesource/mscorlib/system/runtime/serialization/objectmanager.cs:931 
+  at System.Runtime.Serialization.Formatters.Binary.ObjectReader.Deserialize (System.Runtime.Remoting.Messaging.HeaderHandler handler, System.Runtime.Serialization.Formatters.Binary.__BinaryParser serParser, System.Boolean fCheck, System.Boolean isCrossAppDomain, System.Runtime.Remoting.Messaging.IMethodCallMessage methodCallMessage) [0x00077] in /private/tmp/source-mono-d15-3/bockbuild-d15-3/profiles/mono-mac-xamarin/build-root/mono-x64/mcs/class/referencesource/mscorlib/system/runtime/serialization/formatters/binary/binaryobjectreader.cs:181 
+  at System.Runtime.Serialization.Formatters.Binary.BinaryFormatter.Deserialize (System.IO.Stream serializationStream, System.Runtime.Remoting.Messaging.HeaderHandler handler, System.Boolean fCheck, System.Boolean isCrossAppDomain, System.Runtime.Remoting.Messaging.IMethodCallMessage methodCallMessage) [0x00099] in /private/tmp/source-mono-d15-3/bockbuild-d15-3/profiles/mono-mac-xamarin/build-root/mono-x64/mcs/class/referencesource/mscorlib/system/runtime/serialization/formatters/binary/binaryformatter.cs:197 
+  at System.Runtime.Serialization.Formatters.Binary.BinaryFormatter.Deserialize (System.IO.Stream serializationStream, System.Runtime.Remoting.Messaging.HeaderHandler handler, System.Boolean fCheck, System.Runtime.Remoting.Messaging.IMethodCallMessage methodCallMessage) [0x00000] in /private/tmp/source-mono-d15-3/bockbuild-d15-3/profiles/mono-mac-xamarin/build-root/mono-x64/mcs/class/referencesource/mscorlib/system/runtime/serialization/formatters/binary/binaryformatter.cs:173 
+  at System.Runtime.Serialization.Formatters.Binary.BinaryFormatter.Deserialize (System.IO.Stream serializationStream, System.Runtime.Remoting.Messaging.HeaderHandler handler, System.Boolean fCheck) [0x00000] in /private/tmp/source-mono-d15-3/bockbuild-d15-3/profiles/mono-mac-xamarin/build-root/mono-x64/mcs/class/referencesource/mscorlib/system/runtime/serialization/formatters/binary/binaryformatter.cs:118 
+  at System.Runtime.Serialization.Formatters.Binary.BinaryFormatter.Deserialize (System.IO.Stream serializationStream, System.Runtime.Remoting.Messaging.HeaderHandler handler) [0x00000] in /private/tmp/source-mono-d15-3/bockbuild-d15-3/profiles/mono-mac-xamarin/build-root/mono-x64/mcs/class/referencesource/mscorlib/system/runtime/serialization/formatters/binary/binaryformatter.cs:149 
+  at System.Runtime.Serialization.Formatters.Binary.BinaryFormatter.Deserialize (System.IO.Stream serializationStream) [0x00000] in /private/tmp/source-mono-d15-3/bockbuild-d15-3/profiles/mono-mac-xamarin/build-root/mono-x64/mcs/class/referencesource/mscorlib/system/runtime/serialization/formatters/binary/binaryformatter.cs:111 
+  at MonoDevelopProcessHost.Main (System.String[] args) [0x00099] in /Users/builder/data/lanes/4989/9c529966/source/monodevelop/main/src/tools/mdhost/src/mdhost.cs:89 
+INFO [2017-08-16 19:27:07Z]: [Inspector] Initializing
+INFO [2017-08-16 19:27:08Z]: Add-in loaded: MonoDevelop.ILAsmBinding
+INFO [2017-08-16 19:27:09Z]: Updating Welcome Page News from 'https://go.microsoft.com/fwlink/?linkid=846107'.
+INFO [2017-08-16 19:27:10Z]: Add-in loaded: MonoDevelop.Core
+INFO [2017-08-16 19:27:10Z]: [MonoDevelop.DesignerSupport.Toolbox.ExternalLoader] Add-in loaded: MonoDevelop.Core
+INFO [2017-08-16 19:27:10Z]: Add-in loaded: MonoDevelop.Ide
+INFO [2017-08-16 19:27:10Z]: [MonoDevelop.DesignerSupport.Toolbox.ExternalLoader] Add-in loaded: MonoDevelop.Ide
+INFO [2017-08-16 19:27:10Z]: Add-in loaded: MonoDevelop.MacPlatform
+INFO [2017-08-16 19:27:10Z]: [MonoDevelop.DesignerSupport.Toolbox.ExternalLoader] Add-in loaded: MonoDevelop.MacPlatform
+INFO [2017-08-16 19:27:10Z]: Initializing Runtime Mono 5.2.0.215
+INFO [2017-08-16 19:27:10Z]: [MonoDevelop.DesignerSupport.Toolbox.ExternalLoader] Initializing Runtime Mono 5.2.0.215
+INFO [2017-08-16 19:27:10Z]: Add-in loaded: MonoDevelop.DesignerSupport
+INFO [2017-08-16 19:27:10Z]: [MonoDevelop.DesignerSupport.Toolbox.ExternalLoader] Add-in loaded: MonoDevelop.DesignerSupport
+INFO [2017-08-16 19:27:10Z]: Add-in loaded: MonoDevelop.UnitTesting
+INFO [2017-08-16 19:27:10Z]: [MonoDevelop.DesignerSupport.Toolbox.ExternalLoader] Add-in loaded: MonoDevelop.UnitTesting
+INFO [2017-08-16 19:27:10Z]: Add-in loaded: MonoDevelop.RegexToolkit
+INFO [2017-08-16 19:27:10Z]: [MonoDevelop.DesignerSupport.Toolbox.ExternalLoader] Add-in loaded: MonoDevelop.RegexToolkit
+INFO [2017-08-16 19:27:10Z]: Add-in loaded: MonoDevelop.Debugger
+INFO [2017-08-16 19:27:10Z]: [MonoDevelop.DesignerSupport.Toolbox.ExternalLoader] Add-in loaded: MonoDevelop.Debugger
+INFO [2017-08-16 19:27:10Z]: Add-in loaded: MonoDevelop.SourceEditor2
+INFO [2017-08-16 19:27:10Z]: [MonoDevelop.DesignerSupport.Toolbox.ExternalLoader] Add-in loaded: MonoDevelop.SourceEditor2
+INFO [2017-08-16 19:27:10Z]: Add-in loaded: MonoDevelop.Refactoring
+INFO [2017-08-16 19:27:10Z]: [MonoDevelop.DesignerSupport.Toolbox.ExternalLoader] Add-in loaded: MonoDevelop.Refactoring
+INFO [2017-08-16 19:27:10Z]: Add-in loaded: MonoDevelop.PackageManagement
+INFO [2017-08-16 19:27:10Z]: [MonoDevelop.DesignerSupport.Toolbox.ExternalLoader] Add-in loaded: MonoDevelop.PackageManagement
+INFO [2017-08-16 19:27:10Z]: Add-in loaded: MonoDevelop.Debugger.VsCodeDebugProtocol
+INFO [2017-08-16 19:27:10Z]: [MonoDevelop.DesignerSupport.Toolbox.ExternalLoader] Add-in loaded: MonoDevelop.Debugger.VsCodeDebugProtocol
+INFO [2017-08-16 19:27:10Z]: Add-in loaded: MonoDevelop.DotNetCore
+INFO [2017-08-16 19:27:10Z]: [MonoDevelop.DesignerSupport.Toolbox.ExternalLoader] Add-in loaded: MonoDevelop.DotNetCore
+INFO [2017-08-16 19:27:10Z]: Add-in loaded: Xamarin.Ide.Insights
+INFO [2017-08-16 19:27:10Z]: [MonoDevelop.DesignerSupport.Toolbox.ExternalLoader] Add-in loaded: Xamarin.Ide.Insights
+INFO [2017-08-16 19:27:10Z]: Add-in loaded: MonoDevelop.Xamarin.Ide
+INFO [2017-08-16 19:27:10Z]: [MonoDevelop.DesignerSupport.Toolbox.ExternalLoader] Add-in loaded: MonoDevelop.Xamarin.Ide
+INFO [2017-08-16 19:27:10Z]: Add-in loaded: MonoDevelop.TextTemplating
+INFO [2017-08-16 19:27:10Z]: [MonoDevelop.DesignerSupport.Toolbox.ExternalLoader] Add-in loaded: MonoDevelop.TextTemplating
+INFO [2017-08-16 19:27:10Z]: Add-in loaded: MonoDevelop.Xml
+INFO [2017-08-16 19:27:10Z]: [MonoDevelop.DesignerSupport.Toolbox.ExternalLoader] Add-in loaded: MonoDevelop.Xml
+INFO [2017-08-16 19:27:10Z]: Add-in loaded: MonoDevelop.AspNet
+INFO [2017-08-16 19:27:10Z]: [MonoDevelop.DesignerSupport.Toolbox.ExternalLoader] Add-in loaded: MonoDevelop.AspNet
+INFO [2017-08-16 19:27:10Z]: Add-in loaded: MonoDevelop.Xamarin.Ide.Mac
+INFO [2017-08-16 19:27:10Z]: [MonoDevelop.DesignerSupport.Toolbox.ExternalLoader] Add-in loaded: MonoDevelop.Xamarin.Ide.Mac
+INFO [2017-08-16 19:27:10Z]: Add-in loaded: MonoDevelop.VersionControl
+INFO [2017-08-16 19:27:10Z]: [MonoDevelop.DesignerSupport.Toolbox.ExternalLoader] Add-in loaded: MonoDevelop.VersionControl
+INFO [2017-08-16 19:27:10Z]: Add-in loaded: MonoDevelop.CSharpBinding
+INFO [2017-08-16 19:27:10Z]: [MonoDevelop.DesignerSupport.Toolbox.ExternalLoader] Add-in loaded: MonoDevelop.CSharpBinding
+INFO [2017-08-16 19:27:10Z]: Add-in loaded: MonoDevelop.MacDev
+INFO [2017-08-16 19:27:10Z]: [MonoDevelop.DesignerSupport.Toolbox.ExternalLoader] Add-in loaded: MonoDevelop.MacDev
+INFO [2017-08-16 19:27:10Z]: Add-in loaded: MonoDevelop.GtkCore
+INFO [2017-08-16 19:27:10Z]: [MonoDevelop.DesignerSupport.Toolbox.ExternalLoader] Add-in loaded: MonoDevelop.GtkCore
+INFO [2017-08-16 19:27:10Z]: Add-in loaded: MonoDevelop.VBBinding
+INFO [2017-08-16 19:27:10Z]: [MonoDevelop.DesignerSupport.Toolbox.ExternalLoader] Add-in loaded: MonoDevelop.VBBinding
+INFO [2017-08-16 19:27:10Z]: Add-in loaded: MonoDevelop.WebReferences
+INFO [2017-08-16 19:27:10Z]: [MonoDevelop.DesignerSupport.Toolbox.ExternalLoader] Add-in loaded: MonoDevelop.WebReferences
+INFO [2017-08-16 19:27:20Z]: Add-in loaded: MonoDevelop.Core
+INFO [2017-08-16 19:27:20Z]: [MonoDevelop.DesignerSupport.Toolbox.ExternalLoader] Add-in loaded: MonoDevelop.Core
+INFO [2017-08-16 19:27:20Z]: Add-in loaded: MonoDevelop.Ide
+INFO [2017-08-16 19:27:20Z]: [MonoDevelop.DesignerSupport.Toolbox.ExternalLoader] Add-in loaded: MonoDevelop.Ide
+INFO [2017-08-16 19:27:20Z]: Add-in loaded: MonoDevelop.MacPlatform
+INFO [2017-08-16 19:27:20Z]: [MonoDevelop.DesignerSupport.Toolbox.ExternalLoader] Add-in loaded: MonoDevelop.MacPlatform
+INFO [2017-08-16 19:27:20Z]: Initializing Runtime Mono 5.2.0.215
+INFO [2017-08-16 19:27:20Z]: Add-in loaded: MonoDevelop.DesignerSupport
+INFO [2017-08-16 19:27:20Z]: [MonoDevelop.DesignerSupport.Toolbox.ExternalLoader] Initializing Runtime Mono 5.2.0.215
+INFO [2017-08-16 19:27:20Z]: [MonoDevelop.DesignerSupport.Toolbox.ExternalLoader] Add-in loaded: MonoDevelop.DesignerSupport
+INFO [2017-08-16 19:27:20Z]: Add-in loaded: MonoDevelop.UnitTesting
+INFO [2017-08-16 19:27:20Z]: [MonoDevelop.DesignerSupport.Toolbox.ExternalLoader] Add-in loaded: MonoDevelop.UnitTesting
+INFO [2017-08-16 19:27:20Z]: Add-in loaded: MonoDevelop.RegexToolkit
+INFO [2017-08-16 19:27:20Z]: [MonoDevelop.DesignerSupport.Toolbox.ExternalLoader] Add-in loaded: MonoDevelop.RegexToolkit
+INFO [2017-08-16 19:27:20Z]: Add-in loaded: MonoDevelop.Debugger
+INFO [2017-08-16 19:27:20Z]: [MonoDevelop.DesignerSupport.Toolbox.ExternalLoader] Add-in loaded: MonoDevelop.Debugger
+INFO [2017-08-16 19:27:20Z]: Add-in loaded: MonoDevelop.SourceEditor2
+INFO [2017-08-16 19:27:20Z]: [MonoDevelop.DesignerSupport.Toolbox.ExternalLoader] Add-in loaded: MonoDevelop.SourceEditor2
+INFO [2017-08-16 19:27:20Z]: Add-in loaded: MonoDevelop.Refactoring
+INFO [2017-08-16 19:27:20Z]: [MonoDevelop.DesignerSupport.Toolbox.ExternalLoader] Add-in loaded: MonoDevelop.Refactoring
+INFO [2017-08-16 19:27:20Z]: Add-in loaded: MonoDevelop.PackageManagement
+INFO [2017-08-16 19:27:20Z]: [MonoDevelop.DesignerSupport.Toolbox.ExternalLoader] Add-in loaded: MonoDevelop.PackageManagement
+INFO [2017-08-16 19:27:20Z]: Add-in loaded: MonoDevelop.Debugger.VsCodeDebugProtocol
+INFO [2017-08-16 19:27:20Z]: [MonoDevelop.DesignerSupport.Toolbox.ExternalLoader] Add-in loaded: MonoDevelop.Debugger.VsCodeDebugProtocol
+INFO [2017-08-16 19:27:20Z]: Add-in loaded: MonoDevelop.DotNetCore
+INFO [2017-08-16 19:27:20Z]: [MonoDevelop.DesignerSupport.Toolbox.ExternalLoader] Add-in loaded: MonoDevelop.DotNetCore
+INFO [2017-08-16 19:27:20Z]: Add-in loaded: Xamarin.Ide.Insights
+INFO [2017-08-16 19:27:20Z]: [MonoDevelop.DesignerSupport.Toolbox.ExternalLoader] Add-in loaded: Xamarin.Ide.Insights
+INFO [2017-08-16 19:27:20Z]: Add-in loaded: MonoDevelop.Xamarin.Ide
+INFO [2017-08-16 19:27:20Z]: [MonoDevelop.DesignerSupport.Toolbox.ExternalLoader] Add-in loaded: MonoDevelop.Xamarin.Ide
+INFO [2017-08-16 19:27:20Z]: Add-in loaded: MonoDevelop.TextTemplating
+INFO [2017-08-16 19:27:20Z]: [MonoDevelop.DesignerSupport.Toolbox.ExternalLoader] Add-in loaded: MonoDevelop.TextTemplating
+INFO [2017-08-16 19:27:20Z]: Add-in loaded: MonoDevelop.Xml
+INFO [2017-08-16 19:27:20Z]: [MonoDevelop.DesignerSupport.Toolbox.ExternalLoader] Add-in loaded: MonoDevelop.Xml
+INFO [2017-08-16 19:27:20Z]: Add-in loaded: MonoDevelop.AspNet
+INFO [2017-08-16 19:27:20Z]: [MonoDevelop.DesignerSupport.Toolbox.ExternalLoader] Add-in loaded: MonoDevelop.AspNet
+INFO [2017-08-16 19:27:20Z]: Add-in loaded: MonoDevelop.Xamarin.Ide.Mac
+INFO [2017-08-16 19:27:20Z]: [MonoDevelop.DesignerSupport.Toolbox.ExternalLoader] Add-in loaded: MonoDevelop.Xamarin.Ide.Mac
+INFO [2017-08-16 19:27:20Z]: Add-in loaded: MonoDevelop.VersionControl
+INFO [2017-08-16 19:27:20Z]: [MonoDevelop.DesignerSupport.Toolbox.ExternalLoader] Add-in loaded: MonoDevelop.VersionControl
+INFO [2017-08-16 19:27:20Z]: Add-in loaded: MonoDevelop.CSharpBinding
+INFO [2017-08-16 19:27:20Z]: [MonoDevelop.DesignerSupport.Toolbox.ExternalLoader] Add-in loaded: MonoDevelop.CSharpBinding
+INFO [2017-08-16 19:27:20Z]: Add-in loaded: MonoDevelop.MacDev
+INFO [2017-08-16 19:27:20Z]: [MonoDevelop.DesignerSupport.Toolbox.ExternalLoader] Add-in loaded: MonoDevelop.MacDev
+INFO [2017-08-16 19:27:20Z]: Add-in loaded: MonoDevelop.GtkCore
+INFO [2017-08-16 19:27:20Z]: [MonoDevelop.DesignerSupport.Toolbox.ExternalLoader] Add-in loaded: MonoDevelop.GtkCore
+INFO [2017-08-16 19:27:20Z]: Add-in loaded: MonoDevelop.VBBinding
+INFO [2017-08-16 19:27:20Z]: [MonoDevelop.DesignerSupport.Toolbox.ExternalLoader] Add-in loaded: MonoDevelop.VBBinding
+INFO [2017-08-16 19:27:20Z]: Add-in loaded: MonoDevelop.WebReferences
+INFO [2017-08-16 19:27:20Z]: [MonoDevelop.DesignerSupport.Toolbox.ExternalLoader] Add-in loaded: MonoDevelop.WebReferences
+ERROR [2017-08-16 19:27:37Z]: Addin updater: Could not get information from repository: http://addins.monodevelop.com/Stable/Mac/7.1/main.mrep
+ERROR [2017-08-16 19:27:37Z]: Could not contact update server: 
+System.Net.WebException: Error: NameResolutionFailure
+  at System.Net.HttpWebRequest.EndGetResponse (System.IAsyncResult asyncResult) [0x00059] in /private/tmp/source-mono-d15-3/bockbuild-d15-3/profiles/mono-mac-xamarin/build-root/mono-x64/mcs/class/System/System.Net/HttpWebRequest.cs:1031 
+  at System.Threading.Tasks.TaskFactory`1[TResult].FromAsyncCoreLogic (System.IAsyncResult iar, System.Func`2[T,TResult] endFunction, System.Action`1[T] endAction, System.Threading.Tasks.Task`1[TResult] promise, System.Boolean requiresSynchronization) [0x0000f] in /private/tmp/source-mono-d15-3/bockbuild-d15-3/profiles/mono-mac-xamarin/build-root/mono-x64/mcs/class/referencesource/mscorlib/system/threading/Tasks/FutureFactory.cs:550 
+--- End of stack trace from previous location where exception was thrown ---
+  at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw () [0x0000c] in /private/tmp/source-mono-d15-3/bockbuild-d15-3/profiles/mono-mac-xamarin/build-root/mono-x64/mcs/class/referencesource/mscorlib/system/runtime/exceptionservices/exceptionservicescommon.cs:151 
+  at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess (System.Threading.Tasks.Task task) [0x00037] in /private/tmp/source-mono-d15-3/bockbuild-d15-3/profiles/mono-mac-xamarin/build-root/mono-x64/mcs/class/referencesource/mscorlib/system/runtime/compilerservices/TaskAwaiter.cs:187 
+  at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification (System.Threading.Tasks.Task task) [0x00028] in /private/tmp/source-mono-d15-3/bockbuild-d15-3/profiles/mono-mac-xamarin/build-root/mono-x64/mcs/class/referencesource/mscorlib/system/runtime/compilerservices/TaskAwaiter.cs:156 
+  at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd (System.Threading.Tasks.Task task) [0x00008] in /private/tmp/source-mono-d15-3/bockbuild-d15-3/profiles/mono-mac-xamarin/build-root/mono-x64/mcs/class/referencesource/mscorlib/system/runtime/compilerservices/TaskAwaiter.cs:128 
+  at System.Runtime.CompilerServices.TaskAwaiter`1[TResult].GetResult () [0x00000] in /private/tmp/source-mono-d15-3/bockbuild-d15-3/profiles/mono-mac-xamarin/build-root/mono-x64/mcs/class/referencesource/mscorlib/system/runtime/compilerservices/TaskAwaiter.cs:357 
+  at MonoDevelop.Core.Web.RequestHelper+<GetResponseAsync>d__15.MoveNext () [0x001c1] in /Users/builder/data/lanes/4989/9c529966/source/monodevelop/main/src/core/MonoDevelop.Core/MonoDevelop.Core.Web/RequestHelper.cs:121 
+--- End of stack trace from previous location where exception was thrown ---
+  at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw () [0x0000c] in /private/tmp/source-mono-d15-3/bockbuild-d15-3/profiles/mono-mac-xamarin/build-root/mono-x64/mcs/class/referencesource/mscorlib/system/runtime/exceptionservices/exceptionservicescommon.cs:151 
+  at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess (System.Threading.Tasks.Task task) [0x00037] in /private/tmp/source-mono-d15-3/bockbuild-d15-3/profiles/mono-mac-xamarin/build-root/mono-x64/mcs/class/referencesource/mscorlib/system/runtime/compilerservices/TaskAwaiter.cs:187 
+  at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification (System.Threading.Tasks.Task task) [0x00028] in /private/tmp/source-mono-d15-3/bockbuild-d15-3/profiles/mono-mac-xamarin/build-root/mono-x64/mcs/class/referencesource/mscorlib/system/runtime/compilerservices/TaskAwaiter.cs:156 
+  at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd (System.Threading.Tasks.Task task) [0x00008] in /private/tmp/source-mono-d15-3/bockbuild-d15-3/profiles/mono-mac-xamarin/build-root/mono-x64/mcs/class/referencesource/mscorlib/system/runtime/compilerservices/TaskAwaiter.cs:128 
+  at System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1+ConfiguredTaskAwaiter[TResult].GetResult () [0x00000] in /private/tmp/source-mono-d15-3/bockbuild-d15-3/profiles/mono-mac-xamarin/build-root/mono-x64/mcs/class/referencesource/mscorlib/system/runtime/compilerservices/TaskAwaiter.cs:535 
+  at MonoDevelop.Core.WebRequestHelper+<GetResponseAsync>d__10.MoveNext () [0x00124] in /Users/builder/data/lanes/4989/9c529966/source/monodevelop/main/src/core/MonoDevelop.Core/MonoDevelop.Core/WebRequestHelper.cs:97 
+--- End of stack trace from previous location where exception was thrown ---
+  at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw () [0x0000c] in /private/tmp/source-mono-d15-3/bockbuild-d15-3/profiles/mono-mac-xamarin/build-root/mono-x64/mcs/class/referencesource/mscorlib/system/runtime/exceptionservices/exceptionservicescommon.cs:151 
+  at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess (System.Threading.Tasks.Task task) [0x00037] in /private/tmp/source-mono-d15-3/bockbuild-d15-3/profiles/mono-mac-xamarin/build-root/mono-x64/mcs/class/referencesource/mscorlib/system/runtime/compilerservices/TaskAwaiter.cs:187 
+  at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification (System.Threading.Tasks.Task task) [0x00028] in /private/tmp/source-mono-d15-3/bockbuild-d15-3/profiles/mono-mac-xamarin/build-root/mono-x64/mcs/class/referencesource/mscorlib/system/runtime/compilerservices/TaskAwaiter.cs:156 
+  at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd (System.Threading.Tasks.Task task) [0x00008] in /private/tmp/source-mono-d15-3/bockbuild-d15-3/profiles/mono-mac-xamarin/build-root/mono-x64/mcs/class/referencesource/mscorlib/system/runtime/compilerservices/TaskAwaiter.cs:128 
+  at System.Runtime.CompilerServices.ConfiguredTaskAwaitable+ConfiguredTaskAwaiter.GetResult () [0x00000] in /private/tmp/source-mono-d15-3/bockbuild-d15-3/profiles/mono-mac-xamarin/build-root/mono-x64/mcs/class/referencesource/mscorlib/system/runtime/compilerservices/TaskAwaiter.cs:447 
+  at Xamarin.Ide.Updater.UpdateService+<QueryUpdateServer>d__52.MoveNext () [0x002b4] in /Users/builder/data/lanes/4989/9c529966/source/md-addins/Xamarin.Ide/Xamarin.Ide/Xamarin.Ide.Updater/UpdateService.cs:534 
+WARNING [2017-08-16 19:27:39Z]: Welcome Page news server could not be reached.

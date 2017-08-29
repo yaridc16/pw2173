@@ -1,0 +1,599 @@
+{
+  "config" : {
+    "uuid" : "d9e217c4004e11397fb5621679",
+    "createdTime" : 1502312937013,
+    "lastUpdateTime" : 1502388833844,
+    "publisher" : {
+      "uuid" : "16189",
+      "logoUrl" : "http://images.performgroup.com/di/library/eplayer3_user_guide/ad/db/mediotiempo-logo_1e2buejs2oe941nqbbhzqro6jy.jpg?w=640&h=112",
+      "title" : "Mediotiempo",
+      "territory" : "EPLAYER_MX",
+      "languageCode" : "es"
+    },
+    "features" : {
+      "scrollToPlay" : true,
+      "startMuted" : true,
+      "autoPlay" : false,
+      "sharingEnabled" : true,
+      "gtmEnabled" : true,
+      "ctpLightboxOnlyEnabled" : false,
+      "volumeRemember" : false,
+      "initialVolume" : 0.5,
+      "additionalContentAutoPlay" : true,
+      "titleType" : "PUBLISHER_LOGO",
+      "scrollSetting" : "PAUSE",
+      "largeOnlyPopupPlayer" : false,
+      "mobileAutoplayMode" : "DISABLED"
+    },
+    "metadata" : {
+      "name" : "ePlayer Home",
+      "description" : "",
+      "displayName" : "Futbol Mexicano"
+    },
+    "dataSource" : {
+      "type" : "CHANNEL",
+      "fallbackChannelUuid" : "ED58197E1735424CAC94FEF89DBBE164",
+      "sourceItems" : [ {
+        "sourceUuid" : "minree5c51g11my6z2mqh39cs",
+        "source" : "CHANNEL",
+        "title" : "Azteca Deportes (MX)",
+        "topic" : "Deportes",
+        "category" : "Fútbol",
+        "type" : "Channel",
+        "videos" : [ {
+          "uuid" : "1tqoln3zrfbzi16591sknff3mi",
+          "title" : "Fut Azteca | Santos 2-3 Veracruz | Jornada 4 ",
+          "description" : "Fut Azteca | Santos 2-3 Veracruz | Jornada 4 ",
+          "duration" : 201,
+          "poster" : "http://images.performgroup.com/javaImages/54/93/0,,~15700820,00.jpeg",
+          "templateCfg" : {
+            "channels" : [ {
+              "uuid" : "minree5c51g11my6z2mqh39cs",
+              "name" : "Azteca Deportes (MX)"
+            } ]
+          },
+          "publishedTime" : 1502677860000,
+          "rights" : [ {
+            "title" : "Azteca Mexican Football",
+            "rightsHolderName" : "Azteca_Soccer"
+          } ]
+        }, {
+          "uuid" : "1rhizc0q0xtoh1arrjdtufgovp",
+          "title" : "El Color | Cruz Azul vs Toluca | Jornada 4",
+          "description" : "El Color | Cruz Azul vs Toluca | Jornada 4",
+          "duration" : 135,
+          "poster" : "http://images.performgroup.com/javaImages/50/8f/0,,~15699792,00.jpeg",
+          "templateCfg" : {
+            "channels" : [ {
+              "uuid" : "minree5c51g11my6z2mqh39cs",
+              "name" : "Azteca Deportes (MX)"
+            } ]
+          },
+          "publishedTime" : 1502647380000,
+          "rights" : [ {
+            "title" : "Azteca Mexican Football",
+            "rightsHolderName" : "Azteca_Soccer"
+          } ]
+        }, {
+          "uuid" : "1b038k9cmrkm21p4ltv9u9or34",
+          "title" : "Oribe Peralta, el héroe del América",
+          "description" : "Oribe Peralta, el héroe del América",
+          "duration" : 129,
+          "poster" : "http://images.performgroup.com/javaImages/cf/80/0,,~15696079,00.jpeg",
+          "templateCfg" : {
+            "channels" : [ {
+              "uuid" : "minree5c51g11my6z2mqh39cs",
+              "name" : "Azteca Deportes (MX)"
+            } ]
+          },
+          "publishedTime" : 1502513220000,
+          "rights" : [ {
+            "title" : "Azteca Mexican Football",
+            "rightsHolderName" : "Azteca_Soccer"
+          } ]
+        }, {
+          "uuid" : "fr98lq1ewa1k17l3uaj61on2k",
+          "title" : "Liga MX | Atlas 0-1 América | Jornada 4",
+          "description" : "Liga MX | Atlas 0-1 América | Jornada 4",
+          "duration" : 266,
+          "poster" : "http://images.performgroup.com/javaImages/cd/80/0,,~15696077,00.jpeg",
+          "templateCfg" : {
+            "channels" : [ {
+              "uuid" : "minree5c51g11my6z2mqh39cs",
+              "name" : "Azteca Deportes (MX)"
+            } ]
+          },
+          "publishedTime" : 1502512680000,
+          "rights" : [ {
+            "title" : "Azteca Mexican Football",
+            "rightsHolderName" : "Azteca_Soccer"
+          } ]
+        }, {
+          "uuid" : "1lfl24fxxry9s1m2r83buiitv2",
+          "title" : "Liga MX | Puebla 1-1 Xolos | Jornada 4",
+          "description" : "Liga MX | Puebla 1-1 Xolos | Jornada 4",
+          "duration" : 269,
+          "poster" : "http://images.performgroup.com/javaImages/1c/80/0,,~15695900,00.jpeg",
+          "templateCfg" : {
+            "channels" : [ {
+              "uuid" : "minree5c51g11my6z2mqh39cs",
+              "name" : "Azteca Deportes (MX)"
+            } ]
+          },
+          "publishedTime" : 1502504820000,
+          "rights" : [ {
+            "title" : "Azteca Mexican Football",
+            "rightsHolderName" : "Azteca_Soccer"
+          } ]
+        }, {
+          "uuid" : "1xwy6qzpzkfui1n1atxlllas7n",
+          "title" : "Fut Azteca | Liga MX Jornada 3 | Resumen Veracruz 2-0 Puebla",
+          "description" : "Fut Azteca | Liga MX Jornada 3 | Resumen Veracruz 2-0 Puebla",
+          "duration" : 94,
+          "poster" : "http://images.performgroup.com/javaImages/e7/57/0,,~15685607,00.jpeg",
+          "templateCfg" : {
+            "channels" : [ {
+              "uuid" : "minree5c51g11my6z2mqh39cs",
+              "name" : "Azteca Deportes (MX)"
+            } ]
+          },
+          "publishedTime" : 1502079660000,
+          "rights" : [ {
+            "title" : "Azteca Mexican Football",
+            "rightsHolderName" : "Azteca_Soccer"
+          } ]
+        }, {
+          "uuid" : "1ltc37auuf7ip1cadftca12i3n",
+          "title" : "El Color | América vs Pumas | Jornada 3 - AP 2017",
+          "description" : "El Color | América vs Pumas | Jornada 3 - AP 2017",
+          "duration" : 167,
+          "poster" : "http://images.performgroup.com/javaImages/43/54/0,,~15684675,00.jpeg",
+          "templateCfg" : {
+            "channels" : [ {
+              "uuid" : "minree5c51g11my6z2mqh39cs",
+              "name" : "Azteca Deportes (MX)"
+            } ]
+          },
+          "publishedTime" : 1502041980000,
+          "rights" : [ {
+            "title" : "Azteca Mexican Football",
+            "rightsHolderName" : "Azteca_Soccer"
+          } ]
+        }, {
+          "uuid" : "fj0ais18d5401fkqmxex1gp5m",
+          "title" : "Liga MX | Xolos 0-3 Rayados | Jornada 3",
+          "description" : "Liga MX | Xolos 0-3 Rayados | Jornada 3",
+          "duration" : 260,
+          "poster" : "http://images.performgroup.com/javaImages/af/46/0,,~15681199,00.jpeg",
+          "templateCfg" : {
+            "channels" : [ {
+              "uuid" : "minree5c51g11my6z2mqh39cs",
+              "name" : "Azteca Deportes (MX)"
+            } ]
+          },
+          "publishedTime" : 1501908000000,
+          "rights" : [ {
+            "title" : "Azteca Mexican Football",
+            "rightsHolderName" : "Azteca_Soccer"
+          } ]
+        }, {
+          "uuid" : "jycwuekey59910r5612vbzfhn",
+          "title" : "Liga MX | Monarcas 1-1 Santos | Jornada 3",
+          "description" : "Liga MX | Monarcas 1-1 Santos | Jornada 3",
+          "duration" : 208,
+          "poster" : "http://images.performgroup.com/javaImages/ab/46/0,,~15681195,00.jpeg",
+          "templateCfg" : {
+            "channels" : [ {
+              "uuid" : "minree5c51g11my6z2mqh39cs",
+              "name" : "Azteca Deportes (MX)"
+            } ]
+          },
+          "publishedTime" : 1501907940000,
+          "rights" : [ {
+            "title" : "Azteca Mexican Football",
+            "rightsHolderName" : "Azteca_Soccer"
+          } ]
+        }, {
+          "uuid" : "s4a4akzt40a318mud4evt6idw",
+          "title" : "Resumen | Atlas vs Pumas",
+          "description" : "Resumen | Atlas vs Pumas",
+          "duration" : 92,
+          "poster" : "http://images.performgroup.com/javaImages/23/14/0,,~15668259,00.jpeg",
+          "templateCfg" : {
+            "channels" : [ {
+              "uuid" : "minree5c51g11my6z2mqh39cs",
+              "name" : "Azteca Deportes (MX)"
+            } ]
+          },
+          "publishedTime" : 1501375680000,
+          "rights" : [ {
+            "title" : "Azteca Mexican Football",
+            "rightsHolderName" : "Azteca_Soccer"
+          } ]
+        }, {
+          "uuid" : "w5s8er5e6e841uwu1kjxk4r4p",
+          "title" : "Resumen | Puebla vs Monarcas",
+          "description" : "Resumen | Puebla vs Monarcas",
+          "duration" : 52,
+          "poster" : "http://images.performgroup.com/javaImages/21/14/0,,~15668257,00.jpeg",
+          "templateCfg" : {
+            "channels" : [ {
+              "uuid" : "minree5c51g11my6z2mqh39cs",
+              "name" : "Azteca Deportes (MX)"
+            } ]
+          },
+          "publishedTime" : 1501375620000,
+          "rights" : [ {
+            "title" : "Azteca Mexican Football",
+            "rightsHolderName" : "Azteca_Soccer"
+          } ]
+        }, {
+          "uuid" : "cawi4j4bweggzu8g12oui51q",
+          "title" : "Fut Azteca | El Color Pumas vs Pachuca",
+          "description" : "Fut Azteca | El Color Pumas vs Pachuca",
+          "duration" : 99,
+          "poster" : "http://images.performgroup.com/javaImages/c9/e4/0,,~15656137,00.jpeg",
+          "templateCfg" : {
+            "channels" : [ {
+              "uuid" : "minree5c51g11my6z2mqh39cs",
+              "name" : "Azteca Deportes (MX)"
+            } ]
+          },
+          "publishedTime" : 1500874620000,
+          "rights" : [ {
+            "title" : "Azteca Mexican Football",
+            "rightsHolderName" : "Azteca_Soccer"
+          } ]
+        }, {
+          "uuid" : "j134313pzh7h15fkazddmxtzh",
+          "title" : "Fut Azteca | El debut de Enner Valencia con Tigres",
+          "description" : "Fut Azteca | El debut de Enner Valencia con Tigres",
+          "duration" : 198,
+          "poster" : "http://images.performgroup.com/javaImages/c5/e4/0,,~15656133,00.jpeg",
+          "templateCfg" : {
+            "channels" : [ {
+              "uuid" : "minree5c51g11my6z2mqh39cs",
+              "name" : "Azteca Deportes (MX)"
+            } ]
+          },
+          "publishedTime" : 1500874560000,
+          "rights" : [ {
+            "title" : "Azteca Mexican Football",
+            "rightsHolderName" : "Azteca_Soccer"
+          } ]
+        }, {
+          "uuid" : "7n9cu8640jeq1c018pcjs0mfd",
+          "title" : "Fut Azteca | El Color Tigres vs Puebla",
+          "description" : "Fut Azteca | El Color Tigres vs Puebla",
+          "duration" : 125,
+          "poster" : "http://images.performgroup.com/javaImages/c3/e4/0,,~15656131,00.jpeg",
+          "templateCfg" : {
+            "channels" : [ {
+              "uuid" : "minree5c51g11my6z2mqh39cs",
+              "name" : "Azteca Deportes (MX)"
+            } ]
+          },
+          "publishedTime" : 1500874440000,
+          "rights" : [ {
+            "title" : "Azteca Mexican Football",
+            "rightsHolderName" : "Azteca_Soccer"
+          } ]
+        }, {
+          "uuid" : "1l2kgboqntzl912rx7bitijfku",
+          "title" : "Fut Azteca | El Color América vs Querétaro",
+          "description" : "Fut Azteca | El Color América vs Querétaro",
+          "duration" : 115,
+          "poster" : "http://images.performgroup.com/javaImages/bd/e4/0,,~15656125,00.jpeg",
+          "templateCfg" : {
+            "channels" : [ {
+              "uuid" : "minree5c51g11my6z2mqh39cs",
+              "name" : "Azteca Deportes (MX)"
+            } ]
+          },
+          "publishedTime" : 1500874380000,
+          "rights" : [ {
+            "title" : "Azteca Mexican Football",
+            "rightsHolderName" : "Azteca_Soccer"
+          } ]
+        }, {
+          "uuid" : "oiqdt6d6oou11xl9rkdmysuiq",
+          "title" : "Fut Azteca | El Color Xolos vs Cruz Azul",
+          "description" : "Fut Azteca | El Color Xolos vs Cruz Azul",
+          "duration" : 124,
+          "poster" : "http://images.performgroup.com/javaImages/c1/e4/0,,~15656129,00.jpeg",
+          "templateCfg" : {
+            "channels" : [ {
+              "uuid" : "minree5c51g11my6z2mqh39cs",
+              "name" : "Azteca Deportes (MX)"
+            } ]
+          },
+          "publishedTime" : 1500874380000,
+          "rights" : [ {
+            "title" : "Azteca Mexican Football",
+            "rightsHolderName" : "Azteca_Soccer"
+          } ]
+        }, {
+          "uuid" : "1ntpgydgratys19j7fcm95rxp5",
+          "title" : "Fut Azteca | Copa Oro 2017 Semifinal | Resumen México vs Jamaica",
+          "description" : "Fut Azteca | Copa Oro 2017 Semifinal | Resumen México vs Jamaica",
+          "duration" : 128,
+          "poster" : "http://images.performgroup.com/javaImages/bb/e4/0,,~15656123,00.jpeg",
+          "templateCfg" : {
+            "channels" : [ {
+              "uuid" : "minree5c51g11my6z2mqh39cs",
+              "name" : "Azteca Deportes (MX)"
+            } ]
+          },
+          "publishedTime" : 1500874260000,
+          "rights" : [ {
+            "title" : "Azteca Mexican Football",
+            "rightsHolderName" : "Azteca_Soccer"
+          } ]
+        }, {
+          "uuid" : "l4vhgrz8kguf1aa80cg7lrddh",
+          "title" : "Fut Azteca | Apertura 2017 J1 | Resumen Xolos de Tijuana vs Cruz Azul",
+          "description" : "Fut Azteca | Apertura 2017 J1 | Resumen Xolos de Tijuana vs Cruz Azul",
+          "duration" : 167,
+          "poster" : "http://images.performgroup.com/javaImages/77/d5/0,,~15652215,00.jpeg",
+          "templateCfg" : {
+            "channels" : [ {
+              "uuid" : "minree5c51g11my6z2mqh39cs",
+              "name" : "Azteca Deportes (MX)"
+            } ]
+          },
+          "publishedTime" : 1500703620000,
+          "rights" : [ {
+            "title" : "Azteca Mexican Football",
+            "rightsHolderName" : "Azteca_Soccer"
+          } ]
+        }, {
+          "uuid" : "10frd4b6c55nc1ajo7f8m8x6pu",
+          "title" : "Fut Azteca | Apertura 2017 J1 | Resumen Monarcas vs Rayados",
+          "description" : "Fut Azteca | Apertura 2017 J1 | Resumen Monarcas vs Rayados",
+          "duration" : 135,
+          "poster" : "http://images.performgroup.com/javaImages/75/d5/0,,~15652213,00.jpeg",
+          "templateCfg" : {
+            "channels" : [ {
+              "uuid" : "minree5c51g11my6z2mqh39cs",
+              "name" : "Azteca Deportes (MX)"
+            } ]
+          },
+          "publishedTime" : 1500703560000,
+          "rights" : [ {
+            "title" : "Azteca Mexican Football",
+            "rightsHolderName" : "Azteca_Soccer"
+          } ]
+        }, {
+          "uuid" : "1w7nnv73er80p1fmnl1kdojko6",
+          "title" : "Fut Azteca | Copa Oro cuartos de final | Resumen México vs Honduras",
+          "description" : "Fut Azteca | Copa Oro cuartos de final | Resumen México vs Honduras",
+          "duration" : 187,
+          "poster" : "http://images.performgroup.com/javaImages/bf/d4/0,,~15652031,00.jpeg",
+          "templateCfg" : {
+            "channels" : [ {
+              "uuid" : "minree5c51g11my6z2mqh39cs",
+              "name" : "Azteca Deportes (MX)"
+            } ]
+          },
+          "publishedTime" : 1500686460000,
+          "rights" : [ {
+            "title" : "Azteca Mexican Football",
+            "rightsHolderName" : "Azteca_Soccer"
+          } ]
+        }, {
+          "uuid" : "1boz3zly5fudt1eei2nugkzcii",
+          "title" : "El Color | Murciélagos vs América",
+          "description" : "El Color | Murciélagos vs América",
+          "duration" : 121,
+          "poster" : "http://images.performgroup.com/javaImages/b1/d4/0,,~15652017,00.jpeg",
+          "templateCfg" : {
+            "channels" : [ {
+              "uuid" : "minree5c51g11my6z2mqh39cs",
+              "name" : "Azteca Deportes (MX)"
+            } ]
+          },
+          "publishedTime" : 1500686400000,
+          "rights" : [ {
+            "title" : "Azteca Mexican Football",
+            "rightsHolderName" : "Azteca_Soccer"
+          } ]
+        }, {
+          "uuid" : "u5cl3g67uh6d140jswttfdvh6",
+          "title" : "Copa Oro 2017 | Resumen Curazao vs México",
+          "description" : "Copa Oro 2017 | Resumen Curazao vs México",
+          "duration" : 130,
+          "poster" : "http://images.performgroup.com/javaImages/37/b4/0,,~15643703,00.jpeg",
+          "templateCfg" : {
+            "channels" : [ {
+              "uuid" : "minree5c51g11my6z2mqh39cs",
+              "name" : "Azteca Deportes (MX)"
+            } ]
+          },
+          "publishedTime" : 1500308280000,
+          "rights" : [ {
+            "title" : "Azteca Mexican Football",
+            "rightsHolderName" : "Azteca_Soccer"
+          } ]
+        }, {
+          "uuid" : "d15gjcuvres61uus818legu6a",
+          "title" : "Campeón de Campeones | Resumen Chivas vs Tigres",
+          "description" : "Campeón de Campeones | Resumen Chivas vs Tigres",
+          "duration" : 140,
+          "poster" : "http://images.performgroup.com/javaImages/30/b4/0,,~15643696,00.jpeg",
+          "templateCfg" : {
+            "channels" : [ {
+              "uuid" : "minree5c51g11my6z2mqh39cs",
+              "name" : "Azteca Deportes (MX)"
+            } ]
+          },
+          "publishedTime" : 1500308100000,
+          "rights" : [ {
+            "title" : "Azteca Mexican Football",
+            "rightsHolderName" : "Azteca_Soccer"
+          } ]
+        }, {
+          "uuid" : "1zsgqbp8kcl31olzplzbs94dk",
+          "title" : "Supercopa MX | Resumen Querétaro vs América",
+          "description" : "Supercopa MX | Resumen Querétaro vs América",
+          "duration" : 235,
+          "poster" : "http://images.performgroup.com/javaImages/2d/b4/0,,~15643693,00.jpeg",
+          "templateCfg" : {
+            "channels" : [ {
+              "uuid" : "minree5c51g11my6z2mqh39cs",
+              "name" : "Azteca Deportes (MX)"
+            } ]
+          },
+          "publishedTime" : 1500308040000,
+          "rights" : [ {
+            "title" : "Azteca Mexican Football",
+            "rightsHolderName" : "Azteca_Soccer"
+          } ]
+        }, {
+          "uuid" : "16uakifj8yn1a1icf7adnntand",
+          "title" : "Juan Carlos Osorio habla del México vs Estados Unidos",
+          "description" : "Juan Carlos Osorio habla del México vs Estados Unidos",
+          "duration" : 62,
+          "poster" : "http://images.performgroup.com/javaImages/a0/be/0,,~15580832,00.jpeg",
+          "templateCfg" : {
+            "channels" : [ {
+              "uuid" : "minree5c51g11my6z2mqh39cs",
+              "name" : "Azteca Deportes (MX)"
+            } ]
+          },
+          "publishedTime" : 1497240360000,
+          "rights" : [ {
+            "title" : "Azteca Mexican Football",
+            "rightsHolderName" : "Azteca_Soccer"
+          } ]
+        }, {
+          "uuid" : "vgf53tmvi8h1drjc4gwfri4h",
+          "title" : "Fut Azteca | Hexagonal Final | Resumen México vs Estados Unidos",
+          "description" : "Fut Azteca | Hexagonal Final | Resumen México vs Estados Unidos",
+          "duration" : 224,
+          "poster" : "http://images.performgroup.com/javaImages/9b/be/0,,~15580827,00.jpeg",
+          "templateCfg" : {
+            "channels" : [ {
+              "uuid" : "minree5c51g11my6z2mqh39cs",
+              "name" : "Azteca Deportes (MX)"
+            } ]
+          },
+          "publishedTime" : 1497240300000,
+          "rights" : [ {
+            "title" : "Azteca Mexican Football",
+            "rightsHolderName" : "Azteca_Soccer"
+          } ]
+        }, {
+          "uuid" : "1ddbmlh0l79kg1i1fau1kxymls",
+          "title" : "Hexagonal Final | Resumen México vs Honduras",
+          "description" : "Hexagonal Final | Resumen México vs Honduras",
+          "duration" : 217,
+          "poster" : "http://images.performgroup.com/javaImages/3b/a8/0,,~15575099,00.jpeg",
+          "templateCfg" : {
+            "channels" : [ {
+              "uuid" : "minree5c51g11my6z2mqh39cs",
+              "name" : "Azteca Deportes (MX)"
+            } ]
+          },
+          "publishedTime" : 1496983500000,
+          "rights" : [ {
+            "title" : "Azteca Mexican Football",
+            "rightsHolderName" : "Azteca_Soccer"
+          } ]
+        }, {
+          "uuid" : "6vvrtcr9tyof19kbp0nyywr74",
+          "title" : "Partido amistoso | Resumen México vs Irlanda",
+          "description" : "Partido amistoso | Resumen México vs Irlanda",
+          "duration" : 170,
+          "poster" : "http://images.performgroup.com/javaImages/d9/6f/0,,~15560665,00.jpeg",
+          "templateCfg" : {
+            "channels" : [ {
+              "uuid" : "minree5c51g11my6z2mqh39cs",
+              "name" : "Azteca Deportes (MX)"
+            } ]
+          },
+          "publishedTime" : 1496377140000,
+          "rights" : [ {
+            "title" : "Azteca Mexican Football",
+            "rightsHolderName" : "Azteca_Soccer"
+          } ]
+        }, {
+          "uuid" : "dltei5oos4su19hxvyxsxo2h4",
+          "title" : "Fut Azteca | El Color | Chivas vs Tigres",
+          "description" : "Fut Azteca | El Color | Chivas vs Tigres",
+          "duration" : 191,
+          "poster" : "http://images.performgroup.com/javaImages/ee/53/0,,~15553518,00.jpeg",
+          "templateCfg" : {
+            "channels" : [ {
+              "uuid" : "minree5c51g11my6z2mqh39cs",
+              "name" : "Azteca Deportes (MX)"
+            } ]
+          },
+          "publishedTime" : 1496075220000,
+          "rights" : [ {
+            "title" : "Azteca Mexican Football",
+            "rightsHolderName" : "Azteca_Soccer"
+          } ]
+        }, {
+          "uuid" : "d5ru1gfvjkeo1jotpre589jk9",
+          "title" : "Fut Azteca | CL 17 | Resumen Chivas vs Tigres",
+          "description" : "Fut Azteca | CL 17 | Resumen Chivas vs Tigres",
+          "duration" : 66,
+          "poster" : "http://images.performgroup.com/javaImages/3f/50/0,,~15552575,00.jpeg",
+          "templateCfg" : {
+            "channels" : [ {
+              "uuid" : "minree5c51g11my6z2mqh39cs",
+              "name" : "Azteca Deportes (MX)"
+            } ]
+          },
+          "publishedTime" : 1496028180000,
+          "rights" : [ {
+            "title" : "Azteca Mexican Football",
+            "rightsHolderName" : "Azteca_Soccer"
+          } ]
+        }, {
+          "uuid" : "9946x9xgovnj16k1xu4vs6bqo",
+          "title" : "Fut Azteca | Chivas, campeón | Alan Pulido",
+          "description" : "Fut Azteca | Chivas, campeón | Alan Pulido",
+          "duration" : 70,
+          "poster" : "http://images.performgroup.com/javaImages/3e/50/0,,~15552574,00.jpeg",
+          "templateCfg" : {
+            "channels" : [ {
+              "uuid" : "minree5c51g11my6z2mqh39cs",
+              "name" : "Azteca Deportes (MX)"
+            } ]
+          },
+          "publishedTime" : 1496028060000,
+          "rights" : [ {
+            "title" : "Azteca Mexican Football",
+            "rightsHolderName" : "Azteca_Soccer"
+          } ]
+        }, {
+          "uuid" : "y7fyf2jpx0ef1uk44flso736r",
+          "title" : "Fut Azteca | Chivas, campeón | Jair Pereira",
+          "description" : "Fut Azteca | Chivas, campeón | Jair Pereira",
+          "duration" : 52,
+          "poster" : "http://images.performgroup.com/javaImages/3a/50/0,,~15552570,00.jpeg",
+          "templateCfg" : {
+            "channels" : [ {
+              "uuid" : "minree5c51g11my6z2mqh39cs",
+              "name" : "Azteca Deportes (MX)"
+            } ]
+          },
+          "publishedTime" : 1496028000000,
+          "rights" : [ {
+            "title" : "Azteca Mexican Football",
+            "rightsHolderName" : "Azteca_Soccer"
+          } ]
+        } ]
+      } ]
+    },
+    "advertisements" : [ {
+      "publisherId" : "67970281",
+      "partnerId" : "16189",
+      "type" : "dfp",
+      "videoPositions" : "[0,100]"
+    } ],
+    "playerType" : "CHROMELESS",
+    "api" : false
+  }
+}

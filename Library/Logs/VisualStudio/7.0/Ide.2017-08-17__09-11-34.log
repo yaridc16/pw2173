@@ -1,0 +1,121 @@
+INFO [2017-08-17 09:11:34Z]: Starting Visual Studio 2017 for Mac 7.1 (build 1297)
+INFO [2017-08-17 09:11:34Z]: Running on Mono 5.2.0.215 (d15-3/da80840) (64-bit)
+INFO [2017-08-17 09:11:34Z]: Operating System: Mac OS X 10.12.6
+Darwin 16.7.0 Darwin Kernel Version 16.7.0
+    Thu Jun 15 17:36:27 PDT 2017
+    root:xnu-3789.70.16~2/RELEASE_X86_64 x86_64
+INFO [2017-08-17 09:11:34Z]: GTK: Using gtkrc from /Applications/Visual Studio.app/Contents/Resources/lib/monodevelop/bin/gtkrc.mac
+Could not find `PresentationCore` referenced by assembly `Microsoft.VisualStudio.Text.UI, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a`.
+Could not find `Microsoft.Build.Framework` referenced by assembly `MonoDevelop.Core, Version=2.6.0.0, Culture=neutral, PublicKeyToken=3ead7498f347467b`.
+Could not find `Microsoft.Build` referenced by assembly `MonoDevelop.Core, Version=2.6.0.0, Culture=neutral, PublicKeyToken=3ead7498f347467b`.
+Could not find `Microsoft.Build.Utilities.Core` referenced by assembly `MonoDevelop.Core, Version=2.6.0.0, Culture=neutral, PublicKeyToken=3ead7498f347467b`.
+INFO [2017-08-17 09:11:35Z]: Accessibility disabled
+WARNING [2017-08-17 09:11:35Z]: Gtk-Warning: Locale not supported by C library.
+	Using the fallback 'C' locale.
+Stack trace: 
+  at Gtk.Application.gtk_init (System.Int32& , System.IntPtr& ) [0x00000] in <52cd9d0524e94ce190303e1e2192badd>:0 
+  at Gtk.Application.do_init (System.String progname, System.String[]& args, System.Boolean check) [0x0004d] in /private/tmp/source-mono-d15-3/bockbuild-d15-3/profiles/mono-mac-xamarin/build-root/gtk-sharp-None/gtk/Application.cs:102 
+  at Gtk.Application.Init (System.String progname, System.String[]& args) [0x0000e] in /private/tmp/source-mono-d15-3/bockbuild-d15-3/profiles/mono-mac-xamarin/build-root/gtk-sharp-None/gtk/Application.cs:131 
+  at MonoDevelop.Components.IdeTheme.InitializeGtk (System.String progname, System.String[]& args) [0x000bf] in /Users/builder/data/lanes/4989/9c529966/source/monodevelop/main/src/core/MonoDevelop.Ide/MonoDevelop.Components/IdeTheme.cs:87 
+  at MonoDevelop.Ide.IdeStartup.Run (MonoDevelop.Ide.MonoDevelopOptions options) [0x00125] in /Users/builder/data/lanes/4989/9c529966/source/monodevelop/main/src/core/MonoDevelop.Ide/MonoDevelop.Ide/IdeStartup.cs:113 
+  at MonoDevelop.Ide.IdeStartup.Main (System.String[] args, MonoDevelop.Ide.Extensions.IdeCustomizer customizer) [0x00085] in /Users/builder/data/lanes/4989/9c529966/source/monodevelop/main/src/core/MonoDevelop.Ide/MonoDevelop.Ide/IdeStartup.cs:601 
+  at Xamarin.Startup.MainClass.Main (System.String[] args) [0x00000] in /Users/builder/data/lanes/4989/9c529966/source/md-addins/Xamarin.Startup/Main.cs:11 
+INFO [2017-08-17 09:11:35Z]: Using GTK+ 2.24.23
+INFO [2017-08-17 09:11:36Z]: Add-in loaded: MonoDevelop.Core
+INFO [2017-08-17 09:11:36Z]: Add-in loaded: MonoDevelop.Ide
+INFO [2017-08-17 09:11:38Z]: Add-in loaded: MonoDevelop.MacPlatform
+INFO [2017-08-17 09:11:38Z]: Initializing Runtime Mono 5.2.0.215
+Iniciando Visual Studio
+INFO [2017-08-17 09:11:38Z]: Add-in loaded: MonoDevelop.DesignerSupport
+INFO [2017-08-17 09:11:38Z]: Add-in loaded: MonoDevelop.Debugger
+INFO [2017-08-17 09:11:38Z]: Add-in loaded: MonoDevelop.SourceEditor2
+INFO [2017-08-17 09:11:38Z]: Add-in loaded: MonoDevelop.TextTemplating
+INFO [2017-08-17 09:11:38Z]: Add-in loaded: MonoDevelop.Xml
+INFO [2017-08-17 09:11:38Z]: Add-in loaded: MonoDevelop.AspNet
+INFO [2017-08-17 09:11:38Z]: Add-in loaded: MonoDevelop.UnitTesting
+INFO [2017-08-17 09:11:38Z]: Add-in loaded: MonoDevelop.RegexToolkit
+INFO [2017-08-17 09:11:38Z]: Add-in loaded: MonoDevelop.Refactoring
+INFO [2017-08-17 09:11:38Z]: Add-in loaded: MonoDevelop.PackageManagement
+INFO [2017-08-17 09:11:38Z]: Add-in loaded: MonoDevelop.Debugger.VsCodeDebugProtocol
+INFO [2017-08-17 09:11:38Z]: Add-in loaded: MonoDevelop.DotNetCore
+INFO [2017-08-17 09:11:38Z]: Add-in loaded: Xamarin.Ide.Insights
+INFO [2017-08-17 09:11:38Z]: Add-in loaded: MonoDevelop.Xamarin.Ide
+INFO [2017-08-17 09:11:38Z]: Add-in loaded: MonoDevelop.WebToolingAddin
+INFO [2017-08-17 09:11:38Z]: Add-in loaded: MonoDevelop.CSharpBinding
+INFO [2017-08-17 09:11:38Z]: Add-in loaded: MonoDevelop.Xamarin.Ide.Mac
+INFO [2017-08-17 09:11:38Z]: Add-in loaded: MonoDevelop.VersionControl
+INFO [2017-08-17 09:11:38Z]: Add-in loaded: MonoDevelop.MacDev
+INFO [2017-08-17 09:11:38Z]: Add-in loaded: Xamarin.TestCloud
+INFO [2017-08-17 09:11:38Z]: Add-in loaded: MonoDevelop.Debugger.Soft
+INFO [2017-08-17 09:11:38Z]: Add-in loaded: MonoDevelop.IPhone
+INFO [2017-08-17 09:11:38Z]: Add-in loaded: MonoDevelop.GtkCore
+INFO [2017-08-17 09:11:38Z]: Add-in loaded: MonoDevelop.VBBinding
+INFO [2017-08-17 09:11:38Z]: Add-in loaded: MonoDevelop.MonoAndroid
+INFO [2017-08-17 09:11:38Z]: Add-in loaded: Xamarin.Forms.Addin
+INFO [2017-08-17 09:11:38Z]: Add-in loaded: MonoDevelop.FSharpBinding
+INFO [2017-08-17 09:11:38Z]: Add-in loaded: MonoDevelop.Unity
+INFO [2017-08-17 09:11:38Z]: .NET Core SDK not found.
+INFO [2017-08-17 09:11:38Z]: .NET Core runtime not found.
+INFO [2017-08-17 09:11:39Z]: Add-in loaded: MonoDevelop.Packaging
+INFO [2017-08-17 09:11:39Z]: Add-in loaded: MonoDevelop.MonoMac
+   Cargando el Área de trabajo
+INFO [2017-08-17 09:11:39Z]: Add-in loaded: MonoDevelop.VersionControl.Git
+INFO [2017-08-17 09:11:39Z]: Add-in loaded: MonoDevelop.AssemblyBrowser
+INFO [2017-08-17 09:11:39Z]: Add-in loaded: Xamarin.TestCloud.NUnit
+INFO [2017-08-17 09:11:39Z]: Add-in loaded: MonoDevelop.ConnectedServices
+INFO [2017-08-17 09:11:39Z]: Add-in loaded: MonoDevelop.WebReferences
+INFO [2017-08-17 09:11:39Z]: Add-in loaded: MonoDevelop.DocFood
+INFO [2017-08-17 09:11:39Z]: Add-in loaded: Xamarin.Interactive.XS.Xamarin.Interactive
+INFO [2017-08-17 09:11:39Z]: Add-in loaded: MonoDevelop.PerformanceDiagnostics
+INFO [2017-08-17 09:11:39Z]: Add-in loaded: Xamarin.Ide.Identity
+INFO [2017-08-17 09:11:39Z]: Add-in loaded: Xamarin.AzureMobileAppService.Azure Mobile App Service
+INFO [2017-08-17 09:11:39Z]: Found Xcode, version 8.3.3 (12175.1).
+INFO [2017-08-17 09:11:39Z]: Found Xamarin.iOS, version 10.12.0.18.
+INFO [2017-08-17 09:11:39Z]: No license found for iOS
+INFO [2017-08-17 09:11:40Z]: ANDROID: Did not find Android SDK
+INFO [2017-08-17 09:11:40Z]: ANDROID: Found Xamarin.Android 7.4.0.19
+INFO [2017-08-17 09:11:40Z]: No license found for Android
+ERROR [2017-08-17 09:11:40Z]: Android SDK not found, needed by Xamarin.Android addin
+      Inicializando la ventana principal
+INFO [2017-08-17 09:11:40Z]: Creating DefaultWorkbench
+INFO [2017-08-17 09:11:41Z]: Found MonoMac.
+INFO [2017-08-17 09:11:41Z]: Found Xamarin.Mac, version 3.6.0.17.
+INFO [2017-08-17 09:11:41Z]: No license found for Mac
+ERROR [2017-08-17 09:11:43Z]: An unhandled exception has occured. Terminating Visual Studio? False
+System.Net.Sockets.SocketException (0x80004005): Success
+  at Microsoft.ServiceHub.Utility.SocketClient+<ConnectAsync>d__0.MoveNext () [0x00231] in <77315aa4fd5d49b8add7ad003b8a13a2>:0 
+ERROR [2017-08-17 09:11:44Z]: Addin updater: Could not get information from repository: http://addins.monodevelop.com/Stable/Mac/7.1/main.mrep
+ERROR [2017-08-17 09:11:44Z]: Addin updater: Could not get information from repository: http://addins.monodevelop.com/Beta/Mac/7.1/main.mrep
+INFO [2017-08-17 09:11:44Z]: Add-in loaded: MonoDevelop.VersionControl.Subversion
+INFO [2017-08-17 09:11:44Z]: Add-in loaded: MonoDevelop.VersionControl.Subversion.Unix
+INFO [2017-08-17 09:11:44Z]: Add-in loaded: MonoDevelop.UnitTesting.NUnit
+INFO [2017-08-17 09:11:44Z]: [Inspector] Initializing
+INFO [2017-08-17 09:11:45Z]: Add-in loaded: MonoDevelop.ILAsmBinding
+ERROR [2017-08-17 09:11:46Z]: Could not contact update server: 
+System.Net.WebException: Error: NameResolutionFailure
+  at System.Net.HttpWebRequest.EndGetResponse (System.IAsyncResult asyncResult) [0x00059] in /private/tmp/source-mono-d15-3/bockbuild-d15-3/profiles/mono-mac-xamarin/build-root/mono-x64/mcs/class/System/System.Net/HttpWebRequest.cs:1031 
+  at System.Threading.Tasks.TaskFactory`1[TResult].FromAsyncCoreLogic (System.IAsyncResult iar, System.Func`2[T,TResult] endFunction, System.Action`1[T] endAction, System.Threading.Tasks.Task`1[TResult] promise, System.Boolean requiresSynchronization) [0x0000f] in /private/tmp/source-mono-d15-3/bockbuild-d15-3/profiles/mono-mac-xamarin/build-root/mono-x64/mcs/class/referencesource/mscorlib/system/threading/Tasks/FutureFactory.cs:550 
+--- End of stack trace from previous location where exception was thrown ---
+  at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw () [0x0000c] in /private/tmp/source-mono-d15-3/bockbuild-d15-3/profiles/mono-mac-xamarin/build-root/mono-x64/mcs/class/referencesource/mscorlib/system/runtime/exceptionservices/exceptionservicescommon.cs:151 
+  at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess (System.Threading.Tasks.Task task) [0x00037] in /private/tmp/source-mono-d15-3/bockbuild-d15-3/profiles/mono-mac-xamarin/build-root/mono-x64/mcs/class/referencesource/mscorlib/system/runtime/compilerservices/TaskAwaiter.cs:187 
+  at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification (System.Threading.Tasks.Task task) [0x00028] in /private/tmp/source-mono-d15-3/bockbuild-d15-3/profiles/mono-mac-xamarin/build-root/mono-x64/mcs/class/referencesource/mscorlib/system/runtime/compilerservices/TaskAwaiter.cs:156 
+  at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd (System.Threading.Tasks.Task task) [0x00008] in /private/tmp/source-mono-d15-3/bockbuild-d15-3/profiles/mono-mac-xamarin/build-root/mono-x64/mcs/class/referencesource/mscorlib/system/runtime/compilerservices/TaskAwaiter.cs:128 
+  at System.Runtime.CompilerServices.TaskAwaiter`1[TResult].GetResult () [0x00000] in /private/tmp/source-mono-d15-3/bockbuild-d15-3/profiles/mono-mac-xamarin/build-root/mono-x64/mcs/class/referencesource/mscorlib/system/runtime/compilerservices/TaskAwaiter.cs:357 
+  at MonoDevelop.Core.Web.RequestHelper+<GetResponseAsync>d__15.MoveNext () [0x001c1] in /Users/builder/data/lanes/4989/9c529966/source/monodevelop/main/src/core/MonoDevelop.Core/MonoDevelop.Core.Web/RequestHelper.cs:121 
+--- End of stack trace from previous location where exception was thrown ---
+  at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw () [0x0000c] in /private/tmp/source-mono-d15-3/bockbuild-d15-3/profiles/mono-mac-xamarin/build-root/mono-x64/mcs/class/referencesource/mscorlib/system/runtime/exceptionservices/exceptionservicescommon.cs:151 
+  at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess (System.Threading.Tasks.Task task) [0x00037] in /private/tmp/source-mono-d15-3/bockbuild-d15-3/profiles/mono-mac-xamarin/build-root/mono-x64/mcs/class/referencesource/mscorlib/system/runtime/compilerservices/TaskAwaiter.cs:187 
+  at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification (System.Threading.Tasks.Task task) [0x00028] in /private/tmp/source-mono-d15-3/bockbuild-d15-3/profiles/mono-mac-xamarin/build-root/mono-x64/mcs/class/referencesource/mscorlib/system/runtime/compilerservices/TaskAwaiter.cs:156 
+  at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd (System.Threading.Tasks.Task task) [0x00008] in /private/tmp/source-mono-d15-3/bockbuild-d15-3/profiles/mono-mac-xamarin/build-root/mono-x64/mcs/class/referencesource/mscorlib/system/runtime/compilerservices/TaskAwaiter.cs:128 
+  at System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1+ConfiguredTaskAwaiter[TResult].GetResult () [0x00000] in /private/tmp/source-mono-d15-3/bockbuild-d15-3/profiles/mono-mac-xamarin/build-root/mono-x64/mcs/class/referencesource/mscorlib/system/runtime/compilerservices/TaskAwaiter.cs:535 
+  at MonoDevelop.Core.WebRequestHelper+<GetResponseAsync>d__10.MoveNext () [0x00124] in /Users/builder/data/lanes/4989/9c529966/source/monodevelop/main/src/core/MonoDevelop.Core/MonoDevelop.Core/WebRequestHelper.cs:97 
+--- End of stack trace from previous location where exception was thrown ---
+  at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw () [0x0000c] in /private/tmp/source-mono-d15-3/bockbuild-d15-3/profiles/mono-mac-xamarin/build-root/mono-x64/mcs/class/referencesource/mscorlib/system/runtime/exceptionservices/exceptionservicescommon.cs:151 
+  at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess (System.Threading.Tasks.Task task) [0x00037] in /private/tmp/source-mono-d15-3/bockbuild-d15-3/profiles/mono-mac-xamarin/build-root/mono-x64/mcs/class/referencesource/mscorlib/system/runtime/compilerservices/TaskAwaiter.cs:187 
+  at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification (System.Threading.Tasks.Task task) [0x00028] in /private/tmp/source-mono-d15-3/bockbuild-d15-3/profiles/mono-mac-xamarin/build-root/mono-x64/mcs/class/referencesource/mscorlib/system/runtime/compilerservices/TaskAwaiter.cs:156 
+  at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd (System.Threading.Tasks.Task task) [0x00008] in /private/tmp/source-mono-d15-3/bockbuild-d15-3/profiles/mono-mac-xamarin/build-root/mono-x64/mcs/class/referencesource/mscorlib/system/runtime/compilerservices/TaskAwaiter.cs:128 
+  at System.Runtime.CompilerServices.ConfiguredTaskAwaitable+ConfiguredTaskAwaiter.GetResult () [0x00000] in /private/tmp/source-mono-d15-3/bockbuild-d15-3/profiles/mono-mac-xamarin/build-root/mono-x64/mcs/class/referencesource/mscorlib/system/runtime/compilerservices/TaskAwaiter.cs:447 
+  at Xamarin.Ide.Updater.UpdateService+<QueryUpdateServer>d__52.MoveNext () [0x002b4] in /Users/builder/data/lanes/4989/9c529966/source/md-addins/Xamarin.Ide/Xamarin.Ide/Xamarin.Ide.Updater/UpdateService.cs:534 
+ERROR [2017-08-17 09:11:46Z]: No se puede establecer contacto con el servidor de actualizaciones.
+INFO [2017-08-17 09:11:46Z]: Updating Welcome Page News from 'https://go.microsoft.com/fwlink/?linkid=846107'.
+WARNING [2017-08-17 09:11:46Z]: Welcome Page news server could not be reached.

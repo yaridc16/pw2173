@@ -1,0 +1,624 @@
+<!DOCTYPE html>
+<html lang="es-ES"
+ xmlns:fb="http://www.facebook.com/2008/fbml">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<title>Instituto Tecnológico de Culiacán | Con la técnica al progreso</title>
+<!--[if lt IE 9]>
+        <script src="http://itculiacan.edu.mx/wp-content/themes/fuente-tnm/js/selectivizr-min.js"></script>
+        <script src="http://itculiacan.edu.mx/wp-content/themes/fuente-tnmjs/html5shiv.js"></script>
+ <![endif]-->
+<link rel="stylesheet" type="text/css" media="all" href="http://itculiacan.edu.mx/wp-content/themes/fuente-tnm/css/bootstrap.min.css" />
+<link rel="stylesheet" type="text/css" media="all" href="http://itculiacan.edu.mx/wp-content/themes/fuente-tnm/css/mediaelementplayer.css" />
+<link href="http://itculiacan.edu.mx/wp-content/themes/fuente-tnm/images/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+
+<link rel="alternate" type="application/rss+xml" title="Instituto Tecnológico de Culiacán &raquo; inicio-tnm RSS de los comentarios" href="http://itculiacan.edu.mx/inicio-tnm/feed/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/72x72\/","ext":".png","source":{"concatemoji":"http:\/\/itculiacan.edu.mx\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.5.9"}};
+			!function(a,b,c){function d(a){var c,d,e,f=b.createElement("canvas"),g=f.getContext&&f.getContext("2d"),h=String.fromCharCode;if(!g||!g.fillText)return!1;switch(g.textBaseline="top",g.font="600 32px Arial",a){case"flag":return g.fillText(h(55356,56806,55356,56826),0,0),f.toDataURL().length>3e3;case"diversity":return g.fillText(h(55356,57221),0,0),c=g.getImageData(16,16,1,1).data,d=c[0]+","+c[1]+","+c[2]+","+c[3],g.fillText(h(55356,57221,55356,57343),0,0),c=g.getImageData(16,16,1,1).data,e=c[0]+","+c[1]+","+c[2]+","+c[3],d!==e;case"simple":return g.fillText(h(55357,56835),0,0),0!==g.getImageData(16,16,1,1).data[0];case"unicode8":return g.fillText(h(55356,57135),0,0),0!==g.getImageData(16,16,1,1).data[0]}return!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g,h,i;for(i=Array("simple","flag","unicode8","diversity"),c.supports={everything:!0,everythingExceptFlag:!0},h=0;h<i.length;h++)c.supports[i[h]]=d(i[h]),c.supports.everything=c.supports.everything&&c.supports[i[h]],"flag"!==i[h]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[i[h]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='prettyphoto-styles-css'  href='http://itculiacan.edu.mx/wp-content/plugins/photoMosaic/includes/prettyPhoto/prettyPhoto.css?ver=4.5.9' type='text/css' media='all' />
+<link rel='stylesheet' id='photomosaic-custom-styles-css'  href='http://itculiacan.edu.mx/wp-content/plugins/photoMosaic/css/photoMosaic.css?ver=4.5.9' type='text/css' media='all' />
+<link rel='stylesheet' id='front-css-css'  href='http://itculiacan.edu.mx/wp-content/plugins/facebook-comment-by-vivacity/css/fb-comments-hidewpcomments.css?ver=4.5.9' type='text/css' media='all' />
+<link rel='stylesheet' id='easy_author_image-css'  href='http://itculiacan.edu.mx/wp-content/plugins/easy-author-image/css/easy-author-image.css?ver=4.5.9' type='text/css' media='all' />
+<link rel='stylesheet' id='social-widget-css'  href='http://itculiacan.edu.mx/wp-content/plugins/social-media-widget/social_widget.css?ver=4.5.9' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-pagenavi-css'  href='http://itculiacan.edu.mx/wp-content/plugins/wp-pagenavi/pagenavi-css.css?ver=2.70' type='text/css' media='all' />
+<link rel='stylesheet' id='display-authors-widget-styles-css'  href='http://itculiacan.edu.mx/wp-content/plugins/display-authors-widget/css/display-authors-widget.css?ver=20141604' type='text/css' media='all' />
+<link rel='stylesheet' id='megamenu-css'  href='http://itculiacan.edu.mx/wp-content/uploads/maxmegamenu/style.css?ver=1852ef' type='text/css' media='all' />
+<link rel='stylesheet' id='dashicons-css'  href='http://itculiacan.edu.mx/wp-includes/css/dashicons.min.css?ver=4.5.9' type='text/css' media='all' />
+<link rel='stylesheet' id='style-name-css'  href='http://itculiacan.edu.mx/wp-content/themes/fuente-tnm/style.css?ver=4.5.9' type='text/css' media='all' />
+<link rel='stylesheet' id='cyclone-template-style-dark-0-css'  href='http://itculiacan.edu.mx/wp-content/plugins/cyclone-slider-2/templates/dark/style.css?ver=2.11.0' type='text/css' media='all' />
+<link rel='stylesheet' id='cyclone-template-style-default-0-css'  href='http://itculiacan.edu.mx/wp-content/plugins/cyclone-slider-2/templates/default/style.css?ver=2.11.0' type='text/css' media='all' />
+<link rel='stylesheet' id='cyclone-template-style-standard-0-css'  href='http://itculiacan.edu.mx/wp-content/plugins/cyclone-slider-2/templates/standard/style.css?ver=2.11.0' type='text/css' media='all' />
+<link rel='stylesheet' id='cyclone-template-style-thumbnails-0-css'  href='http://itculiacan.edu.mx/wp-content/plugins/cyclone-slider-2/templates/thumbnails/style.css?ver=2.11.0' type='text/css' media='all' />
+<link rel='stylesheet' id='wpmega-basic-css'  href='http://itculiacan.edu.mx/wp-content/plugins/tweets-rotator-2013/css/style.css?ver=1.1' type='text/css' media='all' />
+<script type='text/javascript' src='http://itculiacan.edu.mx/wp-content/plugins/photoMosaic/js/jquery-1.5.2.min.js?ver=4.5.9'></script>
+<script type='text/javascript' src='http://itculiacan.edu.mx/wp-content/plugins/photoMosaic/includes/prettyPhoto/jquery.prettyPhoto.js?ver=4.5.9'></script>
+<script type='text/javascript' src='http://itculiacan.edu.mx/wp-content/plugins/photoMosaic/js/jquery.photoMosaic.js?ver=4.5.9'></script>
+<script type='text/javascript' src='http://itculiacan.edu.mx/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>
+<script type='text/javascript' src='http://itculiacan.edu.mx/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<link rel='https://api.w.org/' href='http://itculiacan.edu.mx/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://itculiacan.edu.mx/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://itculiacan.edu.mx/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 4.5.9" />
+<link rel="canonical" href="http://itculiacan.edu.mx/" />
+<link rel='shortlink' href='http://itculiacan.edu.mx/' />
+<link rel="alternate" type="application/json+oembed" href="http://itculiacan.edu.mx/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fitculiacan.edu.mx%2F" />
+<link rel="alternate" type="text/xml+oembed" href="http://itculiacan.edu.mx/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fitculiacan.edu.mx%2F&#038;format=xml" />
+<meta property="fb:app_id" content="1405238833069372"/>
+<meta property="fb:admins" content=""/>
+<meta property="og:locale" content="es_LA" />
+<meta property="og:locale:alternate" content="es_LA" />
+<style type="text/css" id="custom-background-css">
+body.custom-background { background-image: url('http://itculiacan.edu.mx/wp-content/uploads/2015/03/Back_basico.jpg'); background-repeat: no-repeat; background-position: top center; background-attachment: scroll; }
+</style>
+<script type="text/javascript" src="http://itculiacan.edu.mx/wp-content/themes/fuente-tnm/js/jquery.min.js"></script>
+<script type="text/javascript" src="http://itculiacan.edu.mx/wp-content/themes/fuente-tnm/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="http://itculiacan.edu.mx/wp-content/themes/fuente-tnm/js/swfobject.js"></script>
+<script type="text/javascript" src="http://itculiacan.edu.mx/wp-content/themes/fuente-tnm/js/mediaelement-and-player.min.js"></script>
+<script type="text/javascript">
+$(function(){
+  var $elems = $('.animateblock');
+  var winheight = $(window).height();
+  var fullheight = $(document).height();
+  
+  $(window).scroll(function(){
+    animate_elems();
+  });
+  
+  function animate_elems() {
+    wintop = $(window).scrollTop(); // calculate distance from top of window
+ 
+    // loop through each item to check when it animates
+    $elems.each(function(){
+      $elm = $(this);
+      
+      if($elm.hasClass('animated')) { return true; } // if already animated skip to the next item
+      
+      topcoords = $elm.offset().top; // element's distance from top of page in pixels
+      
+      if(wintop > (topcoords - (winheight*.75))) {
+        // animate when top of the window is 3/4 above the element
+        $elm.addClass('animated');
+      }
+    });
+  } // end animate_elems()
+});
+</script>
+</head>
+
+<body class="home page page-id-8300 page-template-default custom-background">
+<header id="site_header">
+	 
+	<div class="container">
+     	<div class="header">
+            <div class="search_section">
+            	<table border="0">
+                	<tr>
+                		<td id="menu-superior">
+            				<div id="nav_menu-2" class="widget_nav_menu"><div class="menu-menu-itc-tnm-superior-container"><ul id="menu-menu-itc-tnm-superior" class="menu"><li id="menu-item-8298" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8298"><a href="http://itculiacan.edu.mx/directorio/">Directorio</a></li>
+<li id="menu-item-8297" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8297"><a href="http://itculiacan.edu.mx/contactanos/">Contáctanos</a></li>
+</ul></div></div>                        </td>
+                    	<td>
+                            <form class="search-form" id="search-form" method="get" action="http://itculiacan.edu.mx" role="search">
+                                <input type="text" name="s" placeholder="Buscar" title="Ingresa tu b�squeda"/>
+                                <button type="submit">Buscar</button>
+                            </form>
+                		</td>
+                    </tr>
+            	</table>
+            </div><!--search_section-->
+            <div class="encabezado">
+                <div class="logo-tnm">
+                	<a href="http://itculiacan.edu.mx" ><img src="/wp-content/themes/fuente-tnm/images/header-sep.png"></a>
+                </div>
+                <div class="text-tnm">
+                	<h3>Tecnol&oacute;gico Nacional de M&eacute;xico</h3>
+                    <h4>Instituto Tecnológico de Culiacán</h4>
+                </div>
+                <div class="logo">
+                    <a href="http://itculiacan.edu.mx"><img src="http://itculiacan.edu.mx/wp-content/plugins/website-logo/images/LOGO_TEC_PNG_OK.png" title="Instituto Tecnológico de Culiacán" alt="Instituto Tecnológico de Culiacán"/></a>
+                </div><!--logo-->
+            </div>            
+            <nav class="site_nav">
+                <div class="nav_section">
+                                <div id="mega-menu-wrap-header_navigation" class="mega-menu-wrap"><div class="mega-menu-toggle"><div class='mega-toggle-block mega-menu-toggle-block mega-toggle-block-right' id='mega-toggle-block-1'></div></div><ul id="mega-menu-header_navigation" class="mega-menu mega-menu-horizontal mega-no-js" data-event="hover" data-effect="disabled" data-second-click="close" data-document-click="collapse" data-reverse-mobile-items="true" data-vertical-behaviour="standard" data-breakpoint="767"><li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-current-menu-item mega-current_page_item mega-align-bottom-left mega-menu-flyout mega-menu-item-8283' id='mega-menu-item-8283'><a class="mega-menu-link" href="/">Inicio</a></li><li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-has-children mega-align-bottom-left mega-menu-megamenu mega-menu-item-8284' id='mega-menu-item-8284'><a class="mega-menu-link" href="#">Tecnológico</a>
+<ul class="mega-sub-menu">
+<li class='mega-menu-item mega-menu-item-type-widget widget_sp_image mega-menu-columns-2-of-6 mega-menu-item-widget_sp_image-2' id='mega-menu-item-widget_sp_image-2'><img width="330" height="330" alt="Ing. José Guillermo Cárdenas López" class="attachment-full" style="max-width: 100%;" src="http://itculiacan.edu.mx/wp-content/uploads/2015/03/director.jpg" /></li><li class='mega-menu-item mega-menu-item-type-widget widget_text mega-menu-columns-5-of-6 mega-menu-clear mega-menu-item-text-7' id='mega-menu-item-text-7'>			<div class="textwidget"><div id="acciones_submenu">
+	<div class="acciones_submenu">
+    	<h3>Instituto Tecnológico de Culiacán</h3>
+        <span><a href="/antecedentes-historicos/">Historia</a></span>
+        <span><a href="https://login.microsoftonline.com/">Correo Institucional</a></span>
+        <span><a href="/mensaje-del-director/">Director</a></span>
+        <span><a href="/mision-vision-y-valores/">Misión, Visión y Valores</a></span>
+        <span><a href="/procedimientos-academicos-administrativos/">Procedimientos Académicos Administrativos</a></span>
+        <span><a href="/sistema-integrado-de-gestion/">Sistema Integrado de Gestión</a></span>
+    </div>
+    <div class="acciones_submenu">
+        <h3>Departamentos Acad&eacute;micos</h3>
+        <span><a href="/bioquimica/">Ingeniería Química-Bioquímica</a></span>
+        <span><a href="/ciencias-basicas/">Ciencias Básicas</a></span>
+        <span><a href="/desarrollo-academico/">Desarrollo Académico</a></span>
+        <span><a href="/division-de-estudios/">División de Estudios Profesionales</a></span>
+        <span><a href="/posgrados/">División de Estudios de Posgrado e Investigación</a></span>
+        <span><a href="/economico-administrativas/">Ciencias Económico-Administrativas</a></span>
+        <span><a href="/electrica-electronica/">Eléctrica-Electrónica</a></span>
+        <span><a href="/industrial/">Ingeniería Industrial</a></span>       
+        <span><a href="/metal-mecanica/">Metal-Mecánica</a></span>
+        <span><a href="/sistemas-y-computacion/">Sistemas y Computación</a></span>    
+    </div>
+    <div class="acciones_submenu">
+        <h3>Departamentos de Planeación y Vinculación</h3>
+        <span><a href="/actividades-extraescolares/">Promoción Cultural y Deportiva</a></span>
+        <span><a href="/centro-de-informacion/">Centro de Información</a></span>
+        <span><a href="/comunicacion/">Comunicación y Difusión</a></span>
+        <span><a href="/gestion-tecnologica-y-vinculacion/">Gestión Tecnológica y Vinculación</a></span>
+        <span><a href="/planeacion-programacion-y-presupuestacion/">Planeación, Programación y Presupuestación</a></span>
+        <span><a href="/servicios-escolares/">Servicios Escolares</a></span>
+    </div>
+        <div class="acciones_submenu">
+        <h3>Departamentos de Servicios Administrativos</h3>
+        <span><a href="/mantenimiento-y-equipo/">Mantenimiento y Equipo</a></span>
+        <span><a href="/recursos-financieros/">Recursos Financieros</a></span>
+        <span><a href="/recursos-materiales/">Recursos Materiales y Servicios</a></span>
+	<span><a href="/recursos-humanos/">Recursos Humanos</a></span>
+	<span><a href="/centro-de-computo/">Centro de Cómputo</a></span>
+    </div>
+</div> </div>
+		</li></ul>
+</li><li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-has-children mega-align-bottom-left mega-menu-megamenu mega-menu-item-8286' id='mega-menu-item-8286'><a class="mega-menu-link" href="#">Oferta Educativa</a>
+<ul class="mega-sub-menu">
+<li class='mega-menu-item mega-menu-item-type-widget widget_text mega-menu-columns-6-of-6 mega-menu-item-text-8' id='mega-menu-item-text-8'>			<div class="textwidget"><div id="acciones_submenu">
+    <div class="acciones_submenu">
+        <h3>Licenciaturas</h3>
+        <span><a href="/ing-ambiental/">Ing. Ambiental</a></span>
+        <span><a href="/ing-bioquimica/">Ing. Bioqu&iacute;mica</a></span>
+        <span><a href="/ing-electrica/">Ing. El&eacute;ctrica</a></span>
+        <span><a href="/ing-electronica/">Ing. Electr&oacute;nica</a></span>
+        <span><a href="/ing-energias-renovables/">Ing. en Energ&iacute;as Renovables</a></span>
+        <span><a href="/ing-gestion-empresarial/">Ing. en Gesti&oacute;n Empresarial</a></span>
+        <span><a href="/ing-industrial/">Ing. Industrial</a></span>
+        <span><a href="/ing-mecanica/">Ing. Mec&aacute;nica</a></span>
+        <span><a href="/ing-mecatronica/">Ing. Mecatr&oacute;nica</a></span>
+        <span><a href="/ing-en-sistemas-computacionales/">Ing. en Sistemas Computacionales</a></span>
+        <span><a href="/ing-en-tecnologias-de-la-informacion-y-comunicaciones/">Ing. en Tecnolog&iacute;as de la Informaci&oacute;n y Comunicaciones</a></span>
+    </div>
+    <div class="acciones_submenu">
+        <span><a href="/posgrados/"><h3>Posgrados</h3></a></span>
+        <span><a href="/posgrados/admisiones/admisiones-mcc/">Maestría en Ciencias de la Computación</a></span>
+	<span><a href="/posgrados/admisiones/admisiones-mci/">Maestría en Ciencias de la Ingeniería</a></span>
+	<span><a href="/posgrados/admisiones/admisiones-mii/">Maestría en Ingeniería Industrial</a></span>
+	<span><a href="/posgrados/admisiones/admisiones-dci/">Doctorado en Ciencias de la Ingeniería</a></span>
+    </div>
+    <div class="acciones_submenu">
+        <h3>Coordinación de Lenguas Extranjeras</h3>
+        <span><a href="/cle/">Coordinación de Lenguas Extranjeras</a></span>
+        <span><a href="/cle-informes/">Informes</a></span>
+        <span><a href="/cle-dale/">DALE</a></span>
+        <span><a href="/cle-programa-e-inscripciones/">Programa e Inscripciones</a></span>
+        <span><a href="/categoria/cle/">Noticias</a></span>
+    </div>
+</div> </div>
+		</li></ul>
+</li><li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-has-children mega-align-bottom-left mega-menu-megamenu mega-menu-item-8287' id='mega-menu-item-8287'><a class="mega-menu-link" href="#">Alumnos</a>
+<ul class="mega-sub-menu">
+<li class='mega-menu-item mega-menu-item-type-widget widget_text mega-menu-columns-4-of-4 mega-menu-item-text-9' id='mega-menu-item-text-9'>			<div class="textwidget"><div id="acciones_submenu">
+	<div class="acciones_submenu">
+    		<h3>Centro de Información</h3>
+		<span><a href="http://itculiacan.edu.mx/reglamento-del-centro-de-informacion/">Reglamento del Centro de Información</a></span>
+                <span><a href="http://itculiacan.edu.mx/servicios-del-centro-de-informacion/">Servicios del Centro de Información</a></span>
+       		<span><a href="http://itculiacan.edu.mx/sistec/acervosdigitales/">Acervos Digitales</a></span>        
+       		<span><a href="http://itculiacan.libricentro.com/">Biblioteca Virtual</a></span>
+<span><a href="http://itculiacan.vstbridge.com/">Biblioteca Virtual Pearson</a></span>
+    		<h3>Cuidemos el medio ambiente</h3>
+		<span><a href="https://itculiacan.edu.mx/wp-content/uploads/2017/04/TRIPTICO-AHORRO-DE-ENERGIA-ELECTRICA.pdf">¿Cómo podemos ahorrar energía eléctrica?</a></span>
+<span><a href="https://itculiacan.edu.mx/wp-content/uploads/2017/04/TRIPTICO-USO-EFICIENTE-DEL-AGUA.pdf">Uso eficiente del agua</a></span>
+<span><a href="https://itculiacan.edu.mx/wp-content/uploads/2017/04/TRIPTICO-MANEJO-DE-RESIDUOS-SOLIDOS.pdf">Manejo de residuos sólidos</a></span>
+	</div>  
+<div class="acciones_submenu">
+       		<h3>División de Estudios Profesionales</h3>
+       		<span><a href="http://itculiacan.edu.mx/requisitos-de-titulacion/">Requisitos de Titulación</a></span>
+		<h3>Plan 2004-2005</h3>			
+		<span><a href="http://itculiacan.edu.mx/wp-content/uploads/2015/11/2-ACREDITACION-DE-ASIGNATURAS.pdf">Lineamiento para la acreditación de asignaturas</a></span>
+		<span><a href="http://itculiacan.edu.mx/wp-content/uploads/2015/11/7-EQUIVALENCIAS-DE-ESTUDIOS.pdf">Lineamiento para la equivalencia de estudios</a></span>
+		<span><a href="http://itculiacan.edu.mx/wp-content/uploads/2015/11/5.-CONVALIDACION-DE-ESTUDIOS.pdf">Lineamiento para la convalidación de estudios</a></span>
+		<h3>Plan 2009-2010</h3>			
+		<span><a href="http://itculiacan.edu.mx/wp-content/uploads/2015/11/Lineamiento-para-la-Evaluaci%C3%B3n-y-Acreditaci%C3%B3n-de-Asignaturas-plan-2009-2010.pdf">Lineamiento para la acreditación de asignaturas</a></span>
+		<span><a href="http://itculiacan.edu.mx/wp-content/uploads/2015/11/Lineamiento-para-la-Resoluci%C3%B3n-de-Equivalencia-de-Estudios-plan-2009-2010.pdf">Lineamiento para la equivalencia de estudios</a></span>
+		<span><a href="http://itculiacan.edu.mx/wp-content/uploads/2015/11/Lineamiento-para-la-Convalidaci%C3%B3n-de-Estudios-plan-2009-2010.pdf">Lineamiento para la convalidación de estudios</a></span>
+		<h3>Plan 2015</h3>			
+		<span><a href="http://itculiacan.edu.mx/wp-content/uploads/2015/11/Manual_de_Lineamientos_TecNM-plan-2015.pdf">Manual de Lineamientos académico-administrativos</a></span>
+	</div>  
+	<div class="acciones_submenu">
+		<h3>Servicios Escolares</h3>
+        	<span><a href="http://itculiacan.edu.mx/reglamento-institucional/">Reglamento Institucional</a></span>	
+       		<span><a href="http://itculiacan.edu.mx/control-escolar/">Horarios de atención</a></span>
+      		<span><a href="https://sitec.itculiacan.edu.mx/acceso/">Sistema de Integración Escolar (Carga)</a></span>
+        	<span><a href="https://sitec.itculiacan.edu.mx/acceso/">Sistema de Integración Escolar (Consulta)</a></span>
+	</div>
+	<div class="acciones_submenu">
+    		<h3>Gestión Tecnológica y Vinculación</h3>
+		<span><a href="http://itculiacan.edu.mx/carta-responsiva-para-estudiantes-que-asistan-a-visitas-industriales/">Carta responsiva para estudiantes que realicen visitas industriales</a></span>
+		<span><a href="http://itculiacan.edu.mx/servicio-social/">Servicio Social</a></span>
+		<span><a href="http://itculiacan.edu.mx/residencias-profesionales/">Residencias Profesionales</a></span>
+		<span><a href="http://itculiacan.trabajando.com.mx/">Bolsa de Trabajo ITC</a></span>
+		<span><a href="http://itculiacan.occ.com.mx/Bolsa_Trabajo/">Bolsa de Trabajo OCC (Red Universitaria de Empleo)</a></span>
+	</div>
+	<div class="acciones_submenu">
+    		<h3>Recursos Financieros</h3>
+<span><a href="http://itculiacan.edu.mx/datos-para-realizar-pagos-de-tramites-de-la-institucion-en-culiacan-y-navolato/">Banco y número de cuenta para pagos del IT Culiacán y Extensión Navolato</a></span>		
+<span><a href="http://itculiacan.edu.mx/digitoverificador.php/">Consulta tu dígito verificador</a></span>
+		<span><a href="http://itculiacan.edu.mx/atencion-necesitas-recibo-deducible//">Recibo deducible</a></span>
+<span><a href="https://itculiacan.edu.mx/wp-content/uploads/2017/06/CUOTAS-SEMESTRE-AGOSTO-DICIEMBRE-2017-OK.pdf">Cuotas semestre agosto-diciembre 2017</a></span>
+	</div>
+	<div class="acciones_submenu">
+    		<h3>Sistema Integrado de Gestión</h3>	
+		<span><a href="http://itculiacan.edu.mx/buzon-de-quejas-yo-sugerencias/">Buzón de Quejas y/o Sugerencias</a></span>
+    	</div>
+	<div class="acciones_submenu">
+        	<h3>Desarrollo Académico</h3>
+        	<span><a href="http://itculiacan.edu.mx/actividades-complementarias/">Actividades Complementarias</a></span>
+       		<span><a href="http://itculiacan.edu.mx/wp-content/uploads/2015/11/Lineamiento-para-la-Evaluaci%C3%B3n-y-Acreditaci%C3%B3n-de-Asignaturas-plan-2009-2010.pdf" target="_blank">Lineamiento para la evaluación y acreditación de asignaturas anteriores a agosto 2015</a></span>
+  	     	<span><a href="http://itculiacan.edu.mx/wp-content/uploads/2016/01/LINEAMIENTO-PARA-LA-EVALUACION-Y-ACREDITACION-DE-ASIGNATURAS-AGOSTO-2015.pdf" target="_blank">Lineamiento para evaluación y acreditación de asignaturas vigente a partir de agosto 2015</a></span>
+<span><a href="http://itculiacan.edu.mx/informacion-para-aspirantes/">Información para aspirantes</a></span>
+  	 	</div></div>
+		</li></ul>
+</li><li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-has-children mega-align-bottom-right mega-menu-megamenu mega-menu-item-8288' id='mega-menu-item-8288'><a class="mega-menu-link" href="#">Maestros</a>
+<ul class="mega-sub-menu">
+<li class='mega-menu-item mega-menu-item-type-widget widget_text mega-menu-columns-6-of-6 mega-menu-item-text-10' id='mega-menu-item-text-10'>			<div class="textwidget"><div class="multimedia_menu">
+    <span><a href="https://login.microsoftonline.com/" class="">Correo</a></span>
+    <span><a href="http://sitec.itculiacan.edu.mx/acceso/" class="">Sistema de Integración Escolar</a></span>
+    <span><a href="https://skydrive.live.com/" class="">SkyDrive</a></span>
+    <span><a href="https://office.microsoft.com/es-mx" class="">Office 365</a></span>
+</div></div>
+		</li></ul>
+</li><li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-has-children mega-align-bottom-right mega-menu-megamenu mega-menu-item-8289' id='mega-menu-item-8289'><a class="mega-menu-link" href="#">Noticias</a>
+<ul class="mega-sub-menu">
+<li class='mega-menu-item mega-menu-item-type-widget widget_text mega-menu-columns-6-of-6 mega-menu-item-text-11' id='mega-menu-item-text-11'>			<div class="textwidget"><div class="multimedia_menu">
+    <span><a href="http://itculiacan.edu.mx/blog/" class="">Noticias</a></span>
+    <span><a href="http://itculiacan.edu.mx/informatec/" class="">InfórmaTec</a></span>
+<span><a href="http://itculiacan.edu.mx/incvare/" class="">Incvare</a></span>
+</div></div>
+		</li></ul>
+</li></ul></div>                </div><!--nav_section-->
+            </nav><!-- #site-nav --> 
+        </div><!--header-->
+   </div> <!--wrapper-->
+
+<!-- #site-header -->
+<!-- #site-header extra -->
+   
+</header><!-- #site-header -->   
+  
+<div class="con_bg">
+	<div class="container">
+        <div id="content">   
+            <div id="main-slider" class="slider">
+                <div class="slider-window">
+                    <div class="slider-slider">
+                        <div tabindex="0" class="cycloneslider cycloneslider-template-standard cycloneslider-width-responsive" id="cycloneslider-banner-1" style="max-width:978px" > <div class="cycloneslider-slides cycle-slideshow" data-cycle-allow-wrap="true" data-cycle-dynamic-height="off" data-cycle-auto-height="978:340" data-cycle-auto-height-easing="null" data-cycle-auto-height-speed="250" data-cycle-delay="0" data-cycle-easing="" data-cycle-fx="scrollHorz" data-cycle-hide-non-active="true" data-cycle-log="false" data-cycle-next="#cycloneslider-banner-1 .cycloneslider-next" data-cycle-pager="#cycloneslider-banner-1 .cycloneslider-pager" data-cycle-pause-on-hover="true" data-cycle-prev="#cycloneslider-banner-1 .cycloneslider-prev" data-cycle-slides="&gt; div" data-cycle-speed="1000" data-cycle-swipe="false" data-cycle-tile-count="7" data-cycle-tile-delay="100" data-cycle-tile-vertical="true" data-cycle-timeout="6000" > <div class="cycloneslider-slide cycloneslider-slide-image" > <a class="cycloneslider-caption-more" href="https://youtu.be/XNjAIFnbWpU"> <img src="http://itculiacan.edu.mx/wp-content/uploads/2017/08/IMAGEN-SLIDER-AGUILA-REAL-OK-978x340.jpg" alt="" title="" /> </a> </div> <div class="cycloneslider-slide cycloneslider-slide-image" > <a class="cycloneslider-caption-more" href="https://youtu.be/MTQL_ydEfj4"> <img src="http://itculiacan.edu.mx/wp-content/uploads/2017/08/IMAGEN-SLIDER-MENSAJE-DIRECTOR-GENERAL-978x340.jpg" alt="" title="" /> </a> </div> <div class="cycloneslider-slide cycloneslider-slide-image" > <img src="http://itculiacan.edu.mx/wp-content/uploads/2017/08/SLIDER-TERMINO-CURSO-INGLES-978x340.jpg" alt="" title="" /> <div class="cycloneslider-caption"> <div class="cycloneslider-caption-title"></div> <div class="cycloneslider-caption-description"><div class="title"><div style="margin-top: 0px" class="center-from-parent"><h1><a>"Finalizan estudiantes curso de inglés para poder realizar un posgrado en Inglaterra"</a></h1><a href="http://itculiacan.edu.mx/finalizan-estudiantes-curso-de-ingles-para-poder-realizar-un-posgrado-en-inglaterra/" class="more-link">Leer más</a></div></div></div> </div> </div> <div class="cycloneslider-slide cycloneslider-slide-image" > <a class="cycloneslider-caption-more" href="http://itculiacan.edu.mx/convocatoria-de-becas-manutencion-sinaloa-2017-2018/"> <img src="http://itculiacan.edu.mx/wp-content/uploads/2017/08/SLIDER-BECAS-MANUTENCION-SINALOA-2017-978x340.jpg" alt="" title="" /> </a> </div> <div class="cycloneslider-slide cycloneslider-slide-image" > <a class="cycloneslider-caption-more" href="http://itculiacan.edu.mx/lista-de-aceptados-a-programas-de-posgrados-2017/"> <img src="http://itculiacan.edu.mx/wp-content/uploads/2017/08/SLIDER-LISTA-DE-ACEPTADOS-POSGRADOS-2017-978x340.jpg" alt="" title="" /> </a> </div> <div class="cycloneslider-slide cycloneslider-slide-image" > <a class="cycloneslider-caption-more" href="http://entrepares.conricyt.mx/"> <img src="http://itculiacan.edu.mx/wp-content/uploads/2017/06/SLIDER-ENTRE-PARES-978x340.jpg" alt="" title="" /> </a> </div> <div class="cycloneslider-slide cycloneslider-slide-image" > <a class="cycloneslider-caption-more" href="http://itculiacan.edu.mx/programa-de-estimulos-al-desempeno-del-personal-docente-2017/"> <img src="http://itculiacan.edu.mx/wp-content/uploads/2017/06/SLIDER-CONVOCATORIA-EDD-2017.jpg" alt="" title="" /> </a> </div> </div> <div class="cycloneslider-pager"></div> <a href="#" class="cycloneslider-prev"> <span class="arrow"></span> </a> <a href="#" class="cycloneslider-next"> <span class="arrow"></span> </a> </div>                    </div>
+                </div>
+            </div><!-- #main-slider -->
+            <div class="home_content">
+                <div class="col8">
+                                      					 	
+                    <article class="home-post animateblock left" id="post-">
+                       <a href="http://itculiacan.edu.mx/inauguran-inicio-de-ciclo-escolar-2017-2018-en-el-itc/" class="thumb ">
+                                <img width="250" height="160" src="http://itculiacan.edu.mx/wp-content/uploads/2017/08/INICIO-CICLO-ESCOLAR-2017-2018-01-250x160.jpg" class="attachment-thumbnail size-thumbnail wp-post-image" alt="INICIO CICLO ESCOLAR 2017-2018 01" />                       </a>
+                       <time datetime="2014-10-09T04:05:41-05:00" class="post-time-ribbon">22 Ago</time>
+                       <div class="col_xl">
+                        <h1 class="post-title">
+                            <a href="http://itculiacan.edu.mx/inauguran-inicio-de-ciclo-escolar-2017-2018-en-el-itc/">Inauguran inicio de ciclo escolar 2017-2018 en el ITC</a></h1>
+                            <p><p style="text-align: justify;">Ante la presencia de autoridades educativas, empresariales, así como de la comunidad tecnológica, dio inicio el ciclo escolar 2017-2018 en el Instituto Tecnológico de Culiacán (ITC).</p>
+<p style="text-align: justify;">José </p> ... </p>
+                            <a href="http://itculiacan.edu.mx/inauguran-inicio-de-ciclo-escolar-2017-2018-en-el-itc/" class="more-link">Leer m&aacute;s</a>
+                    	</div><!--col_xl-->
+                    </article>
+                  	
+                    <article class="home-post animateblock left" id="post-30">
+                       <a href="http://itculiacan.edu.mx/convocatoria-para-conformar-el-subcomite-de-etica-y-de-prevencion-de-conflictos-de-interes/" class="thumb ">
+                                <img width="250" height="126" src="http://itculiacan.edu.mx/wp-content/uploads/2017/08/meg-250x126.jpg" class="attachment-thumbnail size-thumbnail wp-post-image" alt="meg" />                       </a>
+                       <time datetime="2014-10-09T04:05:41-05:00" class="post-time-ribbon">21 Ago</time>
+                       <div class="col_xl">
+                        <h1 class="post-title">
+                            <a href="http://itculiacan.edu.mx/convocatoria-para-conformar-el-subcomite-de-etica-y-de-prevencion-de-conflictos-de-interes/">Convocatoria para conformar el Subcomité de Ética y de Prevención de Conflictos de Interés</a></h1>
+                            <p><p style="text-align: justify;">Se hace una atenta invitación a la comunidad tecnológica a participar en la “Etapa de Nominación” para la integración del Subcomité de Ética y Prevención de Conflictos de </p> ... </p>
+                            <a href="http://itculiacan.edu.mx/convocatoria-para-conformar-el-subcomite-de-etica-y-de-prevencion-de-conflictos-de-interes/" class="more-link">Leer m&aacute;s</a>
+                    	</div><!--col_xl-->
+                    </article>
+                  	
+                    <article class="home-post animateblock left" id="post-30">
+                       <a href="http://itculiacan.edu.mx/convocatoria-de-becas-alimenticias-agosto-diciembre-2017/" class="thumb ">
+                                <img width="250" height="160" src="http://itculiacan.edu.mx/wp-content/uploads/2016/10/IMG_9175-250x160.jpg" class="attachment-thumbnail size-thumbnail wp-post-image" alt="img_9175" />                       </a>
+                       <time datetime="2014-10-09T04:05:41-05:00" class="post-time-ribbon">17 Ago</time>
+                       <div class="col_xl">
+                        <h1 class="post-title">
+                            <a href="http://itculiacan.edu.mx/convocatoria-de-becas-alimenticias-agosto-diciembre-2017/">Convocatoria de becas alimenticias (agosto-diciembre 2017)</a></h1>
+                            <p><p style="text-align: justify;">Con base en los lineamientos para el otorgamiento de becas alimenticias, se emite la presente convocatoria con el fin de propiciar que estudiantes en situación económica adversa cuenten </p> ... </p>
+                            <a href="http://itculiacan.edu.mx/convocatoria-de-becas-alimenticias-agosto-diciembre-2017/" class="more-link">Leer m&aacute;s</a>
+                    	</div><!--col_xl-->
+                    </article>
+                  	
+                    <article class="home-post animateblock left" id="post-30">
+                       <a href="http://itculiacan.edu.mx/lamudi-scholarship-la-beca-del-sector-inmobiliario/" class="thumb ">
+                                <img width="250" height="160" src="http://itculiacan.edu.mx/wp-content/uploads/2017/08/IMAGEN-Flyer-Lamudi-Scholarship-EXT-250x160.jpg" class="attachment-thumbnail size-thumbnail wp-post-image" alt="Flyer Lamudi Scholarship EXT" />                       </a>
+                       <time datetime="2014-10-09T04:05:41-05:00" class="post-time-ribbon">10 Ago</time>
+                       <div class="col_xl">
+                        <h1 class="post-title">
+                            <a href="http://itculiacan.edu.mx/lamudi-scholarship-la-beca-del-sector-inmobiliario/">Lamudi Scholarship: La beca del sector inmobiliario</a></h1>
+                            <p><p style="text-align: justify;">Lamudi, el portal inmobiliario global que forma parte del conglomerado Alemán de empresas digitales Rocket Internet, ha lanzado el programa Lamudi Scholarship: la beca del sector inmobiliario, el </p> ... </p>
+                            <a href="http://itculiacan.edu.mx/lamudi-scholarship-la-beca-del-sector-inmobiliario/" class="more-link">Leer m&aacute;s</a>
+                    	</div><!--col_xl-->
+                    </article>
+                  	
+                    <article class="home-post animateblock left" id="post-30">
+                       <a href="http://itculiacan.edu.mx/lista-de-estudiantes-aceptados-de-nuevo-ingreso-2017/" class="thumb ">
+                                <img width="250" height="160" src="http://itculiacan.edu.mx/wp-content/uploads/2016/07/BECAS-250x160.jpg" class="attachment-thumbnail size-thumbnail wp-post-image" alt="BECAS" />                       </a>
+                       <time datetime="2014-10-09T04:05:41-05:00" class="post-time-ribbon">04 Ago</time>
+                       <div class="col_xl">
+                        <h1 class="post-title">
+                            <a href="http://itculiacan.edu.mx/lista-de-estudiantes-aceptados-de-nuevo-ingreso-2017/">Lista de estudiantes aceptados de nuevo ingreso 2017</a></h1>
+                            <p><strong>AVISO PARA PADRES</strong>
+<p class="x_MsoNormal" style="text-align: justify;">El Instituto Tecnológico de Culiacán hace una atenta invitación a los padres de familia de estudiantes que fueron seleccionados, al “Curso de inducción para padres </p> ... </p>
+                            <a href="http://itculiacan.edu.mx/lista-de-estudiantes-aceptados-de-nuevo-ingreso-2017/" class="more-link">Leer m&aacute;s</a>
+                    	</div><!--col_xl-->
+                    </article>
+                  	
+                    <article class="home-post animateblock left" id="post-30">
+                       <a href="http://itculiacan.edu.mx/proceso-de-reinscripcion-para-el-semestre-agosto-diciembre-2017/" class="thumb ">
+                                <img width="150" height="150" src="http://itculiacan.edu.mx/wp-content/uploads/2014/08/COMPUTADORAS-150x150.jpg" class="attachment-thumbnail size-thumbnail wp-post-image" alt="COMPUTADORAS" />                       </a>
+                       <time datetime="2014-10-09T04:05:41-05:00" class="post-time-ribbon">03 Ago</time>
+                       <div class="col_xl">
+                        <h1 class="post-title">
+                            <a href="http://itculiacan.edu.mx/proceso-de-reinscripcion-para-el-semestre-agosto-diciembre-2017/">Proceso de reinscripción para el semestre agosto-diciembre 2017</a></h1>
+                            <p><p style="text-align: justify;">Atención estudiantes:</p>
+<p style="text-align: justify;">Las fechas para cargas académicas se modificaron, consulta la información actualizada que se muestra en la siguiente tabla:</p>
+<p style="text-align: justify;"><strong>Cargas académicas</strong></p>
+<a href="http://itculiacan.edu.mx/wp-content/uploads/2017/08/TABLA-REINSCRIPCION-AGOSTO-DICIEMBRE-2017.jpg"><img class=" wp-image-14982 alignleft" </a> ... </p>
+                            <a href="http://itculiacan.edu.mx/proceso-de-reinscripcion-para-el-semestre-agosto-diciembre-2017/" class="more-link">Leer m&aacute;s</a>
+                    	</div><!--col_xl-->
+                    </article>
+                                  </div><!--col8-->
+                <div class="col4">
+                    <aside id="sidebar" class="clearfix">
+                        <div id="social-widget-2" class="Social_Widget"><div class="socialmedia-buttons smw_left"><a href="https://www.facebook.com/Instituto-Tecnol%C3%B3gico-de-Culiac%C3%A1n-107107225974161/" rel="nofollow" target="_blank"><img width="32" height="32" src="http://itculiacan.edu.mx/wp-content/plugins/social-media-widget/images/default/32/facebook.png" 
+				alt="Síguenos en Facebook" 
+				title="Síguenos en Facebook" style="opacity: 0.5; -moz-opacity: 0.5;" class="fade" /></a><a href="https://twitter.com/itculiacan_ofi" rel="nofollow" target="_blank"><img width="32" height="32" src="http://itculiacan.edu.mx/wp-content/plugins/social-media-widget/images/default/32/twitter.png" 
+				alt="Síguenos en Twitter" 
+				title="Síguenos en Twitter" style="opacity: 0.5; -moz-opacity: 0.5;" class="fade" /></a><a href="https://www.youtube.com/channel/UC__DDgnTuxBepOlkprbcKeA" rel="nofollow" target="_blank"><img width="32" height="32" src="http://itculiacan.edu.mx/wp-content/plugins/social-media-widget/images/default/32/youtube.png" 
+				alt="Síguenos en YouTube" 
+				title="Síguenos en YouTube" style="opacity: 0.5; -moz-opacity: 0.5;" class="fade" /></a><a href="http://itculiacan.edu.mx/feed/" rel="nofollow" target="_blank"><img width="32" height="32" src="http://itculiacan.edu.mx/wp-content/plugins/social-media-widget/images/default/32/rss.png" 
+				alt="Síguenos en RSS" 
+				title="Síguenos en RSS" style="opacity: 0.5; -moz-opacity: 0.5;" class="fade" /></a></div></div><div id="text-16" class="widget_text">			<div class="textwidget"><div class="sidebar-module green-box">
+    <div class="sidebar-main">
+            <span class="title">Ver el Video<span><h3>Institucional</h3></span><br>            </span>
+            <a href="/gallery/video-institucional/" class="button green normal">Ingresar</a>
+    </div>
+</div>
+<div class="sidebar-module banner animateblock top"   title="Cusro de Inducción 2017">
+    <a href="/curso-de-induccion-para-estudiantes-de-nuevo-ingreso-del-instituto-tecnologico-de-culiacan">
+    	<img src="http://itculiacan.edu.mx/wp-content/uploads/2017/07/BOTON-CUSRO-DE-INDUCCIÓN-2017.jpg" alt="Curso de Inducción 2017" />
+    </a>
+</div>
+
+<div class="sidebar-module banner animateblock top" title="Video institucional del TecNM">
+    <a href="https://youtu.be/hdsdzWxSxko">
+    	<img src="/wp-content/uploads/2016/05/BOTON-VIDEO-TECNM-OK.jpg" alt="Video institucional del TecNM" />
+    </a>
+</div>
+<div class="sidebar-module banner animateblock top" title="Informe de Rendición de Cuentas 2016">
+    <a href="/wp-content/uploads/2017/02/LIBRO_RENDICION_DE_CUENTAS_2016_OK.pdf">    	<img src="/wp-content/uploads/2017/02/BOTON-RENDICION-DE-CUENTAS-2016.jpg"alt="Informe de Rendición de Cuentas 2016" />
+    </a>
+</div>
+<div class="sidebar-module banner animateblock top" title="Programa Presupuestario Expansión de la Educación Media Superior y Superior PROEXEES 2015">
+    <a href="programa-presupuestario-expansion-de-la-educacion-media-superior-y-superior-proexoees-2015/">
+    	<img src="http://itculiacan.edu.mx/wp-content/uploads/2017/07/BOTON-EXPANSION-OFERTA-EDUCATIVA-PROEXEES-2015_correcto.jpg" alt="Programa Presupuestario Expansión de la Educación Media Superior y Superior PROEXEES 2015" />
+    </a>
+</div>
+<div class="sidebar-module banner animateblock top" title="Programa Presupuestario Expansión de la Educación Media Superior y Superior PROEXEES 2016">
+    <a href="/programa-presupuestario-expansion-de-la-educacion-media-superior-y-superior-proexes-2016/">
+    	<img src="http://itculiacan.edu.mx/wp-content/uploads/2017/07/BOTON-EXPANSION-OFERTA-EDUCATIVA-PROEXES-2016.jpg" alt="Programa Presupuestario Expansión de la Educación Media Superior y Superior PROEXEES 2016" />
+    </a>
+</div>
+<div class="sidebar-module banner animateblock top" title="Programa Institucional de Innovación y Desarrollo 2013-2018">
+    <a href="http://itculiacan.edu.mx/wp-content/uploads/2016/09/PIID 2013-2018 IT CULIACÁN.pdf">
+    	<img src="http://itculiacan.edu.mx/wp-content/uploads/2016/09/sidebar_PIID_2013-2018.png" alt="Informe de Rendición de Cuentas 2015" />
+    </a>
+</div>
+
+<div class="sidebar-module banner animateblock top" title="Escuela-Familia">
+    <a href="http://itculiacan.edu.mx/programa-de-vinculacion-escuela-familia/">
+    	<img src="/wp-content/uploads/2015/11/BOTON-ESCUELA-FAMILIA.jpg" alt="Escuela-Familia" />
+    </a>
+</div>
+
+<div class="sidebar-module banner animateblock top" title="Convocatorias">
+    <a href="/categoria/convocatorias/">
+    	<img src="/wp-content/uploads/2015/04/convocatorias.jpg" alt="Convocatorias" />
+    </a>
+</div>
+<div class="sidebar-module banner animateblock top" title="Bolsa de trabajo">
+    <a href="http://itculiacan.trabajando.com.mx/">
+    	<img src="/wp-content/uploads/2015/03/bolsa-trabajo.jpg" alt="Bolsa de trabajo" />
+    </a>
+</div>
+<div class="sidebar-module banner animateblock top" title="Buzón de quejas y/o sugerencias">
+    <a href="/buzon-de-quejas-yo-sugerencias/">
+    	<img src="/wp-content/uploads/2015/06/BOTON-BUZON-QUEJAS.jpg" alt="Servicio Social" />
+    </a>
+</div>
+<div class="sidebar-module banner animateblock top" title="CIIE">
+    <a href="/incubadora/">
+    	<img src="/wp-content/uploads/2015/05/LOGO-CIIE-PAGINA.jpg" alt="CIIE" />
+    </a>
+</div>
+<div class="sidebar-module banner animateblock top" title="CONRICyT">
+    <a href="http://www.conricyt.mx/">
+    	<img src="/wp-content/uploads/2015/05/LOGO-CONRICYT-PAGINA.jpg" alt="Conricyt" />
+    </a>
+</div>
+</div>
+		</div>                    	<div class="sidebar-module agenda authors animateblock top">
+                            <span class="sidebar-title green sidebars_title">
+                        		<span class="title_section">Agenda</span>
+                        	</span>
+							                            							                    	</div><!--agenda authors-->
+                    </aside>
+                </div><!--col4-->
+          </div><!--row home_content-->  
+            <div class="bg1" id="home-footer">
+                        <div class="tweets">
+                            <span class="side-title style2 animateblock top"><em>&Uacute;ltimos</em> Tweets</span>
+                           <div class='animateblock left'><div id="text-17" class="widget_text">			<div class="textwidget"><a class="twitter-timeline" href="https://twitter.com/itculiacan_ofi" data-widget-id="580265686099890176" data-chrome="noheader nofooter transparent" data-tweet-limit="5">Tweets por @itculiacan_ofi.</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script></div>
+		</div></div>                 
+                        </div><!--tweets-->
+                        <div class="multimedia_section">
+                            <span class="side-title style2 animateblock top">
+                                <em>Galer&iacute;a</em> Multimedia
+                            </span>
+                            <div class="panels match-children-height">
+                                <div class="panel animateblock top">
+									<div style="color: #fff; background-color: #900; padding: 9px 0 9px 0;"><span class="section">Fotos</span></div>
+                                                                        	
+                                        <a href="http://itculiacan.edu.mx/gallery/entrevista-con-el-director-del-tecnologico-nacional-de-mexico/" class="img"><img width="150" height="150" src="http://itculiacan.edu.mx/wp-content/uploads/2015/08/Once-Noticias-Entrevista-Manuel-Quintero-–-YouTube-11-150x150.jpg" class="attachment-thumbnail size-thumbnail wp-post-image" alt="Once Noticias - Entrevista Manuel Quintero – YouTube (11)" /></a>
+                                        <div class="content">
+                                            
+                                            <span class="title"><a href="http://itculiacan.edu.mx/gallery/entrevista-con-el-director-del-tecnologico-nacional-de-mexico/">Entrevista con el Director General del Tecnológico Nacional de México</a></span>
+                                            <a href="http://itculiacan.edu.mx/gallery/entrevista-con-el-director-del-tecnologico-nacional-de-mexico/" class="button green medium">Ver m&aacute;s</a>
+                                        </div><!--content-->
+                                   	
+                                </div>
+                                
+                                <div class="panel animateblock top">
+									<div style="color: #fff; background-color: #900; padding: 9px 0 9px 0;"><span class="section">Videos</span></div>
+                                    	
+                                        <a href="http://itculiacan.edu.mx/gallery/entrevista-de-mtro-manuel-quintero-en-tv-educativa-programa-mexico-al-dia/" class="img"><img width="250" height="160" src="http://itculiacan.edu.mx/wp-content/uploads/2017/02/FOTO-ENTREVISTA-MANUEL-QUINTERO-250x160.jpg" class="attachment-thumbnail size-thumbnail wp-post-image" alt="FOTO ENTREVISTA MANUEL QUINTERO" /></a>
+                                        <div class="content">
+                                            
+                                            <span class="title"><a href="http://itculiacan.edu.mx/gallery/entrevista-de-mtro-manuel-quintero-en-tv-educativa-programa-mexico-al-dia/">Entrevista de Mtro. Manuel Quintero en TV Educativa, programa “México al Día”</a></span>
+                                            <a href="http://itculiacan.edu.mx/gallery/entrevista-de-mtro-manuel-quintero-en-tv-educativa-programa-mexico-al-dia/" class="button green medium">Ver m&aacute;s</a>
+                                        </div><!--content-->
+                                   	
+                                </div>
+                                
+                                <div class="panel animateblock top">
+									<div style="color: #fff; background-color: #900; padding: 9px 0 9px 0;"><span class="section">Instagram</span></div>
+                                   		
+                                </div> 
+                            </div><!--match-children-height-->
+                        </div><!--multimedia_section-->
+                </div><!--home-footer-->
+        </div> <!--content-->      
+	</div><!-- #wrapper -->
+</div><!--con_bg-->
+<div class="clear"></div>
+
+
+<div class="container">
+<footer id="site-footer">	
+        <nav id="nav-footer">
+            <div class="full">                
+               <div id="text-12" class="footer_section">			<div class="textwidget"> </div>
+		</div><div id="text-13" class="footer_section">			<div class="textwidget"></div>
+		</div><div id="text-14" class="footer_section">			<div class="textwidget"></div>
+		</div><div id="text-15" class="footer_section">			<div class="textwidget"></div>
+		</div>            </div>
+              <div id="text-2" class="widget_text">			<div class="textwidget"><div class="links">
+    <ul id="menu-links-footer" class="menu">
+        <li><a href="http://www.cnbes.sep.gob.mx/" target="_blank">CNBES</a></li>
+               <li><a href="http://www.subes.sep.gob.mx/" target="_blank">SUBES</a></li>
+    </ul>
+</div>
+
+<div class="links">
+    <ul id="menu-links-footer" class="menu">
+        <li><a href="http://www.presidencia.gob.mx/" target="_blank">Presidencia de la República</a><a href="/servicios-escolares/"></a></li>
+        <li><a href="http://www.sep.gob.mx/" target="_blank">Secretaría de Educación Pública</a><a href="/becas/"></a></li>
+        <li><a href="http://ses.sep.gob.mx/" target="_blank">Subsecretaría de Educación Superior</a><a href="/titulacion/"></a></li>
+        <li><a href="http://www.tecnm.mx/">Tecnológico Nacional de México</a></li>
+    </ul>
+</div></div>
+		</div>            <!--row-->
+        </nav>
+        <div class="middle">
+            <div class="clearfix2">
+                <ul class="social-bts">
+                    <div id="social-widget-3" class="Social_Widget"><div class="socialmedia-buttons smw_left"><a href="https://www.facebook.com/pages/Instituto-Tecnológico-de-Culiacán-Oficial/1405238833069372" rel="nofollow" target="_blank"><img width="32" height="32" src="http://itculiacan.edu.mx/wp-content/plugins/social-media-widget/images/default/32/facebook.png" 
+				alt="Síguenos en Facebook" 
+				title="Síguenos en Facebook" style="opacity: 0.5; -moz-opacity: 0.5;" class="fade" /></a><a href="https://twitter.com/itculiacan_ofi" rel="nofollow" target="_blank"><img width="32" height="32" src="http://itculiacan.edu.mx/wp-content/plugins/social-media-widget/images/default/32/twitter.png" 
+				alt="Síguenos en Twitter" 
+				title="Síguenos en Twitter" style="opacity: 0.5; -moz-opacity: 0.5;" class="fade" /></a><a href="https://www.youtube.com/channel/UC__DDgnTuxBepOlkprbcKeA" rel="nofollow" target="_blank"><img width="32" height="32" src="http://itculiacan.edu.mx/wp-content/plugins/social-media-widget/images/default/32/youtube.png" 
+				alt="Síguenos en YouTube" 
+				title="Síguenos en YouTube" style="opacity: 0.5; -moz-opacity: 0.5;" class="fade" /></a><a href="http://itculiacan.edu.mx/feed/" rel="nofollow" target="_blank"><img width="32" height="32" src="http://itculiacan.edu.mx/wp-content/plugins/social-media-widget/images/default/32/rss.png" 
+				alt="Síguenos en RSS" 
+				title="Síguenos en RSS" style="opacity: 0.5; -moz-opacity: 0.5;" class="fade" /></a></div></div>                </ul>
+                <form class="search-form" id="search-form" action="http://itculiacan.edu.mx" role="search" >
+                    <input type="text" name="s" placeholder="Buscar" title="Ingresa tu b&uacute;squeda"/>
+                    <button type="submit">Buscar</button>
+                </form>       
+                 </div>
+            <a href="http://www.tecnm.mx/" id="logo-footer" target="_blank"><img src="/wp-content/themes/fuente-tnm/images/header-sep.png"></a>
+        </div>
+        <div class="bottom">
+            <div id="text-18" class="widget_text">			<div class="textwidget"><p>Instituto Tecnológico de Culiacán<br>
+  Av. Juan de Dios Bátiz 310 Pte. Col. Guadalupe, Culiacán, Sinaloa. C.P. 80220  Teléfono: +52 (667) 713-1796 y 713-3804<br>
+  Tecnológico Nacional de M&eacute;xico - Algunos derechos reservados &copy; 2015<br/>
+  <a href="/politica-de-privacidad/">Pol&lacute;tica de Privacidad</a></p></div>
+		</div>        </div>
+    </div><!-- #wrapper -->
+</footer>
+<!-- #site-footer -->
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/es_LA/sdk.js#xfbml=1&appId=1405238833069372&version=v2.0";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+<script type='text/javascript' src='http://itculiacan.edu.mx/wp-includes/js/comment-reply.min.js?ver=4.5.9'></script>
+<script type='text/javascript' src='http://itculiacan.edu.mx/wp-content/plugins/cyclone-slider-2/libs/cycle2/jquery.cycle2.min.js?ver=2.11.0'></script>
+<script type='text/javascript' src='http://itculiacan.edu.mx/wp-content/plugins/cyclone-slider-2/libs/cycle2/jquery.cycle2.carousel.min.js?ver=2.11.0'></script>
+<script type='text/javascript' src='http://itculiacan.edu.mx/wp-content/plugins/cyclone-slider-2/libs/cycle2/jquery.cycle2.swipe.min.js?ver=2.11.0'></script>
+<script type='text/javascript' src='http://itculiacan.edu.mx/wp-content/plugins/cyclone-slider-2/libs/cycle2/jquery.cycle2.tile.min.js?ver=2.11.0'></script>
+<script type='text/javascript' src='http://itculiacan.edu.mx/wp-content/plugins/cyclone-slider-2/libs/cycle2/jquery.cycle2.video.min.js?ver=2.11.0'></script>
+<script type='text/javascript' src='http://itculiacan.edu.mx/wp-content/plugins/cyclone-slider-2/templates/dark/script.js?ver=2.11.0'></script>
+<script type='text/javascript' src='http://itculiacan.edu.mx/wp-content/plugins/cyclone-slider-2/templates/thumbnails/script.js?ver=2.11.0'></script>
+<script type='text/javascript' src='http://itculiacan.edu.mx/wp-content/plugins/cyclone-slider-2/js/client.js?ver=2.11.0'></script>
+<script type='text/javascript' src='http://itculiacan.edu.mx/wp-includes/js/hoverIntent.min.js?ver=1.8.1'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var megamenu = {"effect":{"fade":{"in":{"animate":{"opacity":"show"},"css":{"display":"none"}},"out":{"animate":{"opacity":"hide"}},"speed":"fast"},"slide":{"in":{"animate":{"height":"show"},"css":{"display":"none"}},"out":{"animate":{"height":"hide"}},"speed":"fast"}},"timeout":"300","interval":"100"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://itculiacan.edu.mx/wp-content/plugins/megamenu/js/maxmegamenu.js?ver=2.1.5'></script>
+<script type='text/javascript' src='http://itculiacan.edu.mx/wp-includes/js/wp-embed.min.js?ver=4.5.9'></script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-53463824-1', 'auto');
+  ga('send', 'pageview');
+</script>
+
+</body>
+</html>
+<!-- Dynamic page generated in 0.210 seconds. -->
+<!-- Page not cached by WP Super Cache. Could not get mutex lock. -->

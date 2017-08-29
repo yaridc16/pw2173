@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>http://www.apple.com/ichat/caps#1000</key>
+	<array>
+		<string>http://jabber.org/protocol/xhtml-im</string>
+		<string>vcard-temp:x:update</string>
+		<string>http://jabber.org/protocol/disco#info</string>
+		<string>jabber:iq:version</string>
+		<string>http://jabber.org/protocol/si</string>
+		<string>http://jabber.org/protocol/sipub</string>
+		<string>http://jabber.org/protocol/bytestreams</string>
+		<string>apple:profile:efh-transfer</string>
+		<string>http://jabber.org/protocol/si/profile/file-transfer</string>
+		<string>apple:profile:transfer-extensions:rsrcfork</string>
+		<string>http://www.apple.com/xmpp/message-attachments</string>
+	</array>
+	<key>http://www.apple.com/ichat/caps#audio</key>
+	<array>
+		<string>apple:iq:vc:audio</string>
+	</array>
+	<key>http://www.apple.com/ichat/caps#auxvideo</key>
+	<array>
+		<string>apple:iq:vc:auxvideo</string>
+	</array>
+	<key>http://www.apple.com/ichat/caps#avavail</key>
+	<array>
+		<string>apple:iq:vc:available</string>
+	</array>
+	<key>http://www.apple.com/ichat/caps#avcap</key>
+	<array>
+		<string>apple:iq:vc:capable</string>
+	</array>
+	<key>http://www.apple.com/ichat/caps#ice</key>
+	<array>
+		<string>apple:iq:vc:ice</string>
+	</array>
+	<key>http://www.apple.com/ichat/caps#maudio</key>
+	<array>
+		<string>apple:iq:vc:multiaudio</string>
+	</array>
+	<key>http://www.apple.com/ichat/caps#mvideo</key>
+	<array>
+		<string>apple:iq:vc:multivideo</string>
+	</array>
+	<key>http://www.apple.com/ichat/caps#video</key>
+	<array>
+		<string>apple:iq:vc:video</string>
+	</array>
+</dict>
+</plist>

@@ -1,0 +1,474 @@
+/*global SF, _, log, console, $, Sticky */
+
+// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/bind#Polyfill
+/*jshint ignore:start*/
+if (!Function.prototype.bind) {
+  Function.prototype.bind = function(oThis) {
+    if (typeof this !== 'function') {
+      // closest thing possible to the ECMAScript 5
+      // internal IsCallable function
+      throw new TypeError('Function.prototype.bind - what is trying to be bound is not callable');
+    }
+
+    var aArgs   = Array.prototype.slice.call(arguments, 1),
+        fToBind = this,
+        fNOP    = function() {},
+        fBound  = function() {
+          return fToBind.apply(this instanceof fNOP
+                 ? this
+                 : oThis,
+                 aArgs.concat(Array.prototype.slice.call(arguments)));
+        };
+
+    if (this.prototype) {
+      // Function.prototype doesn't have a prototype property
+      fNOP.prototype = this.prototype;
+    }
+    fBound.prototype = new fNOP();
+
+    return fBound;
+  };
+}
+/*jshint ignore:end*/
+
+// taken from https://github.com/AurelioDeRosa/audero-sticky/blob/master/src/audero-sticky.js
+function isPassiveEventListenerSupported() {
+    var isSupported = false;
+    try {
+        var options = Object.defineProperty({}, "passive", {
+            get: function() {
+                isSupported=true;
+            }
+        });
+        window.addEventListener("", null, options);
+    } catch(ex) {
+    }
+    return isSupported;
+}
+
+/*basic sticky pinning of elements on the page, decorated with class "sticky"*/
+SF.Stickify = (function(){
+
+    var defaults = {};
+
+    function Stickify($el, options){
+
+        this.o = $.extend({}, defaults, options);
+
+        this.pinned = false;
+        this.$el = $el;
+        this.$first_child = $el.find('> :first-child').eq(0);
+        this.$anchor = $el.siblings('.sticky-anchor').eq(0);
+        this.div_top = this.$anchor.offset().top;
+
+        //assuming the first ad in the container is what we care about for stickiness eligibility
+        this.viewabilityRequirementAd = $('.draper', this.$el).eq(0);
+
+        $(window).scroll(this.sticky_relocate.bind(this));
+        this.sticky_relocate();
+    }
+
+    Stickify.prototype.sticky_relocate = function($el) {
+        var sticky_left_offset = this.$first_child.offsetParent().offset().left;
+        this.window_top = $(window).scrollTop();
+
+        if (this.window_top > this.div_top) {
+            if (!this.is_pinned && !this.checkViewabilityRequirement()) {
+                this.$el.addClass('stick');
+            }
+            this.is_pinned = true;
+
+        } else {
+            this.$el.removeClass('stick');
+            this.is_pinned = false;
+        }
+    };
+
+    Stickify.prototype.checkViewabilityRequirement = function() {
+        if (this.viewabilityRequirementAd.hasClass('viewableImpression')) {
+            return true;
+        } else {
+            return false;
+        }
+    };
+
+    return Stickify;
+})();
+
+/* basic sticky features, but using CSS position:sticky instead of doing things manually */
+SF.FancyStickify = (function(){
+    var defaults = {
+    };
+
+    function FancyStickify($els, options){
+        /*
+         $el can be multiple elements if there are multiple sticky things on the page.
+         But this also does special handling for top leaderboard
+         */
+        if (! $els || $els.length === 0 || !$('body.sandiego').length ) {
+            // abandon if there isn't an element to make sticky, or if we're not on full sandiego pages
+            return;
+        }
+        this.o = $.extend({}, defaults, options);
+        this.$els = $els;
+
+        this.$header = this.$els.filter('.l-header-nav');
+        this.$viewabilityRequirementAd = $('.draper', this.$header);
+        this.viewabilityReached = false;
+
+        this.init();
+
+        this.checkViewabilityReached();  // viewability could've been reached already (before we got created)!
+    }
+
+    FancyStickify.prototype.init = function() {
+
+        /* Check for sticky things being stuck or unstuck */
+        this.$window = $(window);
+        this.sticky_$elems_limits = [];
+        var self = this;
+        this.$els.each(function () {
+            self.recordStickyElem($(this));
+        });
+
+        var boundHandler = this.checkSticky.bind(this);
+        window.addEventListener('load', boundHandler);
+        window.addEventListener('scroll', boundHandler, isPassiveEventListenerSupported() ? {passive: true} : false);
+        window.addEventListener('resize', boundHandler);
+        this.checkSticky();
+
+        this._scrollCount = 0;
+        this._scrollWatcherBound = this.scrollWatcherForHeader.bind(this);
+        window.addEventListener('scroll', this._scrollWatcherBound, isPassiveEventListenerSupported() ? {passive: true} : false);
+    };
+
+    FancyStickify.prototype.recordStickyElem = function($elem) {
+        var top_limit = parseInt($elem.css('top'), 10);
+        this.sticky_$elems_limits.push([$elem, top_limit]);
+    };
+
+    FancyStickify.prototype.checkSticky = function() {
+        var scrollTop = this.$window.scrollTop();
+        for (var i = 0; i < this.sticky_$elems_limits.length; i++) {
+            var $elem = this.sticky_$elems_limits[i][0];
+            var top_limit = this.sticky_$elems_limits[i][1];
+            // FIXME: this means something already at the top will always be stuck
+            if ($elem.offset().top - scrollTop <= top_limit) {
+                if (!$elem.hasClass('stuck')) {
+                    $elem.addClass('stuck');
+                }
+            } else {
+                $elem.removeClass('stuck');
+
+                // special handling for header
+                if ($elem.is(this.$header) && this.viewabilityReached) {
+                    this.unstickLeaderAd();
+                }
+            }
+        }
+    };
+
+    FancyStickify.prototype.checkViewabilityReached = function() {
+        if (this.$viewabilityRequirementAd.hasClass('viewableImpression')) {
+            this.reachedViewability(this.$viewabilityRequirementAd);
+        }
+    };
+
+    FancyStickify.prototype.reachedViewability = function($ad) {
+        if ($ad.is(this.$viewabilityRequirementAd)) {
+            this.viewabilityReached = true;
+            if (!this.$header.hasClass('stuck')) {
+                this.unstickLeaderAd();
+            }
+        }
+    };
+
+    FancyStickify.prototype.scrollWatcherForHeader = function(e) {
+        this._scrollCount++;
+        if (this.viewabilityReached && this._scrollCount > 2) { // FF has non-user-initiated scroll events near the onload event, we want to ignore the first one (real scrolls will generate many events anyway)
+            this.unstickLeaderAd();
+        }
+    };
+
+    FancyStickify.prototype.unstickLeaderAd = function() {
+        if (!this.unstuckLeaderAlready) {
+            // can't move the ad around in the DOM (e.g. out of the sticky div) or it'll break
+            // so instead desticky the whole sticky div, and re-stick the top nav only
+
+            // unstick header
+            var $headNav = $('.l-header-nav');
+            $headNav.css('position', 'static');
+            $headNav.removeClass('sticky');  // in case we run before main polyfill is set up, don't want polyfill to activate it again
+            try {
+                new Sticky($headNav.get(0)).destroy();
+            } catch(e) {}
+
+            // re-stick the header bar we want to keep
+            var $headNavRowKeep = $('.l-header-nav-bottom:visible, .l-header-nav-top.hide-for-large:visible');  // small/large screens have different header bars kept sticky, pick the right one here
+            $headNavRowKeep.insertBefore(this.$header);  // position: sticky doesn't work when trapped within the wrapper div, so move it up before
+            $headNavRowKeep.addClass('sticky');
+            // polyfill
+            if (!Sticky.isFeatureSupported()) {
+                new Sticky($headNavRowKeep.get(0)).init();
+            }
+
+            // tell the right rail it has a new header to avoid
+            if (SF.Ads.scrollFixable) {
+                SF.Ads.scrollFixable.$avoid = $headNavRowKeep;
+                SF.Ads.scrollFixable.scrollRelocate();
+            }
+
+            // redo "stuck" listeners
+            $headNav.removeClass('stuck');
+            for (var i = 0; i < this.sticky_$elems_limits.length; i++) {
+                var $elem = this.sticky_$elems_limits[i][0];
+                if ($elem.is($headNav)) {
+                    this.sticky_$elems_limits.splice(i, 1);  // delete this element
+                    break;
+                }
+            }
+            this.recordStickyElem($headNavRowKeep);
+
+            window.removeEventListener('scroll', this._scrollWatcherBound, isPassiveEventListenerSupported() ? {passive: true} : false);
+
+            this.unstuckLeaderAlready = true;
+        }
+    };
+
+    return FancyStickify;
+})();
+
+/* component for adding "scroll fixable" behavior to the right rail
+* where the rail will follow you downward, until viewability on the first unit
+* is met; after which it will gracefully follow you back up, while allowing the
+* bottom parts of the rail to be reachable*/
+SF.ScrollFixable = (function(){
+    var defaults = {
+        avoidElement : '#banner-sterling .sticky',
+        adjustHorizontal : true,
+        watchAvoidStickiness: true
+    };
+
+    /* ctor */
+    function ScrollFixable($el, options){
+        if (! $el || $el.length === 0) {
+            // abandon if there isn't an element to make sticky.
+            return;
+        }
+        this.o = $.extend({}, defaults, options);
+        this.$el = $el;
+        this.$parent = $el.parent();
+        this.$avoid = $(this.o.avoidElement);
+        this.leftPositionContext = window.innerWidth;
+
+        // Y position of the right rail in it's unpinned place
+        this.originalTop = null; // wait til last possible moment to calc this
+        this.enabled = true;
+        this.freezePoint = null;
+        this.is_pinned = false;
+
+        //the files page has trouble with jumping heights.
+        //correct with hard-coded handicap value for now.
+        this.floorCompensate = this.$el.attr('data-floor-compensate') || 0;
+
+        //cache a bound instance of this function for reliable $.on() and $.off(),
+        //as the method expects its context to be the current instance (rather than the default jQ event)
+        //(and we can't just recklessly call window.scroll.off)
+        this.boundScrollDelegate = this.scrollRelocate.bind(this);
+
+        this.init();
+
+        this.scrollRelocate();
+    }
+
+    /*calculates the uppermost point at which we need to "let go" of the stickiness */
+    ScrollFixable.prototype.baseTop = function() {
+        var result = 0;
+        if (this.$avoid.length) {
+            if (this.o.watchAvoidStickiness && !this.$avoid.hasClass('stick') && !this.$avoid.hasClass('stuck') ) {
+                //if it's not sticky, we don't want to avoid it.
+                return result;
+            }
+            result = this.$avoid.outerHeight();
+        }
+        return result;
+    };
+
+    /* stateful check to see if we are in the process of gracefully unwinding the stickiness */
+    ScrollFixable.prototype.disabling = function() {
+        return this.freezePoint !== null;
+    };
+
+    ScrollFixable.prototype.parentHeight = function() {
+        this._nav = this._nav || this.$el.siblings('nav');
+        function calc() {
+            var result = this.$parent.outerHeight();
+            result += parseInt(this.$parent.css('padding-top')) + parseInt(this.$parent.css('padding-bottom'));
+            if (this._nav){
+                result += (this._nav.outerHeight(true) * 2);
+            }
+            return result;
+
+        }
+        return calc.apply(this);
+    };
+
+
+    ScrollFixable.prototype.enforceFloor = function(baseTop) {
+        if (this.enabled){
+            var limitHeight = this.parentHeight() - this.$el.offset().top + baseTop;
+            this.$el.height(limitHeight + parseInt(this.floorCompensate));
+        }
+    };
+
+    /* main scroll handler */
+    ScrollFixable.prototype.scrollRelocate = function() {
+        if (!this.enabled) {
+            return;
+        }
+        this.recalculateTop();
+        var windowScrollTop = $(window).scrollTop();
+        var baseTop = this.baseTop();
+        if (this.disabling()){
+            //we are gracefully winding down.
+
+            //going up or down?
+            if (windowScrollTop > this.freezePoint) {
+                // going down
+                var newTop = windowScrollTop - this.freezePoint ;
+                var adjustedNewTop = -newTop + baseTop;
+                this.$el.css('top', adjustedNewTop);
+            }
+            else {
+                // going up...
+                if (windowScrollTop <= this.originalTop - this.$avoid.outerHeight() ) {
+                    // at the top yet?
+                    this.disable();
+                } else {
+                    this.$el.css('top', baseTop);
+                    //make sure this.freezePoint is updated to latest top point
+                    //as we continue upward
+                    this.freezePoint = windowScrollTop;
+                }
+            }
+            this.enforceFloor(baseTop);
+            return;
+        }
+
+        this.checkViewabilityRequirement();
+        this.nativeTop = this.$el.offset().top;
+        this.scrollPositionY = windowScrollTop;
+        if(this.pinnable(baseTop)){
+            //before taking this action, must ensure that the widget is still
+            //enabled, and a race condition hasn't occurred where it should now
+            //be disabled
+            if (!this.is_pinned && this.enabled) {
+
+                if(this.o.adjustHorizontal) {
+                    // calc before we are about to go fixed
+                    this.leftPosition = this.$el.offset().left;
+                    this.horizontalRelocate();
+                }
+
+                this.$el.addClass('scroll-fixable-enabled');
+                this.$el.css('top', baseTop);
+            }
+            this.is_pinned = true;
+        } else {
+            this.$el.removeClass('scroll-fixable-enabled');
+            this.is_pinned = false;
+        }
+
+        if (this.is_pinned) {
+            this.enforceFloor(baseTop);
+            this.$el.css('top', baseTop);
+        }
+    };
+
+    /* calculate if we have scrolled far enough down to where we must start sticking the right rail */
+    ScrollFixable.prototype.pinnable = function(baseTop) {
+        if (this.scrollPositionY  >= this.nativeTop - baseTop && this.scrollPositionY >= this.originalTop - baseTop) {
+            return true;
+        } else {
+            return false;
+        }
+    };
+
+    /* recalculate the position of the right rail when it is in its natural, static position.
+     * This can change as the height of content above it (like ads) changes/renders */
+    ScrollFixable.prototype.recalculateTop = function() {
+        this.originalTop = this.$parent.offset().top;
+    };
+
+    /* moves the fixed positioned element left or right, to maintain the correct appearance if the
+     * viewport widens/narrows.  Only used on bluesteel pages */
+    ScrollFixable.prototype.horizontalRelocate = function(newLeft) {
+        if(this.o.adjustHorizontal) {
+            this.$el.css('left', newLeft || this.leftPosition );
+        }
+    };
+
+    /* calculate the proper X position of the stuck rail.  Only used on bluesteel */
+    ScrollFixable.prototype.calculateHorizontalPosition = function() {
+        var delta = this.leftPositionContext - window.innerWidth;
+        this.leftPosition = this.leftPosition - (delta / 2);
+        this.leftPositionContext = window.innerWidth;
+        this.horizontalRelocate();
+    };
+
+    /* begin the process of disabling the stickiness gracefully */
+    ScrollFixable.prototype.disableGracefully = function($el) {
+        this.freezePoint = $(window).scrollTop();
+        this.scrollRelocate();
+    };
+
+    /* disable any further stickiness */
+    ScrollFixable.prototype.disable = function() {
+        this.enabled = false;
+        this.$el.removeClass('scroll-fixable-enabled');
+        this.is_pinned = false;
+        $(window).off('scroll', this.boundScrollDelegate);
+        $('body').off('widthChanged');
+        this.$el.removeAttr('style');
+    };
+
+    /* checks the viewability status of the first ad in the right rail, and if it has been met,
+    * begin unwinding the stickiness */
+    ScrollFixable.prototype.checkViewabilityRequirement = function() {
+        if (this.enabled && !this.disabling() && this.viewabilityRequirementAd.hasClass('viewableImpression')) {
+            this.disableGracefully();
+        }
+    };
+
+    /* initialization */
+    ScrollFixable.prototype.init = function($el) {
+
+        window.addEventListener('scroll', this.boundScrollDelegate, isPassiveEventListenerSupported() ? {passive: true} : false);
+
+        if(this.o.adjustHorizontal) {
+            $('body').on('widthChanged', this.calculateHorizontalPosition.bind(this));
+        }
+
+        //assuming the first ad in the scrollfixable container is what we care about for stickiness lifetime
+        this.viewabilityRequirementAd = $('.draper', this.$el).eq(0);
+
+        //one time standup
+        if (!SF.viewportWidth) {
+            SF.viewportWidth = window.innerWidth;
+            var self = this;
+            window.addEventListener('resize', function(event){
+                if (SF.viewportWidth === event.target.innerWidth){
+                    return;
+                }else{
+                    SF.viewportWidth = event.target.innerWidth;
+                    if (SF.viewportWidth < SF.Breakpoints.large) {
+                        self.disable();
+                    }
+                    $('body').trigger('widthChanged');
+                }
+            });
+        }
+    };
+
+    return ScrollFixable;
+})();

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AlarmFilter</key>
+	<true/>
+	<key>AlarmsDisabled</key>
+	<true/>
+	<key>AttachmentFilter</key>
+	<true/>
+	<key>AutoProvisioned</key>
+	<true/>
+	<key>AutoRefresh</key>
+	<true/>
+	<key>Checked</key>
+	<integer>1</integer>
+	<key>Color</key>
+	<string>#BF57DAFF</string>
+	<key>Enabled</key>
+	<true/>
+	<key>EventContainer</key>
+	<true/>
+	<key>IsSubscription</key>
+	<true/>
+	<key>Key</key>
+	<string>9D12D1F1-CA42-41C3-AF24-BC8F0D58E04E</string>
+	<key>LanguageCode</key>
+	<string>es</string>
+	<key>LocationCode</key>
+	<string>MX</string>
+	<key>NeedsRefresh</key>
+	<false/>
+	<key>Order</key>
+	<integer>1</integer>
+	<key>RefreshDate</key>
+	<date>2017-08-23T19:14:38Z</date>
+	<key>RefreshInterval</key>
+	<integer>604800</integer>
+	<key>ShareDefaultAlarmSettings</key>
+	<false/>
+	<key>SubscriptionTitle</key>
+	<string>Días festivos en México</string>
+	<key>SubscriptionURL</key>
+	<string>https://p26-calendars.icloud.com/holidays/mx_es-mx.ics</string>
+	<key>TaskContainer</key>
+	<false/>
+	<key>TaskFilter</key>
+	<true/>
+	<key>Title</key>
+	<string>Días festivos en México</string>
+	<key>Type</key>
+	<string>Subscription</string>
+</dict>
+</plist>
