@@ -11,6 +11,15 @@
 		<key>URL</key>
 		<string>file:///Applications/Google%20Chrome.app/</string>
 	</dict>
+	<key>ll</key>
+	<dict>
+		<key>DISPLAY_NAME</key>
+		<string>Acceso a Llaveros</string>
+		<key>LAST_USED</key>
+		<date>2017-08-30T21:55:08Z</date>
+		<key>URL</key>
+		<string>file:///Applications/Utilities/Keychain%20Access.app/</string>
+	</dict>
 	<key>terminal</key>
 	<dict>
 		<key>DISPLAY_NAME</key>

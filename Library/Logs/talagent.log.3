@@ -1,38 +1,50 @@
  Time	               Bundle ID	              Status	Comment
-0.000	                       -	                   -	TALagent Started (system uptime: 108.20 sec, current time: 525733956.11)
-0.031	                       -	                   -	Liveness: 0 -> 1 (run_as_server)
-0.035	                       -	                   -	Liveness: 1 -> 2 (create_xpc_listener)
-0.035	                       -	                   -	Blocking app contact
-0.161	                       -	                   -	Successfully read encryption key from keychain in 0.127006 seconds
-1.780	                       -	                   -	Liveness: 2 -> 3 (server_show_windows_for_asns)
-1.780	                       -	                   -	server_show_windows_for_asns start
-1.780	                       -	                   -	Allowing apps to contact us
-1.780	                       -	                   -	TAL launch still in progress because Finder has not checked in
-1.781	                       -	                   -	Still waiting for registration from Finder
-1.781	                       -	                   -	Finder was already launched
-1.781	                       -	                   -	Liveness: 3 -> 4 (add_app)
-1.781	        com.apple.finder	           Launching	
-1.821	                       -	                   -	loginwindow launched apps com.apple.finder
-1.821	                       -	                   -	Bitmaps Ready (1 apps, 0 windows)
-1.822	        com.apple.finder	                   -	Disposing because it has no windows
-1.823	        com.apple.finder	            Disposed	
-1.823	                       -	                   -	server_show_windows_for_asns end
-1.826	                       -	                   -	TAL launch still in progress because Finder has not checked in
-1.826	                       -	                   -	Still waiting for registration from Finder
-1.826	                       -	                   -	Refusing connection from pid 335 (app was (null))
-1.826	                       -	                   -	TAL launch still in progress because Finder has not checked in
-1.826	                       -	                   -	Still waiting for registration from Finder
-1.826	                       -	                   -	TAL launch still in progress because Finder has not checked in
-1.826	                       -	                   -	Still waiting for registration from Finder
-1.953	        com.apple.finder	                   -	Finder checked in
-1.953	                       -	                   -	All started apps have registered (no remaining unregistered apps)
-1.954	                       -	                   -	Waiting for Dock...
-1.954	                       -	                   -	Dock is avaialable.
-1.954	                       -	                   -	Liveness: 4 -> 5 (_wait_for_dock)
-1.954	                       -	                   -	TAL Relaunch - all apps registered as ready
-1.954	                       -	                   -	Liveness: 5 -> 4 (__server_show_windows_for_asns_block_invoke.34)
-1.968	                       -	                   -	Liveness: 4 -> 3 (___wait_for_dock_block_invoke_3)
-3.244	                       -	                   -	Liveness: 3 -> 2 (__create_xpc_listener_block_invoke)
-4.014	                       -	                   -	Liveness: 2 -> 1 (__remove_app_block_invoke)
-16.439	                       -	                   -	Liveness: 1 -> 0 (__run_as_server_block_invoke)
-16.439	                       -	                   -	Exiting out of boredom
+0.000	                       -	                   -	TALagent Started (system uptime: 156.93 sec, current time: 526252290.45)
+0.086	                       -	                   -	Liveness: 0 -> 1 (run_as_server)
+0.090	                       -	                   -	Liveness: 1 -> 2 (create_xpc_listener)
+0.090	                       -	                   -	Blocking app contact
+0.453	                       -	                   -	Successfully read encryption key from keychain in 0.36412 seconds
+0.462	                       -	                   -	Liveness: 2 -> 3 (schedule_maintenance)
+1.048	                       -	                   -	Liveness: 3 -> 4 (server_show_windows_for_asns)
+1.048	                       -	                   -	server_show_windows_for_asns start
+1.048	                       -	                   -	Allowing apps to contact us
+1.048	                       -	                   -	TAL launch still in progress because Finder has not checked in
+1.048	                       -	                   -	Still waiting for registration from Finder
+1.048	                       -	                   -	Finder was already launched
+1.049	                       -	                   -	Liveness: 4 -> 5 (add_app)
+1.049	        com.apple.finder	           Launching	
+1.075	                       -	                   -	loginwindow launched apps com.apple.finder
+1.076	                       -	                   -	Bitmaps Ready (1 apps, 0 windows)
+1.076	        com.apple.finder	                   -	Disposing because it has no windows
+1.077	        com.apple.finder	            Disposed	
+1.077	                       -	                   -	server_show_windows_for_asns end
+1.081	                       -	                   -	TAL launch still in progress because Finder has not checked in
+1.082	                       -	                   -	Still waiting for registration from Finder
+1.082	                       -	                   -	TAL launch still in progress because Finder has not checked in
+1.082	                       -	                   -	Still waiting for registration from Finder
+1.082	                       -	                   -	Refusing connection from pid 299 (app was (null))
+1.573	                       -	                   -	TAL launch still in progress because Finder has not checked in
+1.573	                       -	                   -	Still waiting for registration from Finder
+1.953	                       -	                   -	TAL launch still in progress because Finder has not checked in
+1.953	                       -	                   -	Still waiting for registration from Finder
+3.258	                       -	                   -	Liveness: 5 -> 4 (__remove_app_block_invoke)
+3.258	                       -	                   -	Liveness: 4 -> 3 (__create_xpc_listener_block_invoke)
+3.865	        com.apple.finder	                   -	Finder checked in
+3.865	                       -	                   -	All started apps have registered (no remaining unregistered apps)
+3.867	                       -	                   -	Waiting for Dock...
+3.896	                       -	                   -	Dock is avaialable.
+3.896	                       -	                   -	Liveness: 3 -> 4 (_wait_for_dock)
+3.896	                       -	                   -	TAL Relaunch - all apps registered as ready
+3.896	                       -	                   -	Liveness: 4 -> 3 (__server_show_windows_for_asns_block_invoke.34)
+3.896	                       -	                   -	Liveness: 3 -> 2 (___wait_for_dock_block_invoke_3)
+16.426	                       -	                   -	Liveness: 2 -> 1 (__run_as_server_block_invoke)
+303.893	                       -	                   -	Liveness: 1 -> 2 (perform_all_maintenance)
+303.893	                       -	                   -	Rotating key
+303.906	                       -	                   -	Modified the encryption key in-place in the keychain
+303.906	                       -	                   -	Liveness: 2 -> 3 (expire_or_reencrypt_bitmaps)
+303.906	                       -	                   -	Liveness: 3 -> 4 (expiration_perform_maintenance)
+303.906	                       -	                   -	Liveness: 4 -> 3 (perform_all_maintenance)
+303.906	                       -	                   -	Liveness: 3 -> 2 (__schedule_maintenance_block_invoke)
+303.909	                       -	                   -	Liveness: 2 -> 1 (__expiration_perform_maintenance_block_invoke)
+303.962	                       -	                   -	Liveness: 1 -> 0 (__expire_or_reencrypt_bitmaps_block_invoke)
+303.962	                       -	                   -	Exiting out of boredom
