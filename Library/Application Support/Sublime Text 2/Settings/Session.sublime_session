@@ -2,7 +2,7 @@
 	"folder_history":
 	[
 	],
-	"last_window_id": 7,
+	"last_window_id": 19,
 	"settings":
 	{
 		"new_window_height": 480.0,
@@ -12,20 +12,28 @@
 			{
 				"selected_items":
 				[
+					[
+						"back",
+						"background"
+					]
 				]
 			},
 			"build_system": "",
 			"command_palette":
 			{
-				"height": 0.0,
+				"height": 87.0,
 				"selected_items":
 				[
+					[
+						"Instal",
+						"Package Control: Install Package"
+					]
 				],
-				"width": 0.0
+				"width": 449.0
 			},
 			"console":
 			{
-				"height": 0.0
+				"height": 174.0
 			},
 			"distraction_free":
 			{
@@ -38,6 +46,8 @@
 			},
 			"file_history":
 			[
+				"/Users/ccdm16/Desktop/pw/css/untitled",
+				"/Users/ccdm16/Desktop/pw/untitled.html"
 			],
 			"find":
 			{

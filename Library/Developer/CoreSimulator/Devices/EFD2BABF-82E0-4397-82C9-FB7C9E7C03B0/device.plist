@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>UDID</key>
+	<string>EFD2BABF-82E0-4397-82C9-FB7C9E7C03B0</string>
+	<key>deviceType</key>
+	<string>com.apple.CoreSimulator.SimDeviceType.iPhone-6s-Plus</string>
+	<key>name</key>
+	<string>iPhone 6s Plus</string>
+	<key>runtime</key>
+	<string>com.apple.CoreSimulator.SimRuntime.iOS-10-3</string>
+	<key>state</key>
+	<integer>1</integer>
+</dict>
+</plist>

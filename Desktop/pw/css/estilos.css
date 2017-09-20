@@ -1,0 +1,77 @@
+Nota: 
+todo en orden alfabetico 
+
+pseudoelementos @
+
+/*selectores- cambian atributos 
+etiquetas ejemp. p,html,div 
+identificador ejem. id #id
+clases ejem. class 
+
+media queries-diseño adaptativo
+
+body{
+	background: red;
+    /*#1A45AB; 
+    *RGBA(34,56,2,1);
+    RGB(101,101);
+    
+		color: white;
+
+		
+
+	width 1024px;
+}*/
+
+
+body
+{
+	border :1px solid red;
+	width :1024px;
+}
+
+header{
+	border: 1px solid red;
+	text-align:center;
+}
+header nav{
+	margin-top: 60px;
+}
+
+header img{
+	float: right;
+    width: 90px;
+    margin-right: 15px;
+    margin-bottom: -60px;
+
+}
+
+header nav ul li{
+	background : blue; 
+	border-radius: 5px;
+	color: white;
+	display: inline-block;
+	margin: 0px 10px 0px 0px;
+	padding: 5px 8px 5px 8px;
+	width: 80px;
+
+	box-shadow: 3px 3px black;
+
+}
+header nav ul li: hover{
+	background: orange;
+	color: black ;
+}
+section article{
+	border:1px solid tomato;
+	display: inline-block;
+	vertical-align: top;
+	width: 32%;
+
+}
+footer {
+	background: blue; 
+	text-align: center;
+	color: black;
+}
+

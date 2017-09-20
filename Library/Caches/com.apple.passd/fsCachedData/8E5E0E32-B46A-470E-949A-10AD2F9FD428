@@ -455,7 +455,7 @@
       "PaymentServicesURL": "https://cn-smp-paymentservices.apple.com/paymentservices",
       "PaymentServicesMerchantURL": "https://cn-apple-pay-gateway.apple.com/paymentservices",
       "PaymentSetupSuppressCardholderName": true,
-      "MinimumOSVersion": {
+      "minimumOSVersion": {
         "Mac": "10.99"
       }
     }

@@ -1,0 +1,2 @@
+Sep 20 15:52:11 iMac-de-CCDM16 CoreSimulatorService[554] <Notice>: com.apple.CoreSimulator.CoreSimulatorService 375.21 starting.
+Sep 20 15:52:16 iMac-de-CCDM16 CoreSimulatorService[554] <Error>: Error Domain=com.apple.CoreSimulator.SimError Code=161 "Incompatible device" UserInfo={NSLocalizedDescription=Incompatible device}

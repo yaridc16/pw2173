@@ -3,16 +3,16 @@
 <plist version="1.0">
 <dict>
 	<key>DateStarted</key>
-	<date>2017-09-11T21:15:00Z</date>
+	<date>2017-09-20T21:08:12Z</date>
 	<key>dailyActiveTimePeriodicS</key>
-	<real>1.0718670340000001</real>
+	<real>1.0022173219999999</real>
 	<key>dailyActiveTimePurgeableS</key>
-	<real>5.0122351429999989</real>
+	<real>5.0083586470000006</real>
 	<key>dailyActiveTimeS</key>
-	<real>6.0841021769999992</real>
+	<real>6.0105759690000005</real>
 	<key>dailyPeriodicReqs</key>
 	<integer>1</integer>
 	<key>dailyPurgeableReqs</key>
-	<integer>6</integer>
+	<integer>5</integer>
 </dict>
 </plist>
