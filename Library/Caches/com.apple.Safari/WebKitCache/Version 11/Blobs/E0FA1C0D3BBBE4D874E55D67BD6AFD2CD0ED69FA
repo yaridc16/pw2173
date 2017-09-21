@@ -1,0 +1,2803 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        
+<title>9GAG: Go Fun The World</title>
+
+<link rel="preconnect" href="//assets-9gag-fun.9cache.com" /><link rel="preconnect" href="//js-webt-lol.9cache.com" /><link rel="preconnect" href="//img-9gag-fun.9cache.com" /><link rel="preconnect" href="//miscmedia-9gag-fun.9cache.com" /><link rel="preconnect" href="//accounts-cdn.9gag.com" /><link rel="preconnect" href="//accounts.9gag.com" /><link rel="preconnect" href="//notif.9gag.com" /><link rel="preconnect" href="//avatars-cdn.9gag.com" /><link rel="preconnect" href="//rlog.9gag.com" />
+<link rel="preconnect" href="//platform.twitter.com" /><link rel="preconnect" href="//www.facebook.com" /><link rel="preconnect" href="//staticxx.facebook.com" /><link rel="preconnect" href="//www.gstatic.com" /><link rel="preconnect" href="//ssl.gstatic.com" /><link rel="preconnect" href="//fonts.gstatic.com" /><link rel="preconnect" href="//accounts.google.com" /><link rel="preconnect" href="//apis.google.com" /><link rel="preconnect" href="//tpc.googlesyndication.com" /><link rel="preconnect" href="//pagead2.googlesyndication.com" /><link rel="preconnect" href="//cm.g.doubleclick.net" /><link rel="preconnect" href="//securepubads.g.doubleclick.net" /><link rel="preconnect" href="//partner.googleadservices.com" />
+
+<link rel="image_src" href="https://images-cdn.9gag.com/img/9gag-fb-pic.png" />
+<link rel="canonical" href="https://9gag.com/" />
+<link rel="shortcut icon" href="https://assets-9gag-fun.9cache.com/s/fab0aa49/5ba7a393d6e9a4433e2d37366224d34b1fcdd676/static/dist/core/img/favicon_v2.png" />
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="description" content="9GAG has the best funny pics, gifs, videos, gaming, anime, manga, movie, tv, cosplay, sport, food, memes, cute, fail, wtf photos on the internet!" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:site" content="@9gag" />
+<meta name="twitter:image" content="https://images-cdn.9gag.com/img/9gag-fb-pic.png" />
+<meta property="og:title" content="9GAG: Go Fun The World" />
+<meta property="og:site_name" content="9GAG" />
+<meta property="og:url" content="http://9gag.com/" />
+<meta property="og:description" content="9GAG has the best funny pics, gifs, videos, gaming, anime, manga, movie, tv, cosplay, sport, food, memes, cute, fail, wtf photos on the internet!" />
+<meta property="og:type" content="website" />
+<meta property="og:image" content="https://images-cdn.9gag.com/img/9gag-fb-pic.png" />
+<meta property="fb:app_id" content="111569915535689" />
+<meta name="viewport" content="width=1024, initial-scale=1" />
+<meta name="verify-v1" content="vvFhqhXLAn+191Kl3iZjjHHY6wzkyGG0CJqGMoFIZEg=" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<link href="https://assets-9gag-fun.9cache.com/s/fab0aa49/5ba7a393d6e9a4433e2d37366224d34b1fcdd676/static/dist/web6/css/gag.css" media="screen,projection" rel="stylesheet" type="text/css" />
+        <script type="text/javascript">
+
+    function getLocalStorage(lsKey, lsIndex) {
+        var ls = localStorage;
+        if(ls && ls.getItem(lsKey) ) {
+            var lsValue = ls.getItem(lsKey);
+            var lsArray = JSON.parse(lsValue);
+            if( lsArray['data'] != undefined && lsArray['data'][lsIndex] != undefined){
+                return lsArray['data'][lsIndex];
+            }
+        }
+        return '';
+    }
+
+</script>
+        <script type="text/javascript">
+
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-4838180-1', {'cookieDomain':'9gag.com', 'sampleRate':100});
+
+    
+    if(typeof getLocalStorage != "undefined" && getLocalStorage('cacheableUser','hashId') != '') {
+        ga('set', '&uid', getLocalStorage('cacheableUser','hashId'));
+            }
+
+    ga('send', 'pageview');
+    </script>
+        <script>
+    !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+        n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+        n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+        t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+        document,'script','//connect.facebook.net/en_US/fbevents.js');
+
+    fbq('init', '1224451260918407');
+    fbq('track', 'PageView');
+    fbq('track', 'ViewContent');
+</script>            <script type="application/ld+json">
+        {"@context":"http:\/\/schema.org","@type":"ItemList","mainEntityOfPage":{"@type":"CollectionPage","@id":"https:\/\/9gag.com\/"},"itemListElement":[{"@type":"ListItem","position":1,"url":"https:\/\/9gag.com\/gag\/aWqLNwn\/whats-the-first-thing-you-would-do"},{"@type":"ListItem","position":2,"url":"https:\/\/9gag.com\/gag\/aoORLQw\/i-cried-at-this-scene"},{"@type":"ListItem","position":3,"url":"https:\/\/9gag.com\/gag\/aNzQVq4\/obviously-shes-very-gifted"},{"@type":"ListItem","position":4,"url":"https:\/\/9gag.com\/gag\/a9A52Vm\/im-not-even-mad-but-this-is-amazing"},{"@type":"ListItem","position":5,"url":"https:\/\/9gag.com\/gag\/av76xeZ\/you-gotta-do-what-cha-gotta-do"},{"@type":"ListItem","position":6,"url":"https:\/\/9gag.com\/gag\/agY78bv\/when-i-have-a-date-with-my-life-long-crush-the-next-day"},{"@type":"ListItem","position":7,"url":"https:\/\/9gag.com\/gag\/ajNLBPp\/this-made-me-happy"},{"@type":"ListItem","position":8,"url":"https:\/\/9gag.com\/gag\/aADKmO0\/claustrophobia-intensifies"},{"@type":"ListItem","position":9,"url":"https:\/\/9gag.com\/gag\/aMAPnXM\/what-the-fk"},{"@type":"ListItem","position":10,"url":"https:\/\/9gag.com\/gag\/aKDvvrQ\/chernobyl"}]}    </script>
+    </head>
+    <body class="background-white">
+        <section class="announcement-banner badge-volatile-banner yellow hide" id="jsid-banner-confirm-email">
+    <p>Hey <span id="jsid-banner-confirm-email-username"></span>, please verify your email address. If you didn't receive an email, we can <a href="/member/resend-confirmation">resend it</a> or you can <a href="https://9gag.com/settings">change your email address</a>.</p>
+</section>
+        
+        <div class="badge-sticky-subnav-static">
+            <header id="top-nav" class="badge-sticky-nav">
+                                    <div class="nav-wrap">
+    
+<nav class="nav-menu">
+    <ul class="primary">
+        <li>
+            <a class="logo" href="https://9gag.com" onclick="GAG.GA.track('NavigationBar', 'TapLogo', 'Hot', '');">9GAG</a>
+        </li>
+                <li>
+            <a class="funoff" target="_blank" href="https://funoff.9gag.com" onclick="GAG.GA.track('NavigationBar', 'TapFunoffLogo', 'Hot', '');">Funoff</a>
+        </li>
+                <li>
+            <a class="hot selected" href="https://9gag.com/hot" onclick="GAG.GA.track('NavigationBar', 'TapHot', 'Hot', '');">
+                Hot            </a>
+        </li>
+        <li>
+            <a class="trending " href="https://9gag.com/trending" onclick="GAG.GA.track('NavigationBar', 'TapTrending', 'Hot', '');">
+                Trending            </a>
+        </li>
+        <li>
+            <a class="fresh " href="https://9gag.com/fresh" onclick="GAG.GA.track('NavigationBar', 'TapFresh', 'Hot', '');">
+                Fresh            </a>
+        </li>
+        <li>
+            <a class="section" id="jsid-header-funny-menu" href="javascript:void(0);" onclick="GAG.GA.track('NavigationBar', 'TapSectionMenu', 'Hot', '');">
+                More <span class="caret"></span>
+            </a>
+        </li>
+    </ul>
+    <ul class="flex menu">
+                                    <li>
+                    <a target="_blank" class="" onclick="GAG.GA.track('NavigationBar','TapOuterLink', 'Hot', '', { OuterLinkUrl:'http://9gag.tv?ref=9nav', OuterLinkTitle:'TV'});" href="http://9gag.tv?ref=9nav">
+                        TV                    </a>
+                </li>
+                            <li>
+                    <a target="_blank" class="" onclick="GAG.GA.track('NavigationBar','TapOuterLink', 'Hot', '', { OuterLinkUrl:'http://9gag.com/nsfw?ref=9nav', OuterLinkTitle:'NSFW'});" href="http://9gag.com/nsfw?ref=9nav">
+                        NSFW                    </a>
+                </li>
+                            <li>
+                    <a target="_blank" class="" onclick="GAG.GA.track('NavigationBar','TapOuterLink', 'Hot', '', { OuterLinkUrl:'http://9gag.com/gif?ref=9nav', OuterLinkTitle:'GIF'});" href="http://9gag.com/gif?ref=9nav">
+                        GIF                    </a>
+                </li>
+                            <li>
+                    <a target="_blank" class="" onclick="GAG.GA.track('NavigationBar','TapOuterLink', 'Hot', '', { OuterLinkUrl:'http://9gag.com/mobile?ref=9nav', OuterLinkTitle:'Get Our App!'});" href="http://9gag.com/mobile?ref=9nav">
+                        Get Our App!                    </a>
+                </li>
+                            <li>
+                    <a target="_blank" class="new" onclick="GAG.GA.track('NavigationBar','TapOuterLink', 'Hot', '', { OuterLinkUrl:'https://9gag.com/video?ref=nav', OuterLinkTitle:'Video 📺'});" href="https://9gag.com/video?ref=nav">
+                        Video 📺                    </a>
+                </li>
+                            <li>
+                    <a target="_blank" class="new" onclick="GAG.GA.track('NavigationBar','TapOuterLink', 'Hot', '', { OuterLinkUrl:'https://notsafeforwork.com?ref=9nav', OuterLinkTitle:'NSFW Clothing - 50% OFF'});" href="https://notsafeforwork.com?ref=9nav">
+                        NSFW Clothing - 50% OFF                    </a>
+                </li>
+                            <li>
+                    <a target="_blank" class="" onclick="GAG.GA.track('NavigationBar','TapOuterLink', 'Hot', '', { OuterLinkUrl:'https://9gag.com/ask9gag?ref=9nav', OuterLinkTitle:'Ask 9GAG'});" href="https://9gag.com/ask9gag?ref=9nav">
+                        Ask 9GAG                    </a>
+                </li>
+                    
+    </ul>
+
+    <div id="jsid-header-funny-menu-items" class="popup-menu-wide section-list hide badge-popup-menu" >
+        <div class="app-feature">
+            <div class="logo"></div>
+            <div class="text">
+                <h3>Download 9GAG</h3>
+                <h4>Free for your phone</h4>
+            </div>
+            <div class="btn-container">
+                <a class="btn color-iphone" href="https://9gag.com/iphone" target="_blank" onclick="GAG.GA.track('DownloadApp', 'DownloadApple', 'Hot');">iPhone</a>
+                <a class="btn color-android" href="https://9gag.com/android" target="_blank" onclick="GAG.GA.track('DownloadApp', 'DownloadGoogle', 'Hot');">Android</a>
+            </div>
+        </div>
+        <ul><li data-locales=""><a onclick="GAG.GA.track('NavigationBar', 'TapSection', 'Hot', '', {SectionName:'Funny'});" href="https://9gag.com/funny">Funny</a></li>
+<li data-locales=""><a onclick="GAG.GA.track('NavigationBar', 'TapSection', 'Hot', '', {SectionName:'Video'});" href="https://9gag.com/video">Video</a></li>
+<li data-locales=""><a onclick="GAG.GA.track('NavigationBar', 'TapSection', 'Hot', '', {SectionName:'Ask 9GAG'});" href="https://9gag.com/ask9gag">Ask 9GAG</a></li>
+<li data-locales=""><a onclick="GAG.GA.track('NavigationBar', 'TapSection', 'Hot', '', {SectionName:'Gaming'});" href="https://9gag.com/gaming">Gaming</a></li>
+<li data-locales=""><a onclick="GAG.GA.track('NavigationBar', 'TapSection', 'Hot', '', {SectionName:'WTF'});" href="https://9gag.com/wtf">WTF</a></li>
+<li data-locales=""><a onclick="GAG.GA.track('NavigationBar', 'TapSection', 'Hot', '', {SectionName:'Savage'});" href="https://9gag.com/savage">Savage</a></li>
+<li data-locales=""><a onclick="GAG.GA.track('NavigationBar', 'TapSection', 'Hot', '', {SectionName:'GIF'});" href="https://9gag.com/gif">GIF</a></li>
+<li data-locales=""><a onclick="GAG.GA.track('NavigationBar', 'TapSection', 'Hot', '', {SectionName:'Movie & TV'});" href="https://9gag.com/movie-tv">Movie & TV</a></li>
+<li data-locales=""><a onclick="GAG.GA.track('NavigationBar', 'TapSection', 'Hot', '', {SectionName:'Superhero'});" href="https://9gag.com/superhero">Superhero</a></li>
+<li data-locales=""><a onclick="GAG.GA.track('NavigationBar', 'TapSection', 'Hot', '', {SectionName:'Comic'});" href="https://9gag.com/comic">Comic</a></li>
+<li data-locales=""><a onclick="GAG.GA.track('NavigationBar', 'TapSection', 'Hot', '', {SectionName:'Sport '});" href="https://9gag.com/sport">Sport </a></li>
+<li data-locales=""><a onclick="GAG.GA.track('NavigationBar', 'TapSection', 'Hot', '', {SectionName:'Girly Things '});" href="https://9gag.com/girly">Girly Things </a></li>
+<li data-locales=""><a onclick="GAG.GA.track('NavigationBar', 'TapSection', 'Hot', '', {SectionName:'Relationship'});" href="https://9gag.com/relationship">Relationship</a></li>
+<li data-locales=""><a onclick="GAG.GA.track('NavigationBar', 'TapSection', 'Hot', '', {SectionName:'Awesome'});" href="https://9gag.com/awesome">Awesome</a></li>
+<li data-locales=""><a onclick="GAG.GA.track('NavigationBar', 'TapSection', 'Hot', '', {SectionName:'Animals'});" href="https://9gag.com/cute">Animals</a></li>
+<li data-locales=""><a onclick="GAG.GA.track('NavigationBar', 'TapSection', 'Hot', '', {SectionName:'Country '});" href="https://9gag.com/country">Country </a></li>
+<li data-locales=""><a onclick="GAG.GA.track('NavigationBar', 'TapSection', 'Hot', '', {SectionName:'School'});" href="https://9gag.com/school">School</a></li>
+<li data-locales=""><a onclick="GAG.GA.track('NavigationBar', 'TapSection', 'Hot', '', {SectionName:'Horror'});" href="https://9gag.com/horror">Horror</a></li>
+<li data-locales=""><a onclick="GAG.GA.track('NavigationBar', 'TapSection', 'Hot', '', {SectionName:'Science'});" href="https://9gag.com/science">Science</a></li>
+<li data-locales=""><a onclick="GAG.GA.track('NavigationBar', 'TapSection', 'Hot', '', {SectionName:'I Made Dis'});" href="https://9gag.com/imadedis">I Made Dis</a></li>
+<li data-locales=""><a onclick="GAG.GA.track('NavigationBar', 'TapSection', 'Hot', '', {SectionName:'Politics '});" href="https://9gag.com/politics">Politics </a></li>
+<li data-locales=""><a onclick="GAG.GA.track('NavigationBar', 'TapSection', 'Hot', '', {SectionName:'Timely'});" href="https://9gag.com/timely">Timely</a></li>
+<li data-locales=""><a onclick="GAG.GA.track('NavigationBar', 'TapSection', 'Hot', '', {SectionName:'Girl'});" href="https://9gag.com/girl">Girl</a></li>
+<li data-locales=""><a onclick="GAG.GA.track('NavigationBar', 'TapSection', 'Hot', '', {SectionName:'Anime & Manga'});" href="https://9gag.com/anime-manga">Anime & Manga</a></li>
+<li data-locales=""><a onclick="GAG.GA.track('NavigationBar', 'TapSection', 'Hot', '', {SectionName:'Food'});" href="https://9gag.com/food">Food</a></li>
+<li data-locales=""><a onclick="GAG.GA.track('NavigationBar', 'TapSection', 'Hot', '', {SectionName:'Dark Humor'});" href="https://9gag.com/darkhumor">Dark Humor</a></li>
+<li data-locales=""><a onclick="GAG.GA.track('NavigationBar', 'TapSection', 'Hot', '', {SectionName:'NSFW'});" href="https://9gag.com/nsfw">NSFW</a></li>
+<li data-locales=""><a onclick="GAG.GA.track('NavigationBar', 'TapSection', 'Hot', '', {SectionName:'Game Of Thrones'});" href="https://9gag.com/got">Game Of Thrones</a></li>
+<li data-locales=""><a onclick="GAG.GA.track('NavigationBar', 'TapSection', 'Hot', '', {SectionName:'Overwatch'});" href="https://9gag.com/overwatch">Overwatch</a></li></ul>        <section class="footer">
+            <p class="static">
+                <a href="https://9gag.com/advertise">Advertise</a> ·
+                <a href="https://9gag.com/rules">Rules</a> ·
+                <a href="https://9gag.com/tips">Tips</a> ·
+                <a href="https://9gag.com/faq">FAQ</a> ·
+                <a href="https://9gag.com/tos">Terms</a> ·
+                <a href="https://9gag.com/privacy">Privacy</a> ·
+                <a href="https://9gag.com/jobs">Jobs</a> ·
+                <a href="https://9gag.com/contact">Contact</a>
+            </p>
+            <p class="static">9GAG &copy; 2017</p>
+        </section>
+    </div><!-- / section -->
+</nav>
+    <div class="function-wrap">
+
+    <div class="general-function">
+        <a id="jsid-header-search-btn" class="search" href="javascript:void(0)"  onclick="GAG.GA.track('NavigationBar', 'TapSearch', 'Hot');">Search</a>
+    </div><!-- / general-function -->
+
+    <div id="jsid-visitor-function" class="visitor-function hide">
+        <a class="btn-mute badge-login-button" href="https://9gag.com/login" onclick="GAG.GA.track('NavigationBar', 'TapLogin', 'Hot');" rel="nofollow">Log in</a>
+                    <a class="btn-primary badge-signup-button" href="https://9gag.com/signup" onclick="GAG.GA.track('NavigationBar', 'TapSignUp', 'Hot');" rel="nofollow">Sign up</a>
+            </div>
+
+    <div id="jsid-user-function" class="user-function hide">
+        <div id="jsid-header-notification-menu" class="notification badge-evt" data-evt="Noti,OpenNotiMenu,Hot">
+            <a id="jsid-notification-unread-count" class="bell" href="javascript:void(0);" rel="nofollow">
+            </a>
+        </div>
+        <div id="jsid-header-user-menu" class="avatar">
+            <a class="avatar-container" href="javascript:void(0);" onclick="GAG.GA.track('NavigationBar', 'TapAvatar', 'Hot');" rel="nofollow">
+                <img id="jsid-avatar" src="" alt="Avatar">
+            </a>
+        </div>
+
+                    <div class="upload">
+                <a id="jsid-upload-btn" class="btn-primary" href="javascript:void(0);" onclick="GAG.GA.track('UploadAction', 'TapUpload', 'Hot', '', {Element: 'NavigationBarButton'});" rel="nofollow">Upload</a>
+            </div>
+        
+        <div id="jsid-header-notification-items" class="notification-menu hide">
+            <div class="title">
+                <h3>Activities</h3>
+            </div>
+            <div class="scrollbar"><div class="track"><div class="thumb"></div></div></div>
+            <div class="notification-list viewport">
+                <ul id="jsid-header-notification-items-container" class="overview">
+                    <li class="empty">
+                        <div class="empty-message">
+                            <p>Loading notifications...</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="bumper">
+                <a id="jsid-header-notification-see-all" class="see-all badge-evt" href="https://9gag.com/notifications" data-evt="Noti,TapNotiMenuAll,Hot" rel="nofollow">See all</a>
+            </div>
+        </div>
+
+        <div id="jsid-header-user-menu-items" class="popup-menu user hide">
+        <span class="arrow-wrap">
+            <span class="arrow"></span>
+        </span>
+            <ul>
+                <li><a id="jsid-my-profile" href="javascript:void(0)" onclick="GAG.GA.track('NavigationBar', 'TapProfile', 'Hot');" rel="nofollow">My Profile</a></li>
+                                <li><a href="https://9gag.com/settings" onclick="GAG.GA.track('NavigationBar', 'TapSettings', 'Hot');" rel="nofollow">Settings</a></li>
+                                <li><a class="badge-logout-btn" href="https://9gag.com/logout" onclick="GAG.GA.track('NavigationBar', 'TapLogout', 'Hot');" rel="nofollow">Logout</a></li>
+            </ul>
+        </div>
+
+    </div><!-- end user-function-->
+    <div id="jsid-header-search-dropdown" class="popup-menu search hide">
+    <form id="headbar-search" class="badge-header-search" action="https://9gag.com/search" onsubmit="GAG.GA.track('Search','SubmitSearch', 'Search', '', {Element: 'NavigationBarInputBox'})">
+        <div class="headbar-search">
+            <input
+                type="text"
+                name="query"
+                id="jsid-search-input"
+                class="ui-autocomplete-input search_input"
+                data-placeholder="Type to search&#8230;" tabindex="1" />
+        </div><!-- / headbar-search -->
+        <div id="jsid-headbar-search-suggest" class="headbar-search-suggest ui-widget">
+        </div>
+    </form>
+</div><!-- / popup-menu --></div><!-- / function-wrap --></div>
+                            </header>
+        </div>
+
+                    <div class="featured-tag">
+                                    <a href="https://9gag.com/tag/mexico-city?ref=featured-tag" onclick="GAG.GA.track('PostList', 'ViewFeaturedTag', 'Hot', '', {'featured-tag-label': 'Mexico City'});">Mexico City</a>
+                                    <a href="https://9gag.com/tag/earthquake?ref=featured-tag" onclick="GAG.GA.track('PostList', 'ViewFeaturedTag', 'Hot', '', {'featured-tag-label': 'Earthquake'});">Earthquake</a>
+                                    <a href="https://9gag.com/tag/kingsman?ref=featured-tag" onclick="GAG.GA.track('PostList', 'ViewFeaturedTag', 'Hot', '', {'featured-tag-label': 'Kingsman'});">Kingsman</a>
+                                    <a href="https://9gag.com/tag/rick-and-morty?ref=featured-tag" onclick="GAG.GA.track('PostList', 'ViewFeaturedTag', 'Hot', '', {'featured-tag-label': 'Rick and Morty'});">Rick and Morty</a>
+                                    <a href="https://9gag.com/tag/i-need-dis?ref=featured-tag" onclick="GAG.GA.track('PostList', 'ViewFeaturedTag', 'Hot', '', {'featured-tag-label': 'I Need Dis'});">I Need Dis</a>
+                                    <a href="https://9gag.com/tag/crappy-design?ref=featured-tag" onclick="GAG.GA.track('PostList', 'ViewFeaturedTag', 'Hot', '', {'featured-tag-label': 'Crappy Design'});">Crappy Design</a>
+                                    <a href="https://9gag.com/tag/it-movie?ref=featured-tag" onclick="GAG.GA.track('PostList', 'ViewFeaturedTag', 'Hot', '', {'featured-tag-label': 'IT Movie'});">IT Movie</a>
+                                    <a href="https://9gag.com/tag/iphone-x?ref=featured-tag" onclick="GAG.GA.track('PostList', 'ViewFeaturedTag', 'Hot', '', {'featured-tag-label': 'iPhone X'});">iPhone X</a>
+                                    <a href="https://9gag.com/tag/useless-inventions?ref=featured-tag" onclick="GAG.GA.track('PostList', 'ViewFeaturedTag', 'Hot', '', {'featured-tag-label': 'Useless Inventions'});">Useless Inventions</a>
+                                    <a href="https://9gag.com/tag/savage-replies?ref=featured-tag" onclick="GAG.GA.track('PostList', 'ViewFeaturedTag', 'Hot', '', {'featured-tag-label': 'Savage Replies'});">Savage Replies</a>
+                                    <a href="https://9gag.com/tag/trolley-problem?ref=featured-tag" onclick="GAG.GA.track('PostList', 'ViewFeaturedTag', 'Hot', '', {'featured-tag-label': 'Trolley Problem'});">Trolley Problem</a>
+                                    <a href="https://9gag.com/tag/nature-is-lit?ref=featured-tag" onclick="GAG.GA.track('PostList', 'ViewFeaturedTag', 'Hot', '', {'featured-tag-label': 'Nature is Lit'});">Nature is Lit</a>
+                                    <a href="https://9gag.com/tag/engineering?ref=featured-tag" onclick="GAG.GA.track('PostList', 'ViewFeaturedTag', 'Hot', '', {'featured-tag-label': 'Engineering'});">Engineering</a>
+                                    <a href="https://9gag.com/tag/pc-master-race?ref=featured-tag" onclick="GAG.GA.track('PostList', 'ViewFeaturedTag', 'Hot', '', {'featured-tag-label': 'PC Master Race'});">PC Master Race</a>
+                                    <a href="https://9gag.com/tag/programmers-know?ref=featured-tag" onclick="GAG.GA.track('PostList', 'ViewFeaturedTag', 'Hot', '', {'featured-tag-label': 'Programmers Know'});">Programmers Know</a>
+                                    <a href="https://9gag.com/tag/tinder?ref=featured-tag" onclick="GAG.GA.track('PostList', 'ViewFeaturedTag', 'Hot', '', {'featured-tag-label': 'Tinder'});">Tinder</a>
+                                    <a href="https://9gag.com/tag/dankmemes?ref=featured-tag" onclick="GAG.GA.track('PostList', 'ViewFeaturedTag', 'Hot', '', {'featured-tag-label': 'Dankmemes'});">Dankmemes</a>
+                                    <a href="https://9gag.com/tag/satisfying?ref=featured-tag" onclick="GAG.GA.track('PostList', 'ViewFeaturedTag', 'Hot', '', {'featured-tag-label': 'Satisfying'});">Satisfying</a>
+                                    <a href="https://9gag.com/tag/puns?ref=featured-tag" onclick="GAG.GA.track('PostList', 'ViewFeaturedTag', 'Hot', '', {'featured-tag-label': 'Puns'});">Puns</a>
+                                    <a href="https://9gag.com/tag/cosplay?ref=featured-tag" onclick="GAG.GA.track('PostList', 'ViewFeaturedTag', 'Hot', '', {'featured-tag-label': 'Cosplay'});">Cosplay</a>
+                            </div>
+        
+        
+        
+        
+        
+        <div class="toast badge-toast-container" style="display:none">
+    <p class="close">
+    <span class="badge-toast-message"></span>
+<a class="btn-close badge-toast-close" href="#">&#10006;</a>
+</p>
+</div>
+
+        <div id="container" class="">
+            <div class="badge-page page ">
+
+                <div class="main-wrap">
+
+    
+    
+    <section id="list-view-2" class="badge-list-view-element variant-right">
+        
+<div class="badge-entry-collection">
+
+                    
+<article
+    data-entry-id="aWqLNwn"
+    data-entry-url="https://9gag.com/gag/aWqLNwn"
+    data-entry-votes="24442"
+    data-entry-comments="948"
+    id="jsid-entry-entity-aWqLNwn"
+    class="badge-entry-container badge-entry-entity">
+    <header>
+        
+        <h2 class="badge-item-title">
+            <a class="badge-evt badge-track"
+               data-evt="PostList,TapPost,Hot,,PostTitle"
+               data-track="post,v,,,d,aWqLNwn,l"
+               data-entry-id="aWqLNwn"
+               data-position="1"
+               href="/gag/aWqLNwn"
+               target="_blank">
+                📌 What&#039;s the first thing you would do?            </a>
+        </h2>
+    </header>
+
+
+                                    
+<div class="badge-post-container post-container ">
+    <a href="/gag/aWqLNwn"
+       class="badge-evt badge-track badge-track-no-follow"
+       data-evt="PostList,TapPost,Hot,,PostImage"
+       data-entry-id="aWqLNwn"
+       data-position="1"
+       style="min-height:631.52173913043px;" target="_blank">
+        <img class="badge-item-img" src="https://img-9gag-fun.9cache.com/photo/aWqLNwn_460s_v2.jpg" alt="📌 What&#039;s the first thing you would do?"/>
+    </a>
+
+        </div>
+
+
+                            <div class="post-text-container badge-item-description">
+            </div>
+
+    <p class="post-tag">
+            </p>
+
+    <p class="post-meta">
+        <a class="badge-evt point" id="love-count-aWqLNwn"
+            href="/gag/aWqLNwn"
+            target="_blank"
+            data-evt="PostList,TapPost,Hot,,Point"
+            data-entry-id="aWqLNwn"
+            data-position="1"
+        >
+                <span class="badge-item-love-count">24,442</span> points</a> &middot;
+        <a class="comment badge-evt" href="/gag/aWqLNwn#comment" target="_blank"
+           data-evt="PostList,TapPost,Hot,,CommentCountText" data-entry-id="aWqLNwn" data-position="1">948 comments</a>
+    </p>
+
+    
+    <div class="badge-item-vote-container post-afterbar-a in-list-view  ">
+        <div class="vote badge-list-entry-buttons">
+            <ul class="btn-vote left">
+                <li><a class="badge-item-vote-up up " href="javascript:void(0);" rel="nofollow">Upvote</a></li>
+                <li><a class="badge-item-vote-down down " href="javascript:void(0);" rel="nofollow">Downvote</a></li>
+                <li><a class="comment badge-evt badge-item-comment" target="_blank" href="/gag/aWqLNwn#comment"
+                       data-evt="PostList,TapPost,Hot,,Comment" data-entry-id="aWqLNwn" data-position="1" rel="nofollow">Comment</a></li>
+                <li><a class="more badge-list-entry-more-button" 
+   href="javascript:void(0);" 
+   data-entry-id="aWqLNwn"
+   data-position="1"
+   >More</a>
+</li>
+                </li>
+            </ul>
+        </div>
+        <div class="share right">
+            <ul>
+                <li><a class="badge-facebook-share badge-evt badge-track btn-share facebook"
+   href="javascript:void(0);"
+   data-track="social,fb.s,,,d,aWqLNwn,l"
+   data-evt="PostList,ShareSocial,Hot,,FacebookButton"
+   data-entry-id="aWqLNwn"
+   data-position="1"
+   data-share="https://9gag.com/gag/aWqLNwn?ref=fb.s" rel="nofollow">Facebook</a>
+</li>
+                <li><a href="javascript:void(0);" 
+   class="badge-pinterest-share badge-evt badge-track btn-share pinterest"
+   data-track="social,pn.s,,,d,aWqLNwn,l"
+   data-evt="PostList,ShareSocial,Hot,,PinterestButton"
+   data-position="1"
+   data-entry-id="aWqLNwn"
+   data-title="%F0%9F%93%8C%20What%27s%20the%20first%20thing%20you%20would%20do%3F"
+   data-img="https://img-9gag-fun.9cache.com/photo/aWqLNwn_700b_v2.jpg"
+   data-share="https://9gag.com/gag/aWqLNwn?ref=pn" rel="nofollow">Pinterest</a>
+</li>
+            </ul>
+        </div>
+        <div class="popup-menu listview-share badge-list-entry-more-items hide">
+            <ul>
+                <li><a href="javascript:void(0);" 
+   class="badge-gplus-share badge-evt badge-track"
+   data-track="social,gp.s,,,d,aWqLNwn,l"
+   data-evt="PostList,ShareSocial,Hot,,GplusButton"
+   data-position="1"
+   data-entry-id="aWqLNwn"
+   data-share="https://9gag.com/gag/aWqLNwn?ref=gp" rel="nofollow">Google+</a>
+</li>
+                <li><a class="badge-twitter-share badge-evt badge-track twitter"
+   href="javascript:void(0);"
+   data-track="social,t.s,,,d,aWqLNwn,l"
+   data-evt="PostList,ShareSocial,Hot,,TwitterButton"
+   data-entry-id="aWqLNwn"
+   data-title="%F0%9F%93%8C%20What%27s%20the%20first%20thing%20you%20would%20do%3F"
+   data-position="1"
+   data-share="https://9gag.com/gag/aWqLNwn?ref=t" rel="nofollow">Twitter</a>
+</li>
+                <li><a href="mailto:?subject=Check%20out%20%22%F0%9F%93%8C%20What%27s%20the%20first%20thing%20you%20would%20do%3F%22&body=This%20is%20funny%2C%20you%20must%20check%20it%20out%21%20%3AD%0A%F0%9F%93%8C%20What%27s%20the%20first%20thing%20you%20would%20do%3F%0Ahttps%3A%2F%2F9gag.com%2Fgag%2FaWqLNwn%3Fref%3D9g.m" 
+   class="badge-email-share badge-evt badge-track"
+   data-track="social,9g.m,,,d,aWqLNwn,l"
+   data-evt="PostList,ShareSocial,Hot,,EmailButton"
+   data-position="1"
+   data-entry-id="aWqLNwn"
+   target="_blank" rel="nofollow">Email</a>
+
+</li>
+                <li><a href="javascript:void(0);" 
+   class="badge-item-report hide" 
+   data-entry-id="aWqLNwn"
+   data-position="1"
+   >Report</a>
+</li>
+            </ul>
+        </div>
+        <div class="clearfix"></div>
+    </div>
+
+</article>
+                
+                            
+<article
+    data-entry-id="aoORLQw"
+    data-entry-url="https://9gag.com/gag/aoORLQw"
+    data-entry-votes="4756"
+    data-entry-comments="87"
+    id="jsid-entry-entity-aoORLQw"
+    class="badge-entry-container badge-entry-entity">
+    <header>
+        
+        <h2 class="badge-item-title">
+            <a class="badge-evt badge-track"
+               data-evt="PostList,TapPost,Hot,,PostTitle"
+               data-track="post,v,,,d,aoORLQw,l"
+               data-entry-id="aoORLQw"
+               data-position="2"
+               href="/gag/aoORLQw"
+               target="_blank">
+                I cried at this scene.            </a>
+        </h2>
+    </header>
+
+
+                                    
+<div class="badge-post-container post-container ">
+    <a href="/gag/aoORLQw"
+       class="badge-evt badge-track badge-track-no-follow"
+       data-evt="PostList,TapPost,Hot,,PostImage"
+       data-entry-id="aoORLQw"
+       data-position="2"
+       style="min-height:641.30434782609px;" target="_blank">
+        <img class="badge-item-img" src="https://img-9gag-fun.9cache.com/photo/aoORLQw_460s.jpg" alt="I cried at this scene."/>
+    </a>
+
+        </div>
+
+
+                            <div class="post-text-container badge-item-description">
+            </div>
+
+    <p class="post-tag">
+                    <a target="_blank" href="/tag/benedic-cumberbatch?ref=post-tag" onclick="GAG.GA.track('PostList', 'ViewTag', 'Hot', '', {'post-tag-label': 'benedic cumberbatch'});">benedic cumberbatch</a>
+                    <a target="_blank" href="/tag/life-is-a-race?ref=post-tag" onclick="GAG.GA.track('PostList', 'ViewTag', 'Hot', '', {'post-tag-label': 'life is a race'});">life is a race</a>
+                    <a target="_blank" href="/tag/virus?ref=post-tag" onclick="GAG.GA.track('PostList', 'ViewTag', 'Hot', '', {'post-tag-label': 'virus'});">virus</a>
+            </p>
+
+    <p class="post-meta">
+        <a class="badge-evt point" id="love-count-aoORLQw"
+            href="/gag/aoORLQw"
+            target="_blank"
+            data-evt="PostList,TapPost,Hot,,Point"
+            data-entry-id="aoORLQw"
+            data-position="2"
+        >
+                <span class="badge-item-love-count">4,756</span> points</a> &middot;
+        <a class="comment badge-evt" href="/gag/aoORLQw#comment" target="_blank"
+           data-evt="PostList,TapPost,Hot,,CommentCountText" data-entry-id="aoORLQw" data-position="2">87 comments</a>
+    </p>
+
+    
+    <div class="badge-item-vote-container post-afterbar-a in-list-view  ">
+        <div class="vote badge-list-entry-buttons">
+            <ul class="btn-vote left">
+                <li><a class="badge-item-vote-up up " href="javascript:void(0);" rel="nofollow">Upvote</a></li>
+                <li><a class="badge-item-vote-down down " href="javascript:void(0);" rel="nofollow">Downvote</a></li>
+                <li><a class="comment badge-evt badge-item-comment" target="_blank" href="/gag/aoORLQw#comment"
+                       data-evt="PostList,TapPost,Hot,,Comment" data-entry-id="aoORLQw" data-position="2" rel="nofollow">Comment</a></li>
+                <li><a class="more badge-list-entry-more-button" 
+   href="javascript:void(0);" 
+   data-entry-id="aoORLQw"
+   data-position="2"
+   >More</a>
+</li>
+                </li>
+            </ul>
+        </div>
+        <div class="share right">
+            <ul>
+                <li><a class="badge-facebook-share badge-evt badge-track btn-share facebook"
+   href="javascript:void(0);"
+   data-track="social,fb.s,,,d,aoORLQw,l"
+   data-evt="PostList,ShareSocial,Hot,,FacebookButton"
+   data-entry-id="aoORLQw"
+   data-position="2"
+   data-share="https://9gag.com/gag/aoORLQw?ref=fb.s" rel="nofollow">Facebook</a>
+</li>
+                <li><a href="javascript:void(0);" 
+   class="badge-pinterest-share badge-evt badge-track btn-share pinterest"
+   data-track="social,pn.s,,,d,aoORLQw,l"
+   data-evt="PostList,ShareSocial,Hot,,PinterestButton"
+   data-position="2"
+   data-entry-id="aoORLQw"
+   data-title="I%20cried%20at%20this%20scene."
+   data-img="https://img-9gag-fun.9cache.com/photo/aoORLQw_700b.jpg"
+   data-share="https://9gag.com/gag/aoORLQw?ref=pn" rel="nofollow">Pinterest</a>
+</li>
+            </ul>
+        </div>
+        <div class="popup-menu listview-share badge-list-entry-more-items hide">
+            <ul>
+                <li><a href="javascript:void(0);" 
+   class="badge-gplus-share badge-evt badge-track"
+   data-track="social,gp.s,,,d,aoORLQw,l"
+   data-evt="PostList,ShareSocial,Hot,,GplusButton"
+   data-position="2"
+   data-entry-id="aoORLQw"
+   data-share="https://9gag.com/gag/aoORLQw?ref=gp" rel="nofollow">Google+</a>
+</li>
+                <li><a class="badge-twitter-share badge-evt badge-track twitter"
+   href="javascript:void(0);"
+   data-track="social,t.s,,,d,aoORLQw,l"
+   data-evt="PostList,ShareSocial,Hot,,TwitterButton"
+   data-entry-id="aoORLQw"
+   data-title="I%20cried%20at%20this%20scene."
+   data-position="2"
+   data-share="https://9gag.com/gag/aoORLQw?ref=t" rel="nofollow">Twitter</a>
+</li>
+                <li><a href="mailto:?subject=Check%20out%20%22I%20cried%20at%20this%20scene.%22&body=This%20is%20funny%2C%20you%20must%20check%20it%20out%21%20%3AD%0AI%20cried%20at%20this%20scene.%0Ahttps%3A%2F%2F9gag.com%2Fgag%2FaoORLQw%3Fref%3D9g.m" 
+   class="badge-email-share badge-evt badge-track"
+   data-track="social,9g.m,,,d,aoORLQw,l"
+   data-evt="PostList,ShareSocial,Hot,,EmailButton"
+   data-position="2"
+   data-entry-id="aoORLQw"
+   target="_blank" rel="nofollow">Email</a>
+
+</li>
+                <li><a href="javascript:void(0);" 
+   class="badge-item-report hide" 
+   data-entry-id="aoORLQw"
+   data-position="2"
+   >Report</a>
+</li>
+            </ul>
+        </div>
+        <div class="clearfix"></div>
+    </div>
+
+</article>
+                
+                            
+<article
+    data-entry-id="aNzQVq4"
+    data-entry-url="https://9gag.com/gag/aNzQVq4"
+    data-entry-votes="4219"
+    data-entry-comments="71"
+    id="jsid-entry-entity-aNzQVq4"
+    class="badge-entry-container badge-entry-entity">
+    <header>
+        
+        <h2 class="badge-item-title">
+            <a class="badge-evt badge-track"
+               data-evt="PostList,TapPost,Hot,,PostTitle"
+               data-track="post,v,,,d,aNzQVq4,l"
+               data-entry-id="aNzQVq4"
+               data-position="3"
+               href="/gag/aNzQVq4"
+               target="_blank">
+                Obviously, she&#039;s very GIFted            </a>
+        </h2>
+    </header>
+
+
+                                    <div class="badge-post-container post-container animated-photo-container">
+    <a href="/gag/aNzQVq4"
+       class="badge-animated-cover badge-track badge-track-no-follow"
+       style="min-height:356.52173913043px;">
+
+       
+        <div class="badge-animated-container-animated gif-post" data-image="https://img-9gag-fun.9cache.com/photo/aNzQVq4_460sa.gif" data-mp4="https://img-9gag-fun.9cache.com/photo/aNzQVq4_460sv.mp4" data-webm="https://img-9gag-fun.9cache.com/photo/aNzQVq4_460svwm.webm">
+            <video preload="auto" poster="https://img-9gag-fun.9cache.com/photo/aNzQVq4_460s.jpg" style="min-height:356.52173913043px;width: 500px;" width="500" loop muted>
+                <source src="https://img-9gag-fun.9cache.com/photo/aNzQVq4_460sv.mp4" type="video/mp4">
+                <source src="https://img-9gag-fun.9cache.com/photo/aNzQVq4_460svwm.webm" type="video/webm">
+                <div class="badge-item-animated-img"></div>
+            </video>
+                        <div class="badge-animated-container-static presenting">
+                <img class="badge-item-img gif-thumb hide" src="https://img-9gag-fun.9cache.com/photo/aNzQVq4_460s.jpg" alt="Obviously, she&#039;s very GIFted"
+                     style="" />
+                                <span class="play badge-gif-play hide">GIF</span>
+            </div>
+        </div>
+    </a>
+</div>
+                            <div class="post-text-container badge-item-description">
+            </div>
+
+    <p class="post-tag">
+            </p>
+
+    <p class="post-meta">
+        <a class="badge-evt point" id="love-count-aNzQVq4"
+            href="/gag/aNzQVq4"
+            target="_blank"
+            data-evt="PostList,TapPost,Hot,,Point"
+            data-entry-id="aNzQVq4"
+            data-position="3"
+        >
+                <span class="badge-item-love-count">4,219</span> points</a> &middot;
+        <a class="comment badge-evt" href="/gag/aNzQVq4#comment" target="_blank"
+           data-evt="PostList,TapPost,Hot,,CommentCountText" data-entry-id="aNzQVq4" data-position="3">71 comments</a>
+    </p>
+
+    
+    <div class="badge-item-vote-container post-afterbar-a in-list-view  ">
+        <div class="vote badge-list-entry-buttons">
+            <ul class="btn-vote left">
+                <li><a class="badge-item-vote-up up " href="javascript:void(0);" rel="nofollow">Upvote</a></li>
+                <li><a class="badge-item-vote-down down " href="javascript:void(0);" rel="nofollow">Downvote</a></li>
+                <li><a class="comment badge-evt badge-item-comment" target="_blank" href="/gag/aNzQVq4#comment"
+                       data-evt="PostList,TapPost,Hot,,Comment" data-entry-id="aNzQVq4" data-position="3" rel="nofollow">Comment</a></li>
+                <li><a class="more badge-list-entry-more-button" 
+   href="javascript:void(0);" 
+   data-entry-id="aNzQVq4"
+   data-position="3"
+   >More</a>
+</li>
+                </li>
+            </ul>
+        </div>
+        <div class="share right">
+            <ul>
+                <li><a class="badge-facebook-share badge-evt badge-track btn-share facebook"
+   href="javascript:void(0);"
+   data-track="social,fb.s,,,d,aNzQVq4,l"
+   data-evt="PostList,ShareSocial,Hot,,FacebookButton"
+   data-entry-id="aNzQVq4"
+   data-position="3"
+   data-share="https://9gag.com/gag/aNzQVq4?ref=fb.s" rel="nofollow">Facebook</a>
+</li>
+                <li><a href="javascript:void(0);" 
+   class="badge-pinterest-share badge-evt badge-track btn-share pinterest"
+   data-track="social,pn.s,,,d,aNzQVq4,l"
+   data-evt="PostList,ShareSocial,Hot,,PinterestButton"
+   data-position="3"
+   data-entry-id="aNzQVq4"
+   data-title="Obviously%2C%20she%27s%20very%20GIFted"
+   data-img="https://img-9gag-fun.9cache.com/photo/aNzQVq4_700b.jpg"
+   data-share="https://9gag.com/gag/aNzQVq4?ref=pn" rel="nofollow">Pinterest</a>
+</li>
+            </ul>
+        </div>
+        <div class="popup-menu listview-share badge-list-entry-more-items hide">
+            <ul>
+                <li><a href="javascript:void(0);" 
+   class="badge-gplus-share badge-evt badge-track"
+   data-track="social,gp.s,,,d,aNzQVq4,l"
+   data-evt="PostList,ShareSocial,Hot,,GplusButton"
+   data-position="3"
+   data-entry-id="aNzQVq4"
+   data-share="https://9gag.com/gag/aNzQVq4?ref=gp" rel="nofollow">Google+</a>
+</li>
+                <li><a class="badge-twitter-share badge-evt badge-track twitter"
+   href="javascript:void(0);"
+   data-track="social,t.s,,,d,aNzQVq4,l"
+   data-evt="PostList,ShareSocial,Hot,,TwitterButton"
+   data-entry-id="aNzQVq4"
+   data-title="Obviously%2C%20she%27s%20very%20GIFted"
+   data-position="3"
+   data-share="https://9gag.com/gag/aNzQVq4?ref=t" rel="nofollow">Twitter</a>
+</li>
+                <li><a href="mailto:?subject=Check%20out%20%22Obviously%2C%20she%27s%20very%20GIFted%22&body=This%20is%20funny%2C%20you%20must%20check%20it%20out%21%20%3AD%0AObviously%2C%20she%27s%20very%20GIFted%0Ahttps%3A%2F%2F9gag.com%2Fgag%2FaNzQVq4%3Fref%3D9g.m" 
+   class="badge-email-share badge-evt badge-track"
+   data-track="social,9g.m,,,d,aNzQVq4,l"
+   data-evt="PostList,ShareSocial,Hot,,EmailButton"
+   data-position="3"
+   data-entry-id="aNzQVq4"
+   target="_blank" rel="nofollow">Email</a>
+
+</li>
+                <li><a href="javascript:void(0);" 
+   class="badge-item-report hide" 
+   data-entry-id="aNzQVq4"
+   data-position="3"
+   >Report</a>
+</li>
+            </ul>
+        </div>
+        <div class="clearfix"></div>
+    </div>
+
+</article>
+                
+                            
+<article
+    data-entry-id="a9A52Vm"
+    data-entry-url="https://9gag.com/gag/a9A52Vm"
+    data-entry-votes="3205"
+    data-entry-comments="210"
+    id="jsid-entry-entity-a9A52Vm"
+    class="badge-entry-container badge-entry-entity">
+    <header>
+        
+        <h2 class="badge-item-title">
+            <a class="badge-evt badge-track"
+               data-evt="PostList,TapPost,Hot,,PostTitle"
+               data-track="post,v,,,d,a9A52Vm,l"
+               data-entry-id="a9A52Vm"
+               data-position="4"
+               href="/gag/a9A52Vm"
+               target="_blank">
+                I&#039;m not even mad but this is amazing            </a>
+        </h2>
+    </header>
+
+
+                                    <div class="badge-post-container post-container animated-photo-container">
+    <a href="/gag/a9A52Vm"
+       class="badge-animated-cover badge-track badge-track-no-follow"
+       style="min-height:500px;">
+
+       
+        <div class="badge-animated-container-animated video-post" data-image="https://img-9gag-fun.9cache.com/photo/a9A52Vm_460sa.gif" data-mp4="https://img-9gag-fun.9cache.com/photo/a9A52Vm_460sv.mp4" data-webm="https://img-9gag-fun.9cache.com/photo/a9A52Vm_460svwm.webm">
+            <video preload="auto" poster="https://img-9gag-fun.9cache.com/photo/a9A52Vm_460s.jpg" style="min-height:500px;width: 500px;" width="500" loop muted>
+                <source src="https://img-9gag-fun.9cache.com/photo/a9A52Vm_460sv.mp4" type="video/mp4">
+                <source src="https://img-9gag-fun.9cache.com/photo/a9A52Vm_460svwm.webm" type="video/webm">
+                <div class="badge-item-animated-img"></div>
+            </video>
+                        <div class="badge-video-sound-toggle sound-toggle off hide"></div>
+                        <p class="badge-video-duration length">1:49</p>
+                                    <div class="badge-animated-container-static presenting">
+                <img class="badge-item-img gif-thumb hide" src="https://img-9gag-fun.9cache.com/photo/a9A52Vm_460s.jpg" alt="I&#039;m not even mad but this is amazing"
+                     style="" />
+                                <span class="play badge-gif-play hide">Play</span>
+            </div>
+        </div>
+    </a>
+</div>
+                            <div class="post-text-container badge-item-description">
+            </div>
+
+    <p class="post-tag">
+            </p>
+
+    <p class="post-meta">
+        <a class="badge-evt point" id="love-count-a9A52Vm"
+            href="/gag/a9A52Vm"
+            target="_blank"
+            data-evt="PostList,TapPost,Hot,,Point"
+            data-entry-id="a9A52Vm"
+            data-position="4"
+        >
+                <span class="badge-item-love-count">3,205</span> points</a> &middot;
+        <a class="comment badge-evt" href="/gag/a9A52Vm#comment" target="_blank"
+           data-evt="PostList,TapPost,Hot,,CommentCountText" data-entry-id="a9A52Vm" data-position="4">210 comments</a>
+    </p>
+
+    
+    <div class="badge-item-vote-container post-afterbar-a in-list-view  ">
+        <div class="vote badge-list-entry-buttons">
+            <ul class="btn-vote left">
+                <li><a class="badge-item-vote-up up " href="javascript:void(0);" rel="nofollow">Upvote</a></li>
+                <li><a class="badge-item-vote-down down " href="javascript:void(0);" rel="nofollow">Downvote</a></li>
+                <li><a class="comment badge-evt badge-item-comment" target="_blank" href="/gag/a9A52Vm#comment"
+                       data-evt="PostList,TapPost,Hot,,Comment" data-entry-id="a9A52Vm" data-position="4" rel="nofollow">Comment</a></li>
+                <li><a class="more badge-list-entry-more-button" 
+   href="javascript:void(0);" 
+   data-entry-id="a9A52Vm"
+   data-position="4"
+   >More</a>
+</li>
+                </li>
+            </ul>
+        </div>
+        <div class="share right">
+            <ul>
+                <li><a class="badge-facebook-share badge-evt badge-track btn-share facebook"
+   href="javascript:void(0);"
+   data-track="social,fb.s,,,d,a9A52Vm,l"
+   data-evt="PostList,ShareSocial,Hot,,FacebookButton"
+   data-entry-id="a9A52Vm"
+   data-position="4"
+   data-share="https://9gag.com/gag/a9A52Vm?ref=fb.s" rel="nofollow">Facebook</a>
+</li>
+                <li><a href="javascript:void(0);" 
+   class="badge-pinterest-share badge-evt badge-track btn-share pinterest"
+   data-track="social,pn.s,,,d,a9A52Vm,l"
+   data-evt="PostList,ShareSocial,Hot,,PinterestButton"
+   data-position="4"
+   data-entry-id="a9A52Vm"
+   data-title="I%27m%20not%20even%20mad%20but%20this%20is%20amazing"
+   data-img="https://img-9gag-fun.9cache.com/photo/a9A52Vm_700b.jpg"
+   data-share="https://9gag.com/gag/a9A52Vm?ref=pn" rel="nofollow">Pinterest</a>
+</li>
+            </ul>
+        </div>
+        <div class="popup-menu listview-share badge-list-entry-more-items hide">
+            <ul>
+                <li><a href="javascript:void(0);" 
+   class="badge-gplus-share badge-evt badge-track"
+   data-track="social,gp.s,,,d,a9A52Vm,l"
+   data-evt="PostList,ShareSocial,Hot,,GplusButton"
+   data-position="4"
+   data-entry-id="a9A52Vm"
+   data-share="https://9gag.com/gag/a9A52Vm?ref=gp" rel="nofollow">Google+</a>
+</li>
+                <li><a class="badge-twitter-share badge-evt badge-track twitter"
+   href="javascript:void(0);"
+   data-track="social,t.s,,,d,a9A52Vm,l"
+   data-evt="PostList,ShareSocial,Hot,,TwitterButton"
+   data-entry-id="a9A52Vm"
+   data-title="I%27m%20not%20even%20mad%20but%20this%20is%20amazing"
+   data-position="4"
+   data-share="https://9gag.com/gag/a9A52Vm?ref=t" rel="nofollow">Twitter</a>
+</li>
+                <li><a href="mailto:?subject=Check%20out%20%22I%27m%20not%20even%20mad%20but%20this%20is%20amazing%22&body=This%20is%20funny%2C%20you%20must%20check%20it%20out%21%20%3AD%0AI%27m%20not%20even%20mad%20but%20this%20is%20amazing%0Ahttps%3A%2F%2F9gag.com%2Fgag%2Fa9A52Vm%3Fref%3D9g.m" 
+   class="badge-email-share badge-evt badge-track"
+   data-track="social,9g.m,,,d,a9A52Vm,l"
+   data-evt="PostList,ShareSocial,Hot,,EmailButton"
+   data-position="4"
+   data-entry-id="a9A52Vm"
+   target="_blank" rel="nofollow">Email</a>
+
+</li>
+                <li><a href="javascript:void(0);" 
+   class="badge-item-report hide" 
+   data-entry-id="a9A52Vm"
+   data-position="4"
+   >Report</a>
+</li>
+            </ul>
+        </div>
+        <div class="clearfix"></div>
+    </div>
+
+</article>
+                
+                            
+<article
+    data-entry-id="av76xeZ"
+    data-entry-url="https://9gag.com/gag/av76xeZ"
+    data-entry-votes="4906"
+    data-entry-comments="78"
+    id="jsid-entry-entity-av76xeZ"
+    class="badge-entry-container badge-entry-entity">
+    <header>
+        
+        <h2 class="badge-item-title">
+            <a class="badge-evt badge-track"
+               data-evt="PostList,TapPost,Hot,,PostTitle"
+               data-track="post,v,,,d,av76xeZ,l"
+               data-entry-id="av76xeZ"
+               data-position="5"
+               href="/gag/av76xeZ"
+               target="_blank">
+                You gotta do what cha gotta do            </a>
+        </h2>
+    </header>
+
+
+                                    
+<div class="badge-post-container post-container ">
+    <a href="/gag/av76xeZ"
+       class="badge-evt badge-track badge-track-no-follow"
+       data-evt="PostList,TapPost,Hot,,PostImage"
+       data-entry-id="av76xeZ"
+       data-position="5"
+       style="min-height:1008.6956521739px;" target="_blank">
+        <img class="badge-item-img" src="https://img-9gag-fun.9cache.com/photo/av76xeZ_460s_v1.jpg" alt="You gotta do what cha gotta do"/>
+    </a>
+
+        </div>
+
+
+                            <div class="post-text-container badge-item-description">
+            </div>
+
+    <p class="post-tag">
+            </p>
+
+    <p class="post-meta">
+        <a class="badge-evt point" id="love-count-av76xeZ"
+            href="/gag/av76xeZ"
+            target="_blank"
+            data-evt="PostList,TapPost,Hot,,Point"
+            data-entry-id="av76xeZ"
+            data-position="5"
+        >
+                <span class="badge-item-love-count">4,906</span> points</a> &middot;
+        <a class="comment badge-evt" href="/gag/av76xeZ#comment" target="_blank"
+           data-evt="PostList,TapPost,Hot,,CommentCountText" data-entry-id="av76xeZ" data-position="5">78 comments</a>
+    </p>
+
+    
+    <div class="badge-item-vote-container post-afterbar-a in-list-view  ">
+        <div class="vote badge-list-entry-buttons">
+            <ul class="btn-vote left">
+                <li><a class="badge-item-vote-up up " href="javascript:void(0);" rel="nofollow">Upvote</a></li>
+                <li><a class="badge-item-vote-down down " href="javascript:void(0);" rel="nofollow">Downvote</a></li>
+                <li><a class="comment badge-evt badge-item-comment" target="_blank" href="/gag/av76xeZ#comment"
+                       data-evt="PostList,TapPost,Hot,,Comment" data-entry-id="av76xeZ" data-position="5" rel="nofollow">Comment</a></li>
+                <li><a class="more badge-list-entry-more-button" 
+   href="javascript:void(0);" 
+   data-entry-id="av76xeZ"
+   data-position="5"
+   >More</a>
+</li>
+                </li>
+            </ul>
+        </div>
+        <div class="share right">
+            <ul>
+                <li><a class="badge-facebook-share badge-evt badge-track btn-share facebook"
+   href="javascript:void(0);"
+   data-track="social,fb.s,,,d,av76xeZ,l"
+   data-evt="PostList,ShareSocial,Hot,,FacebookButton"
+   data-entry-id="av76xeZ"
+   data-position="5"
+   data-share="https://9gag.com/gag/av76xeZ?ref=fb.s" rel="nofollow">Facebook</a>
+</li>
+                <li><a href="javascript:void(0);" 
+   class="badge-pinterest-share badge-evt badge-track btn-share pinterest"
+   data-track="social,pn.s,,,d,av76xeZ,l"
+   data-evt="PostList,ShareSocial,Hot,,PinterestButton"
+   data-position="5"
+   data-entry-id="av76xeZ"
+   data-title="You%20gotta%20do%20what%20cha%20gotta%20do"
+   data-img="https://img-9gag-fun.9cache.com/photo/av76xeZ_700b_v1.jpg"
+   data-share="https://9gag.com/gag/av76xeZ?ref=pn" rel="nofollow">Pinterest</a>
+</li>
+            </ul>
+        </div>
+        <div class="popup-menu listview-share badge-list-entry-more-items hide">
+            <ul>
+                <li><a href="javascript:void(0);" 
+   class="badge-gplus-share badge-evt badge-track"
+   data-track="social,gp.s,,,d,av76xeZ,l"
+   data-evt="PostList,ShareSocial,Hot,,GplusButton"
+   data-position="5"
+   data-entry-id="av76xeZ"
+   data-share="https://9gag.com/gag/av76xeZ?ref=gp" rel="nofollow">Google+</a>
+</li>
+                <li><a class="badge-twitter-share badge-evt badge-track twitter"
+   href="javascript:void(0);"
+   data-track="social,t.s,,,d,av76xeZ,l"
+   data-evt="PostList,ShareSocial,Hot,,TwitterButton"
+   data-entry-id="av76xeZ"
+   data-title="You%20gotta%20do%20what%20cha%20gotta%20do"
+   data-position="5"
+   data-share="https://9gag.com/gag/av76xeZ?ref=t" rel="nofollow">Twitter</a>
+</li>
+                <li><a href="mailto:?subject=Check%20out%20%22You%20gotta%20do%20what%20cha%20gotta%20do%22&body=This%20is%20funny%2C%20you%20must%20check%20it%20out%21%20%3AD%0AYou%20gotta%20do%20what%20cha%20gotta%20do%0Ahttps%3A%2F%2F9gag.com%2Fgag%2Fav76xeZ%3Fref%3D9g.m" 
+   class="badge-email-share badge-evt badge-track"
+   data-track="social,9g.m,,,d,av76xeZ,l"
+   data-evt="PostList,ShareSocial,Hot,,EmailButton"
+   data-position="5"
+   data-entry-id="av76xeZ"
+   target="_blank" rel="nofollow">Email</a>
+
+</li>
+                <li><a href="javascript:void(0);" 
+   class="badge-item-report hide" 
+   data-entry-id="av76xeZ"
+   data-position="5"
+   >Report</a>
+</li>
+            </ul>
+        </div>
+        <div class="clearfix"></div>
+    </div>
+
+</article>
+                
+                            
+<article
+    data-entry-id="agY78bv"
+    data-entry-url="https://9gag.com/gag/agY78bv"
+    data-entry-votes="4568"
+    data-entry-comments="62"
+    id="jsid-entry-entity-agY78bv"
+    class="badge-entry-container badge-entry-entity">
+    <header>
+        
+        <h2 class="badge-item-title">
+            <a class="badge-evt badge-track"
+               data-evt="PostList,TapPost,Hot,,PostTitle"
+               data-track="post,v,,,d,agY78bv,l"
+               data-entry-id="agY78bv"
+               data-position="6"
+               href="/gag/agY78bv"
+               target="_blank">
+                When I have a date with my life long crush the next day.            </a>
+        </h2>
+    </header>
+
+
+                                    
+<div class="badge-post-container post-container ">
+    <a href="/gag/agY78bv"
+       class="badge-evt badge-track badge-track-no-follow"
+       data-evt="PostList,TapPost,Hot,,PostImage"
+       data-entry-id="agY78bv"
+       data-position="6"
+       style="min-height:1117.3913043478px;" target="_blank">
+        <img class="badge-item-img" src="https://img-9gag-fun.9cache.com/photo/agY78bv_460s_v1.jpg" alt="When I have a date with my life long crush the next day."/>
+    </a>
+
+        </div>
+
+
+                            <div class="post-text-container badge-item-description">
+            </div>
+
+    <p class="post-tag">
+                    <a target="_blank" href="/tag/crush?ref=post-tag" onclick="GAG.GA.track('PostList', 'ViewTag', 'Hot', '', {'post-tag-label': 'Crush'});">Crush</a>
+                    <a target="_blank" href="/tag/date?ref=post-tag" onclick="GAG.GA.track('PostList', 'ViewTag', 'Hot', '', {'post-tag-label': 'Date'});">Date</a>
+                    <a target="_blank" href="/tag/hospital?ref=post-tag" onclick="GAG.GA.track('PostList', 'ViewTag', 'Hot', '', {'post-tag-label': 'Hospital'});">Hospital</a>
+            </p>
+
+    <p class="post-meta">
+        <a class="badge-evt point" id="love-count-agY78bv"
+            href="/gag/agY78bv"
+            target="_blank"
+            data-evt="PostList,TapPost,Hot,,Point"
+            data-entry-id="agY78bv"
+            data-position="6"
+        >
+                <span class="badge-item-love-count">4,568</span> points</a> &middot;
+        <a class="comment badge-evt" href="/gag/agY78bv#comment" target="_blank"
+           data-evt="PostList,TapPost,Hot,,CommentCountText" data-entry-id="agY78bv" data-position="6">62 comments</a>
+    </p>
+
+    
+    <div class="badge-item-vote-container post-afterbar-a in-list-view  ">
+        <div class="vote badge-list-entry-buttons">
+            <ul class="btn-vote left">
+                <li><a class="badge-item-vote-up up " href="javascript:void(0);" rel="nofollow">Upvote</a></li>
+                <li><a class="badge-item-vote-down down " href="javascript:void(0);" rel="nofollow">Downvote</a></li>
+                <li><a class="comment badge-evt badge-item-comment" target="_blank" href="/gag/agY78bv#comment"
+                       data-evt="PostList,TapPost,Hot,,Comment" data-entry-id="agY78bv" data-position="6" rel="nofollow">Comment</a></li>
+                <li><a class="more badge-list-entry-more-button" 
+   href="javascript:void(0);" 
+   data-entry-id="agY78bv"
+   data-position="6"
+   >More</a>
+</li>
+                </li>
+            </ul>
+        </div>
+        <div class="share right">
+            <ul>
+                <li><a class="badge-facebook-share badge-evt badge-track btn-share facebook"
+   href="javascript:void(0);"
+   data-track="social,fb.s,,,d,agY78bv,l"
+   data-evt="PostList,ShareSocial,Hot,,FacebookButton"
+   data-entry-id="agY78bv"
+   data-position="6"
+   data-share="https://9gag.com/gag/agY78bv?ref=fb.s" rel="nofollow">Facebook</a>
+</li>
+                <li><a href="javascript:void(0);" 
+   class="badge-pinterest-share badge-evt badge-track btn-share pinterest"
+   data-track="social,pn.s,,,d,agY78bv,l"
+   data-evt="PostList,ShareSocial,Hot,,PinterestButton"
+   data-position="6"
+   data-entry-id="agY78bv"
+   data-title="When%20I%20have%20a%20date%20with%20my%20life%20long%20crush%20the%20next%20day."
+   data-img="https://img-9gag-fun.9cache.com/photo/agY78bv_700b_v1.jpg"
+   data-share="https://9gag.com/gag/agY78bv?ref=pn" rel="nofollow">Pinterest</a>
+</li>
+            </ul>
+        </div>
+        <div class="popup-menu listview-share badge-list-entry-more-items hide">
+            <ul>
+                <li><a href="javascript:void(0);" 
+   class="badge-gplus-share badge-evt badge-track"
+   data-track="social,gp.s,,,d,agY78bv,l"
+   data-evt="PostList,ShareSocial,Hot,,GplusButton"
+   data-position="6"
+   data-entry-id="agY78bv"
+   data-share="https://9gag.com/gag/agY78bv?ref=gp" rel="nofollow">Google+</a>
+</li>
+                <li><a class="badge-twitter-share badge-evt badge-track twitter"
+   href="javascript:void(0);"
+   data-track="social,t.s,,,d,agY78bv,l"
+   data-evt="PostList,ShareSocial,Hot,,TwitterButton"
+   data-entry-id="agY78bv"
+   data-title="When%20I%20have%20a%20date%20with%20my%20life%20long%20crush%20the%20next%20day."
+   data-position="6"
+   data-share="https://9gag.com/gag/agY78bv?ref=t" rel="nofollow">Twitter</a>
+</li>
+                <li><a href="mailto:?subject=Check%20out%20%22When%20I%20have%20a%20date%20with%20my%20life%20long%20crush%20the%20next%20day.%22&body=This%20is%20funny%2C%20you%20must%20check%20it%20out%21%20%3AD%0AWhen%20I%20have%20a%20date%20with%20my%20life%20long%20crush%20the%20next%20day.%0Ahttps%3A%2F%2F9gag.com%2Fgag%2FagY78bv%3Fref%3D9g.m" 
+   class="badge-email-share badge-evt badge-track"
+   data-track="social,9g.m,,,d,agY78bv,l"
+   data-evt="PostList,ShareSocial,Hot,,EmailButton"
+   data-position="6"
+   data-entry-id="agY78bv"
+   target="_blank" rel="nofollow">Email</a>
+
+</li>
+                <li><a href="javascript:void(0);" 
+   class="badge-item-report hide" 
+   data-entry-id="agY78bv"
+   data-position="6"
+   >Report</a>
+</li>
+            </ul>
+        </div>
+        <div class="clearfix"></div>
+    </div>
+
+</article>
+                
+                            
+<article
+    data-entry-id="ajNLBPp"
+    data-entry-url="https://9gag.com/gag/ajNLBPp"
+    data-entry-votes="5045"
+    data-entry-comments="88"
+    id="jsid-entry-entity-ajNLBPp"
+    class="badge-entry-container badge-entry-entity">
+    <header>
+        
+        <h2 class="badge-item-title">
+            <a class="badge-evt badge-track"
+               data-evt="PostList,TapPost,Hot,,PostTitle"
+               data-track="post,v,,,d,ajNLBPp,l"
+               data-entry-id="ajNLBPp"
+               data-position="7"
+               href="/gag/ajNLBPp"
+               target="_blank">
+                This made me happy            </a>
+        </h2>
+    </header>
+
+
+                                    
+<div class="badge-post-container post-container ">
+    <a href="/gag/ajNLBPp"
+       class="badge-evt badge-track badge-track-no-follow"
+       data-evt="PostList,TapPost,Hot,,PostImage"
+       data-entry-id="ajNLBPp"
+       data-position="7"
+       style="min-height:341.30434782609px;" target="_blank">
+        <img class="badge-item-img" src="https://img-9gag-fun.9cache.com/photo/ajNLBPp_460s.jpg" alt="This made me happy"/>
+    </a>
+
+        </div>
+
+
+                            <div class="post-text-container badge-item-description">
+            </div>
+
+    <p class="post-tag">
+            </p>
+
+    <p class="post-meta">
+        <a class="badge-evt point" id="love-count-ajNLBPp"
+            href="/gag/ajNLBPp"
+            target="_blank"
+            data-evt="PostList,TapPost,Hot,,Point"
+            data-entry-id="ajNLBPp"
+            data-position="7"
+        >
+                <span class="badge-item-love-count">5,045</span> points</a> &middot;
+        <a class="comment badge-evt" href="/gag/ajNLBPp#comment" target="_blank"
+           data-evt="PostList,TapPost,Hot,,CommentCountText" data-entry-id="ajNLBPp" data-position="7">88 comments</a>
+    </p>
+
+    
+    <div class="badge-item-vote-container post-afterbar-a in-list-view  ">
+        <div class="vote badge-list-entry-buttons">
+            <ul class="btn-vote left">
+                <li><a class="badge-item-vote-up up " href="javascript:void(0);" rel="nofollow">Upvote</a></li>
+                <li><a class="badge-item-vote-down down " href="javascript:void(0);" rel="nofollow">Downvote</a></li>
+                <li><a class="comment badge-evt badge-item-comment" target="_blank" href="/gag/ajNLBPp#comment"
+                       data-evt="PostList,TapPost,Hot,,Comment" data-entry-id="ajNLBPp" data-position="7" rel="nofollow">Comment</a></li>
+                <li><a class="more badge-list-entry-more-button" 
+   href="javascript:void(0);" 
+   data-entry-id="ajNLBPp"
+   data-position="7"
+   >More</a>
+</li>
+                </li>
+            </ul>
+        </div>
+        <div class="share right">
+            <ul>
+                <li><a class="badge-facebook-share badge-evt badge-track btn-share facebook"
+   href="javascript:void(0);"
+   data-track="social,fb.s,,,d,ajNLBPp,l"
+   data-evt="PostList,ShareSocial,Hot,,FacebookButton"
+   data-entry-id="ajNLBPp"
+   data-position="7"
+   data-share="https://9gag.com/gag/ajNLBPp?ref=fb.s" rel="nofollow">Facebook</a>
+</li>
+                <li><a href="javascript:void(0);" 
+   class="badge-pinterest-share badge-evt badge-track btn-share pinterest"
+   data-track="social,pn.s,,,d,ajNLBPp,l"
+   data-evt="PostList,ShareSocial,Hot,,PinterestButton"
+   data-position="7"
+   data-entry-id="ajNLBPp"
+   data-title="This%20made%20me%20happy"
+   data-img="https://img-9gag-fun.9cache.com/photo/ajNLBPp_700b.jpg"
+   data-share="https://9gag.com/gag/ajNLBPp?ref=pn" rel="nofollow">Pinterest</a>
+</li>
+            </ul>
+        </div>
+        <div class="popup-menu listview-share badge-list-entry-more-items hide">
+            <ul>
+                <li><a href="javascript:void(0);" 
+   class="badge-gplus-share badge-evt badge-track"
+   data-track="social,gp.s,,,d,ajNLBPp,l"
+   data-evt="PostList,ShareSocial,Hot,,GplusButton"
+   data-position="7"
+   data-entry-id="ajNLBPp"
+   data-share="https://9gag.com/gag/ajNLBPp?ref=gp" rel="nofollow">Google+</a>
+</li>
+                <li><a class="badge-twitter-share badge-evt badge-track twitter"
+   href="javascript:void(0);"
+   data-track="social,t.s,,,d,ajNLBPp,l"
+   data-evt="PostList,ShareSocial,Hot,,TwitterButton"
+   data-entry-id="ajNLBPp"
+   data-title="This%20made%20me%20happy"
+   data-position="7"
+   data-share="https://9gag.com/gag/ajNLBPp?ref=t" rel="nofollow">Twitter</a>
+</li>
+                <li><a href="mailto:?subject=Check%20out%20%22This%20made%20me%20happy%22&body=This%20is%20funny%2C%20you%20must%20check%20it%20out%21%20%3AD%0AThis%20made%20me%20happy%0Ahttps%3A%2F%2F9gag.com%2Fgag%2FajNLBPp%3Fref%3D9g.m" 
+   class="badge-email-share badge-evt badge-track"
+   data-track="social,9g.m,,,d,ajNLBPp,l"
+   data-evt="PostList,ShareSocial,Hot,,EmailButton"
+   data-position="7"
+   data-entry-id="ajNLBPp"
+   target="_blank" rel="nofollow">Email</a>
+
+</li>
+                <li><a href="javascript:void(0);" 
+   class="badge-item-report hide" 
+   data-entry-id="ajNLBPp"
+   data-position="7"
+   >Report</a>
+</li>
+            </ul>
+        </div>
+        <div class="clearfix"></div>
+    </div>
+
+</article>
+                
+                            
+<article
+    data-entry-id="aADKmO0"
+    data-entry-url="https://9gag.com/gag/aADKmO0"
+    data-entry-votes="3054"
+    data-entry-comments="265"
+    id="jsid-entry-entity-aADKmO0"
+    class="badge-entry-container badge-entry-entity">
+    <header>
+        
+        <h2 class="badge-item-title">
+            <a class="badge-evt badge-track"
+               data-evt="PostList,TapPost,Hot,,PostTitle"
+               data-track="post,v,,,d,aADKmO0,l"
+               data-entry-id="aADKmO0"
+               data-position="8"
+               href="/gag/aADKmO0"
+               target="_blank">
+                *Claustrophobia intensifies*            </a>
+        </h2>
+    </header>
+
+
+                                    <div class="badge-post-container post-container animated-photo-container">
+    <a href="/gag/aADKmO0"
+       class="badge-animated-cover badge-track badge-track-no-follow"
+       style="min-height:500px;">
+
+       
+        <div class="badge-animated-container-animated video-post" data-image="https://img-9gag-fun.9cache.com/photo/aADKmO0_460sa.gif" data-mp4="https://img-9gag-fun.9cache.com/photo/aADKmO0_460sv.mp4" data-webm="https://img-9gag-fun.9cache.com/photo/aADKmO0_460svwm.webm">
+            <video preload="auto" poster="https://img-9gag-fun.9cache.com/photo/aADKmO0_460s.jpg" style="min-height:500px;width: 500px;" width="500" loop muted>
+                <source src="https://img-9gag-fun.9cache.com/photo/aADKmO0_460sv.mp4" type="video/mp4">
+                <source src="https://img-9gag-fun.9cache.com/photo/aADKmO0_460svwm.webm" type="video/webm">
+                <div class="badge-item-animated-img"></div>
+            </video>
+                        <div class="badge-video-sound-toggle sound-toggle off hide"></div>
+                        <p class="badge-video-duration length">1:14</p>
+                                    <div class="badge-animated-container-static presenting">
+                <img class="badge-item-img gif-thumb hide" src="https://img-9gag-fun.9cache.com/photo/aADKmO0_460s.jpg" alt="*Claustrophobia intensifies*"
+                     style="" />
+                                <span class="play badge-gif-play hide">Play</span>
+            </div>
+        </div>
+    </a>
+</div>
+                            <div class="post-text-container badge-item-description">
+            </div>
+
+    <p class="post-tag">
+                    <a target="_blank" href="/tag/ejaculate?ref=post-tag" onclick="GAG.GA.track('PostList', 'ViewTag', 'Hot', '', {'post-tag-label': 'ejaculate'});">ejaculate</a>
+                    <a target="_blank" href="/tag/and?ref=post-tag" onclick="GAG.GA.track('PostList', 'ViewTag', 'Hot', '', {'post-tag-label': 'and'});">and</a>
+                    <a target="_blank" href="/tag/evacuate?ref=post-tag" onclick="GAG.GA.track('PostList', 'ViewTag', 'Hot', '', {'post-tag-label': 'evacuate'});">evacuate</a>
+            </p>
+
+    <p class="post-meta">
+        <a class="badge-evt point" id="love-count-aADKmO0"
+            href="/gag/aADKmO0"
+            target="_blank"
+            data-evt="PostList,TapPost,Hot,,Point"
+            data-entry-id="aADKmO0"
+            data-position="8"
+        >
+                <span class="badge-item-love-count">3,054</span> points</a> &middot;
+        <a class="comment badge-evt" href="/gag/aADKmO0#comment" target="_blank"
+           data-evt="PostList,TapPost,Hot,,CommentCountText" data-entry-id="aADKmO0" data-position="8">265 comments</a>
+    </p>
+
+    
+    <div class="badge-item-vote-container post-afterbar-a in-list-view  ">
+        <div class="vote badge-list-entry-buttons">
+            <ul class="btn-vote left">
+                <li><a class="badge-item-vote-up up " href="javascript:void(0);" rel="nofollow">Upvote</a></li>
+                <li><a class="badge-item-vote-down down " href="javascript:void(0);" rel="nofollow">Downvote</a></li>
+                <li><a class="comment badge-evt badge-item-comment" target="_blank" href="/gag/aADKmO0#comment"
+                       data-evt="PostList,TapPost,Hot,,Comment" data-entry-id="aADKmO0" data-position="8" rel="nofollow">Comment</a></li>
+                <li><a class="more badge-list-entry-more-button" 
+   href="javascript:void(0);" 
+   data-entry-id="aADKmO0"
+   data-position="8"
+   >More</a>
+</li>
+                </li>
+            </ul>
+        </div>
+        <div class="share right">
+            <ul>
+                <li><a class="badge-facebook-share badge-evt badge-track btn-share facebook"
+   href="javascript:void(0);"
+   data-track="social,fb.s,,,d,aADKmO0,l"
+   data-evt="PostList,ShareSocial,Hot,,FacebookButton"
+   data-entry-id="aADKmO0"
+   data-position="8"
+   data-share="https://9gag.com/gag/aADKmO0?ref=fb.s" rel="nofollow">Facebook</a>
+</li>
+                <li><a href="javascript:void(0);" 
+   class="badge-pinterest-share badge-evt badge-track btn-share pinterest"
+   data-track="social,pn.s,,,d,aADKmO0,l"
+   data-evt="PostList,ShareSocial,Hot,,PinterestButton"
+   data-position="8"
+   data-entry-id="aADKmO0"
+   data-title="%2AClaustrophobia%20intensifies%2A"
+   data-img="https://img-9gag-fun.9cache.com/photo/aADKmO0_700b.jpg"
+   data-share="https://9gag.com/gag/aADKmO0?ref=pn" rel="nofollow">Pinterest</a>
+</li>
+            </ul>
+        </div>
+        <div class="popup-menu listview-share badge-list-entry-more-items hide">
+            <ul>
+                <li><a href="javascript:void(0);" 
+   class="badge-gplus-share badge-evt badge-track"
+   data-track="social,gp.s,,,d,aADKmO0,l"
+   data-evt="PostList,ShareSocial,Hot,,GplusButton"
+   data-position="8"
+   data-entry-id="aADKmO0"
+   data-share="https://9gag.com/gag/aADKmO0?ref=gp" rel="nofollow">Google+</a>
+</li>
+                <li><a class="badge-twitter-share badge-evt badge-track twitter"
+   href="javascript:void(0);"
+   data-track="social,t.s,,,d,aADKmO0,l"
+   data-evt="PostList,ShareSocial,Hot,,TwitterButton"
+   data-entry-id="aADKmO0"
+   data-title="%2AClaustrophobia%20intensifies%2A"
+   data-position="8"
+   data-share="https://9gag.com/gag/aADKmO0?ref=t" rel="nofollow">Twitter</a>
+</li>
+                <li><a href="mailto:?subject=Check%20out%20%22%2AClaustrophobia%20intensifies%2A%22&body=This%20is%20funny%2C%20you%20must%20check%20it%20out%21%20%3AD%0A%2AClaustrophobia%20intensifies%2A%0Ahttps%3A%2F%2F9gag.com%2Fgag%2FaADKmO0%3Fref%3D9g.m" 
+   class="badge-email-share badge-evt badge-track"
+   data-track="social,9g.m,,,d,aADKmO0,l"
+   data-evt="PostList,ShareSocial,Hot,,EmailButton"
+   data-position="8"
+   data-entry-id="aADKmO0"
+   target="_blank" rel="nofollow">Email</a>
+
+</li>
+                <li><a href="javascript:void(0);" 
+   class="badge-item-report hide" 
+   data-entry-id="aADKmO0"
+   data-position="8"
+   >Report</a>
+</li>
+            </ul>
+        </div>
+        <div class="clearfix"></div>
+    </div>
+
+</article>
+                
+                            
+<article
+    data-entry-id="aMAPnXM"
+    data-entry-url="https://9gag.com/gag/aMAPnXM"
+    data-entry-votes="4905"
+    data-entry-comments="101"
+    id="jsid-entry-entity-aMAPnXM"
+    class="badge-entry-container badge-entry-entity">
+    <header>
+        
+        <h2 class="badge-item-title">
+            <a class="badge-evt badge-track"
+               data-evt="PostList,TapPost,Hot,,PostTitle"
+               data-track="post,v,,,d,aMAPnXM,l"
+               data-entry-id="aMAPnXM"
+               data-position="9"
+               href="/gag/aMAPnXM"
+               target="_blank">
+                What the f**k            </a>
+        </h2>
+    </header>
+
+
+                                    <div class="badge-post-container post-container animated-photo-container">
+    <a href="/gag/aMAPnXM"
+       class="badge-animated-cover badge-track badge-track-no-follow"
+       style="min-height:280.4347826087px;">
+
+       
+        <div class="badge-animated-container-animated gif-post" data-image="https://img-9gag-fun.9cache.com/photo/aMAPnXM_460sa.gif" data-mp4="https://img-9gag-fun.9cache.com/photo/aMAPnXM_460sv.mp4" data-webm="https://img-9gag-fun.9cache.com/photo/aMAPnXM_460svwm.webm">
+            <video preload="auto" poster="https://img-9gag-fun.9cache.com/photo/aMAPnXM_460s.jpg" style="min-height:280.4347826087px;width: 500px;" width="500" loop muted>
+                <source src="https://img-9gag-fun.9cache.com/photo/aMAPnXM_460sv.mp4" type="video/mp4">
+                <source src="https://img-9gag-fun.9cache.com/photo/aMAPnXM_460svwm.webm" type="video/webm">
+                <div class="badge-item-animated-img"></div>
+            </video>
+                        <div class="badge-animated-container-static presenting">
+                <img class="badge-item-img gif-thumb hide" src="https://img-9gag-fun.9cache.com/photo/aMAPnXM_460s.jpg" alt="What the f**k"
+                     style="" />
+                                <span class="play badge-gif-play hide">GIF</span>
+            </div>
+        </div>
+    </a>
+</div>
+                            <div class="post-text-container badge-item-description">
+            </div>
+
+    <p class="post-tag">
+            </p>
+
+    <p class="post-meta">
+        <a class="badge-evt point" id="love-count-aMAPnXM"
+            href="/gag/aMAPnXM"
+            target="_blank"
+            data-evt="PostList,TapPost,Hot,,Point"
+            data-entry-id="aMAPnXM"
+            data-position="9"
+        >
+                <span class="badge-item-love-count">4,905</span> points</a> &middot;
+        <a class="comment badge-evt" href="/gag/aMAPnXM#comment" target="_blank"
+           data-evt="PostList,TapPost,Hot,,CommentCountText" data-entry-id="aMAPnXM" data-position="9">101 comments</a>
+    </p>
+
+    
+    <div class="badge-item-vote-container post-afterbar-a in-list-view  ">
+        <div class="vote badge-list-entry-buttons">
+            <ul class="btn-vote left">
+                <li><a class="badge-item-vote-up up " href="javascript:void(0);" rel="nofollow">Upvote</a></li>
+                <li><a class="badge-item-vote-down down " href="javascript:void(0);" rel="nofollow">Downvote</a></li>
+                <li><a class="comment badge-evt badge-item-comment" target="_blank" href="/gag/aMAPnXM#comment"
+                       data-evt="PostList,TapPost,Hot,,Comment" data-entry-id="aMAPnXM" data-position="9" rel="nofollow">Comment</a></li>
+                <li><a class="more badge-list-entry-more-button" 
+   href="javascript:void(0);" 
+   data-entry-id="aMAPnXM"
+   data-position="9"
+   >More</a>
+</li>
+                </li>
+            </ul>
+        </div>
+        <div class="share right">
+            <ul>
+                <li><a class="badge-facebook-share badge-evt badge-track btn-share facebook"
+   href="javascript:void(0);"
+   data-track="social,fb.s,,,d,aMAPnXM,l"
+   data-evt="PostList,ShareSocial,Hot,,FacebookButton"
+   data-entry-id="aMAPnXM"
+   data-position="9"
+   data-share="https://9gag.com/gag/aMAPnXM?ref=fb.s" rel="nofollow">Facebook</a>
+</li>
+                <li><a href="javascript:void(0);" 
+   class="badge-pinterest-share badge-evt badge-track btn-share pinterest"
+   data-track="social,pn.s,,,d,aMAPnXM,l"
+   data-evt="PostList,ShareSocial,Hot,,PinterestButton"
+   data-position="9"
+   data-entry-id="aMAPnXM"
+   data-title="What%20the%20f%2A%2Ak"
+   data-img="https://img-9gag-fun.9cache.com/photo/aMAPnXM_700b.jpg"
+   data-share="https://9gag.com/gag/aMAPnXM?ref=pn" rel="nofollow">Pinterest</a>
+</li>
+            </ul>
+        </div>
+        <div class="popup-menu listview-share badge-list-entry-more-items hide">
+            <ul>
+                <li><a href="javascript:void(0);" 
+   class="badge-gplus-share badge-evt badge-track"
+   data-track="social,gp.s,,,d,aMAPnXM,l"
+   data-evt="PostList,ShareSocial,Hot,,GplusButton"
+   data-position="9"
+   data-entry-id="aMAPnXM"
+   data-share="https://9gag.com/gag/aMAPnXM?ref=gp" rel="nofollow">Google+</a>
+</li>
+                <li><a class="badge-twitter-share badge-evt badge-track twitter"
+   href="javascript:void(0);"
+   data-track="social,t.s,,,d,aMAPnXM,l"
+   data-evt="PostList,ShareSocial,Hot,,TwitterButton"
+   data-entry-id="aMAPnXM"
+   data-title="What%20the%20f%2A%2Ak"
+   data-position="9"
+   data-share="https://9gag.com/gag/aMAPnXM?ref=t" rel="nofollow">Twitter</a>
+</li>
+                <li><a href="mailto:?subject=Check%20out%20%22What%20the%20f%2A%2Ak%22&body=This%20is%20funny%2C%20you%20must%20check%20it%20out%21%20%3AD%0AWhat%20the%20f%2A%2Ak%0Ahttps%3A%2F%2F9gag.com%2Fgag%2FaMAPnXM%3Fref%3D9g.m" 
+   class="badge-email-share badge-evt badge-track"
+   data-track="social,9g.m,,,d,aMAPnXM,l"
+   data-evt="PostList,ShareSocial,Hot,,EmailButton"
+   data-position="9"
+   data-entry-id="aMAPnXM"
+   target="_blank" rel="nofollow">Email</a>
+
+</li>
+                <li><a href="javascript:void(0);" 
+   class="badge-item-report hide" 
+   data-entry-id="aMAPnXM"
+   data-position="9"
+   >Report</a>
+</li>
+            </ul>
+        </div>
+        <div class="clearfix"></div>
+    </div>
+
+</article>
+                
+                            
+<article
+    data-entry-id="aKDvvrQ"
+    data-entry-url="https://9gag.com/gag/aKDvvrQ"
+    data-entry-votes="4901"
+    data-entry-comments="70"
+    id="jsid-entry-entity-aKDvvrQ"
+    class="badge-entry-container badge-entry-entity">
+    <header>
+        
+        <h2 class="badge-item-title">
+            <a class="badge-evt badge-track"
+               data-evt="PostList,TapPost,Hot,,PostTitle"
+               data-track="post,v,,,d,aKDvvrQ,l"
+               data-entry-id="aKDvvrQ"
+               data-position="10"
+               href="/gag/aKDvvrQ"
+               target="_blank">
+                Chernobyl            </a>
+        </h2>
+    </header>
+
+
+                                    
+<div class="badge-post-container post-container ">
+    <a href="/gag/aKDvvrQ"
+       class="badge-evt badge-track badge-track-no-follow"
+       data-evt="PostList,TapPost,Hot,,PostImage"
+       data-entry-id="aKDvvrQ"
+       data-position="10"
+       style="min-height:718.47826086957px;" target="_blank">
+        <img class="badge-item-img" src="https://img-9gag-fun.9cache.com/photo/aKDvvrQ_460s_v1.jpg" alt="Chernobyl"/>
+    </a>
+
+        </div>
+
+
+                            <div class="post-text-container badge-item-description">
+            </div>
+
+    <p class="post-tag">
+            </p>
+
+    <p class="post-meta">
+        <a class="badge-evt point" id="love-count-aKDvvrQ"
+            href="/gag/aKDvvrQ"
+            target="_blank"
+            data-evt="PostList,TapPost,Hot,,Point"
+            data-entry-id="aKDvvrQ"
+            data-position="10"
+        >
+                <span class="badge-item-love-count">4,901</span> points</a> &middot;
+        <a class="comment badge-evt" href="/gag/aKDvvrQ#comment" target="_blank"
+           data-evt="PostList,TapPost,Hot,,CommentCountText" data-entry-id="aKDvvrQ" data-position="10">70 comments</a>
+    </p>
+
+    
+    <div class="badge-item-vote-container post-afterbar-a in-list-view  ">
+        <div class="vote badge-list-entry-buttons">
+            <ul class="btn-vote left">
+                <li><a class="badge-item-vote-up up " href="javascript:void(0);" rel="nofollow">Upvote</a></li>
+                <li><a class="badge-item-vote-down down " href="javascript:void(0);" rel="nofollow">Downvote</a></li>
+                <li><a class="comment badge-evt badge-item-comment" target="_blank" href="/gag/aKDvvrQ#comment"
+                       data-evt="PostList,TapPost,Hot,,Comment" data-entry-id="aKDvvrQ" data-position="10" rel="nofollow">Comment</a></li>
+                <li><a class="more badge-list-entry-more-button" 
+   href="javascript:void(0);" 
+   data-entry-id="aKDvvrQ"
+   data-position="10"
+   >More</a>
+</li>
+                </li>
+            </ul>
+        </div>
+        <div class="share right">
+            <ul>
+                <li><a class="badge-facebook-share badge-evt badge-track btn-share facebook"
+   href="javascript:void(0);"
+   data-track="social,fb.s,,,d,aKDvvrQ,l"
+   data-evt="PostList,ShareSocial,Hot,,FacebookButton"
+   data-entry-id="aKDvvrQ"
+   data-position="10"
+   data-share="https://9gag.com/gag/aKDvvrQ?ref=fb.s" rel="nofollow">Facebook</a>
+</li>
+                <li><a href="javascript:void(0);" 
+   class="badge-pinterest-share badge-evt badge-track btn-share pinterest"
+   data-track="social,pn.s,,,d,aKDvvrQ,l"
+   data-evt="PostList,ShareSocial,Hot,,PinterestButton"
+   data-position="10"
+   data-entry-id="aKDvvrQ"
+   data-title="Chernobyl"
+   data-img="https://img-9gag-fun.9cache.com/photo/aKDvvrQ_700b_v1.jpg"
+   data-share="https://9gag.com/gag/aKDvvrQ?ref=pn" rel="nofollow">Pinterest</a>
+</li>
+            </ul>
+        </div>
+        <div class="popup-menu listview-share badge-list-entry-more-items hide">
+            <ul>
+                <li><a href="javascript:void(0);" 
+   class="badge-gplus-share badge-evt badge-track"
+   data-track="social,gp.s,,,d,aKDvvrQ,l"
+   data-evt="PostList,ShareSocial,Hot,,GplusButton"
+   data-position="10"
+   data-entry-id="aKDvvrQ"
+   data-share="https://9gag.com/gag/aKDvvrQ?ref=gp" rel="nofollow">Google+</a>
+</li>
+                <li><a class="badge-twitter-share badge-evt badge-track twitter"
+   href="javascript:void(0);"
+   data-track="social,t.s,,,d,aKDvvrQ,l"
+   data-evt="PostList,ShareSocial,Hot,,TwitterButton"
+   data-entry-id="aKDvvrQ"
+   data-title="Chernobyl"
+   data-position="10"
+   data-share="https://9gag.com/gag/aKDvvrQ?ref=t" rel="nofollow">Twitter</a>
+</li>
+                <li><a href="mailto:?subject=Check%20out%20%22Chernobyl%22&body=This%20is%20funny%2C%20you%20must%20check%20it%20out%21%20%3AD%0AChernobyl%0Ahttps%3A%2F%2F9gag.com%2Fgag%2FaKDvvrQ%3Fref%3D9g.m" 
+   class="badge-email-share badge-evt badge-track"
+   data-track="social,9g.m,,,d,aKDvvrQ,l"
+   data-evt="PostList,ShareSocial,Hot,,EmailButton"
+   data-position="10"
+   data-entry-id="aKDvvrQ"
+   target="_blank" rel="nofollow">Email</a>
+
+</li>
+                <li><a href="javascript:void(0);" 
+   class="badge-item-report hide" 
+   data-entry-id="aKDvvrQ"
+   data-position="10"
+   >Report</a>
+</li>
+            </ul>
+        </div>
+        <div class="clearfix"></div>
+    </div>
+
+</article>
+                
+            </div>
+
+    <div class="loading">
+        <a class="btn badge-load-more-post" href="/?id=aKDvvrQ%2CaMAPnXM%2CaADKmO0&c=10" data-loading-text="Loading more posts..." data-load-count-max="30">Load more posts</a>
+    </div>
+
+<span id="jsid-gat-interval" data-post-interval="-1" class="hide">1506028331</span>
+<span id="jsid-latest-entries" class="hide">aWqLNwn,aoORLQw,aNzQVq4,a9A52Vm,av76xeZ,agY78bv,ajNLBPp,aADKmO0,aMAPnXM,aKDvvrQ</span>    </section>
+</div>
+
+                <section id="sidebar">
+                                    <div id="sidebar-content">
+    <section class="badge-block-ad block-ad">
+        <div id="jsid-ad-container-sidebar_top" class="badge-gag-ads-container img-container"></div>
+    </section>
+
+    <section class="block-feature-cover">
+                <ul id="jsid-featured-item-container"
+            data-ads-position=""
+            data-ads-tag=""
+            data-list-key="hot"
+            data-item-displayed="60"
+            data-load-more-trigger="10">
+        </ul>
+        <div class="loading hide">
+            <a class="btn spin" href="#"><div class="simple-spinner"></div></a>
+        </div>
+    </section>
+
+    <div id="jsid-featured-sidebar-tail">
+        <section id="jsid-featured-sidebar-ad" class="badge-block-ad block-ad">
+            <div id="jsid-ad-container-sidebar_bottom" class="badge-gag-ads-container img-container"></div>
+        </section>
+
+                <section class="get-the-app">
+            <h2 class="sidebar-title">Get the App</h2>
+            <ul>
+                <li><a class="app-store" href="http://9gag.com/iphone" target="_blank" onclick="GAG.GA.track('DownloadApp', 'DownloadApple', 'Hot');">Download on App Store</a></li>
+                <li><a class="google-play" href="http://9gag.com/android" target="_blank" onclick="GAG.GA.track('DownloadApp', 'DownloadGoogle', 'Hot');">Get it on Google Play</a></li>
+            </ul>
+        </section>
+
+        <section class="block-social-love">
+    <h2 class="sidebar-title">Connect with 9GAG!</h2>
+    <ul class="social-love">
+        <li class="facebook badge_facebook_render"><fb:like href="https://facebook.com/9gag" layout="button_count" show_faces="false" width="240" height="40" action="like" colorscheme="light"></fb:like></li>
+        <li class="twitter"><a href="https://twitter.com/9gag" class="twitter-follow-button" data-show-count="false" data-show-screen-name="false">Follow @9gag</a></li>
+        <li><a class="instagram-follow" target="_blank" href="https://www.instagram.com/9GAG/" onClick="GAG.GA.track('Social', 'LikeInstagram', 'Hot', '', { Url : 'https://www.instagram.com/9GAG/'});">Follow on Instagram</a></li>
+    </ul>
+</section>
+    </div>
+</div>
+                                </section>
+
+                <div class="clearfix"></div>
+            </div>
+
+                        <div id="jsid-sticky-button" class="badge-sticky-button hide">
+</div>
+                        <section class="footer">
+    <a class="badge-scroll-to-top back-to-top" href="javascript: void(0);">Back to top</a>
+</section>
+            
+        </div><!--end #container-->
+
+                    <div id="overlay-container" class="overlay-scroll-container hide">
+	<section id="modal-upload" class="badge-overlay-upload modal upload hide">
+    <a class="btn-close badge-overlay-close" href="javascript:void(0);">&#10006;</a>
+    
+<div class="badge-upload-step badge-upload-file-step">
+    <section id="upload-file" class="select-file">
+        <header>
+            <h3>Upload a Post</h3>
+            <p>Choose how you want to upload the post</p>
+        </header>
+        <div class="spacer">
+            <a href="javascript:void(0);" id="jsid-upload-file-btn" class="source file">
+                <p>Drop image to upload or</p>
+                <span class="btn">Choose files...</span>
+            </a>
+            <div class="other-source">
+                <div class="wrapper">
+                    <a href="javascript:void(0);" id="jsid-upload-url-btn" class="source pic-url">
+                        <p>Paste image URL</p>
+                    </a>
+                </div>
+                <div class="wrapper">
+                    <a class="source vid-url" target="_blank" href="https://9gag.com/apps?ref=videoUpload"><p>Paste Video URL</p></a>
+                    <p class="tooltip">Available on iOS & Android only.</p>
+                </div>
+                <div class="wrapper">
+                    <a href="http://memeful.com/generator?ref=9gag" target="_blank" onclick="GAG.GA.track('UploadAction', 'TapMakeMeme');" class="source meme">
+                        <p>Make meme</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+
+<div class="badge-upload-step badge-upload-url-step hide">
+    <section id="upload-url">
+        <header>
+            <h3>Upload from URL</h3>
+            <p>Type or paste Image URL</p>
+        </header>
+        <div class="spacer">
+            <div class="badge-upload-url-message message hide">
+                <p></p>
+            </div><!-- / message -->
+            <div class="field textbox last">
+                <input id="jsid-upload-url-input" type="url" placeholder="http://">
+            </div>
+        </div>
+    </section>
+    <div class="btn-container">
+        <a class="badge-upload-url-next-btn btn right disabled" href="javascript:void(0);">Next</a>
+        <a class="badge-upload-url-back-btn btn grey right" href="javascript:void(0);">Back</a>
+
+    </div>
+</div>
+
+<div class="badge-upload-step badge-upload-info-step badge-upload-tag-step hide">
+    <section id="upload-info">
+        <header>
+            <h3>Give your post a title</h3>
+                <p>An accurate, descriptive title can help people discover your post.</p>
+        </header>
+        <div class="spacer">
+            <div class="badge-upload-info-message message hide">
+                <p></p>
+            </div><!-- / message -->
+
+            <div class="field post-info">
+                <div id="jsid-upload-file-preview" class="preview">
+                </div><!-- / preview -->
+                <input id="jsid-upload-file-id" name="upload-id" type="hidden" value="" />
+                <input id="jsid-upload-csrf-token" name="csrftoken" type="hidden" value="" />
+                <textarea id="jsid-upload-title" placeholder="Describe your post..." data-minlength="5" data-maxlength="140"></textarea>
+                <p id="jsid-char-count" class="count">140</p>
+            </div><!-- / .post-info -->
+            <div class="field tag badge-upload-tag">
+                <label>Tag</label>
+                <div class="scroll-container badge-upload-scroll-container">
+                    <div class="tag-list badge-upload-tag-list">
+                    </div>
+                    <input type="text" id="jsid-upload-tag-input" placeholder="tag1, tag2, tag3"
+                           data-placeholder="tag1, tag2, tag3" data-countmax =3                           data-lengthmax=25 data-lengthmin=1                    />
+                </div>
+            </div>
+            <div class="field checkbox">
+                <label>
+                    <p>This post is Not Safe for Work</p>
+                    <input id="jsid-upload-is-nsfw" type="checkbox">
+                </label>
+            </div><!-- / checkbox -->
+            <div id="jsid-source-checkbox-div" class="field checkbox last">
+                <label>
+                    <p>Attribute original poster</p>
+                    <input id="jsid-source-checkbox" type="checkbox">
+                </label>
+            </div><!-- / checkbox -->
+            <div id="jsid-source-input" class="field textbox hide">
+                <input id="jsid-source-input-textbox" type="url" placeholder="http://">
+            </div><!-- / textbox -->
+        </div><!-- / spacer -->
+        <div class="badge-upload-captcha upload captcha spacer hide">
+            <div class="badge-g-recaptcha captcha-inner"></div>
+        </div>
+    </section><!-- / upload-info -->
+    <div class="btn-container">
+        <a class="badge-upload-info-next-btn btn right disabled" href="javascript:void(0);">Next</a>
+        <a class="badge-upload-info-back-btn btn grey right" href="javascript:void(0);">Back</a>
+    </div><!-- / btn-container -->
+</div>
+
+<div class="badge-upload-step badge-upload-pick-section-step hide">
+    <section class="pick-section">
+        <header>
+            <h3>Pick a section</h3>
+                <p>Submitting to the right section to make sure your post gets the right exposure it deserves!
+                                    </p>
+        </header>
+        <div class="spacer">
+            <ul id="jsid-section-list" class="section-picker" data-sections-count-max="1">
+                                                        <li class="" data-locales="">
+                        <a class="badge-upload-section-list-item" href="javascript:void(0);">
+                            <div class="icon">
+                                <img src="https://miscmedia-9gag-fun.9cache.com/images/thumbnail-facebook/1481536354.227_YsUzaZ_220x220.jpg" />
+                            </div><!-- / icon -->
+                            <div class="text">
+                                <h3>Funny</h3>
+                                <p>Why so serious</p>
+                            </div><!-- / text -->
+                            <div class="badge-upload-section-list-item-selector selector " data-url="funny">
+                            </div>
+                        </a>
+                    </li>
+                                                        <li class="" data-locales="">
+                        <a class="badge-upload-section-list-item" href="javascript:void(0);">
+                            <div class="icon">
+                                <img src="https://miscmedia-9gag-fun.9cache.com/images/thumbnail-facebook/1464856777.129_sAsYpE_220x220.jpg" />
+                            </div><!-- / icon -->
+                            <div class="text">
+                                <h3>Ask 9GAG</h3>
+                                <p>I have a question</p>
+                            </div><!-- / text -->
+                            <div class="badge-upload-section-list-item-selector selector " data-url="ask9gag">
+                            </div>
+                        </a>
+                    </li>
+                                                        <li class="" data-locales="">
+                        <a class="badge-upload-section-list-item" href="javascript:void(0);">
+                            <div class="icon">
+                                <img src="https://miscmedia-9gag-fun.9cache.com/images/thumbnail-facebook/1481541097.3956_HanUhe_220x220.jpg" />
+                            </div><!-- / icon -->
+                            <div class="text">
+                                <h3>Gaming</h3>
+                                <p>We don't die, we respawn!</p>
+                            </div><!-- / text -->
+                            <div class="badge-upload-section-list-item-selector selector " data-url="gaming">
+                            </div>
+                        </a>
+                    </li>
+                                                        <li class="" data-locales="">
+                        <a class="badge-upload-section-list-item" href="javascript:void(0);">
+                            <div class="icon">
+                                <img src="https://miscmedia-9gag-fun.9cache.com/images/thumbnail-facebook/1481538540.3927_umEzEP_220x220.jpg" />
+                            </div><!-- / icon -->
+                            <div class="text">
+                                <h3>WTF</h3>
+                                <p>Jaw-dropping moments</p>
+                            </div><!-- / text -->
+                            <div class="badge-upload-section-list-item-selector selector " data-url="wtf">
+                            </div>
+                        </a>
+                    </li>
+                                                        <li class="" data-locales="">
+                        <a class="badge-upload-section-list-item" href="javascript:void(0);">
+                            <div class="icon">
+                                <img src="https://miscmedia-9gag-fun.9cache.com/images/thumbnail-facebook/1486965738.2516_AREWuh_220x220.jpg" />
+                            </div><!-- / icon -->
+                            <div class="text">
+                                <h3>Savage</h3>
+                                <p>Apply cold water to burnt area</p>
+                            </div><!-- / text -->
+                            <div class="badge-upload-section-list-item-selector selector " data-url="savage">
+                            </div>
+                        </a>
+                    </li>
+                                                        <li class="" data-locales="">
+                        <a class="badge-upload-section-list-item" href="javascript:void(0);">
+                            <div class="icon">
+                                <img src="https://miscmedia-9gag-fun.9cache.com/images/thumbnail-facebook/1465265912.1472_aDurYD_220x220.jpg" />
+                            </div><!-- / icon -->
+                            <div class="text">
+                                <h3>Movie & TV</h3>
+                                <p>A way to escape from real world</p>
+                            </div><!-- / text -->
+                            <div class="badge-upload-section-list-item-selector selector " data-url="movie-tv">
+                            </div>
+                        </a>
+                    </li>
+                                                        <li class="" data-locales="">
+                        <a class="badge-upload-section-list-item" href="javascript:void(0);">
+                            <div class="icon">
+                                <img src="https://miscmedia-9gag-fun.9cache.com/images/thumbnail-facebook/1496992653.9454_Ny9aZe_220x220.jpg" />
+                            </div><!-- / icon -->
+                            <div class="text">
+                                <h3>Superhero</h3>
+                                <p>With great power comes...</p>
+                            </div><!-- / text -->
+                            <div class="badge-upload-section-list-item-selector selector " data-url="superhero">
+                            </div>
+                        </a>
+                    </li>
+                                                        <li class="" data-locales="">
+                        <a class="badge-upload-section-list-item" href="javascript:void(0);">
+                            <div class="icon">
+                                <img src="https://miscmedia-9gag-fun.9cache.com/images/thumbnail-facebook/1449833500.7438_yRABeH_220x220.jpg" />
+                            </div><!-- / icon -->
+                            <div class="text">
+                                <h3>Comic</h3>
+                                <p>Home of web comics</p>
+                            </div><!-- / text -->
+                            <div class="badge-upload-section-list-item-selector selector " data-url="comic">
+                            </div>
+                        </a>
+                    </li>
+                                                        <li class="" data-locales="">
+                        <a class="badge-upload-section-list-item" href="javascript:void(0);">
+                            <div class="icon">
+                                <img src="https://miscmedia-9gag-fun.9cache.com/images/thumbnail-facebook/1472001038.4195_uVUzYN_220x220.jpg" />
+                            </div><!-- / icon -->
+                            <div class="text">
+                                <h3>Sport </h3>
+                                <p>The sports fanatics hub </p>
+                            </div><!-- / text -->
+                            <div class="badge-upload-section-list-item-selector selector " data-url="sport">
+                            </div>
+                        </a>
+                    </li>
+                                                        <li class="" data-locales="">
+                        <a class="badge-upload-section-list-item" href="javascript:void(0);">
+                            <div class="icon">
+                                <img src="https://miscmedia-9gag-fun.9cache.com/images/thumbnail-facebook/1487665072.7395_udY4a4_220x220.jpg" />
+                            </div><!-- / icon -->
+                            <div class="text">
+                                <h3>Girly Things </h3>
+                                <p>Who run the world? Girls</p>
+                            </div><!-- / text -->
+                            <div class="badge-upload-section-list-item-selector selector " data-url="girly">
+                            </div>
+                        </a>
+                    </li>
+                                                        <li class="" data-locales="">
+                        <a class="badge-upload-section-list-item" href="javascript:void(0);">
+                            <div class="icon">
+                                <img src="https://miscmedia-9gag-fun.9cache.com/images/thumbnail-facebook/1486539490.6365_EBAvAW_220x220.jpg" />
+                            </div><!-- / icon -->
+                            <div class="text">
+                                <h3>Relationship</h3>
+                                <p>Unhelpful relationship advice</p>
+                            </div><!-- / text -->
+                            <div class="badge-upload-section-list-item-selector selector " data-url="relationship">
+                            </div>
+                        </a>
+                    </li>
+                                                        <li class="" data-locales="">
+                        <a class="badge-upload-section-list-item" href="javascript:void(0);">
+                            <div class="icon">
+                                <img src="https://miscmedia-9gag-fun.9cache.com/images/thumbnail-facebook/1465779419.894_jErUja_220x220.jpg" />
+                            </div><!-- / icon -->
+                            <div class="text">
+                                <h3>Awesome</h3>
+                                <p>Things that make you WOW</p>
+                            </div><!-- / text -->
+                            <div class="badge-upload-section-list-item-selector selector " data-url="awesome">
+                            </div>
+                        </a>
+                    </li>
+                                                        <li class="" data-locales="">
+                        <a class="badge-upload-section-list-item" href="javascript:void(0);">
+                            <div class="icon">
+                                <img src="https://miscmedia-9gag-fun.9cache.com/images/thumbnail-facebook/1482203076.0883_u8yQU9_220x220.jpg" />
+                            </div><!-- / icon -->
+                            <div class="text">
+                                <h3>Animals</h3>
+                                <p>It's so fluffy I'm gonna die!</p>
+                            </div><!-- / text -->
+                            <div class="badge-upload-section-list-item-selector selector " data-url="cute">
+                            </div>
+                        </a>
+                    </li>
+                                                        <li class="" data-locales="">
+                        <a class="badge-upload-section-list-item" href="javascript:void(0);">
+                            <div class="icon">
+                                <img src="https://miscmedia-9gag-fun.9cache.com/images/thumbnail-facebook/1481541267.9381_qa8YWa_220x220.jpg" />
+                            </div><!-- / icon -->
+                            <div class="text">
+                                <h3>Country </h3>
+                                <p>Around the world in a section</p>
+                            </div><!-- / text -->
+                            <div class="badge-upload-section-list-item-selector selector " data-url="country">
+                            </div>
+                        </a>
+                    </li>
+                                                        <li class="" data-locales="">
+                        <a class="badge-upload-section-list-item" href="javascript:void(0);">
+                            <div class="icon">
+                                <img src="https://miscmedia-9gag-fun.9cache.com/images/thumbnail-facebook/1480492149.9937_SuGene_220x220.jpg" />
+                            </div><!-- / icon -->
+                            <div class="text">
+                                <h3>School</h3>
+                                <p>Survival guide for students</p>
+                            </div><!-- / text -->
+                            <div class="badge-upload-section-list-item-selector selector " data-url="school">
+                            </div>
+                        </a>
+                    </li>
+                                                        <li class="" data-locales="">
+                        <a class="badge-upload-section-list-item" href="javascript:void(0);">
+                            <div class="icon">
+                                <img src="https://miscmedia-9gag-fun.9cache.com/images/thumbnail-facebook/1484897957.5863_rUSaGe_220x220.jpg" />
+                            </div><!-- / icon -->
+                            <div class="text">
+                                <h3>Horror</h3>
+                                <p>Fear to the limit of fun</p>
+                            </div><!-- / text -->
+                            <div class="badge-upload-section-list-item-selector selector " data-url="horror">
+                            </div>
+                        </a>
+                    </li>
+                                                        <li class="" data-locales="">
+                        <a class="badge-upload-section-list-item" href="javascript:void(0);">
+                            <div class="icon">
+                                <img src="https://miscmedia-9gag-fun.9cache.com/images/thumbnail-facebook/1485940060.0919_EraBuz_220x220.jpg" />
+                            </div><!-- / icon -->
+                            <div class="text">
+                                <h3>Science</h3>
+                                <p>Scientards' fun land</p>
+                            </div><!-- / text -->
+                            <div class="badge-upload-section-list-item-selector selector " data-url="science">
+                            </div>
+                        </a>
+                    </li>
+                                                        <li class="" data-locales="">
+                        <a class="badge-upload-section-list-item" href="javascript:void(0);">
+                            <div class="icon">
+                                <img src="https://miscmedia-9gag-fun.9cache.com/images/thumbnail-facebook/1484906556.1775_yhaSE5_220x220.jpg" />
+                            </div><!-- / icon -->
+                            <div class="text">
+                                <h3>I Made Dis</h3>
+                                <p>There's a Tesla in everyone</p>
+                            </div><!-- / text -->
+                            <div class="badge-upload-section-list-item-selector selector " data-url="imadedis">
+                            </div>
+                        </a>
+                    </li>
+                                                        <li class="" data-locales="">
+                        <a class="badge-upload-section-list-item" href="javascript:void(0);">
+                            <div class="icon">
+                                <img src="https://miscmedia-9gag-fun.9cache.com/images/thumbnail-facebook/1485938697.4579_4Upy7U_220x220.jpg" />
+                            </div><!-- / icon -->
+                            <div class="text">
+                                <h3>Politics </h3>
+                                <p>Political jokes. Deep or derp.</p>
+                            </div><!-- / text -->
+                            <div class="badge-upload-section-list-item-selector selector " data-url="politics">
+                            </div>
+                        </a>
+                    </li>
+                                                        <li class="" data-locales="">
+                        <a class="badge-upload-section-list-item" href="javascript:void(0);">
+                            <div class="icon">
+                                <img src="https://miscmedia-9gag-fun.9cache.com/images/thumbnail-facebook/1487151742.7837_YvaDED_220x220.jpg" />
+                            </div><!-- / icon -->
+                            <div class="text">
+                                <h3>Timely</h3>
+                                <p>Your take on news around the world </p>
+                            </div><!-- / text -->
+                            <div class="badge-upload-section-list-item-selector selector " data-url="timely">
+                            </div>
+                        </a>
+                    </li>
+                                                        <li class="" data-locales="">
+                        <a class="badge-upload-section-list-item" href="javascript:void(0);">
+                            <div class="icon">
+                                <img src="https://miscmedia-9gag-fun.9cache.com/images/thumbnail-facebook/1449833759.8316_zUNATY_220x220.jpg" />
+                            </div><!-- / icon -->
+                            <div class="text">
+                                <h3>Girl</h3>
+                                <p>Eye candies</p>
+                            </div><!-- / text -->
+                            <div class="badge-upload-section-list-item-selector selector " data-url="girl">
+                            </div>
+                        </a>
+                    </li>
+                                                        <li class="" data-locales="">
+                        <a class="badge-upload-section-list-item" href="javascript:void(0);">
+                            <div class="icon">
+                                <img src="https://miscmedia-9gag-fun.9cache.com/images/thumbnail-facebook/1481537858.9056_aZAvYJ_220x220.jpg" />
+                            </div><!-- / icon -->
+                            <div class="text">
+                                <h3>Anime & Manga</h3>
+                                <p>Embrace your inner weeb!</p>
+                            </div><!-- / text -->
+                            <div class="badge-upload-section-list-item-selector selector " data-url="anime-manga">
+                            </div>
+                        </a>
+                    </li>
+                                                        <li class="" data-locales="">
+                        <a class="badge-upload-section-list-item" href="javascript:void(0);">
+                            <div class="icon">
+                                <img src="https://miscmedia-9gag-fun.9cache.com/images/thumbnail-facebook/1481541202.9406_avy9Uq_220x220.jpg" />
+                            </div><!-- / icon -->
+                            <div class="text">
+                                <h3>Food</h3>
+                                <p>Crazy foodies </p>
+                            </div><!-- / text -->
+                            <div class="badge-upload-section-list-item-selector selector " data-url="food">
+                            </div>
+                        </a>
+                    </li>
+                                                        <li class="" data-locales="">
+                        <a class="badge-upload-section-list-item" href="javascript:void(0);">
+                            <div class="icon">
+                                <img src="https://miscmedia-9gag-fun.9cache.com/images/thumbnail-facebook/1481540748.1656_aVesEZ_220x220.jpg" />
+                            </div><!-- / icon -->
+                            <div class="text">
+                                <h3>Dark Humor</h3>
+                                <p>One ticket to hell please!</p>
+                            </div><!-- / text -->
+                            <div class="badge-upload-section-list-item-selector selector " data-url="darkhumor">
+                            </div>
+                        </a>
+                    </li>
+                                                        <li class="" data-locales="">
+                        <a class="badge-upload-section-list-item" href="javascript:void(0);">
+                            <div class="icon">
+                                <img src="https://miscmedia-9gag-fun.9cache.com/images/thumbnail-facebook/1499745262.2374_EPARAM_220x220.jpg" />
+                            </div><!-- / icon -->
+                            <div class="text">
+                                <h3>Game Of Thrones</h3>
+                                <p>Winter is here</p>
+                            </div><!-- / text -->
+                            <div class="badge-upload-section-list-item-selector selector " data-url="got">
+                            </div>
+                        </a>
+                    </li>
+                                                        <li class="" data-locales="">
+                        <a class="badge-upload-section-list-item" href="javascript:void(0);">
+                            <div class="icon">
+                                <img src="https://miscmedia-9gag-fun.9cache.com/images/thumbnail-facebook/1501053928.1618_Y7eQeb_220x220.jpg" />
+                            </div><!-- / icon -->
+                            <div class="text">
+                                <h3>Overwatch</h3>
+                                <p>Heroes never die</p>
+                            </div><!-- / text -->
+                            <div class="badge-upload-section-list-item-selector selector " data-url="overwatch">
+                            </div>
+                        </a>
+                    </li>
+                                <li>
+                    <a class="badge-upload-section-list-item badge-upload-section-list-profile-only" href="javascript:void(0);">
+                        <div class="icon">
+                        </div><!-- / icon -->
+                        <div class="text">
+                            <h3>My Profile Only</h3>
+                            <p>Post will only be visible in your profile</p>
+                        </div><!-- / text -->
+                        <div class="badge-upload-section-list-item-selector badge-upload-section-list-item-profile-only selector" data-url="">
+                        </div>
+                    </a>
+                </li>
+            </ul>
+        </div><!-- / spacer -->
+    </section><!-- / pick-section -->
+    <div class="btn-container">
+        <a class="badge-upload-pick-section-post-btn btn right disabled" href="javascript:void(0);">Post</a>
+        <a class="badge-upload-pick-section-back-btn btn grey right" href="javascript:void(0);">Back</a>
+
+    </div><!-- / btn-container -->
+</div>
+
+<div id="jsid-drop-zone-template" class="hide">
+    <div class="dz-preview dz-file-preview" >
+        <div class="dz-image hide"><img data-dz-thumbnail /></div>
+    </div>
+</div>
+
+<div id="jsid-drop-zone-preview" class="dropzone-previews hide">
+</div>
+</section>
+	
+    <section id="modal-report" class="badge-overlay-report modal upload hide">
+
+  <a class="btn-close badge-overlay-close" href="javascript:void(0);">✖</a>
+
+  <section id="report" class="report-post">
+
+    <header>
+        <h3>Report</h3>
+        <p>Choosing the right reason help us process the report as soon as possible.</p>
+    </header>
+
+    <div class="spacer" id="jsid-report-type-container">
+      <ul class="reason-picker">
+        <li>
+          <a href="javascript:void(0);" class="badge-report-type badge-report-entity-user" data-report-type="13">
+            <div class="text"><h3>Inappropriate Username / Profile Picture</h3></div>
+            <div class="selector badge-report-selector"></div>
+          </a>
+        </li>
+        <li>
+          <a href="javascript:void(0);" class="badge-report-type badge-report-entity-comment badge-report-entity-post badge-report-entity-user" data-report-type="2">
+            <div class="text"><h3>Spam</h3></div>
+            <div class="selector badge-report-selector"></div>
+          </a>
+        </li>
+        <li>
+          <a href="javascript:void(0);" class="badge-report-type badge-report-entity-post badge-report-entity-user" data-report-type="3">
+            <div class="text"><h3>Pornography</h3></div>
+            <div class="selector badge-report-selector"></div>
+          </a>
+        </li>
+        <li>
+          <a href="javascript:void(0);" class="badge-report-type badge-report-entity-comment badge-report-entity-post badge-report-entity-user" data-report-type="5">
+            <div class="text"><h3>Hatred and bullying</h3></div>
+            <div class="selector badge-report-selector"></div>
+          </a>
+        </li>
+        <li>
+          <a href="javascript:void(0);" class="badge-report-type badge-report-entity-comment badge-report-entity-post badge-report-entity-user" data-report-type="6">
+            <div class="text"><h3>Self-Harm</h3></div>
+            <div class="selector badge-report-selector"></div>
+          </a>
+        </li>
+        <li>
+          <a href="javascript:void(0);" class="badge-report-type badge-report-entity-post badge-report-entity-user" data-report-type="7">
+            <div class="text"><h3>Violent, gory and harmful content</h3></div>
+            <div class="selector badge-report-selector"></div>
+          </a>
+        </li>
+        <li>
+          <a href="javascript:void(0);" class="badge-report-type badge-report-entity-post badge-report-entity-user" data-report-type="8">
+            <div class="text"><h3>Child Porn</h3></div>
+            <div class="selector badge-report-selector"></div>
+          </a>
+        </li>
+        <li>
+          <a href="javascript:void(0);" class="badge-report-type badge-report-entity-comment badge-report-entity-post badge-report-entity-user" data-report-type="9">
+            <div class="text"><h3>Illegal activities e.g. Drug Uses</h3></div>
+            <div class="selector badge-report-selector"></div>
+          </a>
+        </li>
+        <li>
+          <a href="javascript:void(0);" class="badge-report-type badge-report-entity-post badge-report-entity-user" data-report-type="10">
+            <div class="text"><h3>Deceptive content</h3></div>
+            <div class="selector badge-report-selector"></div>
+          </a>
+        </li>
+        <li>
+          <a href="javascript:void(0);" class="badge-report-type badge-report-entity-comment badge-report-entity-user" data-report-type="11">
+            <div class="text"><h3>Impersonation</h3></div>
+            <div class="selector badge-report-selector"></div>
+          </a>
+        </li>
+        <li>
+          <a href="javascript:void(0);" class="badge-report-type badge-report-entity-post badge-report-entity-user" data-report-type="1">
+            <div class="text"><h3>Copyright and trademark infringement</h3></div>
+            <div class="selector badge-report-selector"></div>
+          </a>
+        </li>
+        <li>
+          <a href="javascript:void(0);" class="badge-report-type badge-report-entity-comment badge-report-entity-post badge-report-entity-user" data-report-type="12">
+            <div class="text"><h3>I just don't like it</h3></div>
+            <div class="selector badge-report-selector"></div>
+          </a>
+        </li>
+      </ul>
+    </div>
+
+    <div class="spacer hide badge-report-explain badge-report-entity-post badge-report-entity-user" data-report-type="1" data-submit-button-text="Continue">
+      <div class="reason-explain">
+        <p>We remove posts that include copyright or trademark infringement. If someone is using your photo without your permission or impersonating you, we may remove the content and disable the account.</p>
+        <p>To report a claim of copyright infringement, please tap continue and fill out the form.</p>
+      </div>
+    </div>
+
+    <div class="spacer hide badge-report-explain badge-report-entity-comment" data-report-type="2">
+      <div class="reason-explain">
+        <p>Report as spam?</p>
+        <p>We remove:</p>
+        <ul>
+          <li>Clickbait</li>
+          <li>Advertising</li>
+          <li>Scam</li>
+          <li>Script bot</li>
+        </ul>
+        <p>If you report someone's comment, 9GAG doesn't tell them who reported it.</p>
+      </div>
+    </div>
+    <div class="spacer hide badge-report-explain badge-report-entity-post" data-report-type="2">
+      <div class="reason-explain">
+        <p>Report as spam?</p>
+        <p>We remove:</p>
+        <ul>
+          <li>Clickbait</li>
+          <li>Advertising</li>
+          <li>Scam</li>
+          <li>Script bot</li>
+        </ul>
+        <p>If you report someone's post, 9GAG doesn't tell them who reported it.</p>
+      </div>
+    </div>
+    <div class="spacer hide badge-report-explain badge-report-entity-user" data-report-type="2">
+      <div class="reason-explain">
+        <p>Report as spam?</p>
+        <p>We remove:</p>
+        <ul>
+          <li>Clickbait</li>
+          <li>Advertising</li>
+          <li>Scam</li>
+          <li>Script bot</li>
+        </ul>
+        <p>If you report someone's profile, 9GAG doesn't tell them who reported it.</p>
+      </div>
+    </div>
+
+
+    <div class="spacer hide badge-report-explain badge-report-entity-post" data-report-type="3">
+      <div class="reason-explain">
+        <p>Report as pornography?</p>
+        <p>We remove:</p>
+        <ul>
+          <li>Photos or videos of sexual intercourse</li>
+          <li>Posts showing sexual intercourse, genitals or close-ups of fully-nude buttocks</li>
+        </ul>
+        <p>If you report someone's post, 9GAG doesn't tell them who reported it.</p>
+      </div>
+    </div>
+    
+    <div class="spacer hide badge-report-explain badge-report-entity-user" data-report-type="3">
+      <div class="reason-explain">
+        <p>Report as pornography?</p>
+        <p>We remove:</p>
+        <ul>
+          <li>Photos or videos of sexual intercourse</li>
+          <li>Posts showing sexual intercourse, genitals or close-ups of fully-nude buttocks</li>
+        </ul>
+        <p>If you report someone's profile, 9GAG doesn't tell them who reported it.</p>
+      </div>
+    </div>
+
+    <div class="spacer hide badge-report-explain badge-report-entity-comment" data-report-type="5">
+      <div class="reason-explain">
+        <p>Report as hatred and bullying?</p>
+        <p>We remove:</p>
+        <ul>
+            <li>Comments that contain credible threat</li>
+            <li>Comments that targets people to degrade or shame them</li>
+            <li>Personal information shared to blackmail or harass</li>
+            <li>Threats to post nude photo of you</li>
+        </ul>
+        <p>If you report someone's comment, 9GAG doesn't tell them who reported it.</p>
+      </div>
+    </div>
+    
+    <div class="spacer hide badge-report-explain badge-report-entity-post" data-report-type="5">
+      <div class="reason-explain">
+        <p>Report as hatred and bullying?</p>
+        <p>We remove:</p>
+        <ul>
+            <li>Posts that contain credible threat</li>
+            <li>Posts that targets people to degrade or shame them</li>
+            <li>Personal information shared to blackmail or harass</li>
+            <li>Posts or threats to post nude photo of you</li>
+        </ul>
+        <p>If you report someone's post, 9GAG doesn't tell them who reported it.</p>
+      </div>
+    </div>
+
+    <div class="spacer hide badge-report-explain badge-report-entity-user" data-report-type="5">
+      <div class="reason-explain">
+        <p>Report as hatred and bullying?</p>
+        <p>We remove:</p>
+        <ul>
+            <li>Posts that contain credible threat</li>
+            <li>Content that targets people to degrade or shame them</li>
+            <li>Personal information shared to blackmail or harass</li>
+            <li>Posts or threats to post nude photo of you</li>
+        </ul>
+        <p>If you report someone's profile, 9GAG doesn't tell them who reported it.</p>
+      </div>
+    </div>
+
+
+    <div class="spacer hide badge-report-explain badge-report-entity-comment" data-report-type="6">
+      <div class="reason-explain">
+        <p>Report as self injury?</p>
+        <p>We remove comments encouraging or promoting self injury, which includes suicide, cutting and eating disorders. We may also remove posts identifying victims of self injury if the post attacks or makes fun of them.</p>
+        <p>If you report someone's comment, 9GAG doesn't tell them who reported it.</p>
+
+      </div>
+    </div>
+    <div class="spacer hide badge-report-explain badge-report-entity-post" data-report-type="6">
+      <div class="reason-explain">
+        <p>Report as self injury?</p>
+        <p>We remove posts encouraging or promoting self injury, which includes suicide, cutting and eating disorders. We may also remove posts identifying victims of self injury if the post attacks or makes fun of them.</p>
+        <p>If you report someone's post, 9GAG doesn't tell them who reported it.</p>
+      </div>
+    </div>
+    <div class="spacer hide badge-report-explain badge-report-entity-user" data-report-type="6">
+      <div class="reason-explain">
+        <p>Report as self injury?</p>
+        <p>We remove posts encouraging or promoting self injury, which includes suicide, cutting and eating disorders. We may also remove posts identifying victims of self injury if the post attacks or makes fun of them.</p>
+        </p>If you report someone's profile, 9GAG doesn't tell them who reported it.</p>
+      </div>
+    </div>
+
+    <div class="spacer hide badge-report-explain badge-report-entity-post" data-report-type="7">
+      <div class="reason-explain">
+        <p>Report as violent, gory and harmful content?</p>
+        <p>We remove:</p>
+        <ul>
+            <li>Photos or videos of extreme graphic violence</li>
+            <li>Posts that encourage violence or attacks anyone based on their religious, ethnic or sexual background</li>
+            <li>Specific threats of physical harm, theft, vandalism or financial harm.</li>
+        </ul>
+        <p>If you report someone's post, 9GAG doesn't tell them who reported it.</p>
+      </div>
+    </div>
+    
+    <div class="spacer hide badge-report-explain badge-report-entity-user" data-report-type="7">
+      <div class="reason-explain">
+        <p>Report as violent, gory and harmful content?</p>
+        <p>We remove:</p>
+        <ul>
+            <li>Photos or videos of extreme graphic violence</li>
+            <li>Posts that encourage violence or attacks anyone based on their religious, ethnic or sexual background</li>
+            <li>Specific threats of physical harm, theft, vandalism or financial harm.</li>
+        </ul>
+        <p>If you report someone's profile, 9GAG doesn't tell them who reported it.</p>
+      </div>
+    </div>
+
+
+    <div class="spacer hide badge-report-explain badge-report-entity-post" data-report-type="8">
+      <div class="reason-explain">
+        <p>Report as child porn?</p>
+        <p>We remove and may report to legal entity about:</p>
+        <ul>
+            <li>Photos or videos of sexual intercourse with children</li>
+            <li>Posts of nude or partially nude children</li>
+        </ul>
+        <p>If you report someone's post, 9GAG doesn't tell them who reported it.</p>
+      </div>
+    </div>
+    
+    <div class="spacer hide badge-report-explain badge-report-entity-user" data-report-type="8">
+      <div class="reason-explain">
+        <p>Report as child porn?</p>
+        <p>We remove and may report to legal entity about:</p>
+        <ul>
+            <li>Photos or videos of sexual intercourse with children</li>
+            <li>Posts of nude or partially nude children</li>
+        </ul>
+        <p>If you report someone's profile, 9GAG doesn't tell them who reported it.</p>
+      </div>
+    </div>
+
+    <div class="spacer hide badge-report-explain badge-report-entity-comment" data-report-type="9">
+      <div class="reason-explain">
+        <p>Report as illegal activities?</p>
+        <p>We remove and may report to legal entity about:</p>
+        <ul>
+            <li>Comments promoting illegal activities, e.g. the use of hard drugs</li>
+            <li>Comments intended to sell or distribute drugs</li>
+        </ul>
+        <p>If you report someone's comment, 9GAG doesn't tell them who reported it.</p>
+      </div>
+    </div>
+    <div class="spacer hide badge-report-explain badge-report-entity-post" data-report-type="9">
+      <div class="reason-explain">
+        <p>Report as illegal activities?</p>
+        <p>We remove and may report to legal entity about:</p>
+        <ul>
+            <li>Posts promoting illegal activities, e.g. the use of hard drugs</li>
+            <li>Posts intended to sell or distribute drugs</li>
+        </ul>
+        <p>If you report someone's post, 9GAG doesn't tell them who reported it.</p>
+      </div>
+    </div>
+    <div class="spacer hide badge-report-explain badge-report-entity-user" data-report-type="9">
+      <div class="reason-explain">
+        <p>Report as illegal activities?</p>
+        <p>We remove and may report to legal entity about:</p>
+        <ul>
+            <li>Posts promoting illegal activities, e.g. the use of hard drugs</li>
+            <li>Posts intended to sell or distribute drugs</li>
+        </ul>
+        <p>If you report someone's profile, 9GAG doesn't tell them who reported it.</p>
+      </div>
+    </div>
+
+    <div class="spacer hide badge-report-explain badge-report-entity-post" data-report-type="10">
+      <div class="reason-explain">
+        <p>Report as deceptive content?</p>
+        <p>We remove:</p>
+        <ul>
+            <li>Purposefully fake or deceitful news</li>
+            <li>Hoax disproved by a reputable source</li>
+        </ul>
+        <p>If you report someone's post, 9GAG doesn't tell them who reported it.</p>
+      </div>
+    </div>
+    
+    <div class="spacer hide badge-report-explain badge-report-entity-user" data-report-type="10">
+      <div class="reason-explain">
+        <p>Report as deceptive content?</p>
+        <p>We remove:</p>
+        <ul>
+            <li>Purposefully fake or deceitful news</li>
+            <li>Hoax disproved by a reputable source</li>
+        </ul>
+        <p>If you report someone's profile, 9GAG doesn't tell them who reported it.</p>
+      </div>
+    </div>
+
+    <div class="spacer hide badge-report-explain badge-report-entity-comment badge-report-entity-user" data-report-type="11" data-submit-button-text="Continue">
+      <div class="reason-explain">
+        <p>What can I do if someone is impersonating me on 9GAG?</p>
+        <p>9GAG takes safety seriously. If someone created posts/comments/accounts pretending to be you, you can tap continue and fill out the form. Make sure to provide all the requested info, including a photo of your government-issued ID.</p>
+        <p>We only respond to reports sent to us from the person who's being impersonated or a representative of the person who's being impersonated (ex: a parent). If someone you know is being impersonated, please encourage that person to report it.</p>
+      </div>
+    </div>
+
+    <div class="spacer hide badge-report-explain badge-report-entity-comment" data-report-type="12">
+      <div class="reason-explain">
+        <p>What can I do if I see something I don't like on 9GAG?</p>
+        <ul>
+            <li>Report it if it doesn't follow 9GAG rules.</li>
+            <li>Downvote it to decide which posts/comments can go viral.</li>
+        </ul>
+        <p>If you report someone's comment, 9GAG doesn't tell them who reported it.</p>
+      </div>
+    </div>
+
+    <div class="spacer hide badge-report-explain badge-report-entity-post" data-report-type="12">
+      <div class="reason-explain">
+        <p>What can I do if I see something I don't like on 9GAG?</p>
+        <ul>
+            <li>Report it if it doesn't follow 9GAG rules.</li>
+            <li>Downvote it to decide which posts/comments can go viral.</li>
+        </ul>
+        <p>If you report someone's post, 9GAG doesn't tell them who reported it.</p>
+      </div>
+    </div>
+
+    <div class="spacer hide badge-report-explain badge-report-entity-user" data-report-type="12">
+      <div class="reason-explain">
+        <p>What can I do if I see something I don't like on 9GAG?</p>
+        <ul>
+            <li>Report it if it doesn't follow 9GAG rules.</li>
+            <li>Downvote it to decide which posts/comments can go viral.</li>
+        </ul>
+        <p>If you report someone's profile, 9GAG doesn't tell them who reported it.</p>
+      </div>
+    </div>
+
+
+    <div class="spacer hide badge-report-explain badge-report-entity-user" data-report-type="13">
+      <div class="reason-explain">
+        <p>Report as inappropriate username / Profile picture</p>
+        <p>We remove:</p>
+        <ul>
+            <li>Inappropriate & offensive Username / Profile Picture</li>
+        </ul>
+        <p>If you report someone's profile, 9GAG doesn't tell them who reported it.</p>
+      </div>
+    </div>
+
+  </section>
+
+  <div class="btn-container">
+    <a class="btn right" id="jsid-report-option-proceed">Next</a>
+    <a class="btn grey right" id="jsid-report-option-cancel">Cancel</a>
+    <a class="btn red right" id="jsid-report-explain-confirm" data-default-text="Report" data-loading-text="Please wait...">Report</a>
+    <a class="btn grey right" id="jsid-report-explain-back">Back</a>
+  </div>
+
+</section>
+    <section class="modal signup badge-overlay-signin hide">
+    <a class="btn-close badge-overlay-close" href="#">&#10006;</a>
+    <section id="signup">
+    <h2>Login</h2>
+    <p class="lead">Connect with a social network</p>
+    <div class="social-signup">
+        <a class="btn-connect-option facebook badge-facebook-connect" href="#" onclick="GAG.GA.track('Login', 'ConnectFacebook', 'Hot');">Facebook</a>
+        <span class="badge-gplus-connect"><a class="btn-connect-option google-plus badge-gplus-connect-btn" href="javascript:void(0);" onclick="GAG.GA.track('Login', 'ConnectGoogle', 'Hot');">Google</a></span>
+            </div>
+    <form id="login-email" class="badge-login-form" action="https://9gag.com/login" method="POST">
+        <input type="hidden" id="jsid-login-form-csrftoken" name="csrftoken" value=""/>
+        <input type="hidden" id="jsid-login-form-next-url" name="next" value=""/>
+        <p class="lead">Log in with your email address </p>
+        <div class="field">
+            <label for="jsid-login-email-name">Email</label>
+            <input id="jsid-login-email-name" type="text" name="username" value="" autofocus="autofocus"/>
+        </div>
+        <div class="field">
+            <label for="login-email-password">Password</label>
+            <input id="login-email-password" type="password" name="password" value="" />
+                    </div>
+        <div class="btn-container">
+            <input class="btn left" type="submit" value="Log in" onclick="GAG.GA.track('Login', 'LoginEmail',  'Hot');"/>
+            <a class="forgot-password" href="https://9gag.com/recover" onclick="GAG.GA.track('Login', 'TapForgotPassword',  'Hot');">Forgot Password</a>
+        </div>
+    </form>
+</section>
+</section>	<section class="modal signup hide badge-overlay-signup-fb">
+    <a class="badge-overlay-close btn-close" href="#">&#10006;</a>
+    <section id="signup">
+    <div id="signup-fb" class="">
+        <h2>Hey there!</h2>
+        <p class="lead">9GAG is your best source for fun. Share anything you find interesting, get real responses from people all over the world, and discover what makes you laugh.</p>
+        <div class="social-signup">
+            <a class="btn-connect-option facebook badge-facebook-connect" href="#" onclick="GAG.GA.track('SignUp', 'connectFacebook', 'Hot');">Facebook</a>
+            <span class="badge-gplus-connect"><a class="btn-connect-option google-plus badge-gplus-connect-btn" href="javascript:void(0);" onclick="GAG.GA.track('SignUp', 'connectGoogle', 'Hot');">Google</a></span>
+        </div>
+                <p class="alternative">Sign up with your <a href="#" class="badge-signup-email-link" onclick="GAG.GA.track('SignUp', 'TapSignUpEmail', 'Hot');">Email Address</a></p>
+                <p class="alternative">Have an account? <a href="https://9gag.com/login?ref=" class="badge-signup-login-link"  onclick="GAG.GA.track('SignUp', 'TapLogin', 'Hot');">Login</a></p>
+    </div>
+
+    <div id="signup-email" class=" hide">
+        <h2>Become a member</h2>
+        <form id="signup-email" action="https://9gag.com/member/email-signup" autocomplete="off" method="post">
+            <input type="hidden" id="jsid-login-form-next-url" name="next" value=""/>
+            <div class="field">
+                <label for="signup-email-name">Full Name</label>
+                <input id="signup-email-name" type="text" name="fullname" class="badge-input-fullname badge-input-field" placeholder="" value="" maxlength="20"/>
+            </div>
+            <div class="field">
+                <label for="signup-email-email">Email Address</label>
+                <input type="email" name="email" id="signup-email-email" class="badge-input-email badge-input-field" placeholder="" value="" />
+            </div>
+            <div class="field">
+                <label for="signup-email-password">Password</label>
+                <input id="signup-email-password" type="password" name="password" value="">
+            </div>
+            <div class="field captcha">
+                <div class="badge-g-recaptcha"></div>
+                <p class="error-message red"></p>
+            </div>
+            <div class="btn-container">
+                <input class="btn left" type="submit" value="Sign Up" onclick="GAG.GA.track('SignUp', 'SignUpEmail', 'Hot');"/>
+            </div>
+            <input type="hidden" name="tzo" class="badge-input-tzo" value="0" />
+            <input type="hidden" name="next" value="" class="badge-signup-form-next-url"/>
+            <input type="hidden" name="csrftoken" id="csrftoken" value=""/>
+            <input type="hidden" name="src" value="" />
+            <input type="hidden" name="ref" value="" />
+            <input type="hidden" name="app" value="web" />
+        </form>
+    </div>
+</section>
+
+</section>	<div id="jsid-modal-post-zoom" class="hide" style="height: 100%;">
+	<div class="badge-post-zoom-img zoom-container">			
+	</div>
+	<a class="badge-overlay-close close-button" href="javascript: void(0);">Close</a>
+</div>	<div class="badge-drag-and-drop drag-and-drop hide">
+    <h1>Drop to upload</h1>
+</div><!-- drag and drop -->
+</div><!--end overlay-container-->        
+        
+        
+<!-- Ads targeting for page -->
+<script type="text/javascript">
+    window.googletag = window.googletag || {};
+    window.googletag.cmd = window.googletag.cmd || [];
+    window.googletag.cmd.push(function() {
+        
+                        window.googletag.pubads().setTargeting('section', ["hot"]);
+            
+            
+            
+            
+                        window.googletag.pubads().setTargeting('view', 'list');
+            
+        
+        if (typeof getLocalStorage != 'undefined') {
+            var safeMode = getLocalStorage('cacheableUserPreference', 'isSafeModeOn');
+            window.googletag.pubads().setTargeting('work_safe', safeMode !== false ? 'on' : 'off');
+        }
+    });
+</script>
+<script type="text/javascript" src="https://assets-9gag-fun.9cache.com/s/fab0aa49/5ba7a393d6e9a4433e2d37366224d34b1fcdd676/static/dist/web6/js/manifest.js"></script>
+<script type="text/javascript" src="https://assets-9gag-fun.9cache.com/s/fab0aa49/5ba7a393d6e9a4433e2d37366224d34b1fcdd676/static/dist/web6/js/vendor.js"></script>
+<script type="text/javascript" src="https://assets-9gag-fun.9cache.com/s/fab0aa49/5ba7a393d6e9a4433e2d37366224d34b1fcdd676/static/dist/web6/js/gag.js"></script>
+<script type="text/javascript">
+    // Load js
+    GAG.App.loadConfigs({"page":{"domain":"9gag.com","assets_url":"https:\/\/assets-9gag-fun.9cache.com\/s\/fab0aa49\/5ba7a393d6e9a4433e2d37366224d34b1fcdd676\/static\/dist\/web6\/img","cookie_domain":".9gag.com","back_url":"%2F","page_key":"Hot","is_nsfw_post":false,"is_fresh_post":false,"is_house_ad_post":false,"webNotiSleepTtl":1800},"configs":{"facebook":{"app_id":"111569915535689","app_ns":"ninegag"},"gplus":{"client_id":"489167509892.apps.googleusercontent.com","app_package_name":"com.ninegag.android.app"},"t":{"trackUrl":"\/\/t.9gag.com\/img.gif","rlogTrackUrl":"\/\/web-t.9gag.com\/img.gif","rlogUrl":"\/\/web-t.9gag.com\/m.gif","appId":"web.9gag.desktop.release","appVersion":"00000"},"noti":{"appId":"a_f9064bdcfce8dec9a2de4c5285505d593155261a","pushHost":"notif-push.9gag.com","pushPort":"443","apiHost":"notif.9gag.com","modes":"longpolling"},"gaEventEnabled":true,"piwikEnabled":true,"maxFilesize":10485760,"maxGifFilesize":20971520,"maxVideoFilesize":20971520,"captchaPublicKey":"6Lf0iMkSAAAAALGZpEfzpO13sqJNiEgr6znqfm9r","algolia":{"appId":"UE1WSPH0MV","apiKey":"60eed3f0381c8be26873bf1e36fd23f6","searchIndex":"post-tags","minSuggestCount":10}},"user":{},"rcfgAds":{"anime-manga":{"displayAdEnabled":true,"placements":{"footer":{"rules":[],"displayType":1},"post_footer":{"rules":[],"displayType":1},"sidebar_bottom":{"rules":[],"displayType":1},"sidebar_repetitive":{"rules":[],"displayType":2},"sidebar_top":{"rules":[],"displayType":1}}},"anime-manga_fresh":{"displayAdEnabled":true,"placements":{"footer":{"rules":[],"displayType":1},"post_footer":{"rules":[],"displayType":1},"sidebar_bottom":{"rules":[],"displayType":1},"sidebar_repetitive":{"rules":[],"displayType":2},"sidebar_top":{"rules":[],"displayType":1}}},"anime-manga_hot":{"displayAdEnabled":true,"placements":{"footer":{"rules":[],"displayType":1},"post_footer":{"rules":[],"displayType":1},"sidebar_bottom":{"rules":[],"displayType":1},"sidebar_repetitive":{"rules":[],"displayType":2},"sidebar_top":{"rules":[],"displayType":1}}},"ask9gag":{"displayAdEnabled":true,"placements":{"footer":{"rules":[],"displayType":1},"post_footer":{"rules":[],"displayType":1},"sidebar_bottom":{"rules":[],"displayType":1},"sidebar_repetitive":{"rules":[],"displayType":2},"sidebar_top":{"rules":[],"displayType":1}}},"ask9gag_fresh":{"displayAdEnabled":true,"placements":{"footer":{"rules":[],"displayType":1},"post_footer":{"rules":[],"displayType":1},"sidebar_bottom":{"rules":[],"displayType":1},"sidebar_repetitive":{"rules":[],"displayType":2},"sidebar_top":{"rules":[],"displayType":1}}},"ask9gag_hot":{"displayAdEnabled":true,"placements":{"footer":{"rules":[],"displayType":1},"post_footer":{"rules":[],"displayType":1},"sidebar_bottom":{"rules":[],"displayType":1},"sidebar_repetitive":{"rules":[],"displayType":2},"sidebar_top":{"rules":[],"displayType":1}}},"awesome":{"displayAdEnabled":true,"placements":{"footer":{"rules":[],"displayType":1},"post_footer":{"rules":[],"displayType":1},"sidebar_bottom":{"rules":[],"displayType":1},"sidebar_repetitive":{"rules":[],"displayType":2},"sidebar_top":{"rules":[],"displayType":1}}},"awesome_fresh":{"displayAdEnabled":true,"placements":{"footer":{"rules":[],"displayType":1},"post_footer":{"rules":[],"displayType":1},"sidebar_bottom":{"rules":[],"displayType":1},"sidebar_repetitive":{"rules":[],"displayType":2},"sidebar_top":{"rules":[],"displayType":1}}},"awesome_hot":{"displayAdEnabled":true,"placements":{"footer":{"rules":[],"displayType":1},"post_footer":{"rules":[],"displayType":1},"sidebar_bottom":{"rules":[],"displayType":1},"sidebar_repetitive":{"rules":[],"displayType":2},"sidebar_top":{"rules":[],"displayType":1}}},"cena":{"displayAdEnabled":true,"placements":{"footer":{"rules":[],"displayType":1},"post_footer":{"rules":[],"displayType":1},"sidebar_bottom":{"rules":[],"displayType":1},"sidebar_repetitive":{"rules":[],"displayType":2},"sidebar_top":{"rules":[],"displayType":1}}},"cena_fresh":{"displayAdEnabled":true,"placements":{"footer":{"rules":[],"displayType":1},"post_footer":{"rules":[],"displayType":1},"sidebar_bottom":{"rules":[],"displayType":1},"sidebar_repetitive":{"rules":[],"displayType":2},"sidebar_top":{"rules":[],"displayType":1}}},"cena_hot":{"displayAdEnabled":true,"placements":{"footer":{"rules":[],"displayType":1},"post_footer":{"rules":[],"displayType":1},"sidebar_bottom":{"rules":[],"displayType":1},"sidebar_repetitive":{"rules":[],"displayType":2},"sidebar_top":{"rules":[],"displayType":1}}},"comic":{"displayAdEnabled":true,"placements":{"footer":{"rules":[],"displayType":1},"post_footer":{"rules":[],"displayType":1},"sidebar_bottom":{"rules":[],"displayType":1},"sidebar_repetitive":{"rules":[],"displayType":2},"sidebar_top":{"rules":[],"displayType":1}}},"comic_fresh":{"displayAdEnabled":true,"placements":{"footer":{"rules":[],"displayType":1},"post_footer":{"rules":[],"displayType":1},"sidebar_bottom":{"rules":[],"displayType":1},"sidebar_repetitive":{"rules":[],"displayType":2},"sidebar_top":{"rules":[],"displayType":1}}},"comic_hot":{"displayAdEnabled":true,"placements":{"footer":{"rules":[],"displayType":1},"post_footer":{"rules":[],"displayType":1},"sidebar_bottom":{"rules":[],"displayType":1},"sidebar_repetitive":{"rules":[],"displayType":2},"sidebar_top":{"rules":[],"displayType":1}}},"cosplay":{"displayAdEnabled":true,"placements":{"footer":{"rules":[],"displayType":1},"post_footer":{"rules":[],"displayType":1},"sidebar_bottom":{"rules":[],"displayType":1},"sidebar_repetitive":{"rules":[],"displayType":2},"sidebar_top":{"rules":[],"displayType":1}}},"cosplay_fresh":{"displayAdEnabled":true,"placements":{"footer":{"rules":[],"displayType":1},"post_footer":{"rules":[],"displayType":1},"sidebar_bottom":{"rules":[],"displayType":1},"sidebar_repetitive":{"rules":[],"displayType":2},"sidebar_top":{"rules":[],"displayType":1}}},"cosplay_hot":{"displayAdEnabled":true,"placements":{"sidebar_bottom":{"rules":[{"adTag":"\/16921351\/9gag-list-sidebar-300x600-sticky","occurrence":"","adNetwork":"Sortable","idRangeStart":0,"idRangeEnd":10000,"width":"300px","height":"600px"}],"displayType":1},"sidebar_repetitive":{"rules":[{"adTag":"\/16921351\/9gag-cosplay-list-featured-sidebar-300x250","occurrence":"7...10","adNetwork":"Sortable","idRangeStart":0,"idRangeEnd":10000,"width":"300px","height":"250px"}],"displayType":2},"sidebar_top":{"rules":[{"adTag":"\/16921351\/9gag-cosplay-list-sidebar1-300x250-atf","occurrence":"","adNetwork":"Sortable","idRangeStart":0,"idRangeEnd":10000,"width":"300px","height":"250px"}],"displayType":1}}},"country":{"displayAdEnabled":true,"placements":{"footer":{"rules":[],"displayType":1},"post_footer":{"rules":[],"displayType":1},"sidebar_bottom":{"rules":[],"displayType":1},"sidebar_repetitive":{"rules":[],"displayType":2},"sidebar_top":{"rules":[],"displayType":1}}},"country_fresh":{"displayAdEnabled":true,"placements":{"footer":{"rules":[],"displayType":1},"post_footer":{"rules":[],"displayType":1},"sidebar_bottom":{"rules":[],"displayType":1},"sidebar_repetitive":{"rules":[],"displayType":2},"sidebar_top":{"rules":[],"displayType":1}}},"country_hot":{"displayAdEnabled":true,"placements":{"footer":{"rules":[],"displayType":1},"post_footer":{"rules":[],"displayType":1},"sidebar_bottom":{"rules":[],"displayType":1},"sidebar_repetitive":{"rules":[],"displayType":2},"sidebar_top":{"rules":[],"displayType":1}}},"cute":{"displayAdEnabled":true,"placements":{"footer":{"rules":[],"displayType":1},"post_footer":{"rules":[],"displayType":1},"sidebar_bottom":{"rules":[],"displayType":1},"sidebar_repetitive":{"rules":[],"displayType":2},"sidebar_top":{"rules":[],"displayType":1}}},"cute_fresh":{"displayAdEnabled":true,"placements":{"footer":{"rules":[],"displayType":1},"post_footer":{"rules":[],"displayType":1},"sidebar_bottom":{"rules":[],"displayType":1},"sidebar_repetitive":{"rules":[],"displayType":2},"sidebar_top":{"rules":[],"displayType":1}}},"cute_hot":{"displayAdEnabled":true,"placements":{"footer":{"rules":[],"displayType":1},"post_footer":{"rules":[],"displayType":1},"sidebar_bottom":{"rules":[],"displayType":1},"sidebar_repetitive":{"rules":[],"displayType":2},"sidebar_top":{"rules":[],"displayType":1}}},"darkhumor":{"displayAdEnabled":true,"placements":{"footer":{"rules":[],"displayType":1},"post_footer":{"rules":[],"displayType":1},"sidebar_bottom":{"rules":[],"displayType":1},"sidebar_repetitive":{"rules":[],"displayType":2},"sidebar_top":{"rules":[],"displayType":1}}},"darkhumor_fresh":{"displayAdEnabled":true,"placements":{"footer":{"rules":[],"displayType":1},"post_footer":{"rules":[],"displayType":1},"sidebar_bottom":{"rules":[],"displayType":1},"sidebar_repetitive":{"rules":[],"displayType":2},"sidebar_top":{"rules":[],"displayType":1}}},"darkhumor_hot":{"displayAdEnabled":true,"placements":{"footer":{"rules":[],"displayType":1},"post_footer":{"rules":[],"displayType":1},"sidebar_bottom":{"rules":[],"displayType":1},"sidebar_repetitive":{"rules":[],"displayType":2},"sidebar_top":{"rules":[],"displayType":1}}},"family":{"displayAdEnabled":true,"placements":{"footer":{"rules":[],"displayType":1},"post_footer":{"rules":[],"displayType":1},"sidebar_bottom":{"rules":[],"displayType":1},"sidebar_repetitive":{"rules":[],"displayType":2},"sidebar_top":{"rules":[],"displayType":1}}},"family_fresh":{"displayAdEnabled":true,"placements":{"footer":{"rules":[],"displayType":1},"post_footer":{"rules":[],"displayType":1},"sidebar_bottom":{"rules":[],"displayType":1},"sidebar_repetitive":{"rules":[],"displayType":2},"sidebar_top":{"rules":[],"displayType":1}}},"family_hot":{"displayAdEnabled":true,"placements":{"footer":{"rules":[],"displayType":1},"post_footer":{"rules":[],"displayType":1},"sidebar_bottom":{"rules":[],"displayType":1},"sidebar_repetitive":{"rules":[],"displayType":2},"sidebar_top":{"rules":[],"displayType":1}}},"food":{"displayAdEnabled":true,"placements":{"footer":{"rules":[],"displayType":1},"post_footer":{"rules":[],"displayType":1},"sidebar_bottom":{"rules":[],"displayType":1},"sidebar_repetitive":{"rules":[],"displayType":2},"sidebar_top":{"rules":[],"displayType":1}}},"food_fresh":{"displayAdEnabled":true,"placements":{"footer":{"rules":[],"displayType":1},"post_footer":{"rules":[],"displayType":1},"sidebar_bottom":{"rules":[],"displayType":1},"sidebar_repetitive":{"rules":[],"displayType":2},"sidebar_top":{"rules":[],"displayType":1}}},"food_hot":{"displayAdEnabled":true,"placements":{"footer":{"rules":[],"displayType":1},"post_footer":{"rules":[],"displayType":1},"sidebar_bottom":{"rules":[],"displayType":1},"sidebar_repetitive":{"rules":[],"displayType":2},"sidebar_top":{"rules":[],"displayType":1}}},"fresh":{"displayAdEnabled":true,"placements":{"sidebar_bottom":{"rules":[{"adTag":"\/16921351\/9gag-other-list-300x600","occurrence":"","adNetwork":"Sortable","idRangeStart":0,"idRangeEnd":10000,"width":"300px","height":"600px"}],"displayType":1},"sidebar_repetitive":{"rules":[{"adTag":"\/16921351\/9gag-other-list-featured-sidebar-300x250","occurrence":"7...10","adNetwork":"Sortable","idRangeStart":0,"idRangeEnd":10000,"width":"300px","height":"250px"}],"displayType":2},"sidebar_top":{"rules":[{"adTag":"\/16921351\/9gag-other-list-sidebar1-300x250-atf","occurrence":"","adNetwork":"Sortable","idRangeStart":0,"idRangeEnd":10000,"width":"300px","height":"250px"}],"displayType":1}}},"funlegacy":{"displayAdEnabled":true,"placements":{"footer":{"rules":[],"displayType":1},"post_footer":{"rules":[],"displayType":1},"sidebar_bottom":{"rules":[],"displayType":1},"sidebar_repetitive":{"rules":[],"displayType":2},"sidebar_top":{"rules":[],"displayType":1}}},"funlegacy_fresh":{"displayAdEnabled":true,"placements":{"footer":{"rules":[],"displayType":1},"post_footer":{"rules":[],"displayType":1},"sidebar_bottom":{"rules":[],"displayType":1},"sidebar_repetitive":{"rules":[],"displayType":2},"sidebar_top":{"rules":[],"displayType":1}}},"funlegacy_hot":{"displayAdEnabled":true,"placements":{"footer":{"rules":[],"displayType":1},"post_footer":{"rules":[],"displayType":1},"sidebar_bottom":{"rules":[],"displayType":1},"sidebar_repetitive":{"rules":[],"displayType":2},"sidebar_top":{"rules":[],"displayType":1}}},"funny":{"displayAdEnabled":true,"placements":{"footer":{"rules":[],"displayType":1},"post_footer":{"rules":[],"displayType":1},"sidebar_bottom":{"rules":[],"displayType":1},"sidebar_repetitive":{"rules":[],"displayType":2},"sidebar_top":{"rules":[],"displayType":1}}},"funny_fresh":{"displayAdEnabled":true,"placements":{"footer":{"rules":[],"displayType":1},"post_footer":{"rules":[],"displayType":1},"sidebar_bottom":{"rules":[],"displayType":1},"sidebar_repetitive":{"rules":[],"displayType":2},"sidebar_top":{"rules":[],"displayType":1}}},"funny_hot":{"displayAdEnabled":true,"placements":{"footer":{"rules":[],"displayType":1},"post_footer":{"rules":[],"displayType":1},"sidebar_bottom":{"rules":[],"displayType":1},"sidebar_repetitive":{"rules":[],"displayType":2},"sidebar_top":{"rules":[],"displayType":1}}},"gaming":{"displayAdEnabled":true,"placements":{"footer":{"rules":[],"displayType":1},"post_footer":{"rules":[],"displayType":1},"sidebar_bottom":{"rules":[],"displayType":1},"sidebar_repetitive":{"rules":[],"displayType":2},"sidebar_top":{"rules":[],"displayType":1}}},"gaming_fresh":{"displayAdEnabled":true,"placements":{"footer":{"rules":[],"displayType":1},"post_footer":{"rules":[],"displayType":1},"sidebar_bottom":{"rules":[],"displayType":1},"sidebar_repetitive":{"rules":[],"displayType":2},"sidebar_top":{"rules":[],"displayType":1}}},"gaming_hot":{"displayAdEnabled":true,"placements":{"footer":{"rules":[],"displayType":1},"post_footer":{"rules":[],"displayType":1},"sidebar_bottom":{"rules":[],"displayType":1},"sidebar_repetitive":{"rules":[],"displayType":2},"sidebar_top":{"rules":[],"displayType":1}}},"gif":{"displayAdEnabled":true,"placements":{"footer":{"rules":[],"displayType":1},"post_footer":{"rules":[],"displayType":1},"sidebar_bottom":{"rules":[],"displayType":1},"sidebar_repetitive":{"rules":[],"displayType":2},"sidebar_top":{"rules":[],"displayType":1}}},"gif_fresh":{"displayAdEnabled":true,"placements":{"footer":{"rules":[],"displayType":1},"post_footer":{"rules":[],"displayType":1},"sidebar_bottom":{"rules":[],"displayType":1},"sidebar_repetitive":{"rules":[],"displayType":2},"sidebar_top":{"rules":[],"displayType":1}}},"gif_hot":{"displayAdEnabled":true,"placements":{"footer":{"rules":[],"displayType":1},"post_footer":{"rules":[],"displayType":1},"sidebar_bottom":{"rules":[],"displayType":1},"sidebar_repetitive":{"rules":[],"displayType":2},"sidebar_top":{"rules":[],"displayType":1}}},"girl":{"displayAdEnabled":true,"placements":{"footer":{"rules":[],"displayType":1},"post_footer":{"rules":[],"displayType":1},"sidebar_bottom":{"rules":[],"displayType":1},"sidebar_repetitive":{"rules":[],"displayType":2},"sidebar_top":{"rules":[],"displayType":1}}},"girl_fresh":{"displayAdEnabled":true,"placements":{"footer":{"rules":[],"displayType":1},"post_footer":{"rules":[],"displayType":1},"sidebar_bottom":{"rules":[],"displayType":1},"sidebar_repetitive":{"rules":[],"displayType":2},"sidebar_top":{"rules":[],"displayType":1}}},"girl_hot":{"displayAdEnabled":true,"placements":{"footer":{"rules":[],"displayType":1},"post_footer":{"rules":[],"displayType":1},"sidebar_bottom":{"rules":[],"displayType":1},"sidebar_repetitive":{"rules":[],"displayType":2},"sidebar_top":{"rules":[],"displayType":1}}},"girly":{"displayAdEnabled":true,"placements":{"footer":{"rules":[],"displayType":1},"post_footer":{"rules":[],"displayType":1},"sidebar_bottom":{"rules":[],"displayType":1},"sidebar_repetitive":{"rules":[],"displayType":2},"sidebar_top":{"rules":[],"displayType":1}}},"girly_fresh":{"displayAdEnabled":true,"placements":{"footer":{"rules":[],"displayType":1},"post_footer":{"rules":[],"displayType":1},"sidebar_bottom":{"rules":[],"displayType":1},"sidebar_repetitive":{"rules":[],"displayType":2},"sidebar_top":{"rules":[],"displayType":1}}},"girly_hot":{"displayAdEnabled":true,"placements":{"footer":{"rules":[],"displayType":1},"post_footer":{"rules":[],"displayType":1},"sidebar_bottom":{"rules":[],"displayType":1},"sidebar_repetitive":{"rules":[],"displayType":2},"sidebar_top":{"rules":[],"displayType":1}}},"got":{"displayAdEnabled":true,"placements":{"footer":{"rules":[],"displayType":1},"post_footer":{"rules":[],"displayType":1},"sidebar_bottom":{"rules":[],"displayType":1},"sidebar_repetitive":{"rules":[],"displayType":2},"sidebar_top":{"rules":[],"displayType":1}}},"got_fresh":{"displayAdEnabled":true,"placements":{"footer":{"rules":[],"displayType":1},"post_footer":{"rules":[],"displayType":1},"sidebar_bottom":{"rules":[],"displayType":1},"sidebar_repetitive":{"rules":[],"displayType":2},"sidebar_top":{"rules":[],"displayType":1}}},"got_hot":{"displayAdEnabled":true,"placements":{"footer":{"rules":[],"displayType":1},"post_footer":{"rules":[],"displayType":1},"sidebar_bottom":{"rules":[],"displayType":1},"sidebar_repetitive":{"rules":[],"displayType":2},"sidebar_top":{"rules":[],"displayType":1}}},"gotd":{"displayAdEnabled":true,"placements":{"footer":{"rules":[],"displayType":1},"post_footer":{"rules":[],"displayType":1},"sidebar_bottom":{"rules":[],"displayType":1},"sidebar_repetitive":{"rules":[],"displayType":2},"sidebar_top":{"rules":[],"displayType":1}}},"gotd_fresh":{"displayAdEnabled":true,"placements":{"footer":{"rules":[],"displayType":1},"post_footer":{"rules":[],"displayType":1},"sidebar_bottom":{"rules":[],"displayType":1},"sidebar_repetitive":{"rules":[],"displayType":2},"sidebar_top":{"rules":[],"displayType":1}}},"gotd_hot":{"displayAdEnabled":true,"placements":{"footer":{"rules":[],"displayType":1},"post_footer":{"rules":[],"displayType":1},"sidebar_bottom":{"rules":[],"displayType":1},"sidebar_repetitive":{"rules":[],"displayType":2},"sidebar_top":{"rules":[],"displayType":1}}},"horror":{"displayAdEnabled":true,"placements":{"footer":{"rules":[],"displayType":1},"post_footer":{"rules":[],"displayType":1},"sidebar_bottom":{"rules":[],"displayType":1},"sidebar_repetitive":{"rules":[],"displayType":2},"sidebar_top":{"rules":[],"displayType":1}}},"horror_fresh":{"displayAdEnabled":true,"placements":{"footer":{"rules":[],"displayType":1},"post_footer":{"rules":[],"displayType":1},"sidebar_bottom":{"rules":[],"displayType":1},"sidebar_repetitive":{"rules":[],"displayType":2},"sidebar_top":{"rules":[],"displayType":1}}},"horror_hot":{"displayAdEnabled":true,"placements":{"footer":{"rules":[],"displayType":1},"post_footer":{"rules":[],"displayType":1},"sidebar_bottom":{"rules":[],"displayType":1},"sidebar_repetitive":{"rules":[],"displayType":2},"sidebar_top":{"rules":[],"displayType":1}}},"hot":{"displayAdEnabled":true,"placements":{"sidebar_bottom":{"rules":[{"adTag":"\/16921351\/9gag-list-sidebar-300x600-sticky","occurrence":"","adNetwork":"Sortable","idRangeStart":0,"idRangeEnd":10000,"width":"300px","height":"600px"}],"displayType":1},"sidebar_repetitive":{"rules":[{"adTag":"\/16921351\/9gag-list-featured-sidebar-300x250","occurrence":"7...10","adNetwork":"Sortable","idRangeStart":0,"idRangeEnd":10000,"width":"300px","height":"250px"}],"displayType":2},"sidebar_top":{"rules":[{"adTag":"\/16921351\/9gag-list-sidebar1-300x250-atf","occurrence":"","adNetwork":"Sortable","idRangeStart":0,"idRangeEnd":10000,"width":"300px","height":"250px"}],"displayType":1}}},"idle_popup":{"displayAdEnabled":true,"placements":{"idle_popup":{"rules":[{"adTag":"\/16921351\/9gag-idlepop-300x250","occurrence":"","adNetwork":"Sortable","idRangeStart":0,"idRangeEnd":10000,"width":"300px","height":"250px"}],"displayType":1}}},"idle_popup_housead":{"displayAdEnabled":true,"placements":{"idle_popup":{"rules":[{"adTag":"\/16921351\/9gag-other-idlepop-300x250","occurrence":"","adNetwork":"Sortable","idRangeStart":0,"idRangeEnd":10000,"width":"300px","height":"250px"}],"displayType":1}}},"imadedis":{"displayAdEnabled":true,"placements":{"footer":{"rules":[],"displayType":1},"post_footer":{"rules":[],"displayType":1},"sidebar_bottom":{"rules":[],"displayType":1},"sidebar_repetitive":{"rules":[],"displayType":2},"sidebar_top":{"rules":[],"displayType":1}}},"imadedis_fresh":{"displayAdEnabled":true,"placements":{"footer":{"rules":[],"displayType":1},"post_footer":{"rules":[],"displayType":1},"sidebar_bottom":{"rules":[],"displayType":1},"sidebar_repetitive":{"rules":[],"displayType":2},"sidebar_top":{"rules":[],"displayType":1}}},"imadedis_hot":{"displayAdEnabled":true,"placements":{"footer":{"rules":[],"displayType":1},"post_footer":{"rules":[],"displayType":1},"sidebar_bottom":{"rules":[],"displayType":1},"sidebar_repetitive":{"rules":[],"displayType":2},"sidebar_top":{"rules":[],"displayType":1}}},"kpop":{"displayAdEnabled":true,"placements":{"footer":{"rules":[],"displayType":1},"post_footer":{"rules":[],"displayType":1},"sidebar_bottom":{"rules":[],"displayType":1},"sidebar_repetitive":{"rules":[],"displayType":2},"sidebar_top":{"rules":[],"displayType":1}}},"kpop_fresh":{"displayAdEnabled":true,"placements":{"footer":{"rules":[],"displayType":1},"post_footer":{"rules":[],"displayType":1},"sidebar_bottom":{"rules":[],"displayType":1},"sidebar_repetitive":{"rules":[],"displayType":2},"sidebar_top":{"rules":[],"displayType":1}}},"list_default":{"displayAdEnabled":true,"placements":{"footer":{"rules":[{"adTag":"\/16921351\/9gag-post-footer-728x90","occurrence":"","adNetwork":"Sortable","idRangeStart":0,"idRangeEnd":10000,"width":"728px","height":"90px"}],"displayType":1},"post_footer":{"rules":[{"adTag":"\/16921351\/9gag-post-leaderboard-728x90-atf","occurrence":"","adNetwork":"Sortable","idRangeStart":0,"idRangeEnd":10000,"width":"728px","height":"90px"}],"displayType":1},"sidebar_bottom":{"rules":[{"adTag":"\/16921351\/9gag-list-sidebar-300x600-sticky","occurrence":"","adNetwork":"Sortable","idRangeStart":0,"idRangeEnd":10000,"width":"300px","height":"600px"}],"displayType":1},"sidebar_repetitive":{"rules":[{"adTag":"\/16921351\/9gag-list-featured-sidebar-300x250","occurrence":"7...10","adNetwork":"Sortable","idRangeStart":0,"idRangeEnd":10000,"width":"300px","height":"250px"}],"displayType":2},"sidebar_top":{"rules":[{"adTag":"\/16921351\/9gag-list-sidebar1-300x250-atf","occurrence":"","adNetwork":"Sortable","idRangeStart":0,"idRangeEnd":10000,"width":"300px","height":"250px"}],"displayType":1}}},"movie-tv":{"displayAdEnabled":true,"placements":{"footer":{"rules":[],"displayType":1},"post_footer":{"rules":[],"displayType":1},"sidebar_bottom":{"rules":[],"displayType":1},"sidebar_repetitive":{"rules":[],"displayType":2},"sidebar_top":{"rules":[],"displayType":1}}},"movie-tv_fresh":{"displayAdEnabled":true,"placements":{"footer":{"rules":[],"displayType":1},"post_footer":{"rules":[],"displayType":1},"sidebar_bottom":{"rules":[],"displayType":1},"sidebar_repetitive":{"rules":[],"displayType":2},"sidebar_top":{"rules":[],"displayType":1}}},"movie-tv_hot":{"displayAdEnabled":true,"placements":{"footer":{"rules":[],"displayType":1},"post_footer":{"rules":[],"displayType":1},"sidebar_bottom":{"rules":[],"displayType":1},"sidebar_repetitive":{"rules":[],"displayType":2},"sidebar_top":{"rules":[],"displayType":1}}},"nsfw":{"displayAdEnabled":true,"placements":{"footer":{"rules":[],"displayType":1},"post_footer":{"rules":[],"displayType":1},"sidebar_bottom":{"rules":[],"displayType":1},"sidebar_repetitive":{"rules":[],"displayType":2},"sidebar_top":{"rules":[],"displayType":1}}},"nsfw_fresh":{"displayAdEnabled":true,"placements":{"footer":{"rules":[],"displayType":1},"post_footer":{"rules":[],"displayType":1},"sidebar_bottom":{"rules":[],"displayType":1},"sidebar_repetitive":{"rules":[],"displayType":2},"sidebar_top":{"rules":[],"displayType":1}}},"nsfw_hot":{"displayAdEnabled":true,"placements":{"sidebar_bottom":{"rules":[{"adTag":"\/16921351\/9gag-other-list-300x600","occurrence":"","adNetwork":"Sortable","idRangeStart":0,"idRangeEnd":10000,"width":"300px","height":"600px"}],"displayType":1},"sidebar_repetitive":{"rules":[{"adTag":"\/16921351\/9gag-nsfw-list-featured-sidebar-300x250","occurrence":"7...10","adNetwork":"Sortable","idRangeStart":0,"idRangeEnd":10000,"width":"300px","height":"250px"}],"displayType":2},"sidebar_top":{"rules":[{"adTag":"\/16921351\/9gag-nsfw-list-sidebar1-300x250-atf","occurrence":"","adNetwork":"Sortable","idRangeStart":0,"idRangeEnd":10000,"width":"300px","height":"250px"}],"displayType":1}}},"overwatch":{"displayAdEnabled":true,"placements":{"footer":{"rules":[],"displayType":1},"post_footer":{"rules":[],"displayType":1},"sidebar_bottom":{"rules":[],"displayType":1},"sidebar_repetitive":{"rules":[],"displayType":2},"sidebar_top":{"rules":[],"displayType":1}}},"overwatch_fresh":{"displayAdEnabled":true,"placements":{"footer":{"rules":[],"displayType":1},"post_footer":{"rules":[],"displayType":1},"sidebar_bottom":{"rules":[],"displayType":1},"sidebar_repetitive":{"rules":[],"displayType":2},"sidebar_top":{"rules":[],"displayType":1}}},"overwatch_hot":{"displayAdEnabled":true,"placements":{"footer":{"rules":[],"displayType":1},"post_footer":{"rules":[],"displayType":1},"sidebar_bottom":{"rules":[],"displayType":1},"sidebar_repetitive":{"rules":[],"displayType":2},"sidebar_top":{"rules":[],"displayType":1}}},"politics":{"displayAdEnabled":true,"placements":{"footer":{"rules":[],"displayType":1},"post_footer":{"rules":[],"displayType":1},"sidebar_bottom":{"rules":[],"displayType":1},"sidebar_repetitive":{"rules":[],"displayType":2},"sidebar_top":{"rules":[],"displayType":1}}},"politics_fresh":{"displayAdEnabled":true,"placements":{"footer":{"rules":[],"displayType":1},"post_footer":{"rules":[],"displayType":1},"sidebar_bottom":{"rules":[],"displayType":1},"sidebar_repetitive":{"rules":[],"displayType":2},"sidebar_top":{"rules":[],"displayType":1}}},"politics_hot":{"displayAdEnabled":true,"placements":{"footer":{"rules":[],"displayType":1},"post_footer":{"rules":[],"displayType":1},"sidebar_bottom":{"rules":[],"displayType":1},"sidebar_repetitive":{"rules":[],"displayType":2},"sidebar_top":{"rules":[],"displayType":1}}},"post_default":{"displayAdEnabled":true,"placements":{"footer":{"rules":[{"adTag":"\/16921351\/9gag-post-footer-728x90","occurrence":"","adNetwork":"Sortable","idRangeStart":0,"idRangeEnd":10000,"width":"728px","height":"90px"}],"displayType":1},"post_bottom":{"rules":[{"adTag":"\/16921351\/9gag-post-leaderboard-728x90-atf","occurrence":"","adNetwork":"Sortable","idRangeStart":0,"idRangeEnd":10000,"width":"728px","height":"90px"}],"displayType":1},"sidebar_bottom":{"rules":[{"adTag":"\/16921351\/9gag-post-sidebar2-300x600-btf","occurrence":"","adNetwork":"Sortable","idRangeStart":0,"idRangeEnd":10000,"width":"300px","height":"600px"}],"displayType":1},"sidebar_repetitive":{"rules":[{"adTag":"\/16921351\/9gag-post-featured-sidebar-300x250","occurrence":"8...10","adNetwork":"Sortable","idRangeStart":0,"idRangeEnd":10000,"width":"300px","height":"250px"}],"displayType":2},"sidebar_top":{"rules":[{"adTag":"\/16921351\/9gag-post-sidebar1-300x250-atf","occurrence":"","adNetwork":"Sortable","idRangeStart":0,"idRangeEnd":10000,"width":"300px","height":"250px"}],"displayType":1}}},"post_fresh":{"displayAdEnabled":true,"placements":{"footer":{"rules":[],"displayType":1},"post_bottom":{"rules":[],"displayType":1},"sidebar_bottom":{"rules":[],"displayType":1},"sidebar_repetitive":{"rules":[],"displayType":2},"sidebar_top":{"rules":[],"displayType":1}}},"post_housead":{"displayAdEnabled":true,"placements":{"footer":{"rules":[{"adTag":"\/16921351\/9gaghouse-post-footer-728x90","occurrence":"","adNetwork":"Sortable","idRangeStart":0,"idRangeEnd":10000,"width":"728px","height":"90px"}],"displayType":1},"post_bottom":{"rules":[{"adTag":"\/16921351\/9gaghouse-post-leaderboard-728x90-atf","occurrence":"","adNetwork":"Sortable","idRangeStart":0,"idRangeEnd":10000,"width":"728px","height":"90px"}],"displayType":1},"sidebar_bottom":{"rules":[{"adTag":"\/16921351\/9gaghouse-post-sidebar2-300x250-btf","occurrence":"","adNetwork":"Sortable","idRangeStart":0,"idRangeEnd":10000,"width":"300px","height":"250px"}],"displayType":1},"sidebar_repetitive":{"rules":[{"adTag":"\/16921351\/9gaghouse-post-featured-sidebar-300x250","occurrence":"8...10","adNetwork":"Sortable","idRangeStart":0,"idRangeEnd":10000,"width":"300px","height":"250px"}],"displayType":2},"sidebar_top":{"rules":[{"adTag":"\/16921351\/9gaghouse-post-sidebar1-300x250-atf","occurrence":"","adNetwork":"Sortable","idRangeStart":0,"idRangeEnd":10000,"width":"300px","height":"250px"}],"displayType":1}}},"post_nsfw":{"displayAdEnabled":true,"placements":{"footer":{"rules":[{"adTag":"\/16921351\/9gag-nsfw-post-footer-728x90","occurrence":"","adNetwork":"Sortable","idRangeStart":0,"idRangeEnd":10000,"width":"728px","height":"90px"}],"displayType":1},"post_bottom":{"rules":[{"adTag":"\/16921351\/9gag-nsfw-post-leaderboard-728x90-atf","occurrence":"","adNetwork":"Sortable","idRangeStart":0,"idRangeEnd":10000,"width":"728px","height":"90px"}],"displayType":1},"sidebar_bottom":{"rules":[{"adTag":"\/16921351\/9gag-nsfw-post-sidebar2-300x600-btf","occurrence":"","adNetwork":"Sortable","idRangeStart":0,"idRangeEnd":10000,"width":"300px","height":"600px"}],"displayType":1},"sidebar_repetitive":{"rules":[{"adTag":"\/16921351\/9gag-nsfw-post-featured-sidebar-300x250","occurrence":"8...10","adNetwork":"Sortable","idRangeStart":0,"idRangeEnd":10000,"width":"300px","height":"250px"}],"displayType":2},"sidebar_top":{"rules":[{"adTag":"\/16921351\/9gag-nsfw-post-sidebar1-300x250-atf","occurrence":"","adNetwork":"Sortable","idRangeStart":0,"idRangeEnd":10000,"width":"300px","height":"250px"}],"displayType":1}}},"random":{"displayAdEnabled":true,"placements":{"footer":{"rules":[],"displayType":1},"post_footer":{"rules":[],"displayType":1},"sidebar_bottom":{"rules":[],"displayType":1},"sidebar_repetitive":{"rules":[],"displayType":2},"sidebar_top":{"rules":[],"displayType":1}}},"random_fresh":{"displayAdEnabled":true,"placements":{"footer":{"rules":[],"displayType":1},"post_footer":{"rules":[],"displayType":1},"sidebar_bottom":{"rules":[],"displayType":1},"sidebar_repetitive":{"rules":[],"displayType":2},"sidebar_top":{"rules":[],"displayType":1}}},"random_hot":{"displayAdEnabled":true,"placements":{"footer":{"rules":[],"displayType":1},"post_footer":{"rules":[],"displayType":1},"sidebar_bottom":{"rules":[],"displayType":1},"sidebar_repetitive":{"rules":[],"displayType":2},"sidebar_top":{"rules":[],"displayType":1}}},"relationship":{"displayAdEnabled":true,"placements":{"footer":{"rules":[],"displayType":1},"post_footer":{"rules":[],"displayType":1},"sidebar_bottom":{"rules":[],"displayType":1},"sidebar_repetitive":{"rules":[],"displayType":2},"sidebar_top":{"rules":[],"displayType":1}}},"relationship_fresh":{"displayAdEnabled":true,"placements":{"footer":{"rules":[],"displayType":1},"post_footer":{"rules":[],"displayType":1},"sidebar_bottom":{"rules":[],"displayType":1},"sidebar_repetitive":{"rules":[],"displayType":2},"sidebar_top":{"rules":[],"displayType":1}}},"relationship_hot":{"displayAdEnabled":true,"placements":{"footer":{"rules":[],"displayType":1},"post_footer":{"rules":[],"displayType":1},"sidebar_bottom":{"rules":[],"displayType":1},"sidebar_repetitive":{"rules":[],"displayType":2},"sidebar_top":{"rules":[],"displayType":1}}},"savage":{"displayAdEnabled":true,"placements":{"footer":{"rules":[],"displayType":1},"post_footer":{"rules":[],"displayType":1},"sidebar_bottom":{"rules":[],"displayType":1},"sidebar_repetitive":{"rules":[],"displayType":2},"sidebar_top":{"rules":[],"displayType":1}}},"savage_fresh":{"displayAdEnabled":true,"placements":{"footer":{"rules":[],"displayType":1},"post_footer":{"rules":[],"displayType":1},"sidebar_bottom":{"rules":[],"displayType":1},"sidebar_repetitive":{"rules":[],"displayType":2},"sidebar_top":{"rules":[],"displayType":1}}},"savage_hot":{"displayAdEnabled":true,"placements":{"footer":{"rules":[],"displayType":1},"post_footer":{"rules":[],"displayType":1},"sidebar_bottom":{"rules":[],"displayType":1},"sidebar_repetitive":{"rules":[],"displayType":2},"sidebar_top":{"rules":[],"displayType":1}}},"school":{"displayAdEnabled":true,"placements":{"footer":{"rules":[],"displayType":1},"post_footer":{"rules":[],"displayType":1},"sidebar_bottom":{"rules":[],"displayType":1},"sidebar_repetitive":{"rules":[],"displayType":2},"sidebar_top":{"rules":[],"displayType":1}}},"school_fresh":{"displayAdEnabled":true,"placements":{"footer":{"rules":[],"displayType":1},"post_footer":{"rules":[],"displayType":1},"sidebar_bottom":{"rules":[],"displayType":1},"sidebar_repetitive":{"rules":[],"displayType":2},"sidebar_top":{"rules":[],"displayType":1}}},"school_hot":{"displayAdEnabled":true,"placements":{"footer":{"rules":[],"displayType":1},"post_footer":{"rules":[],"displayType":1},"sidebar_bottom":{"rules":[],"displayType":1},"sidebar_repetitive":{"rules":[],"displayType":2},"sidebar_top":{"rules":[],"displayType":1}}},"science":{"displayAdEnabled":true,"placements":{"footer":{"rules":[],"displayType":1},"post_footer":{"rules":[],"displayType":1},"sidebar_bottom":{"rules":[],"displayType":1},"sidebar_repetitive":{"rules":[],"displayType":2},"sidebar_top":{"rules":[],"displayType":1}}},"science_fresh":{"displayAdEnabled":true,"placements":{"footer":{"rules":[],"displayType":1},"post_footer":{"rules":[],"displayType":1},"sidebar_bottom":{"rules":[],"displayType":1},"sidebar_repetitive":{"rules":[],"displayType":2},"sidebar_top":{"rules":[],"displayType":1}}},"science_hot":{"displayAdEnabled":true,"placements":{"footer":{"rules":[],"displayType":1},"post_footer":{"rules":[],"displayType":1},"sidebar_bottom":{"rules":[],"displayType":1},"sidebar_repetitive":{"rules":[],"displayType":2},"sidebar_top":{"rules":[],"displayType":1}}},"section_fresh":{"displayAdEnabled":true,"placements":{"sidebar_bottom":{"rules":[{"adTag":"\/16921351\/9gag-other-list-300x600","occurrence":"","adNetwork":"Sortable","idRangeStart":0,"idRangeEnd":10000,"width":"300px","height":"600px"}],"displayType":1},"sidebar_repetitive":{"rules":[{"adTag":"\/16921351\/9gag-other-list-featured-sidebar-300x250","occurrence":"7...10","adNetwork":"Sortable","idRangeStart":0,"idRangeEnd":10000,"width":"300px","height":"250px"}],"displayType":2},"sidebar_top":{"rules":[{"adTag":"\/16921351\/9gag-other-list-sidebar1-300x250-atf","occurrence":"","adNetwork":"Sortable","idRangeStart":0,"idRangeEnd":10000,"width":"300px","height":"250px"}],"displayType":1}}},"section_hot":{"displayAdEnabled":true,"placements":{"sidebar_bottom":{"rules":[{"adTag":"\/16921351\/9gag-list-sidebar-300x600-sticky","occurrence":"","adNetwork":"Sortable","idRangeStart":0,"idRangeEnd":10000,"width":"300px","height":"600px"}],"displayType":1},"sidebar_repetitive":{"rules":[{"adTag":"\/16921351\/9gag-list-featured-sidebar-300x250","occurrence":"7...10","adNetwork":"Sortable","idRangeStart":0,"idRangeEnd":10000,"width":"300px","height":"250px"}],"displayType":2},"sidebar_top":{"rules":[{"adTag":"\/16921351\/9gag-list-sidebar1-300x250-atf","occurrence":"","adNetwork":"Sortable","idRangeStart":0,"idRangeEnd":10000,"width":"300px","height":"250px"}],"displayType":1}}},"sport":{"displayAdEnabled":true,"placements":{"footer":{"rules":[],"displayType":1},"post_footer":{"rules":[],"displayType":1},"sidebar_bottom":{"rules":[],"displayType":1},"sidebar_repetitive":{"rules":[],"displayType":2},"sidebar_top":{"rules":[],"displayType":1}}},"sport_fresh":{"displayAdEnabled":true,"placements":{"footer":{"rules":[],"displayType":1},"post_footer":{"rules":[],"displayType":1},"sidebar_bottom":{"rules":[],"displayType":1},"sidebar_repetitive":{"rules":[],"displayType":2},"sidebar_top":{"rules":[],"displayType":1}}},"sport_hot":{"displayAdEnabled":true,"placements":{"footer":{"rules":[],"displayType":1},"post_footer":{"rules":[],"displayType":1},"sidebar_bottom":{"rules":[],"displayType":1},"sidebar_repetitive":{"rules":[],"displayType":2},"sidebar_top":{"rules":[],"displayType":1}}},"superhero":{"displayAdEnabled":true,"placements":{"footer":{"rules":[],"displayType":1},"post_footer":{"rules":[],"displayType":1},"sidebar_bottom":{"rules":[],"displayType":1},"sidebar_repetitive":{"rules":[],"displayType":2},"sidebar_top":{"rules":[],"displayType":1}}},"superhero_fresh":{"displayAdEnabled":true,"placements":{"footer":{"rules":[],"displayType":1},"post_footer":{"rules":[],"displayType":1},"sidebar_bottom":{"rules":[],"displayType":1},"sidebar_repetitive":{"rules":[],"displayType":2},"sidebar_top":{"rules":[],"displayType":1}}},"superhero_hot":{"displayAdEnabled":true,"placements":{"footer":{"rules":[],"displayType":1},"post_footer":{"rules":[],"displayType":1},"sidebar_bottom":{"rules":[],"displayType":1},"sidebar_repetitive":{"rules":[],"displayType":2},"sidebar_top":{"rules":[],"displayType":1}}},"timely":{"displayAdEnabled":true,"placements":{"footer":{"rules":[],"displayType":1},"post_footer":{"rules":[],"displayType":1},"sidebar_bottom":{"rules":[],"displayType":1},"sidebar_repetitive":{"rules":[],"displayType":2},"sidebar_top":{"rules":[],"displayType":1}}},"timely_fresh":{"displayAdEnabled":true,"placements":{"footer":{"rules":[],"displayType":1},"post_footer":{"rules":[],"displayType":1},"sidebar_bottom":{"rules":[],"displayType":1},"sidebar_repetitive":{"rules":[],"displayType":2},"sidebar_top":{"rules":[],"displayType":1}}},"timely_hot":{"displayAdEnabled":true,"placements":{"footer":{"rules":[],"displayType":1},"post_footer":{"rules":[],"displayType":1},"sidebar_bottom":{"rules":[],"displayType":1},"sidebar_repetitive":{"rules":[],"displayType":2},"sidebar_top":{"rules":[],"displayType":1}}},"top":{"displayAdEnabled":true,"placements":{"footer":{"rules":[],"displayType":1},"post_footer":{"rules":[],"displayType":1},"sidebar_bottom":{"rules":[],"displayType":1},"sidebar_repetitive":{"rules":[],"displayType":2},"sidebar_top":{"rules":[],"displayType":1}}},"top_fresh":{"displayAdEnabled":true,"placements":{"footer":{"rules":[],"displayType":1},"post_footer":{"rules":[],"displayType":1},"sidebar_bottom":{"rules":[],"displayType":1},"sidebar_repetitive":{"rules":[],"displayType":2},"sidebar_top":{"rules":[],"displayType":1}}},"top_hot":{"displayAdEnabled":true,"placements":{"footer":{"rules":[],"displayType":1},"post_footer":{"rules":[],"displayType":1},"sidebar_bottom":{"rules":[],"displayType":1},"sidebar_repetitive":{"rules":[],"displayType":2},"sidebar_top":{"rules":[],"displayType":1}}},"trending":{"displayAdEnabled":true,"placements":{"sidebar_bottom":{"rules":[{"adTag":"\/16921351\/9gag-list-sidebar-300x600-sticky","occurrence":"","adNetwork":"Sortable","idRangeStart":0,"idRangeEnd":10000,"width":"300px","height":"600px"}],"displayType":1},"sidebar_repetitive":{"rules":[{"adTag":"\/16921351\/9gag-list-featured-sidebar-300x250","occurrence":"7...10","adNetwork":"Sortable","idRangeStart":0,"idRangeEnd":10000,"width":"300px","height":"250px"}],"displayType":2},"sidebar_top":{"rules":[{"adTag":"\/16921351\/9gag-list-sidebar1-300x250-atf","occurrence":"","adNetwork":"Sortable","idRangeStart":0,"idRangeEnd":10000,"width":"300px","height":"250px"}],"displayType":1}}},"ugly":{"displayAdEnabled":true,"placements":{"footer":{"rules":[],"displayType":1},"post_footer":{"rules":[],"displayType":1},"sidebar_bottom":{"rules":[],"displayType":1},"sidebar_repetitive":{"rules":[],"displayType":2},"sidebar_top":{"rules":[],"displayType":1}}},"ugly_fresh":{"displayAdEnabled":true,"placements":{"footer":{"rules":[],"displayType":1},"post_footer":{"rules":[],"displayType":1},"sidebar_bottom":{"rules":[],"displayType":1},"sidebar_repetitive":{"rules":[],"displayType":2},"sidebar_top":{"rules":[],"displayType":1}}},"ugly_hot":{"displayAdEnabled":true,"placements":{"footer":{"rules":[],"displayType":1},"post_footer":{"rules":[],"displayType":1},"sidebar_bottom":{"rules":[],"displayType":1},"sidebar_repetitive":{"rules":[],"displayType":2},"sidebar_top":{"rules":[],"displayType":1}}},"video":{"displayAdEnabled":true,"placements":{"footer":{"rules":[],"displayType":1},"post_footer":{"rules":[],"displayType":1},"sidebar_bottom":{"rules":[],"displayType":1},"sidebar_repetitive":{"rules":[],"displayType":2},"sidebar_top":{"rules":[],"displayType":1}}},"video_fresh":{"displayAdEnabled":true,"placements":{"footer":{"rules":[],"displayType":1},"post_footer":{"rules":[],"displayType":1},"sidebar_bottom":{"rules":[],"displayType":1},"sidebar_repetitive":{"rules":[],"displayType":2},"sidebar_top":{"rules":[],"displayType":1}}},"video_hot":{"displayAdEnabled":true,"placements":{"footer":{"rules":[],"displayType":1},"post_footer":{"rules":[],"displayType":1},"sidebar_bottom":{"rules":[],"displayType":1},"sidebar_repetitive":{"rules":[],"displayType":2},"sidebar_top":{"rules":[],"displayType":1}}},"wtf":{"displayAdEnabled":true,"placements":{"footer":{"rules":[],"displayType":1},"post_footer":{"rules":[],"displayType":1},"sidebar_bottom":{"rules":[],"displayType":1},"sidebar_repetitive":{"rules":[],"displayType":2},"sidebar_top":{"rules":[],"displayType":1}}},"wtf_fresh":{"displayAdEnabled":true,"placements":{"footer":{"rules":[],"displayType":1},"post_footer":{"rules":[],"displayType":1},"sidebar_bottom":{"rules":[],"displayType":1},"sidebar_repetitive":{"rules":[],"displayType":2},"sidebar_top":{"rules":[],"displayType":1}}},"wtf_hot":{"displayAdEnabled":true,"placements":{"footer":{"rules":[],"displayType":1},"post_footer":{"rules":[],"displayType":1},"sidebar_bottom":{"rules":[],"displayType":1},"sidebar_repetitive":{"rules":[],"displayType":2},"sidebar_top":{"rules":[],"displayType":1}}},"xmas":{"displayAdEnabled":true,"placements":{"footer":{"rules":[],"displayType":1},"post_footer":{"rules":[],"displayType":1},"sidebar_bottom":{"rules":[],"displayType":1},"sidebar_repetitive":{"rules":[],"displayType":2},"sidebar_top":{"rules":[],"displayType":1}}},"xmas_fresh":{"displayAdEnabled":true,"placements":{"footer":{"rules":[],"displayType":1},"post_footer":{"rules":[],"displayType":1},"sidebar_bottom":{"rules":[],"displayType":1},"sidebar_repetitive":{"rules":[],"displayType":2},"sidebar_top":{"rules":[],"displayType":1}}},"xmas_hot":{"displayAdEnabled":true,"placements":{"footer":{"rules":[],"displayType":1},"post_footer":{"rules":[],"displayType":1},"sidebar_bottom":{"rules":[],"displayType":1},"sidebar_repetitive":{"rules":[],"displayType":2},"sidebar_top":{"rules":[],"displayType":1}}}},"targetedAdTags":[],"sticky":{"buttons":[["\ud83d\ude02  Have fun on your phone!","http:\/\/9gag.com\/apps?ref=havefun","6"],["Like us now!","https:\/\/www.facebook.com\/9gag?ref=likeus","6"],["Follow us on Instagram!","https:\/\/instagram.com\/9gag?ref=followus","6"],["Watch viral videos!","http:\/\/9gag.tv?ref=viralvideo","6"],["Download our FREE apps!","http:\/\/9gag.com\/apps?ref=freeapps","6"],["Watch the best videos!","http:\/\/9gag.tv?ref=bestvideos","6"],["Follow us on Twitter!","https:\/\/twitter.com\/9gag?ref=followus","6"]],"dismiss":120,"noAd":12}}).loadAsynScripts(['facebook', 'twitter', 'gplus', 'recaptcha']);
+</script>
+
+<script type="text/javascript">
+    var _paq = _paq || [];
+    _paq.push(['enableLinkTracking']);
+    (function() {
+        var u='//web-t.9gag.com';
+        _paq.push(['setTrackerUrl', u+'/piwik.php']);
+        _paq.push(['setSiteId', 7]);
+        _paq.push(['setCustomVariable', 1, 'AppVersion', '00000', 'visit']);
+        var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+        g.type='text/javascript'; g.async=true; g.defer=true; g.src='//js-webt-lol.9cache.com/piwik.7688214.js'; s.parentNode.insertBefore(g,s);
+    })();
+</script>
+        <div id="fb-root" style="display:none;"></div>
+        <!-- :UDWBRXTUNWeMRVRywEVNdHTUlUY -->
+        <script>
+    var _comscore = _comscore || [];
+    _comscore.push({ c1: "2", c2: "22471533" });
+    (function() {
+        var s = document.createElement("script"), el = document.getElementsByTagName("script")[0]; s.async = true;
+        s.src = (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js";
+        el.parentNode.insertBefore(s, el);
+    })();
+</script>
+<noscript>
+    <img src="http://b.scorecardresearch.com/p?c1=2&c2=22471533&cv=2.0&cj=1" />
+</noscript>    </body>
+</html>

@@ -2,7 +2,7 @@
 	"folder_history":
 	[
 	],
-	"last_window_id": 22,
+	"last_window_id": 23,
 	"settings":
 	{
 		"new_window_height": 480.0,
@@ -12,6 +12,18 @@
 			{
 				"selected_items":
 				[
+					[
+						"tex",
+						"text-align"
+					],
+					[
+						"backgr",
+						"background"
+					],
+					[
+						"inlin",
+						"inline-block"
+					],
 					[
 						"margin",
 						"margin-bottom"
@@ -176,18 +188,10 @@
 			"buffers":
 			[
 				{
-					"file": "/Users/ccdm16/Desktop/pw/css/estilos.css",
+					"file": "/Users/ccdm16/Desktop/pw/audiovideo1.html",
 					"settings":
 					{
-						"buffer_size": 995,
-						"line_ending": "Unix"
-					}
-				},
-				{
-					"file": "/Users/ccdm16/Desktop/pw/segunda.html",
-					"settings":
-					{
-						"buffer_size": 1700,
+						"buffer_size": 408,
 						"line_ending": "Unix"
 					}
 				}
@@ -256,59 +260,31 @@
 			"groups":
 			[
 				{
-					"selected": 1,
+					"selected": 0,
 					"sheets":
 					[
 						{
 							"buffer": 0,
-							"file": "/Users/ccdm16/Desktop/pw/css/estilos.css",
+							"file": "/Users/ccdm16/Desktop/pw/audiovideo1.html",
 							"settings":
 							{
-								"buffer_size": 995,
+								"buffer_size": 408,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										935,
-										935
+										268,
+										268
 									]
 								],
 								"settings":
 								{
-									"syntax": "Packages/CSS/CSS.tmLanguage"
+									"syntax": "Packages/HTML/HTML.tmLanguage"
 								},
 								"translation.x": 0.0,
-								"translation.y": 1292.0,
-								"zoom_level": 1.0
-							},
-							"type": "text"
-						},
-						{
-							"buffer": 1,
-							"file": "/Users/ccdm16/Desktop/pw/segunda.html",
-							"settings":
-							{
-								"buffer_size": 1700,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										1629,
-										1629
-									]
-								],
-								"settings":
-								{
-									"syntax": "Packages/HTML/HTML.tmLanguage",
-									"tab_size": 3,
-									"translate_tabs_to_spaces": true
-								},
-								"translation.x": 0.0,
-								"translation.y": 1053.0,
+								"translation.y": 60.0,
 								"zoom_level": 1.0
 							},
 							"type": "text"
@@ -347,7 +323,7 @@
 				]
 			},
 			"menu_visible": true,
-			"position": "1130 451 640 502 0 0 1920 1057 ",
+			"position": "640 248 640 502 0 0 1920 1057 ",
 			"replace":
 			{
 				"height": 0.0
@@ -375,7 +351,7 @@
 			"side_bar_visible": true,
 			"side_bar_width": 150.0,
 			"status_bar_visible": true,
-			"window_id": 21,
+			"window_id": 23,
 			"workspace_name": ""
 		}
 	],

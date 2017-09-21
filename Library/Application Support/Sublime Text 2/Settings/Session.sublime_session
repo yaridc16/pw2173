@@ -2,7 +2,7 @@
 	"folder_history":
 	[
 	],
-	"last_window_id": 19,
+	"last_window_id": 22,
 	"settings":
 	{
 		"new_window_height": 480.0,
@@ -12,6 +12,22 @@
 			{
 				"selected_items":
 				[
+					[
+						"tex",
+						"text-align"
+					],
+					[
+						"backgr",
+						"background"
+					],
+					[
+						"inlin",
+						"inline-block"
+					],
+					[
+						"margin",
+						"margin-bottom"
+					],
 					[
 						"back",
 						"background"
