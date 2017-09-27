@@ -14,6 +14,22 @@
 		<string>/Applications/Utilities/Boot Camp Assistant.app</string>
 		<string>/Applications/Utilities/Migration Assistant.app</string>
 		<string>/Applications/Utilities/VoiceOver Utility.app</string>
+		<string>/Applications/eclipse/Eclipse.app</string>
+		<string>/Applications/Franz.app</string>
+		<string>/Applications/Genymotion Shell.app</string>
+		<string>/Applications/Genymotion.app</string>
+		<string>/Applications/GitKraken.app</string>
+		<string>/Applications/Google Chrome.app</string>
+		<string>/Applications/Spotify.app</string>
+		<string>/Applications/Sublime Text 2.app</string>
+		<string>/Applications/SWI-Prolog.app</string>
+		<string>/Applications/Utilities/XQuartz.app</string>
+		<string>/Applications/VirtualBox.app</string>
+		<string>/Applications/Visual Studio.app</string>
+		<string>/Applications/Xamarin Profiler.app</string>
+		<string>/Applications/Xamarin Workbooks.app</string>
+		<string>/Applications/XAMPP/manager-osx.app</string>
+		<string>/Applications/XAMPP/uninstall.app</string>
 	</array>
 	<key>CacheLanguageKey</key>
 	<string>es-MX</string>
@@ -658,7 +674,7 @@
 		<key>com.apple.Safari.help</key>
 		<dict>
 			<key>CFBundleVersion</key>
-			<string>70.12</string>
+			<string>80.13</string>
 			<key>HPDBookAccessPath</key>
 			<string>/Applications/Safari.app/Contents/Resources/Safari.help/Contents/Resources/es_419.lproj/redirect.html</string>
 			<key>HPDBookIconPath</key>
@@ -678,7 +694,7 @@
 			<key>HPDBookPathKey</key>
 			<string>/Applications/Safari.app/Contents/Resources/Safari.help</string>
 			<key>HPDBookRemoteURL</key>
-			<string>https://help.apple.com/safari/mac/10.0/</string>
+			<string>https://help.apple.com/safari/mac/sierra/10.0/</string>
 			<key>HPDBookTitle</key>
 			<string>Ayuda de Safari</string>
 			<key>HPDBookType</key>
@@ -941,6 +957,35 @@
 			<key>HPDBookType</key>
 			<integer>3</integer>
 		</dict>
+		<key>com.apple.dt.Xcode.help.8E3004b</key>
+		<dict>
+			<key>CFBundleVersion</key>
+			<string>94</string>
+			<key>HPDAppVersion</key>
+			<string>8E3004b</string>
+			<key>HPDBookAccessPath</key>
+			<string>/Applications/Xcode.app/Contents/Resources/Xcode.help/Contents/Resources/en.lproj/redirect.html</string>
+			<key>HPDBookIconPath</key>
+			<string>/Applications/Xcode.app/Contents/Resources/Xcode.help/Contents/Resources/GlobalArt/AppIconDefault.png</string>
+			<key>HPDBookIdentifier</key>
+			<string>com.apple.dt.Xcode.help.8E3004b</string>
+			<key>HPDBookIndexPaths</key>
+			<array>
+				<string>/Applications/Xcode.app/Contents/Resources/Xcode.help/Contents/Resources/en.lproj/search.helpindex</string>
+			</array>
+			<key>HPDBookKBURL</key>
+			<string>http://www.info.apple.com/searchredir.html?bucket=helpviewer&amp;lang='lang'&amp;as_oq='product'&amp;val='query'</string>
+			<key>HPDBookLocalizationKey</key>
+			<string>en</string>
+			<key>HPDBookPathKey</key>
+			<string>/Applications/Xcode.app/Contents/Resources/Xcode.help</string>
+			<key>HPDBookRemoteURL</key>
+			<string>https://help.apple.com/xcode/mac/8.3/</string>
+			<key>HPDBookTitle</key>
+			<string>Xcode Help</string>
+			<key>HPDBookType</key>
+			<integer>3</integer>
+		</dict>
 		<key>com.apple.grab.help</key>
 		<dict>
 			<key>CFBundleVersion</key>
@@ -1056,7 +1101,7 @@
 		<key>com.apple.iTunes.help</key>
 		<dict>
 			<key>CFBundleVersion</key>
-			<string>350.1</string>
+			<string>360.5</string>
 			<key>HPDBookAccessPath</key>
 			<string>/Applications/iTunes.app/Contents/Resources/iTunes.help/Contents/Resources/es_419.lproj/redirect.html</string>
 			<key>HPDBookIconPath</key>
@@ -1076,7 +1121,7 @@
 			<key>HPDBookPathKey</key>
 			<string>/Applications/iTunes.app/Contents/Resources/iTunes.help</string>
 			<key>HPDBookRemoteURL</key>
-			<string>https://help.apple.com/itunes/mac/12.6/</string>
+			<string>https://help.apple.com/itunes/mac/12.7/</string>
 			<key>HPDBookTitle</key>
 			<string>Ayuda de iTunes</string>
 			<key>HPDBookType</key>
@@ -1170,6 +1215,31 @@
 			<string>Ayuda de Recordatorios</string>
 			<key>HPDBookType</key>
 			<integer>3</integer>
+		</dict>
+		<key>com.vmware.fusion.help</key>
+		<dict>
+			<key>HPDBookAccessPath</key>
+			<string>/Applications/VMware Fusion.app/Contents/Resources/Spanish.lproj/onlinehelp/index.html</string>
+			<key>HPDBookIconPath</key>
+			<string>/Applications/VMware Fusion.app/Contents/Resources/Spanish.lproj/onlinehelp/GUID-8C76F424-0598-48BE-A8E7-585F285C4283-low.png</string>
+			<key>HPDBookIdentifier</key>
+			<string>com.vmware.fusion.help</string>
+			<key>HPDBookIndexPaths</key>
+			<array>
+				<string>/Applications/VMware Fusion.app/Contents/Resources/Spanish.lproj/onlinehelp/onlinehelp.helpindex</string>
+			</array>
+			<key>HPDBookKBURL</key>
+			<string>https://support.apple.com/www/searchredir.html?bucket=helpviewer&amp;as_oq='product'&amp;val='query'&amp;lang='lang'&amp;build='build'</string>
+			<key>HPDBookLocalizationKey</key>
+			<string>Spanish</string>
+			<key>HPDBookPathKey</key>
+			<string>/Applications/VMware Fusion.app/Contents/Resources/Spanish.lproj/onlinehelp</string>
+			<key>HPDBookStringEncodingKey</key>
+			<integer>4</integer>
+			<key>HPDBookTitle</key>
+			<string>VMware Fusion Help</string>
+			<key>HPDBookType</key>
+			<integer>1</integer>
 		</dict>
 	</dict>
 </dict>

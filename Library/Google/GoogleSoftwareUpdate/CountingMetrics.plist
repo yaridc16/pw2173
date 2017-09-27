@@ -7,13 +7,13 @@
 		<key>DayOfInstall</key>
 		<integer>3886</integer>
 		<key>DayOfLastActive</key>
-		<integer>3916</integer>
+		<integer>3922</integer>
 		<key>DayOfLastRollcall</key>
-		<integer>3916</integer>
+		<integer>3922</integer>
 		<key>LastActivePingDate</key>
-		<date>2017-09-21T21:12:29Z</date>
+		<date>2017-09-27T21:12:46Z</date>
 		<key>PingFreshness</key>
-		<string>07B5B040-B23D-4FC5-B6E8-4B1FF1D4A72A</string>
+		<string>D2531346-FF06-4714-A505-ABC6690B8566</string>
 		<key>ProductState</key>
 		<integer>1</integer>
 	</dict>
@@ -22,13 +22,13 @@
 		<key>DayOfInstall</key>
 		<integer>3886</integer>
 		<key>DayOfLastActive</key>
-		<integer>3916</integer>
+		<integer>3922</integer>
 		<key>DayOfLastRollcall</key>
-		<integer>3916</integer>
+		<integer>3922</integer>
 		<key>LastActivePingDate</key>
-		<date>2017-09-21T21:12:25Z</date>
+		<date>2017-09-27T21:12:37Z</date>
 		<key>PingFreshness</key>
-		<string>0F1D110E-3C8C-473F-AE68-8F7AFF6F0349</string>
+		<string>5BBFBCC9-D7FA-431F-8A29-FCC82FAF847D</string>
 		<key>ProductState</key>
 		<integer>1</integer>
 	</dict>
