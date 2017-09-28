@@ -2,10 +2,10 @@
 	"folder_history":
 	[
 	],
-	"last_window_id": 30,
+	"last_window_id": 32,
 	"settings":
 	{
-		"new_window_height": 544.0,
+		"new_window_height": 945.0,
 		"new_window_settings":
 		{
 			"auto_complete":
@@ -159,7 +159,7 @@
 			"side_bar_width": 150.0,
 			"status_bar_visible": true
 		},
-		"new_window_width": 593.0
+		"new_window_width": 472.0
 	},
 	"windows":
 	[
@@ -169,10 +169,6 @@
 				"selected_items":
 				[
 					[
-						"border",
-						"border-radius"
-					],
-					[
 						"font",
 						"font-size"
 					],
@@ -201,10 +197,18 @@
 			"buffers":
 			[
 				{
-					"file": "/Users/ccdm16/Desktop/pw/practica01css/css/estilos.css",
+					"file": "/Users/ccdm16/Desktop/pw/practica02css/index.html",
 					"settings":
 					{
-						"buffer_size": 1208,
+						"buffer_size": 1415,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/Users/ccdm16/Desktop/pw/practica02css/CSS/estilos.css",
+					"settings":
+					{
+						"buffer_size": 0,
 						"line_ending": "Unix"
 					}
 				}
@@ -279,229 +283,52 @@
 					[
 						{
 							"buffer": 0,
-							"file": "/Users/ccdm16/Desktop/pw/practica01css/css/estilos.css",
+							"file": "/Users/ccdm16/Desktop/pw/practica02css/index.html",
 							"settings":
 							{
-								"buffer_size": 1208,
+								"buffer_size": 1415,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										889,
-										889
+										1309,
+										1309
 									]
 								],
 								"settings":
 								{
-									"syntax": "Packages/CSS/CSS.tmLanguage",
-									"translate_tabs_to_spaces": false
+									"syntax": "Packages/HTML/HTML.tmLanguage"
 								},
 								"translation.x": 0.0,
-								"translation.y": 755.0,
+								"translation.y": 761.0,
 								"zoom_level": 1.0
 							},
 							"type": "text"
-						}
-					]
-				}
-			],
-			"incremental_find":
-			{
-				"height": 0.0
-			},
-			"input":
-			{
-				"height": 0.0
-			},
-			"layout":
-			{
-				"cells":
-				[
-					[
-						0,
-						0,
-						1,
-						1
-					]
-				],
-				"cols":
-				[
-					0.0,
-					1.0
-				],
-				"rows":
-				[
-					0.0,
-					1.0
-				]
-			},
-			"menu_visible": true,
-			"position": "947 81 500 976 0 0 1920 1057 ",
-			"replace":
-			{
-				"height": 0.0
-			},
-			"save_all_on_build": true,
-			"select_file":
-			{
-				"height": 0.0,
-				"selected_items":
-				[
-				],
-				"width": 0.0
-			},
-			"select_project":
-			{
-				"height": 0.0,
-				"selected_items":
-				[
-				],
-				"width": 0.0
-			},
-			"show_minimap": true,
-			"show_open_files": false,
-			"show_tabs": true,
-			"side_bar_visible": true,
-			"side_bar_width": 150.0,
-			"status_bar_visible": true,
-			"window_id": 29,
-			"workspace_name": ""
-		},
-		{
-			"auto_complete":
-			{
-				"selected_items":
-				[
-					[
-						"font",
-						"font-size"
-					],
-					[
-						"tex",
-						"text-align"
-					],
-					[
-						"backgr",
-						"background"
-					],
-					[
-						"inlin",
-						"inline-block"
-					],
-					[
-						"margin",
-						"margin-bottom"
-					],
-					[
-						"back",
-						"background"
-					]
-				]
-			},
-			"buffers":
-			[
-				{
-					"file": "/Users/ccdm16/Desktop/pw/practica01css/index.html",
-					"settings":
-					{
-						"buffer_size": 2130,
-						"line_ending": "Unix"
-					}
-				}
-			],
-			"build_system": "",
-			"command_palette":
-			{
-				"height": 87.0,
-				"selected_items":
-				[
-					[
-						"Instal",
-						"Package Control: Install Package"
-					]
-				],
-				"width": 449.0
-			},
-			"console":
-			{
-				"height": 174.0
-			},
-			"distraction_free":
-			{
-				"menu_visible": true,
-				"show_minimap": false,
-				"show_open_files": false,
-				"show_tabs": false,
-				"side_bar_visible": false,
-				"status_bar_visible": false
-			},
-			"file_history":
-			[
-				"/Users/ccdm16/Desktop/pw/practica01css/index.html",
-				"/Users/ccdm16/Desktop/pw/css/untitled",
-				"/Users/ccdm16/Desktop/pw/untitled.html"
-			],
-			"find":
-			{
-				"height": 38.0
-			},
-			"find_in_files":
-			{
-				"height": 0.0,
-				"where_history":
-				[
-				]
-			},
-			"find_state":
-			{
-				"case_sensitive": false,
-				"find_history":
-				[
-				],
-				"highlight": true,
-				"in_selection": false,
-				"preserve_case": false,
-				"regex": false,
-				"replace_history":
-				[
-				],
-				"reverse": false,
-				"show_context": true,
-				"use_buffer2": true,
-				"whole_word": false,
-				"wrap": true
-			},
-			"groups":
-			[
-				{
-					"selected": 0,
-					"sheets":
-					[
+						},
 						{
-							"buffer": 0,
-							"file": "/Users/ccdm16/Desktop/pw/practica01css/index.html",
+							"buffer": 1,
+							"file": "/Users/ccdm16/Desktop/pw/practica02css/CSS/estilos.css",
 							"settings":
 							{
-								"buffer_size": 2130,
+								"buffer_size": 0,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										697,
-										697
+										0,
+										0
 									]
 								],
 								"settings":
 								{
-									"syntax": "Packages/HTML/HTML.tmLanguage",
-									"translate_tabs_to_spaces": false
+									"syntax": "Packages/CSS/CSS.tmLanguage"
 								},
 								"translation.x": 0.0,
-								"translation.y": 703.0,
+								"translation.y": 0.0,
 								"zoom_level": 1.0
 							},
 							"type": "text"
@@ -540,7 +367,7 @@
 				]
 			},
 			"menu_visible": true,
-			"position": "1448 90 472 967 0 0 1920 1057 ",
+			"position": "724 90 959 967 0 0 1920 1057 ",
 			"replace":
 			{
 				"height": 0.0
@@ -568,7 +395,7 @@
 			"side_bar_visible": true,
 			"side_bar_width": 150.0,
 			"status_bar_visible": true,
-			"window_id": 30,
+			"window_id": 32,
 			"workspace_name": ""
 		}
 	],
