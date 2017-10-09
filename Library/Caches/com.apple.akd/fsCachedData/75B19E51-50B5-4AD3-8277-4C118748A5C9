@@ -52,6 +52,10 @@
         <string>https://gsa.apple.com/appleid/account/manage/security/stingray/disable</string>
         <key>validateCode</key>
         <string>https://gsa.apple.com/grandslam/GsService2/validate</string>
+        <key>fetchCertificate</key>
+        <string>https://aidc.apple.com/aidcert/services/fetchCertificate</string>
+        <key>createCertificate</key>
+        <string>https://aidc.apple.com/aidcert/services/createCertificate</string>
         <key>fetchAppleIdEmails</key>
         <string>https://gsa.apple.com/grandslam/GsService2/fetchAppleIdEmails</string>
         <key>circle</key>
@@ -78,8 +82,12 @@
         <string>https://gsa.apple.com/appleid/account/manage/repair</string>
         <key>midStartProvisioning</key>
         <string>https://gsa.apple.com/grandslam/MidService/startMachineProvisioning</string>
+        <key>getMyInfo</key>
+        <string>https://aidc.apple.com/aidcert/services/getMyInfo</string>
         <key>changePasswordUrl</key>
         <string>https://gsa.apple.com/appleid/account/manage/security/password/change</string>
+        <key>simSwapUpdatePhoneNumber</key>
+        <string>https://gsa.apple.com/appleid/account/manage/repair/verify/phone/swap/sim</string>
         <key>tokenUpgrade</key>
         <string>https://gsa.apple.com/grandslam/GsService2/tokenupgrade</string>
         <key>loadPasswordSecurityUI</key>
