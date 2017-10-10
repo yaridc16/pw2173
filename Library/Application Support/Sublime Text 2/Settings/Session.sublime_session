@@ -2,7 +2,7 @@
 	"folder_history":
 	[
 	],
-	"last_window_id": 46,
+	"last_window_id": 50,
 	"settings":
 	{
 		"new_window_height": 945.0,
@@ -66,6 +66,7 @@
 			},
 			"file_history":
 			[
+				"/Users/ccdm16/Desktop/pw/practica02css/CSS/estilos.css",
 				"/Users/ccdm16/Desktop/pw/practica01css/index.html",
 				"/Users/ccdm16/Desktop/pw/css/untitled",
 				"/Users/ccdm16/Desktop/pw/untitled.html"
@@ -86,7 +87,6 @@
 				"case_sensitive": false,
 				"find_history":
 				[
-					"order"
 				],
 				"highlight": true,
 				"in_selection": false,
@@ -164,208 +164,6 @@
 	},
 	"windows":
 	[
-		{
-			"auto_complete":
-			{
-				"selected_items":
-				[
-					[
-						"margin",
-						"margin-left"
-					],
-					[
-						"font",
-						"font-size"
-					],
-					[
-						"tex",
-						"text-align"
-					],
-					[
-						"backgr",
-						"background"
-					],
-					[
-						"inlin",
-						"inline-block"
-					],
-					[
-						"back",
-						"background"
-					]
-				]
-			},
-			"buffers":
-			[
-				{
-					"file": "/Users/ccdm16/Desktop/pw/practica02css/CSS/estilos.css",
-					"settings":
-					{
-						"buffer_size": 1413,
-						"line_ending": "Unix"
-					}
-				}
-			],
-			"build_system": "",
-			"command_palette":
-			{
-				"height": 87.0,
-				"selected_items":
-				[
-					[
-						"Instal",
-						"Package Control: Install Package"
-					]
-				],
-				"width": 449.0
-			},
-			"console":
-			{
-				"height": 174.0
-			},
-			"distraction_free":
-			{
-				"menu_visible": true,
-				"show_minimap": false,
-				"show_open_files": false,
-				"show_tabs": false,
-				"side_bar_visible": false,
-				"status_bar_visible": false
-			},
-			"file_history":
-			[
-				"/Users/ccdm16/Desktop/pw/practica01css/index.html",
-				"/Users/ccdm16/Desktop/pw/css/untitled",
-				"/Users/ccdm16/Desktop/pw/untitled.html"
-			],
-			"find":
-			{
-				"height": 38.0
-			},
-			"find_in_files":
-			{
-				"height": 0.0,
-				"where_history":
-				[
-				]
-			},
-			"find_state":
-			{
-				"case_sensitive": false,
-				"find_history":
-				[
-				],
-				"highlight": true,
-				"in_selection": false,
-				"preserve_case": false,
-				"regex": false,
-				"replace_history":
-				[
-				],
-				"reverse": false,
-				"show_context": true,
-				"use_buffer2": true,
-				"whole_word": false,
-				"wrap": true
-			},
-			"groups":
-			[
-				{
-					"selected": 0,
-					"sheets":
-					[
-						{
-							"buffer": 0,
-							"file": "/Users/ccdm16/Desktop/pw/practica02css/CSS/estilos.css",
-							"settings":
-							{
-								"buffer_size": 1413,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										1413,
-										1413
-									]
-								],
-								"settings":
-								{
-									"syntax": "Packages/CSS/CSS.tmLanguage",
-									"translate_tabs_to_spaces": false
-								},
-								"translation.x": 0.0,
-								"translation.y": 1157.0,
-								"zoom_level": 1.0
-							},
-							"type": "text"
-						}
-					]
-				}
-			],
-			"incremental_find":
-			{
-				"height": 0.0
-			},
-			"input":
-			{
-				"height": 0.0
-			},
-			"layout":
-			{
-				"cells":
-				[
-					[
-						0,
-						0,
-						1,
-						1
-					]
-				],
-				"cols":
-				[
-					0.0,
-					1.0
-				],
-				"rows":
-				[
-					0.0,
-					1.0
-				]
-			},
-			"menu_visible": true,
-			"position": "858 90 1003 967 0 0 1920 1057 ",
-			"replace":
-			{
-				"height": 0.0
-			},
-			"save_all_on_build": true,
-			"select_file":
-			{
-				"height": 0.0,
-				"selected_items":
-				[
-				],
-				"width": 0.0
-			},
-			"select_project":
-			{
-				"height": 0.0,
-				"selected_items":
-				[
-				],
-				"width": 0.0
-			},
-			"show_minimap": true,
-			"show_open_files": false,
-			"show_tabs": true,
-			"side_bar_visible": true,
-			"side_bar_width": 150.0,
-			"status_bar_visible": true,
-			"window_id": 45,
-			"workspace_name": ""
-		}
 	],
 	"workspaces":
 	{

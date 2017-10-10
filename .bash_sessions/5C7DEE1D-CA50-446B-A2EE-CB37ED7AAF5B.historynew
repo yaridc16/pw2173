@@ -1,7 +1,0 @@
-cd Desktop/pw
-git status
-add -A
-git add -A
-git commit -m
-git commit -m 
-git commit -m "etiquetas basicas " 
