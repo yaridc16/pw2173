@@ -1,42 +1,6 @@
  Time	               Bundle ID	              Status	Comment
-0.000	                       -	                   -	TALagent Started (system uptime: 4903.31 sec, current time: 529362909.29)
-0.070	                       -	                   -	Liveness: 0 -> 1 (run_as_server)
-0.072	                       -	                   -	Liveness: 1 -> 2 (create_xpc_listener)
-0.072	                       -	                   -	Blocking app contact
-0.402	                       -	                   -	Successfully read encryption key from keychain in 0.331058 seconds
-0.537	                       -	                   -	Liveness: 2 -> 3 (server_show_windows_for_asns)
-0.538	                       -	                   -	server_show_windows_for_asns start
-0.538	                       -	                   -	Allowing apps to contact us
-0.538	                       -	                   -	TAL launch still in progress because Finder has not checked in
-0.538	                       -	                   -	Still waiting for registration from Finder
-0.538	                       -	                   -	Liveness: 3 -> 4 (add_app)
-0.538	                       -	                   -	Finder not yet launched, but pretending it is
-0.538	        com.apple.finder	                   -	Skipping window creation because plist is unavailable: 1
-0.538	        com.apple.finder	                   -	Skipping window creation because the archive was created prior to 10.10 (prev: 10.0)
-0.538	                       -	                   -	loginwindow launched no apps (but we still have to handle Finder)
-0.538	                       -	                   -	Bitmaps Ready (0 apps, 0 windows)
-0.539	        com.apple.finder	                   -	Disposing because it has no windows
-0.539	        com.apple.finder	            Disposed	
-0.539	                       -	                   -	server_show_windows_for_asns end
-0.540	                       -	                   -	TAL launch still in progress because Finder has not checked in
-0.540	                       -	                   -	Still waiting for registration from Finder
-0.540	                       -	                   -	TAL launch still in progress because Finder has not checked in
-0.540	                       -	                   -	Still waiting for registration from Finder
-0.547	                       -	                   -	TAL launch still in progress because Finder has not checked in
-0.547	                       -	                   -	Still waiting for registration from Finder
-1.216	                       -	                   -	TAL launch still in progress because Finder has not checked in
-1.216	                       -	                   -	Still waiting for registration from Finder
-2.725	                       -	                   -	Liveness: 4 -> 3 (__remove_app_block_invoke)
-3.314	                       -	                   -	Liveness: 3 -> 2 (__create_xpc_listener_block_invoke)
-3.720	                       -	                   -	TAL launch still in progress because Finder has not checked in
-3.720	                       -	                   -	Still waiting for registration from Finder
-5.012	        com.apple.finder	                   -	Finder checked in
-5.012	                       -	                   -	All started apps have registered (no remaining unregistered apps)
-5.013	                       -	                   -	Waiting for Dock...
-5.013	                       -	                   -	Dock is avaialable.
-5.013	                       -	                   -	Liveness: 2 -> 3 (_wait_for_dock)
-5.013	                       -	                   -	TAL Relaunch - all apps registered as ready
-5.013	                       -	                   -	Liveness: 3 -> 2 (__server_show_windows_for_asns_block_invoke.34)
-5.013	                       -	                   -	Liveness: 2 -> 1 (___wait_for_dock_block_invoke_3)
-16.431	                       -	                   -	Liveness: 1 -> 0 (__run_as_server_block_invoke)
-16.432	                       -	                   -	Exiting out of boredom
+0.000	                       -	                   -	TALagent Started (system uptime: 7289.64 sec, current time: 529365295.57)
+0.004	                       -	                   -	Liveness: 0 -> 1 (run_as_server)
+0.030	                       -	                   -	Successfully read encryption key from keychain in 0.025441 seconds
+15.988	                       -	                   -	Liveness: 1 -> 0 (__run_as_server_block_invoke)
+15.988	                       -	                   -	Exiting out of boredom
