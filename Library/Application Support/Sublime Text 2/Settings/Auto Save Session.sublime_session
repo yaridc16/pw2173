@@ -2,7 +2,7 @@
 	"folder_history":
 	[
 	],
-	"last_window_id": 52,
+	"last_window_id": 57,
 	"settings":
 	{
 		"new_window_height": 945.0,
@@ -13,8 +13,12 @@
 				"selected_items":
 				[
 					[
+						"wid",
+						"width"
+					],
+					[
 						"margin",
-						"margin-left"
+						"margin-top"
 					],
 					[
 						"font",
@@ -66,6 +70,8 @@
 			},
 			"file_history":
 			[
+				"/Users/ccdm16/Desktop/pw/practica03css/index.html",
+				"/Users/ccdm16/Desktop/pw/carpeta sin título 2/gradientes.css",
 				"/Users/ccdm16/Desktop/pw/practica02css/CSS/estilos.css",
 				"/Users/ccdm16/Desktop/pw/practica01css/index.html",
 				"/Users/ccdm16/Desktop/pw/css/untitled",
@@ -170,8 +176,12 @@
 				"selected_items":
 				[
 					[
+						"wid",
+						"width"
+					],
+					[
 						"margin",
-						"margin-left"
+						"margin-top"
 					],
 					[
 						"font",
@@ -198,10 +208,18 @@
 			"buffers":
 			[
 				{
-					"file": "/Users/ccdm16/Desktop/pw/practica03css/index.html",
+					"file": "/Users/ccdm16/Desktop/pw/selectoresavanzados.html",
 					"settings":
 					{
-						"buffer_size": 1608,
+						"buffer_size": 751,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/Users/ccdm16/Desktop/pw/css/selectoresavanzados.css",
+					"settings":
+					{
+						"buffer_size": 1096,
 						"line_ending": "Unix"
 					}
 				}
@@ -234,6 +252,9 @@
 			},
 			"file_history":
 			[
+				"/Users/ccdm16/Desktop/pw/carpeta sin título 2/css/gradientes.css",
+				"/Users/ccdm16/Desktop/pw/practica03css/index.html",
+				"/Users/ccdm16/Desktop/pw/carpeta sin título 2/gradientes.css",
 				"/Users/ccdm16/Desktop/pw/practica02css/CSS/estilos.css",
 				"/Users/ccdm16/Desktop/pw/practica01css/index.html",
 				"/Users/ccdm16/Desktop/pw/css/untitled",
@@ -272,32 +293,57 @@
 			"groups":
 			[
 				{
-					"selected": 0,
+					"selected": 1,
 					"sheets":
 					[
 						{
 							"buffer": 0,
-							"file": "/Users/ccdm16/Desktop/pw/practica03css/index.html",
+							"file": "/Users/ccdm16/Desktop/pw/selectoresavanzados.html",
 							"settings":
 							{
-								"buffer_size": 1608,
+								"buffer_size": 751,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										528,
-										528
+										724,
+										724
 									]
 								],
 								"settings":
 								{
-									"syntax": "Packages/HTML/HTML.tmLanguage",
-									"translate_tabs_to_spaces": false
+									"syntax": "Packages/HTML/HTML.tmLanguage"
 								},
 								"translation.x": 0.0,
 								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						},
+						{
+							"buffer": 1,
+							"file": "/Users/ccdm16/Desktop/pw/css/selectoresavanzados.css",
+							"settings":
+							{
+								"buffer_size": 1096,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										1092,
+										1092
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/CSS/CSS.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 403.0,
 								"zoom_level": 1.0
 							},
 							"type": "text"
@@ -336,7 +382,7 @@
 				]
 			},
 			"menu_visible": true,
-			"position": "723 90 1003 967 0 0 1920 1057 ",
+			"position": "458 90 1003 967 0 0 1920 1057 ",
 			"replace":
 			{
 				"height": 0.0
@@ -364,7 +410,7 @@
 			"side_bar_visible": true,
 			"side_bar_width": 150.0,
 			"status_bar_visible": true,
-			"window_id": 51,
+			"window_id": 57,
 			"workspace_name": ""
 		}
 	],

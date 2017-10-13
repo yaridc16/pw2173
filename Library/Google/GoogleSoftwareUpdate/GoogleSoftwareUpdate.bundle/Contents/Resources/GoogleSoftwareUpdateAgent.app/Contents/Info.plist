@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>BuildMachineOSBuild</key>
-	<string>15G1421</string>
+	<string>15G1611</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en_US</string>
 	<key>CFBundleDisplayName</key>
@@ -11,7 +11,7 @@
 	<key>CFBundleExecutable</key>
 	<string>GoogleSoftwareUpdateAgent</string>
 	<key>CFBundleGetInfoString</key>
-	<string>Keystone 1.2.8.82, © 2005-2017 Google Inc.</string>
+	<string>Keystone 1.2.9.98, © 2005-2017 Google Inc.</string>
 	<key>CFBundleIconFile</key>
 	<string>GSUIcon</string>
 	<key>CFBundleIdentifier</key>
@@ -23,7 +23,7 @@
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
 	<key>CFBundleShortVersionString</key>
-	<string>1.2.8</string>
+	<string>1.2.9</string>
 	<key>CFBundleSignature</key>
 	<string>GoKA</string>
 	<key>CFBundleSupportedPlatforms</key>
@@ -31,7 +31,7 @@
 		<string>MacOSX</string>
 	</array>
 	<key>CFBundleVersion</key>
-	<string>1.2.8.82</string>
+	<string>1.2.9.98</string>
 	<key>DTCompiler</key>
 	<string>com.apple.compilers.llvm.clang.1_0</string>
 	<key>DTPlatformBuild</key>
@@ -51,7 +51,7 @@
 	<key>LSUIElement</key>
 	<string>1</string>
 	<key>NSHumanReadableCopyright</key>
-	<string>Keystone 1.2.8.82, © 2005-2017 Google Inc.</string>
+	<string>Keystone 1.2.9.98, © 2005-2017 Google Inc.</string>
 	<key>NSMainNibFile</key>
 	<string>MainMenu</string>
 	<key>NSPrincipalClass</key>

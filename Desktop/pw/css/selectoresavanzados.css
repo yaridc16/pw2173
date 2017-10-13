@@ -1,0 +1,57 @@
+/*si la imagen contiene alt*/
+img[alt]{
+	border: 5px solid blue;
+
+}
+
+img[src="img/alerta.png"]{
+	width:400px;
+}
+/*^imagen con atributo SRC con el inicio de la cadena*/
+img[src^=""]{
+width: 150px;
+}
+/*imagen con el atributo SRC al final de la cadena*/ 
+img[src$=""]{
+	width: 250px;
+
+}
+/*imagen con el atributo SRC en cualquier parte de la cadena*/
+img[src*="mg"]{
+width:1000px;
+
+
+}
+/*el ~ indica que estos selectores estan separados por espacio */
+article[class~="resaltado"]{
+	border:1px dashed green; 
+
+}
+/*el atribito id es ina lista de valores separado por guiones pero solo 
+si el valos mas a la izquierda es ingles*/
+article[id|="ingles"]{
+	text-align: center;
+
+}
+/*selector de secundarios para seleccionar sola,ente los p que se encuentran 
+inmediatamente despues del div*/
+div> p {
+	color: blue;
+
+}
+
+
+/*todos los elemenntos p seran seleccionadas*/
+div p{
+	color: red;
+}
+/*selecciona solo el el elemento p que esta inmediatamente despues del 
+del emento h2 hermano adyacente */
+h2 + p{
+	color: green;
+}
+/*seleccionar todos los elelmentos especicado hermano general*/
+h2~p{
+	color: grey;
+
+}

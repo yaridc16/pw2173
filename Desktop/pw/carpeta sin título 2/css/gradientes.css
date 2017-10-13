@@ -1,0 +1,20 @@
+article {
+	/*border-radius: 5px;*/
+	border: :1px solid blue;
+	height:50px;
+	margin-top: 10px;
+	width: 150px;
+}
+#uno{
+	background: linear-gradient (red,yellow);
+	background: linear-gradient (red,yellow);
+
+
+}
+
+#dos {
+	background: red;
+
+	background: -o-linear-gradient(to left,red,yellow);
+	
+}
